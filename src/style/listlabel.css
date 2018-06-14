@@ -1,10 +1,8 @@
 .list-label {
-    width: 280px;
+    width: 100%;
     height: auto;
     line-height: 1.3;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-left: 7px;
+    min-height: 100px;
 }
 
 .list-company-count {

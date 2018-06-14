@@ -23,9 +23,9 @@ class CategoryComponent extends Component {
                 <div className="container center">
                     <div className="category-group inline-block left-align">
                     { !isTile  &&
-                        <div>
+                        <div className="row">
                             <ListLabel category={items[0].category} subcategory={items[0].subcategory} length={items.length}/>
-                            <div>
+                            <div className="col s9">
                                 {items.map((item) => <List key={(item.category + item.subcategory + item.name)} item={item} />)}
                             </div>
                         </div>
