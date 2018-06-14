@@ -1,0 +1,144 @@
+.clear {
+    clear:both;
+}
+
+.no-uppercase {
+    text-transform: none;
+}
+
+.valign-middle {
+    vertical-align: middle;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.no-hover:hover {
+    background-color: inherit;
+}
+
+.no-focus:focus {
+    background-color: inherit;
+}
+
+.turquoise-hover:hover {
+    background-color: #00BEC1;
+}
+
+.turquoise-focus:focus {
+    background-color: #00BEC1;
+}
+
+.opacity-04 {
+    opacity: 0.4;
+}
+
+.opacity-08 {
+    opacity: 0.8;
+}
+
+.font-lighter {
+    font-weight: lighter;
+}
+
+.valign-top {
+    vertical-align: top;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-8 {
+    font-size: 8px;
+}
+
+.vertical-line {
+    margin: 0px 20px;
+    height: 20px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.turquoise-text {
+    color: #00BEC1;
+}
+
+.turquoise-background {
+    background-color: #00BEC1;
+}
+
+.weight-200 {
+    font-weight: 200;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.background-white {
+    background-color: #FFFFFF;
+}
+
+.companies-view {
+    min-height: calc(100vh - 329px);
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.background-dark-grey {
+    background: linear-gradient(to bottom right, #15181b, #23282d)
+}
+
+.outline-0 {
+    outline: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+@media only screen and (min-width: 993px) {
+    .container { 
+        width: 80%; 
+    }
+}

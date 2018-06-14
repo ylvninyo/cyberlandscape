@@ -1,0 +1,25 @@
+.logo-tile {
+    width: 109px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+.tile-title {
+    max-height: 35px;
+    line-height: 1.1;
+    margin: 6px 0;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.company-tile {
+    margin: 0 7px 20px;
+    width: 138px;
+    height: 182px;
+    padding: 20px 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: 6px solid #F68B1F;
+    vertical-align: middle;
+}
