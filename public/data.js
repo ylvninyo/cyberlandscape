@@ -284,7 +284,7 @@ window.companies = [
         "twitter": "http://twitter.com/checkmarx",
         "linkedin": "http://www.linkedin.com/company/checkmarx",
         "crunchbase": "https://www.crunchbase.com/organization/checkmarx",
-        "logo": "./logos/Checkmarx.jpg",
+        "logo": "./logos/Checkmarx.png",
         "homepage": "http://www.checkmarx.com",
         "description": "Checkmarx is a global leader in application security."
     },
@@ -648,7 +648,7 @@ window.companies = [
         "twitter": "https://www.twitter.com/ericomgal",
         "linkedin": "https://www.linkedin.com/company/ericom-software",
         "crunchbase": "https://www.crunchbase.com/organization/ericom-software",
-        "logo": "./logos/EricomSoftware.jpg",
+        "logo": "./logos/EricomSoftware.png",
         "homepage": "http://www.ericom.com, www.EricomShield.com",
         "description": "Global Leader for Enterprise-grade Cybersecurity and Connectivity Software"
     },
@@ -996,7 +996,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/nanolock security",
         "funding": "4.5M",
         "name": "NanoLock Security",
-        "logo": "./logos/NanoLockSecurity.jpg",
+        "logo": "./logos/NanoLockSecurity.png",
         "homepage": "https://www.nanolocksecurity.com",
         "description": "NanoLock Security is a secure platform that protects firmware and sensitive information stored on connected and IoT devices."
     },
