@@ -521,7 +521,7 @@ window.companies = [
         "twitter": "http://twitter.com/Cytegic",
         "linkedin": "http://www.linkedin.com/company/cytegic",
         "crunchbase": "https://www.crunchbase.com/organization/cytegic",
-        "logo": "./logos/Cytegic.jpg",
+        "logo": "./logos/Cytegic.png",
         "homepage": "http://www.cytegic.com/",
         "description": "Cytegic- Automated Cyber Risk Officer"
     },
@@ -1307,7 +1307,7 @@ window.companies = [
     },
     {
         "category": "IoT",
-        "logo": "./logos/SAMSeamlessNetworks.jpg",
+        "logo": "./logos/SAMSeamlessNetworks.png",
         "crunchbase": "https://www.crunchbase.com/organization/sam-seamless-network",
         "name": "SAM Seamless Networks",
         "subcategory": "Smart Home"
@@ -1716,7 +1716,7 @@ window.companies = [
         "description": "XM Cyber provides the first fully automated APT Simulation Platform to continuously expose all attack vectors, and prioritizes remediation.",
         "linkedin": "https://www.linkedin.com/company/xm/",
         "crunchbase": "https://www.crunchbase.com/organization/xm-cyber",
-        "logo": "./logos/XMCyber.jpg",
+        "logo": "./logos/XMCyber.png",
         "homepage": "https://xmcyber.com",
         "subcategory": "Attack Simulation"
     },
