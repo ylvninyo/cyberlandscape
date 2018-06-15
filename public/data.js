@@ -13,6 +13,63 @@ window.companies = [
     },
     {
         "category": "Cloud Security",
+        "funding": "30.1M",
+        "name": "Twistlock",
+        "twitter": "https://twitter.com/twistlockteam",
+        "description": "Twistlock is cloud native cybersecurity for the modern enterprise.",
+        "linkedin": "https://www.linkedin.com/company/9440582",
+        "crunchbase": "https://www.crunchbase.com/organization/twistlock",
+        "logo": "./logos/Twistlock.png",
+        "homepage": "https://www.twistlock.com/",
+        "subcategory": "Cloud Native"
+    },
+    {
+        "category": "Vuln & Risk Management",
+        "funding": "4M",
+        "name": "Vulcan Cyber",
+        "twitter": "https://twitter.com/VulcanCyber",
+        "linkedin": "https://www.linkedin.com/company/vulcancyber/",
+        "logo": "./logos/VulcanCyber.png",
+        "homepage": "https://vulcancyber.com/",
+        "description": "Vulcan Cyber is a security company that helps enterprises quickly detect and fix vulnerabilities in their software stack and code."
+    },
+    {
+        "category": "Vuln & Risk Management",
+        "funding": "4M",
+        "name": "Axonius",
+        "twitter": "https://twitter.com/axoniusinc",
+        "linkedin": "https://www.linkedin.com/company/18226665/",
+        "crunchbase": "https://www.crunchbase.com/organization/axonius",
+        "logo": "./logos/Axonius.png",
+        "homepage": "https://www.axonius.com/",
+        "description": "Axonius is the consolidated device management platform that lets IT and Security teams see devices for what they are to manage & secure all."
+    },
+    {
+        "category": "IoT",
+        "funding": "5.4M",
+        "name": "MediGate",
+        "twitter": "https://twitter.com/MedigateLtd",
+        "description": "First and leading dedicated medical device security platform.",
+        "linkedin": "https://www.linkedin.com/company/18340376/",
+        "crunchbase": "https://www.crunchbase.com/organization/medigate",
+        "logo": "./logos/MediGate.png",
+        "homepage": "https://www.medigate.io/",
+        "subcategory": "Healthcare"
+    },
+    {
+        "category": "IoT",
+        "funding": "27M",
+        "logo": "./logos/KarambaSecurity.png",
+        "crunchbase": "https://www.crunchbase.com/organization/karamba security",
+        "description": "Karamba Security hardens Electronic Controller Units (ECUs) against any type of foreign code.",
+        "name": "Karamba Security",
+        "twitter": "https://twitter.com/karambasecurity",
+        "linkedin": "https://www.linkedin.com/company/karamba-security",
+        "homepage": "https://karambasecurity.com/",
+        "subcategory": "Automotive"
+    },
+    {
+        "category": "Cloud Security",
         "funding": "5.3M",
         "name": "Alcide",
         "twitter": "https://twitter.com/alcide_io",
@@ -113,17 +170,6 @@ window.companies = [
         "logo": "./logos/AVANAN.png",
         "homepage": "http://www.avanan.com",
         "description": "Avanan operates a cloud-based platform to provide security solutions for public, SaaS-based applications."
-    },
-    {
-        "category": "Vuln & Risk Management",
-        "funding": "4M",
-        "name": "Axonius",
-        "twitter": "https://twitter.com/axoniusinc",
-        "linkedin": "https://www.linkedin.com/company/18226665/",
-        "crunchbase": "https://www.crunchbase.com/organization/axonius",
-        "logo": "./logos/Axonius.png",
-        "homepage": "https://www.axonius.com/",
-        "description": "Axonius is the consolidated device management platform that lets IT and Security teams see devices for what they are to manage & secure all."
     },
     {
         "category": "Security Operations",
@@ -567,7 +613,6 @@ window.companies = [
         "category": "Data Protection",
         "logo": "./logos/DualityTechnologies.png",
         "name": "Duality Technologies",
-        "subcategory": "Encryption"
     },
     {
         "category": "Security Operations",
@@ -699,7 +744,7 @@ window.companies = [
         "description": "GuardKnox protects the users of the connected vehicles against threats.",
         "linkedin": "https://www.linkedin.com/company/17883057",
         "crunchbase": "https://www.crunchbase.com/organization/guardknox",
-        "logo": "./logos/GuardKnox.00_png_srz",
+        "logo": "./logos/GuardKnox.png",
         "homepage": "https://www.guardknox.com",
         "subcategory": "Automotive"
     },
@@ -815,13 +860,6 @@ window.companies = [
         "description": "Neutralizing Attackers By Hiding the Entire Real Network Topology."
     },
     {
-        "category": "IoT",
-        "logo": "./logos/KarambaSecurity.png",
-        "crunchbase": "https://www.crunchbase.com/organization/karamba security",
-        "name": "Karamba Security",
-        "subcategory": "Automotive"
-    },
-    {
         "category": "Mobile Security",
         "funding": "10M",
         "name": "Kaymera Technologies",
@@ -888,14 +926,13 @@ window.companies = [
     },
     {
         "category": "IoT",
-        "funding": "5.4M",
-        "name": "MediGate",
-        "twitter": "https://twitter.com/MedigateLtd",
-        "description": "First and leading dedicated medical device security platform.",
-        "linkedin": "https://www.linkedin.com/company/18340376/",
-        "crunchbase": "https://www.crunchbase.com/organization/medigate",
-        "logo": "./logos/MediGate.png",
-        "homepage": "https://www.medigate.io/",
+        "name": "CyberMDX",
+        "twitter": "https://twitter.com/CyberMDX",
+        "description": "CyberMDX provides security and visibility for Medical Devices.",
+        "linkedin": "https://www.linkedin.com/company/cybermdx",
+        "crunchbase": "https://www.crunchbase.com/organization/cybermdx#section-overview",
+        "logo": "./logos/CyberMDX.png",
+        "homepage": "https://cybermdx.com/",
         "subcategory": "Healthcare"
     },
     {
@@ -920,7 +957,6 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/minereye",
         "logo": "./logos/Minereye.jpg",
         "homepage": "http://minereye.com/",
-        "subcategory": "DLP"
     },
     {
         "category": "Endpoint Security",
@@ -1453,7 +1489,7 @@ window.companies = [
     {
         "category": "Identity & Access Management",
         "logo": "./logos/Silverfort.png",
-        "crunchbase": "https://www.crunchbase.com/organization/silverfort",
+        "crunchbase": "https://www.crunchbase.com/organization/silverfort-2",
         "name": "Silverfort"
     },
     {
@@ -1568,18 +1604,6 @@ window.companies = [
         "description": "Tufin specializes in the management of network layer firewalls, routers, switches, load balancers, and other network security devices."
     },
     {
-        "category": "Cloud Security",
-        "funding": "30.1M",
-        "name": "Twistlock",
-        "twitter": "https://twitter.com/twistlockteam",
-        "description": "Twistlock is cloud native cybersecurity for the modern enterprise.",
-        "linkedin": "https://www.linkedin.com/company/9440582",
-        "crunchbase": "https://www.crunchbase.com/organization/twistlock",
-        "logo": "./logos/Twistlock.png",
-        "homepage": "https://www.twistlock.com/",
-        "subcategory": "Cloud Native"
-    },
-    {
         "category": "Web Security",
         "funding": "2M",
         "name": "Unbotify",
@@ -1628,7 +1652,7 @@ window.companies = [
         "twitter": "https://twitter.com/vdoosecurity",
         "linkedin": "https://www.linkedin.com/company/18333531/",
         "crunchbase": "https://www.crunchbase.com/organization/vdoo",
-        "logo": "./logos/VdooConnectedTrust.png",
+        "logo": "./logos/Vdoo.png",
         "homepage": "https://www.vdoo.com",
         "description": "A mission-driven company established to change the face of IoT security,"
     },
@@ -1652,16 +1676,6 @@ window.companies = [
         "logo": "./logos/Votiro.png",
         "homepage": "http://www.votiro.com/",
         "subcategory": "CDR"
-    },
-    {
-        "category": "Vuln & Risk Management",
-        "funding": "4M",
-        "name": "Vulcan Cyber",
-        "twitter": "https://twitter.com/VulcanCyber",
-        "linkedin": "https://www.linkedin.com/company/vulcancyber/",
-        "logo": "./logos/VulcanCyber.png",
-        "homepage": "https://vulcancyber.com/",
-        "description": "Vulcan Cyber is a security company that helps enterprises quickly detect and fix vulnerabilities in their software stack and code."
     },
     {
         "category": "IoT",
