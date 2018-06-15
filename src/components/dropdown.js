@@ -4,7 +4,7 @@ const M = window.M
 class Dropdown extends Component {
     componentDidMount(){
         M.FormSelect.init(this.instance.querySelectorAll('select'))
-        this.instance.getElementsByTagName('input')[0].setAttribute('size', this.props.title.length)
+        this.instance.getElementsByTagName('input')[0].size = this.props.title.length
         this.instance.getElementsByTagName('input')[0].onclick = (e) => {
             e.target.value = this.props.title || ''
         }
