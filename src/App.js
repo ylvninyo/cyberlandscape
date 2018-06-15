@@ -11,11 +11,19 @@ class App extends Component {
             searchFilter: null,
             fundingFilter: new Set(),
             categoryFilter: new Set(),
-            fundingOptions: ['0-50M', '50M-100M', '100M-200M', '200M+'],
+            fundingOptions: ['$0-$50M', '$50M-$100M', '$100M-$200M', '$200M+'],
             isTile: true
         }
 
-        this.state.sortedCategories = Object.keys(this.generateCategories(this.state.data)).sort()
+        this.state.sortedCategories = Object.keys(this.generateCategories(this.state.data)).sort(this.sortCategories)
+    }
+
+    sortCategories(a, b) {
+        let aScore = window.score[a.split(' | ')[0]]
+        let bScore = window.score[b.split(' | ')[0]]
+        if(aScore && !bScore) return -1
+        if(bScore && !aScore) return 1
+        return (aScore - bScore) || ((a < b) ? -1 : 1)
     }
 
     generateCategories(data) {
@@ -45,10 +53,10 @@ class App extends Component {
             data = data.filter(item => {
                 let funding = item.funding ? (parseFloat(item.funding, 10) * (item.funding.includes('M') ?
                     1000 : item.funding.includes('B') ? 1000000 : 1)) : 0
-                if(funding < 50000 && !fundingFilter.has('0-50M')) return false
-                if(funding >= 50000 && funding < 100000 && !fundingFilter.has('50M-100M')) return false
-                if(funding >= 100000 && funding < 200000 && !fundingFilter.has('100M-200M')) return false
-                if(funding >= 200000 && !fundingFilter.has('200M+')) return false
+                if(funding < 50000 && !fundingFilter.has('$0-$50M')) return false
+                if(funding >= 50000 && funding < 100000 && !fundingFilter.has('$50M-$100M')) return false
+                if(funding >= 100000 && funding < 200000 && !fundingFilter.has('$100M-$200M')) return false
+                if(funding >= 200000 && !fundingFilter.has('$200M+')) return false
                 return true
             })
         }
@@ -74,7 +82,7 @@ class App extends Component {
 
     render() {
         let categories = this.generateCategories(this.state.data)
-        let sortedKeys = Object.keys(categories).sort()
+        let sortedKeys = Object.keys(categories).sort(this.sortCategories)
 
         return (
             <div className="App">

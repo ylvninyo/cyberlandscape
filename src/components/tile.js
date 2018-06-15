@@ -28,7 +28,6 @@ class Tile extends Component {
                     <hr />
                     <div className="black-text">
                         <div className="tile-title bolder">{item.name}</div>
-                        <div className="font-8">{item.category}{item.subcategory ? (' | '+item.subcategory) : ''}</div>
                     </div>
                 </div>
                 <Modal id={key} item={item}/>
