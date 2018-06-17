@@ -11,7 +11,7 @@ class App extends Component {
             searchFilter: null,
             fundingFilter: new Set(),
             categoryFilter: new Set(),
-            fundingOptions: ['$0-$50M', '$50M-$100M', '$100M-$200M', '$200M+'],
+            fundingOptions: ['$0-$10M', '$10M-$30M', '$30M-$50M', '$50M+'],
             isTile: true
         }
 
@@ -53,10 +53,10 @@ class App extends Component {
             data = data.filter(item => {
                 let funding = item.funding ? (parseFloat(item.funding, 10) * (item.funding.includes('M') ?
                     1000 : item.funding.includes('B') ? 1000000 : 1)) : 0
-                if(funding < 50000 && !fundingFilter.has('$0-$50M')) return false
-                if(funding >= 50000 && funding < 100000 && !fundingFilter.has('$50M-$100M')) return false
-                if(funding >= 100000 && funding < 200000 && !fundingFilter.has('$100M-$200M')) return false
-                if(funding >= 200000 && !fundingFilter.has('$200M+')) return false
+                if(funding < 10000 && !fundingFilter.has('$0-$10M')) return false
+                if(funding >= 10000 && funding < 30000 && !fundingFilter.has('$10M-$30M')) return false
+                if(funding >= 30000 && funding < 50000 && !fundingFilter.has('$30M-$50M')) return false    
+                if(funding >= 50000 && !fundingFilter.has('$50M+')) return false
                 return true
             })
         }

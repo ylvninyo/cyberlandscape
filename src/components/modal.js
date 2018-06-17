@@ -13,10 +13,10 @@ class Modal extends Component {
                     <br/>
                     <div className="bolder modal-h">{item.name}</div>
                     <div className="turquoise-text modal-category">{item.category}{item.subcategory ? (' | '+item.subcategory) : ''}</div>
-                    <div className="font-14">{item.description}</div>
+                    <div className="font-14 pre-wrap">{item.description}</div>
                     <br />
-                    { item.headquarters && <div className="font-12 bold">Headquarters: {item.headquarters}</div> }
-                    { item.funding && <div className="font-12 bold">Funding: ${item.funding}</div> }
+                    { item.headquarters && <div className="font-13 bold">Headquarters: {item.headquarters}</div> }
+                    { item.funding && <div className="font-13 bold">Funding: ${item.funding}</div> }
                     <br />
                     <hr />
                     <br />
@@ -45,7 +45,7 @@ class Modal extends Component {
                         }
                     </div>
                     <br />
-                    { item.twitter && <a className="twtr" href={item.twitter}>Tweets Feed</a> }
+                    { item.twitter && <div><a className="twtr" href={item.twitter}>Tweets Feed</a></div> }
                 </div>
             </div>
         )

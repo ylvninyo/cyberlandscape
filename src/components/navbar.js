@@ -18,6 +18,7 @@ class Navbar extends Component {
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
+                                <li><a className="modal-trigger" href="https://www.ylventures.com">ylventures.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -25,7 +26,7 @@ class Navbar extends Component {
                 <div id="about" className="modal outline-0">
                     <div className="modal-content center">
                         <h4 className="turquoise-text">About Us</h4>
-                        <p className="black-text nav-modal-p">
+                        <p className="black-text nav-modal-p pre-wrap">
                             Lorem idivsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
                             magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
                             sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tem amet.
@@ -38,7 +39,7 @@ class Navbar extends Component {
                 <div id="addcompany" className="modal outline-0">
                     <div className="modal-content center">
                         <h4 className="turquoise-text">Add a company</h4>
-                        <p className="black-text nav-modal-p">
+                        <p className="black-text nav-modal-p pre-wrap">
                             Lorem idivsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
                             magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
                         </p>

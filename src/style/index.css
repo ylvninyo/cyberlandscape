@@ -2,6 +2,10 @@
     clear:both;
 }
 
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
 .no-uppercase {
     text-transform: none;
 }
@@ -70,8 +74,16 @@
     font-size: 18px;
 }
 
+.font-15 {
+    font-size: 15px;
+}
+
 .font-14 {
     font-size: 14px;
+}
+
+.font-13 {
+    font-size: 13px;
 }
 
 .font-12 {
