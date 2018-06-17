@@ -45,3 +45,7 @@
 .modal-category {
     margin: 3px 0 15px;
 }
+
+.modal {
+    -webkit-overflow-scrolling: touch;
+}
