@@ -18,7 +18,7 @@ class Navbar extends Component {
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
-                                <li><a className="modal-trigger" href="https://www.ylventures.com">ylventures.com</a></li>
+                                <li><a className="modal-trigger" target="_blank" href="https://www.ylventures.com">ylventures.com</a></li>
                             </ul>
                         </div>
                     </div>
