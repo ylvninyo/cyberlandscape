@@ -20,7 +20,7 @@ class PageTop extends Component {
                         <div className="col s0 m1 l2"></div>
                         <div className="col s12 m10 l8 pre-wrap align-justify">
 {`
-CyberMap is the first open, interactive, comprehensive, live-map of Israel’s cybersecurity startup landscape. Use the categories and search filters below to start exploring the industry.
+CyberMap is the first open, interactive, comprehensive, live map of Israel’s cybersecurity startup landscape. Use the categories and search filters below to start exploring the industry.
 `}
                         </div>
                         <div className="col s0 m1 l2"></div>
@@ -44,8 +44,6 @@ CyberMap is the first open, interactive, comprehensive, live-map of Israel’s c
                                 </div>
                             </span>
                             <div className="inline-block hide-on-med-and-down">
-                                <span className="vertical-line"></span>
-                                <a href="/data.csv" className="white-text"><i className="material-icons valign-middle">file_download</i></a>
                                 <span className="vertical-line"></span>
                                 <span className="left-view-changer">
                                     <i className={"material-icons valign-middle cursor-pointer" + (!props.isTile ? ' grey-text' : '') } onClick={this.onClickTile}>view_module</i>

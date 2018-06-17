@@ -28,16 +28,15 @@ class Navbar extends Component {
                         <h4 className="turquoise-text">What is CyberMap?</h4>
                         <p className="black-text nav-modal-p pre-wrap">
 {`
-CyberMap is the first live-map of Israel’s cybersecurity startup landscape. YL Ventures’ in-house research team designed it for ease of use. We created 29 custom categories. These encompass the full scope of Israel’s cybersecurity industry. We further segmented the list by level of funding (ranging from $0-$200M). CyberMap helps entrepreneurs, investors, CISOs, analysts, journalists, (and anyone else interested in Israel's startup cybersecurity industry) explore the full ecosystem. Get started by using the search and filter tools on the main page. 
+CyberMap is the first live map of Israel’s cybersecurity startup landscape. YL Ventures’ in-house research team designed it for ease of use. We created 29 custom categories. These encompass the full scope of Israel’s cybersecurity industry. We further segmented the list by level of funding (ranging from $0-$200M). CyberMap helps entrepreneurs, investors, CISOs, analysts, journalists (and anyone else interested in Israel's startup cybersecurity industry) explore the full ecosystem. Get started by using the search and filter tools on the main page. 
 
 `}
 <b>Feedback, questions or comments?</b>
 {`
-We made this live-map to help our industry grow. If you have any questions, comments or ideas on how to improve this map, we would love to hear them.
+We made this live map to help our industry grow. If you have any questions, comments or ideas on how to improve this map, we would love to hear them.
 
-Send them directly to our CTO: idan@ylventures.com
+Send them directly to Idan Ninyo, our CTO: `} <a href="mailto:idan@ylventures.com">idan@ylventures.com</a><br/>
 
-`}
 <b>About YL Ventures</b>
 {`
 YL Ventures funds & supports brilliant Israeli tech entrepreneurs from seed to lead. Based in Silicon Valley and Tel Aviv, we manage $135 million across three funds focused on seed-stage, deep-technology B2B companies in the fields of cyber security, enterprise software and autonomous vehicle technologies. YL Ventures accelerates the evolution of portfolio companies via strategic advice and US-based operational execution.
@@ -58,7 +57,7 @@ Want to appear on the map? Here are two ways to submit your company:
 `}
 <b>Github:</b> open a pull request and edit public/data.js
 <br/>
-<b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to idan@ylventures.com
+<b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to <a href="mailto:idan@ylventures.com">idan@ylventures.com</a>
                         </p>
                     </div>
                 </div>

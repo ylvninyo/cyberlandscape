@@ -3,6 +3,9 @@ window.companies = [
         "category": "Data Protection",
         "logo": "./logos/1touch.io.png",
         "crunchbase": "https://www.crunchbase.com/organization/1touch-io",
+	"homepage" : "http://1touch.io/",
+	"description" : "1touch leverages the very best of technology in the fields of unique PII discovery and dynamic asset discovery",
+	"linkedin" : "https://www.linkedin.com/company/18546264/",
         "name": "1touch.io"
     },
     {
@@ -614,6 +617,8 @@ window.companies = [
         "category": "Data Protection",
         "logo": "./logos/DualityTechnologies.png",
         "name": "Duality Technologies",
+	"homepage": "http://duality.cloud",
+	"linkedin": "https://www.linkedin.com/company/duality-technologies"
     },
     {
         "category": "Security Operations",
@@ -894,7 +899,9 @@ window.companies = [
         "category": "Vuln & Risk Management",
         "logo": "./logos/Kovrr.png",
         "name": "Kovrr",
-        "subcategory": "Cyber Insurance "
+	"homepage": "https://www.kovrr.com",
+	"linkedin" : "https://www.linkedin.com/company/kovrr",
+	"subcategory": "Cyber Insurance "
     },
     {
         "category": "IoT",
@@ -1058,6 +1065,10 @@ window.companies = [
         "category": "Cloud Security",
         "logo": "./logos/Octarine.png",
         "name": "Octarine",
+	"homepage": "https://www.octarinesec.com",
+	"linkedin": "https://www.linkedin.com/company/octarinesec",
+	"twitter": "https://twitter.com/OctarineSec",
+	"crunchbase" : "https://www.crunchbase.com/organization/octarine",
         "subcategory": "Cloud Native"
     },
     {
@@ -1164,7 +1175,8 @@ window.companies = [
         "logo": "./logos/Prifender.png",
         "homepage": "https://www.prifender.com",
         "linkedin": "https://www.linkedin.com/company/10572368",
-        "description": "Automated mapping of personal information at scale."
+        "description": "Automated mapping of personal information at scale.",
+	"crunchbase": "https://www.crunchbase.com/organization/prifender",
     },
     {
         "category": "Web Security",
