@@ -3,8 +3,9 @@ const M = window.M
 
 class Dropdown extends Component {
     componentDidMount(){
+        let mac = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false
         M.FormSelect.init(this.instance.querySelectorAll('select'))
-        this.instance.getElementsByTagName('input')[0].size = this.props.title.length + 2
+        this.instance.getElementsByTagName('input')[0].size = this.props.title.length + (mac ? 3 : 0)
         this.instance.getElementsByTagName('input')[0].onclick = (e) => {
             e.target.value = this.props.title || ''
         }
