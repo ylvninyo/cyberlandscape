@@ -53,10 +53,11 @@ class App extends Component {
             data = data.filter(item => {
                 let funding = item.funding ? (parseFloat(item.funding, 10) * (item.funding.includes('M') ?
                     1000 : item.funding.includes('B') ? 1000000 : 1)) : 0
-                if(funding < 10000 && !fundingFilter.has('$0-$10M')) return false
-                if(funding >= 10000 && funding < 30000 && !fundingFilter.has('$10M-$30M')) return false
-                if(funding >= 30000 && funding < 50000 && !fundingFilter.has('$30M-$50M')) return false    
+                if(item.public) return fundingFilter.has('$50M+')
                 if(funding >= 50000 && !fundingFilter.has('$50M+')) return false
+                if(funding >= 30000 && funding < 50000 && !fundingFilter.has('$30M-$50M')) return false
+                if(funding >= 10000 && funding < 30000 && !fundingFilter.has('$10M-$30M')) return false
+                if(funding < 10000 && !fundingFilter.has('$0-$10M')) return false
                 return true
             })
         }

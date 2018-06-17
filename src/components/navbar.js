@@ -25,11 +25,23 @@ class Navbar extends Component {
                 </nav>
                 <div id="about" className="modal outline-0">
                     <div className="modal-content center">
-                        <h4 className="turquoise-text">About Us</h4>
+                        <h4 className="turquoise-text">What is CyberMap?</h4>
                         <p className="black-text nav-modal-p pre-wrap">
-                            Lorem idivsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tem amet.
+{`
+CyberMap is the first live-map of Israel’s cybersecurity startup landscape. YL Ventures’ in-house research team designed it for ease of use. We created 29 custom categories. These encompass the full scope of Israel’s cybersecurity industry. We further segmented the list by level of funding (ranging from $0-$200M). CyberMap helps entrepreneurs, investors, CISOs, analysts, journalists, (and anyone else interested in Israel's startup cybersecurity industry) explore the full ecosystem. Get started by using the search and filter tools on the main page. 
+
+`}
+<b>Feedback, questions or comments?</b>
+{`
+We made this live-map to help our industry grow. If you have any questions, comments or ideas on how to improve this map, we would love to hear them.
+
+Send them directly to our CTO: idan@ylventures.com
+
+`}
+<b>About YL Ventures</b>
+{`
+YL Ventures funds & supports brilliant Israeli tech entrepreneurs from seed to lead. Based in Silicon Valley and Tel Aviv, we manage $135 million across three funds focused on seed-stage, deep-technology B2B companies in the fields of cyber security, enterprise software and autonomous vehicle technologies. YL Ventures accelerates the evolution of portfolio companies via strategic advice and US-based operational execution.
+`}
                         </p>
                         <a href="https://www.ylventures.com" target="_blank" rel="noopener noreferrer" className="turquoise-text">
                             www.ylventures.com
@@ -40,8 +52,13 @@ class Navbar extends Component {
                     <div className="modal-content center">
                         <h4 className="turquoise-text">Add a company</h4>
                         <p className="black-text nav-modal-p pre-wrap">
-                            Lorem idivsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+{`                        
+Want to appear on the map? Here are two ways to submit your company:
+
+`}
+<b>Github:</b> open a pull request and edit public/data.js
+<br/>
+<b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to idan@ylventures.com
                         </p>
                     </div>
                 </div>

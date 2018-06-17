@@ -20,6 +20,17 @@
     margin: 4px 0;
 }
 
+.twtr-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.modal-closing-btn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
 .modal-icon {
     padding: 4px 0;
 }

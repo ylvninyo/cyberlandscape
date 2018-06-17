@@ -6,6 +6,7 @@ class Modal extends Component {
         let item = this.props.item
         return(
             <div id={this.props.id} className="modal company-modal outline-0" ref={el => (this.instance = el)}>
+                <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
                 <div className="modal-content center">
                     <img src={item.logo} className="modal-logo" alt="logo"></img>
                     <br />
@@ -45,7 +46,7 @@ class Modal extends Component {
                         }
                     </div>
                     <br />
-                    { item.twitter && <div><a className="twtr" href={item.twitter}>Tweets Feed</a></div> }
+                    { item.twitter && <div className="twtr-wrapper"><a className="twtr" href={item.twitter}>Tweets Feed</a></div> }
                 </div>
             </div>
         )

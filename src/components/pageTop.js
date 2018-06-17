@@ -12,12 +12,16 @@ class PageTop extends Component {
         return(
             <div className="background-dark-grey page-top white-text center">
                 <div className="container">
-                    <h4 className="no-margin opacity-08 font-lighter pre-wrap">Lorem ipsum dolor sit amet, consectetuer</h4>
+                    <h4 className="no-margin opacity-08 font-lighter">
+                        Welcome to CyberMap
+                    </h4>
                     <br />
                     <div className="row">
                         <div className="col s0 m1 l2"></div>
-                        <div className="col s12 m10 l8 pre-wrap">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
+                        <div className="col s12 m10 l8 pre-wrap align-justify">
+{`
+CyberMap is the first open, interactive, comprehensive, live-map of Israel’s cybersecurity startup landscape. Use the categories and search filters below to start exploring the industry.
+`}
                         </div>
                         <div className="col s0 m1 l2"></div>
                     </div>

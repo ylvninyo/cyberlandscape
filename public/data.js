@@ -275,7 +275,8 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/check-point",
         "logo": "./logos/CheckPointSoftwareTechnologies.png",
         "homepage": "https://www.google.com/finance?q=NASDAQ:CHKP",
-        "description": "Check Point Software Technologies provides industry-leading solutions, and protects customers from cyberattacks."
+        "description": "Check Point Software Technologies provides industry-leading solutions, and protects customers from cyberattacks.",
+        "public": true
     },
     {
         "category": "Application Security",
