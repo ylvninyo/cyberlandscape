@@ -1,3 +1,12 @@
+.modal-with-x {
+    height: 70%;
+}
+
+.modal-content-with-x {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
 .modal-links {
     border: 1px solid #00BEC1;
     border-radius: 50px;
@@ -27,8 +36,8 @@
 
 .modal-closing-btn {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 0;
+    right: 18px;
 }
 
 .modal-icon {

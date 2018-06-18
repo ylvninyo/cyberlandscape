@@ -36,11 +36,9 @@ class App extends Component {
     }
 
     applyFilters = (categories, funding, search) => {
-        let categoryFilter = categories || this.state.categoryFilter
-        categoryFilter = new Set(categoryFilter)
-        let fundingFilter = funding || this.state.fundingFilter
-        fundingFilter = new Set(fundingFilter)
-        let searchFilter = search != null ? search : this.state.searchFilter
+        let categoryFilter = categories ? new Set(categories) : this.state.categoryFilter
+        let fundingFilter = funding ? new Set(funding) : this.state.fundingFilter
+        let searchFilter = search != null ? search.toLowerCase() : this.state.searchFilter
 
         let data = window.companies
         if(searchFilter)
@@ -53,11 +51,10 @@ class App extends Component {
             data = data.filter(item => {
                 let funding = item.funding ? (parseFloat(item.funding, 10) * (item.funding.includes('M') ?
                     1000 : item.funding.includes('B') ? 1000000 : 1)) : 0
-                if(item.public) return fundingFilter.has('$50M+')
-                if(funding >= 50000 && !fundingFilter.has('$50M+')) return false
-                if(funding >= 30000 && funding < 50000 && !fundingFilter.has('$30M-$50M')) return false
-                if(funding >= 10000 && funding < 30000 && !fundingFilter.has('$10M-$30M')) return false
-                if(funding < 10000 && !fundingFilter.has('$0-$10M')) return false
+                if(item.public || funding >= 50000) return fundingFilter.has('$50M+')
+                if(funding >= 30000 && funding < 50000) return fundingFilter.has('$30M-$50M')
+                if(funding >= 10000 && funding < 30000) return fundingFilter.has('$10M-$30M')
+                if(funding < 10000) return fundingFilter.has('$0-$10M')
                 return true
             })
         }

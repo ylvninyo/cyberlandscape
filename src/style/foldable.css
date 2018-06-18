@@ -4,7 +4,9 @@
 
 .foldable-text {
     font-size: 18px;
-    padding: 7px 10px 43px 12px;
+    padding: 7px 12px 10px;
+    height: auto;
+    line-height: 1.7;
 }
 
 .foldable-company-count {
@@ -25,14 +27,12 @@
 
 @media only screen and (max-width: 530px) {
     .foldable-text {
-        padding: 0 7px 0 10px;
         font-size: 14px;
     }
 }
 
 @media only screen and (max-width: 350px) {
     .foldable-text {
-        padding: 0 3px 0 5px;
         font-size: 7px;
     }
 }

@@ -3,24 +3,19 @@ import '../style/navbar.css'
 const M = window.M
 
 class Navbar extends Component {
-	constructor(props) {
-		super(props);
-		this.dropdown_trigger = null;	
-	}
-
     componentDidMount() {
-        M.Modal.init(this.instance.querySelectorAll('.modal'));
-	M.Sidenav.init(this.instance.querySelectorAll('.sidenav'))
+        M.Modal.init(this.instance.querySelectorAll('.modal'))
+        M.Sidenav.init(this.instance.querySelectorAll('.sidenav'))
     }
 
     render() {
         return (
             <div ref={el => (this.instance = el)}>
-				<ul id="sidenav" className="sidenav">
-						<li><a className="modal-trigger" href="#about">About</a></li>
-						<li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
-						<li><a target="_blank" href="http://www.ylventures.com">ylventures.com</a></li>
-				</ul>
+                <ul id="sidenav" className="sidenav">
+                    <li><a className="modal-trigger" href="#about">About</a></li>
+                    <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
+                    <li><a target="_blank" href="http://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
+                </ul>
                 <nav className="nav-gradient">
                     <div className="container">
                         <div className="nav-wrapper fixed-navbar padding-top-bottom">
@@ -29,14 +24,15 @@ class Navbar extends Component {
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
-                                <li><a className="modal-trigger" target="_blank" href="https://www.ylventures.com">ylventures.com</a></li>
+                                <li><a target="_blank" href="https://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
                             </ul>
-			<a className="sidenav-trigger" href="#!" data-target="sidenav"><i className="material-icons">menu</i></a>
+                            <a className="sidenav-trigger" data-target="sidenav"><i className="material-icons">menu</i></a>
                         </div>
                     </div>
                 </nav>
-                <div id="about" className="modal outline-0">
-                    <div className="modal-content center">
+                <div id="about" className="modal outline-0 modal-with-x">
+                    <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
+                    <div className="modal-content center modal-content-with-x">
                         <h4 className="turquoise-text">What is CyberMap?</h4>
                         <p className="black-text nav-modal-p pre-wrap">
 {`
@@ -47,7 +43,7 @@ CyberMap is the first live map of Israel’s cybersecurity startup landscape. YL
 {`
 We made this live map to help our industry grow. If you have any questions, comments or ideas on how to improve this map, we would love to hear them.
 
-Send them directly to Idan Ninyo, our CTO: `} <a href="mailto:idan@ylventures.com">idan@ylventures.com</a><br/>
+Send them directly to Idan Ninyo, our CTO: `} <a href="mailto:idan@ylventures.com">idan@ylventures.com</a><br/><br/>
 
 <b>About YL Ventures</b>
 {`
@@ -60,6 +56,7 @@ YL Ventures funds & supports brilliant Israeli tech entrepreneurs from seed to l
                     </div>
                 </div>
                 <div id="addcompany" className="modal outline-0">
+                    <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
                     <div className="modal-content center">
                         <h4 className="turquoise-text">Add a company</h4>
                         <p className="black-text nav-modal-p pre-wrap">
