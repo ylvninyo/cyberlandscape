@@ -12,11 +12,13 @@ class Navbar extends Component {
             <div ref={el => (this.instance = el)}>
                 <nav className="nav-gradient">
                     <div className="container">
-                        <div className="nav-wrapper fixed-navbar padding-top-bottom">
-                            <a href="/" className="brand-logo"><img src="/logo.png" alt="logo" /></a>
-                            <ul className="right hide-on-med-and-down">
+                        <div className="nav-wrapper padding-top-bottom">
+                            <a href="/" className="brand-logo left"><img src="/logo.png" alt="logo" /></a>
+                            <ul className="right" >
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
+                            </ul>
+                            <ul className="right hide-on-med-and-down">
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
                                 <li><a className="modal-trigger" target="_blank" href="https://www.ylventures.com">ylventures.com</a></li>
                             </ul>
