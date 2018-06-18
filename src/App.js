@@ -36,10 +36,8 @@ class App extends Component {
     }
 
     applyFilters = (categories, funding, search) => {
-        let categoryFilter = categories || this.state.categoryFilter
-        categoryFilter = new Set(categoryFilter)
-        let fundingFilter = funding || this.state.fundingFilter
-        fundingFilter = new Set(fundingFilter)
+        let categoryFilter = categories ? new Set(categories) : this.state.categoryFilter
+        let fundingFilter = funding ? new Set(funding) : this.state.fundingFilter
         let searchFilter = search != null ? search.toLowerCase() : this.state.searchFilter
 
         let data = window.companies
