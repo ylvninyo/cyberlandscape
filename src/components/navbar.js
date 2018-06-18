@@ -3,13 +3,24 @@ import '../style/navbar.css'
 const M = window.M
 
 class Navbar extends Component {
+	constructor(props) {
+		super(props);
+		this.dropdown_trigger = null;	
+	}
+
     componentDidMount() {
-        M.Modal.init(this.instance.querySelectorAll('.modal'))
+        M.Modal.init(this.instance.querySelectorAll('.modal'));
+	M.Sidenav.init(this.instance.querySelectorAll('.sidenav'))
     }
 
     render() {
         return (
             <div ref={el => (this.instance = el)}>
+				<ul id="sidenav" className="sidenav">
+						<li><a className="modal-trigger" href="#about">About</a></li>
+						<li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
+						<li><a target="_blank" href="http://www.ylventures.com">ylventures.com</a></li>
+				</ul>
                 <nav className="nav-gradient">
                     <div className="container">
                         <div className="nav-wrapper fixed-navbar padding-top-bottom">
@@ -20,6 +31,7 @@ class Navbar extends Component {
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
                                 <li><a className="modal-trigger" target="_blank" href="https://www.ylventures.com">ylventures.com</a></li>
                             </ul>
+			<a className="sidenav-trigger" href="#!" data-target="sidenav"><i className="material-icons">menu</i></a>
                         </div>
                     </div>
                 </nav>
