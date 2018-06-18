@@ -3,6 +3,10 @@
     text-align: justify;
 }
 
+.sidenav li>a {
+   font-size: 18px;
+}
+
 .brand-logo {
     height: 64px;
 }
