@@ -26,7 +26,7 @@ class Navbar extends Component {
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
                                 <li><a target="_blank" href="https://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
                             </ul>
-                            <a className="sidenav-trigger" data-target="sidenav"><i className="material-icons">menu</i></a>
+                            <a href="#!" className="sidenav-trigger" data-target="sidenav"><i className="material-icons">menu</i></a>
                         </div>
                     </div>
                 </nav>
