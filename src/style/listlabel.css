@@ -1,0 +1,15 @@
+.list-label {
+    width: 100%;
+    height: auto;
+    line-height: 1.3;
+    min-height: 100px;
+}
+
+.list-company-count {
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.list-label-tex {
+    margin-top: 7px;
+}

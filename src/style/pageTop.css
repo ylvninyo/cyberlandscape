@@ -1,0 +1,33 @@
+.left-view-changer {
+    margin-right: 10px;
+}
+
+.search {
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 3px 5px;
+}
+
+.search-input {
+    outline: 0;
+    border: 0;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+.main-company-counter {
+    padding: 13px 0; 
+}
+
+.page-top {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    .top-menu {
+        text-align: center;
+    }
+    .search {
+        margin-top: 10px;
+    }
+}

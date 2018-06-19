@@ -1,0 +1,71 @@
+.modal-with-x {
+    height: 70%;
+}
+
+.modal-content-with-x {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.modal-links {
+    border: 1px solid #00BEC1;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+.cb-in-icon {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-bottom: 14px;
+    padding-top: 3px;
+}
+
+.twitter-icon {
+    height: 20px;
+    width: 20px;
+    padding-top: 3px;
+    margin: 4px 0;
+}
+
+.twtr-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.modal-closing-btn {
+    position: absolute;
+    top: 0;
+    right: 18px;
+}
+
+.modal-icon {
+    padding: 4px 0;
+}
+
+.modal-h {
+    line-height: 1.2;
+    font-size: 31px;
+}
+
+.company-modal {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 6px solid #F68B1F;
+}
+
+.modal-logo {
+    margin-bottom: 13px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.modal-category {
+    margin: 3px 0 15px;
+}
+
+.modal {
+    -webkit-overflow-scrolling: touch;
+}

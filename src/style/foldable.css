@@ -1,0 +1,38 @@
+.category-foldable {
+    margin: 0px 0 25px 7px;
+}
+
+.foldable-text {
+    font-size: 18px;
+    padding: 7px 12px 10px;
+    height: auto;
+    line-height: 1.7;
+}
+
+.foldable-company-count {
+    margin-left: 20px;
+    color: grey;
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 700px) {
+    .foldable-company-count {
+        display: none;
+    }
+
+    .foldable-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .foldable-text {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .foldable-text {
+        font-size: 7px;
+    }
+}

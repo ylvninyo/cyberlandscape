@@ -1,0 +1,27 @@
+.nav-modal-p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.sidenav li>a {
+   font-size: 18px;
+}
+
+.brand-logo {
+    height: 64px;
+}
+
+.brand-logo > img {
+    width: 150px;
+    margin-top: 17px;
+}
+
+.nav-gradient {
+    background: linear-gradient(to right, #00b9bc, #EEB422);
+}
+
+@media(max-width: 1150px) {
+    .navbar-analytics {
+        display: none;
+    }
+}
