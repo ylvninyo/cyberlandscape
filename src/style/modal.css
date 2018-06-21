@@ -38,6 +38,7 @@
     position: absolute;
     top: 0;
     right: 18px;
+    z-index: 10;
 }
 
 .modal-icon {
