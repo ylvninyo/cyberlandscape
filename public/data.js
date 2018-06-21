@@ -928,7 +928,8 @@ window.companies = [
         "category": "Vulnerability & Risk Mgmt", 
         "name": "Kovrr", 
         "linkedin": "https://www.linkedin.com/company/kovrr", 
-        "logo": "./logos/Kovrr.png", 
+        "logo": "./logos/Kovrr.png",
+		"description": "Kovrr provides immediate visibility into internal and external cyber risks to support the underwriting processes of cyber insurance policies. Our solution helps insurance professionals prospect and select risks, grow their book according to risk appetite, and manage portfolio risks accumulations. We help our customers efficiently distribute cyber insurance policies and launch innovative insurance products.",
         "homepage": "https://www.kovrr.com", 
         "subcategory": "Cyber Insurance "
     }, 
