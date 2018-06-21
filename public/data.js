@@ -1543,8 +1543,11 @@ window.companies = [
     {
         "category": "Identity & Access Management", 
         "logo": "./logos/Silverfort.png", 
+		"funding": "2.8M", 
         "crunchbase": "https://www.crunchbase.com/organization/silverfort-2", 
-        "name": "Silverfort", 
+        "name": "Silverfort",
+		"homepage": "https://silverfort.io/",
+		"linkedin": "https://www.linkedin.com/company/10681356",
         "description": "Silverfort introduces the first security platform that can seamlessly deliver strong authentication to every sensitive user, device and resource, across on-premise, cloud and hybrid environments."
     }, 
     {
