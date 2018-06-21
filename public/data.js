@@ -864,6 +864,15 @@ window.companies = [
     }, 
     {
         "category": "Email Security", 
+        "name": "CybeReady", 
+        "linkedin": "https://www.linkedin.com/company/cybeready/", 
+        "subcategory": "Anti Fraud/Phishing", 
+        "logo": "./logos/CybeReady.png", 
+        "homepage": "https://www.cybeready.com/", 
+        "description": "As the leader in adaptive Phishing learning automation, CybeReady transforms employee behavior through localized data-driven training. With CybeReady’s technology, security teams remain a step ahead of hackers, achieving results quickly against evolving Phishing threats, while reducing their internal workload. CybeReady employs Big Data capabilities to build a progressive learning path, effectively personalizing training for each employee. As a result, security risks are significantly reduced, and CISOs worldwide maintain control with minimal required supervision."
+    }, 
+    {
+        "category": "Email Security", 
         "funding": "8M", 
         "name": "IronScales", 
         "twitter": "https://twitter.com/IronScales", 
@@ -873,7 +882,7 @@ window.companies = [
         "logo": "./logos/IronScales.png", 
         "homepage": "http://ironscales.com", 
         "description": "IronScales is a comprehensive phishing mitigation solution designed to protect your enterprise from cyber attacks. Based on a gamified training program and a unique crowd-wisdom approach, the IronTraps automatic mitigation response* is immediately executed when a phishing attack is reported by employees."
-    }, 
+    }, 	
     {
         "category": "Network Security", 
         "funding": "5M", 
@@ -883,7 +892,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/javelin-networks", 
         "logo": "./logos/JavelinNetworks.png", 
         "homepage": "http://javelin-networks.com/", 
-        "description": "Javelin Networks offers ZeroMove, a solution that enables businesses to hide their real network toplogy to prevent attackers."
+        "description": "Javelin protects Active Directory from every endpoint. Agentless.\n\n Active Directory exposes all of the enterprise's identities, applications, and resources to every endpoint in the network by design, making it the number one target for attackers and a challenging asset to protect.\n\nFounded by post-exploitation experts with a mission to stop compromise in Active Directory networks around the world, Javelin AD|Protect secures AD and turns it into an Intrusion Detection and Containment system."
     }, 
     {
         "category": "Mobile Security", 
@@ -975,6 +984,17 @@ window.companies = [
         "homepage": "https://www.metanetworks.com", 
         "description": "With applications, storage and workloads migrating to the cloud, and employees on the move, the conventional LAN/WAN paradigm is breaking down. Enterprise networks are increasingly fragmented, vulnerable, and expensive to operate."
     }, 
+    {
+        "category": "Network Security",
+        "name": "Perimeter 81", 
+        "twitter": "https://twitter.com/Perimeter_81", 
+        "linkedin": "https://www.linkedin.com/company/perimeter-81/", 
+        "subcategory": "SDP & SD-WAN", 
+        "crunchbase": "https://www.crunchbase.com/organization/perimeter-81", 
+        "logo": "./logos/Perimeter81.png", 
+        "homepage": "https://www.perimeter81.com/", 
+        "description": "Perimeter 81 is a cybersecurity SaaS provider dedicated to simplifying secure network access for businesses of all industries and sizes. Unlike outdated, complicated and costly hardware-based VPN technology, we offer an easy-to-use, cutting-edge and cost-effective ‘Dropbox-like’ solution. Our Software-Defined Perimeter service simply and securely connects employees to the cloud-based and internal network resources they need — no matter where they are. Built from scratch based on feedback from security leaders, Perimeter 81’s seamless onboarding, automatic Wi-Fi security and full integration with major cloud providers, gives companies the power to be truly mobile and fully cloud-confident."
+    }, 	
     {
         "category": "Data Protection", 
         "funding": "4.6M", 
@@ -1283,7 +1303,7 @@ window.companies = [
         "funding": "6.3M", 
         "name": "Regulus Cyber", 
         "linkedin": "https://www.linkedin.com/company-beta/10305509/", 
-        "subcategory": "Drones", 
+        "subcategory": "Automotive", 
         "crunchbase": "https://www.crunchbase.com/organization/regulus-cyber", 
         "logo": "./logos/RegulusCyber.png", 
         "homepage": "http://www.regulus.com", 
@@ -1711,7 +1731,18 @@ window.companies = [
         "logo": "./logos/Votiro.png", 
         "homepage": "http://www.votiro.com/", 
         "description": "Votiro File Disarmer secures your entire organization across all channels of incoming files from zero-day exploits. The File Disarmer integrates seamlessly with your security ecosystem within minutes, automatically sanitizing every single incoming file in less than 1 second, allowing you to store, share, download or transfer files securely, via any platform.\nA Single Solution for All Channels in the Organization: "
-    }, 
+    },
+    {
+        "category": "Email Security", 
+        "name": "OPSWAT", 
+        "twitter": "http://twitter.com/opswat", 
+        "linkedin": "http://www.linkedin.com/company/opswat", 
+        "subcategory": "CDR", 
+        "crunchbase": "https://www.crunchbase.com/organization/opswat", 
+        "logo": "./logos/OPSWAT.png", 
+        "homepage": "https://www.opswat.com", 
+        "description": "OPSWAT is a San Francisco based software company that provides solutions to secure and manage IT infrastructure. Founded in 2002, OPSWAT delivers solutions and technologies that protect organizations from threats and help secure digital data flow. OPSWAT’s intuitive applications and comprehensive development kits are deployed by SMB, enterprise and OEM customers to more than 100 million endpoints worldwide."
+    }, 	
     {
         "category": "IoT", 
         "subcategory": "SCADA", 
@@ -1755,6 +1786,7 @@ window.companies = [
         "homepage": "https://xmcyber.com", 
         "description": "XM Cyber provides the first fully automated APT Simulation Platform to continuously expose all attack vectors, above and below the surface, from breach point to any organizational critical asset. This continuous loop of automated red teaming is completed by ongoing and prioritized actionable remediation of organizations\u2019 security gaps. In effect, HaXM by XM Cyber operates as an automated purple team that fluidly combines red team and blue team processes to ensure that organizations are always one step ahead of the hacker.\nXM Cyber was founded by top executives from the Israeli cyber intelligence community and employs an elite team of cyber offense and defense veterans with decades of real-world experience. The company has offices in the US, Israel and in Australia."
     }, 
+	
     {
         "category": "Mobile Security", 
         "funding": "60M", 
