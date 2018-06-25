@@ -853,7 +853,7 @@ window.companies = [
     }, 
     {
         "category": "Threat Intelligence", 
-        "funding": "24.3M", 
+        "funding": "41.3M", 
         "name": "IntSights", 
         "twitter": "https://www.twitter.com/intsights", 
         "linkedin": "https://www.linkedin.com/company/intsights", 
@@ -1212,9 +1212,11 @@ window.companies = [
     }, 
     {
         "category": "Data Protection", 
+		"funding": "5M",
         "name": "Prifender", 
         "linkedin": "https://www.linkedin.com/company/10572368", 
-        "crunchbase": "https://www.crunchbase.com/organization/prifender", 
+        "crunchbase": "https://www.crunchbase.com/organization/prifender",
+		"twitter": "https://twitter.com/prifender",
         "logo": "./logos/Prifender.png", 
         "homepage": "https://www.prifender.com", 
         "description": "Prifender uses artificial intelligence technology to map personal information across all stores of identity in an enterprise, whether structured and unstructured, while associating identities with their respective obligations so organizations can better manage personal information and demonstrate accountability and compliance. \nPrifender\u2019s mission is to drive automation of the privacy office while providing demonstrable compliance with privacy regulations, notices and contractual obligations."
