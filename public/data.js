@@ -207,7 +207,7 @@ window.companies = [
     }, 
     {
         "category": "Data Protection", 
-        "funding": "16.1M", 
+        "funding": "46.1M", 
         "name": "BigID", 
         "twitter": "https://twitter.com/bigidsecure", 
         "linkedin": "https://www.linkedin.com/company/bigid", 
@@ -653,8 +653,11 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "logo": "./logos/Enigmatos.png", 
-        "name": "Enigmatos", 
+        "logo": "./logos/Enigmatos.png",
+		"linkedin": "https://www.linkedin.com/company/enigmatos",
+		"homepage": "https://www.enigmatos.com/",
+        "name": "Enigmatos",
+		"description": "Enigmatos offers a dynamic, multi layered, behavior based intrusion detection and prevention system to protect the vehicle and its ecosystem from HW & SW cyber security threats.",
         "subcategory": "Automotive"
     }, 
     {
@@ -1216,7 +1219,7 @@ window.companies = [
         "name": "Prifender", 
         "linkedin": "https://www.linkedin.com/company/10572368", 
         "crunchbase": "https://www.crunchbase.com/organization/prifender",
-		"twitter": "https://twitter.com/prifender",
+		"twitter": "https://twitter.com/prifender",	
         "logo": "./logos/Prifender.png", 
         "homepage": "https://www.prifender.com", 
         "description": "Prifender uses artificial intelligence technology to map personal information across all stores of identity in an enterprise, whether structured and unstructured, while associating identities with their respective obligations so organizations can better manage personal information and demonstrate accountability and compliance. \nPrifender\u2019s mission is to drive automation of the privacy office while providing demonstrable compliance with privacy regulations, notices and contractual obligations."
@@ -1545,8 +1548,8 @@ window.companies = [
     }, 
     {
         "category": "Identity & Access Management", 
-        "logo": "./logos/Silverfort.png", 
-		"funding": "2.8M", 
+        "logo": "./logos/Silverfort.png",
+		"funding": "11.5M", 
         "crunchbase": "https://www.crunchbase.com/organization/silverfort-2", 
         "name": "Silverfort",
 		"homepage": "https://silverfort.io/",
