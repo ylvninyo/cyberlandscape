@@ -264,7 +264,7 @@ window.companies = [
         "category": "Web Security", 
         "subcategory": "Ad Fraud", 
         "name": "CHEQ",
-		"funding": "5M",
+        "funding": "5M",
         "linkedin": "https://www.linkedin.com/company/comboguard/", 
         "crunchbase": "https://www.crunchbase.com/organization/cheq", 
         "logo": "./logos/CHEQ.png", 
@@ -515,8 +515,8 @@ window.companies = [
         "category": "Endpoint Security", 
         "funding": "20M", 
         "name": "Cynet",
-		"linkedin": "https://www.linkedin.com/company/cynet-security",
-		"twitter": "https://twitter.com/cynet360",
+        "linkedin": "https://www.linkedin.com/company/cynet-security",
+        "twitter": "https://twitter.com/cynet360",
         "crunchbase": "https://www.crunchbase.com/organization/cynet-2", 
         "logo": "./logos/Cynet.png", 
         "homepage": "http://www.cynet.com/", 
@@ -1379,10 +1379,13 @@ window.companies = [
         "description": "Salt is first to market with its API Protection Platform, that detects and prevents zero-day API attacks with the power of Artificial Intelligence and Big Data. The Salt platform deploys in under 8 minutes and requires no manual configuration at any time."
     }, 
     {
-        "category": "IoT", 
-        "logo": "./logos/SAMSeamlessNetworks.png", 
-        "crunchbase": "https://www.crunchbase.com/organization/sam-seamless-network", 
-        "name": "SAM Seamless Networks", 
+        "category": "IoT",
+        "logo": "./logos/SAMSeamlessNetworks.png",
+        "crunchbase": "https://www.crunchbase.com/organization/sam-seamless-network",
+        "name": "SAM Seamless Networks",
+        "homepage": "https://www.securingsam.com/",
+        "linkedin": "https://www.linkedin.com/company/sam-seamless-network/",
+        "description": "SAM protects the connected home by securing threats right at the source. With a software-only solution, SAM uses the network gateway to protect all connected devices in the home. Securing communication between smart devices and the network, means ISPs can ensure their customers are using their connected home in the safest way.",
         "subcategory": "Smart Home"
     }, 
     {
