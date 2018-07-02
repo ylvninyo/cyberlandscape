@@ -514,11 +514,13 @@ window.companies = [
     {
         "category": "Endpoint Security", 
         "funding": "20M", 
-        "name": "Cynet", 
-        "crunchbase": "https://www.crunchbase.com/organization/cynet", 
+        "name": "Cynet",
+		"linkedin": "https://www.linkedin.com/company/cynet-security",
+		"twitter": "https://twitter.com/cynet360",
+        "crunchbase": "https://www.crunchbase.com/organization/cynet-2", 
         "logo": "./logos/Cynet.png", 
-        "homepage": "http://www.cynetinc.com/", 
-        "description": "CYNET is an Internet business application service provider with integrated e-business, wireless data, and messaging service offerings."
+        "homepage": "http://www.cynet.com/", 
+        "description": "Cynet is a pioneer of the all-in-one, agentless solution for detection and remediation of advanced and unknown threats such as unsigned malware and zero day attacks. The company’s flagship product, Cynet 360, correlates and analyzes indicators from files, network, endpoints and user behavior to uncover threats, which have bypassed the prevention layer. Cynet’s integrated 24/7 SOC ensures the validity of threats, assisting customers with remediation while eliminating false positives."
     }, 
     {
         "category": "Cloud Security", 
