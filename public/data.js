@@ -259,7 +259,18 @@ window.companies = [
         "logo": "./logos/CeedoTechnologies.png", 
         "homepage": "http://www.ceedo.com", 
         "description": "Ceedo Technologies is a virtualization software company headquartered in Israel. Its patent pending approach to virtualizing the Windows desktop environment enables users to carry their PC-based work environment on portable devices such as USB flash drives, pocket hard drives, network drives and even mobile phones. "
-    }, 
+    },
+    {
+        "category": "Web Security", 
+        "subcategory": "Ad Fraud", 
+        "name": "CHEQ",
+		"funding": "5M",
+        "linkedin": "https://www.linkedin.com/company/comboguard/", 
+        "crunchbase": "https://www.crunchbase.com/organization/cheq", 
+        "logo": "./logos/CHEQ.png", 
+        "homepage": "https://www.cheq.ai/", 
+        "description": "CHEQ is a cyber-security company and is an Autonomous Brand Safety, protecting the digital ad-spend for leading brands. CHEQ is an AI and cybersecurity company looking to replace ad-verification with a fully autonomous, brand-safety solution."
+    },     
     {
         "category": "Web Security", 
         "subcategory": "Ad Fraud", 
@@ -441,8 +452,8 @@ window.companies = [
         "logo": "./logos/CyCognito.png", 
         "crunchbase": "https://www.crunchbase.com/organization/cycognito", 
         "name": "CyCognito", 
-		"homepage": "https://www.cycognito.com/", 
-		"linkedin": "https://www.linkedin.com/company/cycognito/",
+        "homepage": "https://www.cycognito.com/", 
+        "linkedin": "https://www.linkedin.com/company/cycognito/",
         "subcategory": "Attack Simulation"
     }, 
     {
@@ -502,7 +513,7 @@ window.companies = [
     }, 
     {
         "category": "Endpoint Security", 
-        "funding": "3.2M", 
+        "funding": "20M", 
         "name": "Cynet", 
         "crunchbase": "https://www.crunchbase.com/organization/cynet", 
         "logo": "./logos/Cynet.png", 
@@ -547,8 +558,8 @@ window.companies = [
         "name": "Convexum", 
         "logo": "./logos/Convexum.png", 
         "homepage": "http://convexum.com/",
-		"twitter": "https://twitter.com/convexum_sec",
-		"linkedin": "https://www.linkedin.com/company/convexum",
+        "twitter": "https://twitter.com/convexum_sec",
+        "linkedin": "https://www.linkedin.com/company/convexum",
         "description": "VigilAirConvexum is a pioneering counter-drone solution protecting perimeters from rogue or malicious drones. Convexum's solution automatically detects, takes over, navigates and lands drones in a location determined by the perimeter's security stakeholders. The unique safe-landing feature navigates the drone any location defined on the system, thus enabling full-control over the situation and dramatically reducing liability issues.",
     },
     {
@@ -558,7 +569,7 @@ window.companies = [
         "logo": "./logos/Vorpal.png", 
         "homepage": "http://www.vorpal-corp.com/", 
         "description": "VigilAir is a novel, non-transmitting, RF based solution, providing long range and highly accurate drone situational awareness picture integrated with advanced counter UAS and mitigation capabilities. VigilAir’s provides airspace safety and control, enhances perimeter security and supports the complex operation of drones within the UTM framework."
-    }, 	
+    },     
     {
         "category": "Data Protection", 
         "funding": "4.1M", 
@@ -654,10 +665,10 @@ window.companies = [
     {
         "category": "IoT", 
         "logo": "./logos/Enigmatos.png",
-		"linkedin": "https://www.linkedin.com/company/enigmatos",
-		"homepage": "https://www.enigmatos.com/",
+        "linkedin": "https://www.linkedin.com/company/enigmatos",
+        "homepage": "https://www.enigmatos.com/",
         "name": "Enigmatos",
-		"description": "Enigmatos offers a dynamic, multi layered, behavior based intrusion detection and prevention system to protect the vehicle and its ecosystem from HW & SW cyber security threats.",
+        "description": "Enigmatos offers a dynamic, multi layered, behavior based intrusion detection and prevention system to protect the vehicle and its ecosystem from HW & SW cyber security threats.",
         "subcategory": "Automotive"
     }, 
     {
@@ -801,8 +812,7 @@ window.companies = [
         "description": "Illusive Networks, the leader in deception-based cybersecurity solutions, empowers security teams to preemptively harden their networks against advanced attackers, stop targeted attacks through early detection of lateral movement, and resolve incidents quickly. Agentless and intelligence-driven, Illusive technology significantly increases proactive defense capability with almost no operational overhead. Illusive\u2019s Deceptions Everywhere\u00ae approach was pioneered by experts with decades of experience in cyber warfare and cyber intelligence. By proactively intervening in the attack process, technology-dependent organizations protect critical business assets and function with greater confidence in today\u2019s complex, hyper-connected world. For more information, visit us at www.illusivenetworks.com or contact info@illusivenetworks.com."
     }, 
     {
-        "category": "Web Security", 
-        "funding": "49M", 
+        "category": "Web Security",  
         "name": "Imperva", 
         "twitter": "http://twitter.com/Imperva", 
         "linkedin": "http://www.linkedin.com/company/imperva", 
@@ -810,7 +820,8 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/imperva", 
         "logo": "./logos/Imperva.png", 
         "homepage": "https://www.google.com/finance?q=NYSE:IMPV", 
-        "description": "Imperva is a leading provider of cyber security solutions that protect business critical data and applications in the cloud and on-premises."
+        "description": "Imperva is a leading provider of cyber security solutions that protect business critical data and applications in the cloud and on-premises.",
+        "public": true
     }, 
     {
         "category": "Network Security", 
@@ -885,7 +896,7 @@ window.companies = [
         "logo": "./logos/IronScales.png", 
         "homepage": "http://ironscales.com", 
         "description": "IronScales is a comprehensive phishing mitigation solution designed to protect your enterprise from cyber attacks. Based on a gamified training program and a unique crowd-wisdom approach, the IronTraps automatic mitigation response* is immediately executed when a phishing attack is reported by employees."
-    }, 	
+    },     
     {
         "category": "Network Security", 
         "funding": "5M", 
@@ -932,7 +943,7 @@ window.companies = [
         "name": "Kovrr", 
         "linkedin": "https://www.linkedin.com/company/kovrr", 
         "logo": "./logos/Kovrr.png",
-		"description": "Kovrr provides immediate visibility into internal and external cyber risks to support the underwriting processes of cyber insurance policies. Our solution helps insurance professionals prospect and select risks, grow their book according to risk appetite, and manage portfolio risks accumulations. We help our customers efficiently distribute cyber insurance policies and launch innovative insurance products.",
+        "description": "Kovrr provides immediate visibility into internal and external cyber risks to support the underwriting processes of cyber insurance policies. Our solution helps insurance professionals prospect and select risks, grow their book according to risk appetite, and manage portfolio risks accumulations. We help our customers efficiently distribute cyber insurance policies and launch innovative insurance products.",
         "homepage": "https://www.kovrr.com", 
         "subcategory": "Cyber Insurance "
     }, 
@@ -998,7 +1009,7 @@ window.companies = [
         "logo": "./logos/Perimeter81.png", 
         "homepage": "https://www.perimeter81.com/", 
         "description": "Perimeter 81 is a cybersecurity SaaS provider dedicated to simplifying secure network access for businesses of all industries and sizes. Unlike outdated, complicated and costly hardware-based VPN technology, we offer an easy-to-use, cutting-edge and cost-effective ‘Dropbox-like’ solution. Our Software-Defined Perimeter service simply and securely connects employees to the cloud-based and internal network resources they need — no matter where they are. Built from scratch based on feedback from security leaders, Perimeter 81’s seamless onboarding, automatic Wi-Fi security and full integration with major cloud providers, gives companies the power to be truly mobile and fully cloud-confident."
-    }, 	
+    },     
     {
         "category": "Data Protection", 
         "funding": "4.6M", 
@@ -1215,11 +1226,11 @@ window.companies = [
     }, 
     {
         "category": "Data Protection", 
-		"funding": "5M",
+        "funding": "5M",
         "name": "Prifender", 
         "linkedin": "https://www.linkedin.com/company/10572368", 
         "crunchbase": "https://www.crunchbase.com/organization/prifender",
-		"twitter": "https://twitter.com/prifender",	
+        "twitter": "https://twitter.com/prifender",    
         "logo": "./logos/Prifender.png", 
         "homepage": "https://www.prifender.com", 
         "description": "Prifender uses artificial intelligence technology to map personal information across all stores of identity in an enterprise, whether structured and unstructured, while associating identities with their respective obligations so organizations can better manage personal information and demonstrate accountability and compliance. \nPrifender\u2019s mission is to drive automation of the privacy office while providing demonstrable compliance with privacy regulations, notices and contractual obligations."
@@ -1284,7 +1295,7 @@ window.companies = [
     {
         "category": "Email Security", 
         "funding": "5.8M", 
-		"subcategory": "CDR",
+        "subcategory": "CDR",
         "name": "ReSec Technologies", 
         "twitter": "https://twitter.com/ReSecTechnologi", 
         "linkedin": "https://www.linkedin.com/company/3253132?trk=tyah&trkInfo=tarId%3A1399437647828%2Ctas%3Are-sec%2Cidx%3A1-1-1", 
@@ -1549,11 +1560,11 @@ window.companies = [
     {
         "category": "Identity & Access Management", 
         "logo": "./logos/Silverfort.png",
-		"funding": "11.5M", 
+        "funding": "11.5M", 
         "crunchbase": "https://www.crunchbase.com/organization/silverfort-2", 
         "name": "Silverfort",
-		"homepage": "https://silverfort.io/",
-		"linkedin": "https://www.linkedin.com/company/10681356",
+        "homepage": "https://silverfort.io/",
+        "linkedin": "https://www.linkedin.com/company/10681356",
         "description": "Silverfort introduces the first security platform that can seamlessly deliver strong authentication to every sensitive user, device and resource, across on-premise, cloud and hybrid environments."
     }, 
     {
@@ -1689,6 +1700,17 @@ window.companies = [
         "description": "Unbound allows you to work with secrets without ever exposing them, ensuring your most precious digital assets are safe \u2013 anytime, anywhere.\nControl, manage and protect keys from across all sites and workloads from a single pane of glass."
     }, 
     {
+        "category": "Data Protection",  
+        "name": "Safe-T", 
+        "twitter": "http://twitter.com/SafeTData", 
+        "linkedin": "http://www.linkedin.com/company/684904", 
+        "logo": "./logos/SafeT.png",
+        "crunchbase": "https://www.crunchbase.com/organization/safe-t",
+        "homepage": "http://www.safe-t.com/", 
+        "description": "Safe-T provides Secure Managed File Transfer (SMFT), an innovative and integrative cross platform that offers simple, convenient, and secure file transfer both inside and outside the enterprise. For IT personnel, Safe-T offers powerful and flexible solutions that meet the strict management and control requirements of today’s business organizations. Safe-T is a simple, user-friendly, and non-disruptive large file transfer solution that will fit seamlessly into your organization's workflow. Share emails and files of unlimited sizes securely with customers, partners, and suppliers without requiring special accounts.",
+        "public": true
+    },     
+    {
         "category": "Web Security", 
         "funding": "2.3M", 
         "name": "Uponit", 
@@ -1751,7 +1773,7 @@ window.companies = [
         "logo": "./logos/OPSWAT.png", 
         "homepage": "https://www.opswat.com", 
         "description": "OPSWAT is a San Francisco based software company that provides solutions to secure and manage IT infrastructure. Founded in 2002, OPSWAT delivers solutions and technologies that protect organizations from threats and help secure digital data flow. OPSWAT’s intuitive applications and comprehensive development kits are deployed by SMB, enterprise and OEM customers to more than 100 million endpoints worldwide."
-    }, 	
+    },     
     {
         "category": "IoT", 
         "subcategory": "SCADA", 
@@ -1795,7 +1817,7 @@ window.companies = [
         "homepage": "https://xmcyber.com", 
         "description": "XM Cyber provides the first fully automated APT Simulation Platform to continuously expose all attack vectors, above and below the surface, from breach point to any organizational critical asset. This continuous loop of automated red teaming is completed by ongoing and prioritized actionable remediation of organizations\u2019 security gaps. In effect, HaXM by XM Cyber operates as an automated purple team that fluidly combines red team and blue team processes to ensure that organizations are always one step ahead of the hacker.\nXM Cyber was founded by top executives from the Israeli cyber intelligence community and employs an elite team of cyber offense and defense veterans with decades of real-world experience. The company has offices in the US, Israel and in Australia."
     }, 
-	
+    
     {
         "category": "Mobile Security", 
         "funding": "60M", 
