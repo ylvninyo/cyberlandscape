@@ -520,7 +520,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/cynet-2", 
         "logo": "./logos/Cynet.png", 
         "homepage": "http://www.cynet.com/", 
-        "description": "Cynet is a pioneer of the all-in-one, agentless solution for detection and remediation of advanced and unknown threats such as unsigned malware and zero day attacks. The company’s flagship product, Cynet 360, correlates and analyzes indicators from files, network, endpoints and user behavior to uncover threats, which have bypassed the prevention layer. Cynet’s integrated 24/7 SOC ensures the validity of threats, assisting customers with remediation while eliminating false positives."
+        "description": "Cynet is a leader in advanced threat detection and response. The Cynet 360 platform empowers organizations with a single, enterprise-grade solution meeting all their internal network security needs. The Cynet platform includes Endpoint Detection & Response, User & Entity Behavior Analytics, Network Analytics, Deception and a 24/7 SOC. Cynet 360 covers thousands of endpoints in minutes, with no installation and minimal investment of time and resources.  Providing visibility across all systems, Cynet protects against attacks including ransomware, malware, insider threats and previously unknown threats. The Cynet 360 platform’s rapid, automated response and remediation ensures highest level security, regardless of the threat, for every size organization."
     }, 
     {
         "category": "Cloud Security", 
