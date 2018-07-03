@@ -1197,7 +1197,8 @@ window.companies = [
     }, 
     {
         "category": "Identity & Access Management", 
-        "name": "PlainID", 
+        "name": "PlainID",
+        "funding": "13M",
         "twitter": "https://twitter.com/plainID_authZ", 
         "linkedin": "https://www.linkedin.com/company/plainid", 
         "crunchbase": "https://www.crunchbase.com/organization/plainid", 
