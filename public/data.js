@@ -1705,8 +1705,9 @@ window.companies = [
         "description": "Unbound allows you to work with secrets without ever exposing them, ensuring your most precious digital assets are safe \u2013 anytime, anywhere.\nControl, manage and protect keys from across all sites and workloads from a single pane of glass."
     }, 
     {
-        "category": "Data Protection",  
-        "name": "Safe-T", 
+        "category": "Network Security",  
+        "name": "Safe-T",
+        "subcategory": "SDP & SD-WAN", 
         "twitter": "http://twitter.com/SafeTData", 
         "linkedin": "http://www.linkedin.com/company/684904", 
         "logo": "./logos/SafeT.png",
