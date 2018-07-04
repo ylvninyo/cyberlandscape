@@ -1714,7 +1714,7 @@ window.companies = [
         "logo": "./logos/SafeT.png",
         "crunchbase": "https://www.crunchbase.com/organization/safe-t",
         "homepage": "http://www.safe-t.com/", 
-        "description": "Safe-T provides Secure Managed File Transfer (SMFT), an innovative and integrative cross platform that offers simple, convenient, and secure file transfer both inside and outside the enterprise. For IT personnel, Safe-T offers powerful and flexible solutions that meet the strict management and control requirements of today’s business organizations. Safe-T is a simple, user-friendly, and non-disruptive large file transfer solution that will fit seamlessly into your organization's workflow. Share emails and files of unlimited sizes securely with customers, partners, and suppliers without requiring special accounts.",
+        "description": "Safe-T enables enterprises to run a secure, zero trust digital business by significantly reducing attack surface of the network and applications. Safe-T’s Software-Defined Access (using SDP infrastructure) limits exposure and access to the cloud and data centers, delivering the right data to authorized entities only. Safe-T allows visibility and availability of applications, services and networks only after assessing trust, based on policies for authorized user, device, location & application. Safe-T enhances operational productivity, efficiency, security, and compliance by protecting organizations from data exfiltration, leakage, malware, ransomware, and fraud.",
         "public": true
     },     
     {
