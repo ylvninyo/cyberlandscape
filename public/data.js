@@ -1730,6 +1730,17 @@ window.companies = [
         "logo": "./logos/Uponit.png", 
         "homepage": "http://uponit.com", 
         "description": "Uponit is an ad recovery platform for publishers."
+    },
+    {
+        "category": "Web Security", 
+        "name": "GeoEdge", 
+        "subcategory": "Ad Fraud",
+        "crunchbase": "https://www.crunchbase.com/organization/geoedge",
+        "linkedin": "https://www.linkedin.com/company/geoedge/",
+        "twitter": "https://twitter.com/geoedgepro",
+        "logo": "./logos/GeoEdge.png", 
+        "homepage": "https://www.geoedge.com/", 
+        "description": "GeoEdge is the premier provider of ad security and verification solutions for the online ‎and mobile advertising ecosystem. The company ensures high ad quality and verifies that sites ‎and apps offer a clean, safe, and engaging user experience."
     }, 
     {
         "category": "IoT", 
