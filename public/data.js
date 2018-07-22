@@ -1365,9 +1365,13 @@ window.companies = [
     {
         "category": "IoT", 
         "logo": "./logos/SafeRideTechnologies.png", 
-        "name": "SafeRide Technologies", 
-        "subcategory": "Automotive"
-    }, 
+        "name": "SafeRide Technologies",
+        "homepage": "https://saferide.io/",
+        "linkedin": "https://www.linkedin.com/company/saferide-cyber-security/",
+        "crunchbase": "https://www.crunchbase.com/organization/saferide-technologies",
+        "subcategory": "Automotive",
+        "description": "SafeRide is a leading provider of anomaly uncovering and cyber threat prevention solution for connected and autonomous vehicles. In addition to system hardening and conventional threat detection and prevention, the company's unique software uses an AI machine-learning and deep learning framework to analyze the untapped ocean of hints that lie in seemingly disconnected sources of in-vehicle data, to uncover unknown anomalies, threats and insights systematically, and at scale.",
+    },
     {
         "category": "Web Security", 
         "funding": "3M", 
