@@ -615,7 +615,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "26M", 
+        "funding": "69M", 
         "name": "Demisto", 
         "twitter": "https://twitter.com/demistoinc", 
         "linkedin": "https://www.linkedin.com/company/demisto", 
