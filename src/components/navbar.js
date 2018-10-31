@@ -43,7 +43,7 @@ CyberMap is the first live map of Israel’s cybersecurity startup landscape. YL
 {`
 We made this live map to help our industry grow. If you have any questions, comments or ideas on how to improve this map, we would love to hear them.
 
-Send them directly to Idan Ninyo, our CTO: `} <a href="mailto:idan@ylventures.com">idan@ylventures.com</a><br/><br/>
+Send them directly to Ofer Schreiber: `} <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a><br/><br/>
 
 <b>About YL Ventures</b>
 {`
@@ -66,7 +66,7 @@ Want to appear on the map? Here are two ways to submit your company:
 `}
 <b><a href="https://github.com/ylventures/cybermap" target="_blank">Github:</a></b> open a pull request and edit public/data.js
 <br/>
-<b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to <a href="mailto:idan@ylventures.com">idan@ylventures.com</a>
+<b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a>
                         </p>
                     </div>
                 </div>
