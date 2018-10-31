@@ -1818,6 +1818,18 @@ window.companies = [
         "homepage": "http://www.whitesourcesoftware.com", 
         "description": "WhiteSource becomes part of your software development lifecycle (SDLC) and automates the entire process of open source components selection, approval, and management, including finding and fixing vulnerable components. "
     }, 
+	
+    {
+        "category": "Security Operations", 
+        "funding": "11.3M", 
+        "name": "Test123", 
+        "linkedin": "https://www.linkedin.com/company/1179589", 
+        "crunchbase": "https://www.crunchbase.com/organization/wirex-cube-systems", 
+        "logo": "./logos/WireXSystems.jpg", 
+        "homepage": "http://wirexsystems.com/", 
+        "description": "WireX Systems is a network security company that has shifted the paradigm in security investigations. Using Contextual Capture\u2122 technology, the solution continuously translates network traffic into comprehensive intelligence that can be immediately understood and expands forensics history from days to months. Today, leading enterprises choose WireX Systems as a key component in their security infrastructure to accelerate incident response, mitigate data theft and simplify responding to the magnitude of security alerts they must action every day."
+    }, 
+
     {
         "category": "Security Operations", 
         "funding": "11.3M", 
