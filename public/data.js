@@ -16,7 +16,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "30.1M", 
+        "funding": "63.1M", 
         "name": "Twistlock", 
         "twitter": "https://twitter.com/twistlockteam", 
         "linkedin": "https://www.linkedin.com/company/9440582", 
@@ -792,7 +792,7 @@ window.companies = [
     }, 
     {
         "category": "Endpoint Security", 
-        "funding": "8M", 
+        "funding": "23M", 
         "name": "Hysolate", 
         "twitter": "https://twitter.com/HysolateNow", 
         "linkedin": "https://www.linkedin.com/company/18040430/", 
