@@ -1,6 +1,7 @@
 window.companies = [
     {
         "category": "Data Protection", 
+		"funding": "2.1M", 
         "description": "1touch leverages the very best of technology in the fields of unique PII discovery and dynamic asset discovery", 
         "linkedin": "https://www.linkedin.com/company/18546264/", 
         "crunchbase": "https://www.crunchbase.com/organization/1touch-io", 
@@ -38,7 +39,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
-        "funding": "4M", 
+        "funding": "17M", 
         "name": "Axonius", 
         "twitter": "https://twitter.com/axoniusinc", 
         "linkedin": "https://www.linkedin.com/company/18226665/", 
@@ -49,7 +50,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "5.4M", 
+        "funding": "20.4M", 
         "name": "MediGate", 
         "twitter": "https://twitter.com/MedigateLtd", 
         "linkedin": "https://www.linkedin.com/company/18340376/", 
@@ -73,7 +74,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "5.3M", 
+        "funding": "12.3M", 
         "name": "Alcide", 
         "twitter": "https://twitter.com/alcide_io", 
         "linkedin": "https://www.linkedin.com/company/alcide", 
@@ -165,7 +166,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "16.4M", 
+        "funding": "41.4M", 
         "name": "AVANAN", 
         "twitter": "https://www.twitter.com/avanansecurity", 
         "linkedin": "https://www.linkedin.com/company/avanan-inc", 
@@ -239,7 +240,7 @@ window.companies = [
     }, 
     {
         "category": "Network Security", 
-        "funding": "70M", 
+        "funding": "125M", 
         "name": "Cato Networks", 
         "twitter": "https://twitter.com/catonetworks", 
         "linkedin": "https://www.linkedin.com/company/cato-networks", 
@@ -273,6 +274,7 @@ window.companies = [
     },     
     {
         "category": "Web Security", 
+		"funding": "1.6M", 
         "subcategory": "Ad Fraud", 
         "name": "ChameleonX", 
         "linkedin": "https://www.linkedin.com/company/chameleonx", 
@@ -317,7 +319,7 @@ window.companies = [
     }, 
     {
         "category": "Data Protection", 
-        "funding": "10.4M", 
+        "funding": "10.9M", 
         "name": "Cognigo", 
         "twitter": "https://twitter.com/cognigoAI", 
         "linkedin": "https://www.linkedin.com/company/9316905/", 
@@ -346,7 +348,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
-        "funding": "5.7M", 
+        "funding": "6.2M", 
         "name": "Cronus-Cyber-Technologies", 
         "twitter": "https://www.twitter.com/cronuscyber", 
         "linkedin": "https://www.linkedin.com/company/cronus-cyber-technologies", 
@@ -502,6 +504,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
+		"funding": "7M", 
         "subcategory": "Healthcare", 
         "name": "Cynerio", 
         "twitter": "https://twitter.com/cynerio", 
@@ -648,6 +651,7 @@ window.companies = [
     }, 
     {
         "category": "Data Protection", 
+		"funding": "4M", 
         "logo": "./logos/DualityTechnologies.png", 
         "homepage": "http://duality.cloud", 
         "name": "Duality Technologies", 
@@ -707,7 +711,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "65M", 
+        "funding": "115M", 
         "name": "Exabeam", 
         "twitter": "http://twitter.com/exabeam", 
         "linkedin": "http://www.linkedin.com/company/exabeam-inc-", 
@@ -729,6 +733,7 @@ window.companies = [
     }, 
     {
         "category": "Mobile Security", 
+		"funding": "1.3M", 
         "name": "FirstPoint Mobile Guard", 
         "linkedin": "https://www.linkedin.com/company/firstpoint-mobile-gaurd/", 
         "crunchbase": "https://www.crunchbase.com/organization/firstpoint-mobile-guard", 
@@ -749,7 +754,7 @@ window.companies = [
     }, 
     {
         "category": "Fraud & Transactions", 
-        "funding": "50M", 
+        "funding": "100M", 
         "name": "Forter", 
         "twitter": "http://twitter.com/forterfraudfree", 
         "linkedin": "http://www.linkedin.com/company/forter", 
@@ -760,7 +765,7 @@ window.companies = [
     }, 
     {
         "category": "Fraud & Transactions", 
-        "funding": "5M", 
+        "funding": "19M", 
         "name": "Fraugster", 
         "twitter": "https://twitter.com/fraugster", 
         "linkedin": "https://www.linkedin.com/company/fraugster", 
@@ -837,7 +842,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "18M", 
+        "funding": "36M", 
         "name": "Indegy", 
         "twitter": "https://twitter.com/indegycom", 
         "linkedin": "https://www.linkedin.com/company/indegy", 
@@ -932,6 +937,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
+		"funding": "4M",
         "name": "Kindite", 
         "twitter": "https://www.twitter.com/kindite_sec", 
         "linkedin": "https://www.linkedin.com/company/kindite", 
@@ -980,6 +986,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
+		"funding": "10M", 
         "subcategory": "Healthcare", 
         "name": "CyberMDX", 
         "twitter": "https://twitter.com/CyberMDX", 
@@ -1078,6 +1085,7 @@ window.companies = [
     }, 
     {
         "category": "Fraud & Transactions", 
+		"funding": "15M", 
         "name": "nsKnox", 
         "linkedin": "https://www.linkedin.com/company-beta/7972484/", 
         "crunchbase": "https://www.crunchbase.com/organization/nsknox", 
@@ -1098,7 +1106,7 @@ window.companies = [
     }, 
     {
         "category": "Endpoint Security", 
-        "funding": "31M", 
+        "funding": "41M", 
         "name": "Nyotron", 
         "twitter": "https://www.twitter.com/nyotron", 
         "linkedin": "https://www.linkedin.com/company/nyotron", 
@@ -1109,7 +1117,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
-        "funding": "36M", 
+        "funding": "53M", 
         "name": "ObserveIT", 
         "twitter": "http://twitter.com/ObserveIT", 
         "linkedin": "http://www.linkedin.com/company/observeit", 
@@ -1186,7 +1194,7 @@ window.companies = [
     }, 
     {
         "category": "Web Security", 
-        "funding": "34.5M", 
+        "funding": "78M", 
         "name": "PerimeterX", 
         "twitter": "http://twitter.com/perimeterx", 
         "linkedin": "http://www.linkedin.com/company/perimeterx", 
@@ -1218,7 +1226,7 @@ window.companies = [
     }, 
     {
         "category": "Identity & Access Management", 
-        "funding": "10M", 
+        "funding": "27.5M", 
         "name": "Preempt Security", 
         "twitter": "https://twitter.com/preemptsecurity", 
         "linkedin": "https://www.linkedin.com/company/preempt-security", 
@@ -1252,7 +1260,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "2M", 
+        "funding": "4M", 
         "name": "Protego Labs", 
         "twitter": "https://twitter.com/ProtegoLabs", 
         "linkedin": "https://www.linkedin.com/company/protego-labs/", 
@@ -1264,7 +1272,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "3M", 
+        "funding": "10M", 
         "name": "PureSec", 
         "twitter": "https://twitter.com/PureSecTeam", 
         "linkedin": "https://www.linkedin.com/company/puresec-serverless-architectures-security/", 
@@ -1276,6 +1284,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
+		"funding": "18M", 
         "subcategory": "SCADA", 
         "name": "RADiFlow", 
         "twitter": "https://www.twitter.com/radiflowsec", 
@@ -1297,7 +1306,7 @@ window.companies = [
     }, 
     {
         "category": "Email Security", 
-        "funding": "5.8M", 
+        "funding": "7.75M", 
         "subcategory": "CDR",
         "name": "ReSec Technologies", 
         "twitter": "https://twitter.com/ReSecTechnologi", 
@@ -1320,7 +1329,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "6.3M", 
+        "funding": "7.6", 
         "name": "Regulus Cyber", 
         "linkedin": "https://www.linkedin.com/company-beta/10305509/", 
         "subcategory": "Automotive", 
@@ -1374,7 +1383,7 @@ window.companies = [
     },
     {
         "category": "Web Security", 
-        "funding": "3M", 
+        "funding": "10.1M", 
         "name": "Salt", 
         "twitter": "https://twitter.com/Secful", 
         "linkedin": "https://www.linkedin.com/company/secful", 
@@ -1385,6 +1394,7 @@ window.companies = [
     }, 
     {
         "category": "IoT",
+		"funding": "16M", 
         "logo": "./logos/SAMSeamlessNetworks.png",
         "crunchbase": "https://www.crunchbase.com/organization/sam-seamless-network",
         "name": "SAM Seamless Networks",
@@ -1425,7 +1435,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "5M", 
+        "funding": "6.5M", 
         "name": "SecBI", 
         "twitter": "https://twitter.com/secbi", 
         "linkedin": "https://www.linkedin.com/company/5224461", 
@@ -1526,6 +1536,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
+		"funding": "4M",
         "subcategory": "Enterprise Perimeter", 
         "name": "Sepio Systems", 
         "twitter": "https://twitter.com/sepiosys", 
@@ -1547,7 +1558,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "14M", 
+        "funding": "24M", 
         "name": "Siemplify", 
         "twitter": "https://twitter.com/siemplify", 
         "linkedin": "https://www.linkedin.com/company/siemplify", 
@@ -1612,7 +1623,7 @@ window.companies = [
     }, 
     {
         "category": "Application Security", 
-        "funding": "10M", 
+        "funding": "32M", 
         "name": "Snyk", 
         "twitter": "https://www.twitter.com/snyksec", 
         "linkedin": "https://www.linkedin.com/company/snyk", 
@@ -1634,6 +1645,7 @@ window.companies = [
     }, 
     {
         "category": "Web Security", 
+		"funding": "10M",
         "name": "SourceDefense", 
         "twitter": "https://www.twitter.com/sourcedefence", 
         "linkedin": "https://www.linkedin.com/company/source-defense", 
@@ -1644,7 +1656,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "30.5M", 
+        "funding": "55M", 
         "name": "ThetaRay", 
         "twitter": "http://twitter.com/ThetaRayTeam", 
         "linkedin": "http://www.linkedin.com/company/thetaray", 
@@ -1775,7 +1787,7 @@ window.companies = [
     }, 
     {
         "category": "Email Security", 
-        "funding": "6M", 
+        "funding": "14M", 
         "name": "Votiro", 
         "twitter": "http://www.twitter.com/votiro", 
         "linkedin": "https://www.linkedin.com/company/votiro/", 
@@ -1809,7 +1821,7 @@ window.companies = [
     }, 
     {
         "category": "Application Security", 
-        "funding": "11M", 
+        "funding": "46M", 
         "name": "WhiteSource", 
         "twitter": "https://twitter.com/WhiteSourceSoft ", 
         "linkedin": "http://www.linkedin.com/company/white-source", 
@@ -1830,6 +1842,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
+		"funding": "32M",
         "subcategory": "Attack Simulation", 
         "name": "XM Cyber", 
         "twitter": "https://twitter.com/XMCyber_", 
@@ -1842,7 +1855,7 @@ window.companies = [
     
     {
         "category": "Mobile Security", 
-        "funding": "60M", 
+        "funding": "72M", 
         "name": "Zimperium", 
         "twitter": "http://twitter.com/ZIMPERIUM", 
         "linkedin": "http://www.linkedin.com/company/zimperium", 
