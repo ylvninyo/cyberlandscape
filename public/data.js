@@ -1852,7 +1852,14 @@ window.companies = [
         "homepage": "https://xmcyber.com", 
         "description": "XM Cyber provides the first fully automated APT Simulation Platform to continuously expose all attack vectors, above and below the surface, from breach point to any organizational critical asset. This continuous loop of automated red teaming is completed by ongoing and prioritized actionable remediation of organizations\u2019 security gaps. In effect, HaXM by XM Cyber operates as an automated purple team that fluidly combines red team and blue team processes to ensure that organizations are always one step ahead of the hacker.\nXM Cyber was founded by top executives from the Israeli cyber intelligence community and employs an elite team of cyber offense and defense veterans with decades of real-world experience. The company has offices in the US, Israel and in Australia."
     }, 
-    
+    {
+        "category": "Cloud Security", 
+		"name": "Rezilion", 
+        "linkedin": "https://www.linkedin.com/company/rezilion/", 
+        "logo": "./logos/Rezilion.png", 
+        "homepage": "https://www.rezilion.com/", 
+        "description": "Rezilion is making applications and clouds resilient to cyber-attacks Replacing server, network & application security tools with a single autonomous solution"
+    }, 
     {
         "category": "Mobile Security", 
         "funding": "72M", 
