@@ -72,6 +72,17 @@ window.companies = [
         "homepage": "https://karambasecurity.com/", 
         "name": "Karamba Security"
     }, 
+	{
+        "category": "IoT", 
+        "funding": "7.4M", 
+        "description": "C2A offers a comprehensive suite of cyber security solutions, providing in-vehicle end-to-end protection", 
+        "linkedin": "https://www.linkedin.com/company/c2a-security/", 
+        "subcategory": "Automotive", 
+        "crunchbase": "https://www.crunchbase.com/organization/c2a-security", 
+        "logo": "./logos/C2A.png", 
+        "homepage": "https://www.c2a-sec.com/", 
+        "name": "C2A Security"
+    },
     {
         "category": "Cloud Security", 
         "funding": "12.3M", 
@@ -83,6 +94,18 @@ window.companies = [
         "logo": "./logos/Alcide.png", 
         "homepage": "http://www.alcide.io", 
         "description": "Alcide\u2019s Data Center & Cloud Ops Security Platform protects any combination of container, serverless, VM and bare metal. Offering real-time, aerial visibility and granular perspectives of both infrastructure and applications, Alcide secures the data center against tomorrow\u2019s cyber attacks."
+    }, 
+	{
+        "category": "Cloud Security", 
+        "funding": "5.3M", 
+        "name": "Portshift", 
+        "twitter": "https://twitter.com/portshift", 
+        "linkedin": "https://www.linkedin.com/company/portshift/", 
+        "subcategory": "Cloud Native", 
+        "crunchbase": "https://www.crunchbase.com/organization/portshift", 
+        "logo": "./logos/Portshift.png", 
+        "homepage": "http://Portshift.io", 
+        "description": "Identity-based application security, from code to runtime"
     }, 
     {
         "category": "Network Security", 
@@ -467,6 +490,14 @@ window.companies = [
         "logo": "./logos/Cylus.png", 
         "homepage": "http://www.cylus.com", 
         "description": "Cylus is a pioneer in protecting railway and metro systems from a growing number of cyber-threats"
+    }, 
+	{
+        "category": "IoT", 
+        "name": "Cervello", 
+        "linkedin": "https://www.linkedin.com/company/cervello-cyber-security/", 
+        "logo": "./logos/Cervello.png", 
+        "homepage": "https://cervellosec.com/", 
+        "description": "Cervello transforms rail safety and control by providing proven solutions to protect railways against cyber attacks."
     }, 
     {
         "category": "Network Security", 
@@ -1851,6 +1882,17 @@ window.companies = [
         "logo": "./logos/XMCyber.png", 
         "homepage": "https://xmcyber.com", 
         "description": "XM Cyber provides the first fully automated APT Simulation Platform to continuously expose all attack vectors, above and below the surface, from breach point to any organizational critical asset. This continuous loop of automated red teaming is completed by ongoing and prioritized actionable remediation of organizations\u2019 security gaps. In effect, HaXM by XM Cyber operates as an automated purple team that fluidly combines red team and blue team processes to ensure that organizations are always one step ahead of the hacker.\nXM Cyber was founded by top executives from the Israeli cyber intelligence community and employs an elite team of cyber offense and defense veterans with decades of real-world experience. The company has offices in the US, Israel and in Australia."
+    }, 
+	{
+        "category": "IOT", 
+		"funding": "4.5M",
+        "subcategory": "Smart home", 
+        "name": "Firedome", 
+        "twitter": "https://twitter.com/firedome", 
+        "linkedin": "https://www.linkedin.com/company/firedome/", 
+        "logo": "./logos/Firedome.png", 
+        "homepage": "https://firedome.io/", 
+        "description": "Firedome’s tailormade solution for home-IoT companies is designed to proactively prevent, detect, and respond to inevitable vulnerabilities in connected devices."
     }, 
     {
         "category": "Cloud Security", 
