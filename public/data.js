@@ -103,7 +103,7 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/portshift/", 
         "subcategory": "Cloud Native", 
         "crunchbase": "https://www.crunchbase.com/organization/portshift", 
-        "logo": "./logos/Portshift.png", 
+        "logo": "./logos/Portshift.jpg", 
         "homepage": "http://Portshift.io", 
         "description": "Identity-based application security, from code to runtime"
     }, 
@@ -495,7 +495,7 @@ window.companies = [
         "category": "IoT", 
         "name": "Cervello", 
         "linkedin": "https://www.linkedin.com/company/cervello-cyber-security/", 
-        "logo": "./logos/Cervello.png", 
+        "logo": "./logos/Cervello.jpg", 
         "homepage": "https://cervellosec.com/", 
         "description": "Cervello transforms rail safety and control by providing proven solutions to protect railways against cyber attacks."
     }, 
@@ -648,17 +648,6 @@ window.companies = [
         "description": "Deep Instinct applies artificial intelligence\u2019s deep learning to cybersecurity. Leveraging deep learning\u2019s predictive capabilities, Deep Instinct\u2019s on-device solution protects against zero-day threats and APT attacks with unmatched accuracy. Deep Instinct safeguards the enterprise\u2019s endpoints and/or any mobile devices against any threat, on any infrastructure, whether or not connected to the network or to the Internet. By applying deep learning technology to cybersecurity, enterprises can now gain unmatched protection against unknown and evasive cyber-attacks from any source. Deep Instinct brings a completely new approach to cybersecurity enabling cyber-attacks to be identified and blocked in real-time before any harm can occur."
     }, 
     {
-        "category": "Security Operations", 
-        "funding": "69M", 
-        "name": "Demisto", 
-        "twitter": "https://twitter.com/demistoinc", 
-        "linkedin": "https://www.linkedin.com/company/demisto", 
-        "crunchbase": "https://www.crunchbase.com/organization/demisto", 
-        "logo": "./logos/Demisto.png", 
-        "homepage": "http://www.demisto.com", 
-        "description": "Demisto Enterprise is the first Security Operations Platform to combine intelligent automation and collaboration into a single ChatOps interface. Demisto\u2019s automation is provided by DBot who interacts with your team via ChatOps for playbook-based workflows, cross-correlation, and information sharing, helping security teams scale while working and learning the way humans are wired to \u2013 together."
-    }, 
-    {
         "category": "Data Protection", 
         "funding": "10M", 
         "name": "DocAuthority", 
@@ -668,17 +657,6 @@ window.companies = [
         "logo": "./logos/DocAuthority.png", 
         "homepage": "http://www.docauthority.com", 
         "description": "DocAuthority is developing a revolutionary document control solution. DocAuthority solves this by automatically discovering and accurately identifying unprotected sensitive documents, thus enabling a broad yet business-friendly security policy. "
-    }, 
-    {
-        "category": "Cloud Security", 
-        "funding": "29.3M", 
-        "name": "Dome9 Security", 
-        "twitter": "http://twitter.com/Dome9", 
-        "linkedin": "http://www.linkedin.com/company/1548703", 
-        "crunchbase": "https://www.crunchbase.com/organization/dome9-security", 
-        "logo": "./logos/Dome9Security.png", 
-        "homepage": "https://dome9.com", 
-        "description": "Dome9 is the leading cloud firewall management service.Their patent-pending security automation creates a strong, front-line defense that stops zero-day vulnerabilities and exploits, secures remote access, and centralizes policy management."
     }, 
     {
         "category": "Data Protection", 
@@ -936,17 +914,6 @@ window.companies = [
         "description": "IronScales is a comprehensive phishing mitigation solution designed to protect your enterprise from cyber attacks. Based on a gamified training program and a unique crowd-wisdom approach, the IronTraps automatic mitigation response* is immediately executed when a phishing attack is reported by employees."
     },     
     {
-        "category": "Network Security", 
-        "funding": "5M", 
-        "name": "Javelin Networks", 
-        "twitter": "https://www.twitter.com/javelinnetworks", 
-        "linkedin": "https://www.linkedin.com/company/javelin-networks", 
-        "crunchbase": "https://www.crunchbase.com/organization/javelin-networks", 
-        "logo": "./logos/JavelinNetworks.png", 
-        "homepage": "http://javelin-networks.com/", 
-        "description": "Javelin protects Active Directory from every endpoint. Agentless.\n\n Active Directory exposes all of the enterprise's identities, applications, and resources to every endpoint in the network by design, making it the number one target for attackers and a challenging asset to protect.\n\nFounded by post-exploitation experts with a mission to stop compromise in Active Directory networks around the world, Javelin AD|Protect secures AD and turns it into an Intrusion Detection and Containment system."
-    }, 
-    {
         "category": "Mobile Security", 
         "funding": "10M", 
         "name": "Kaymera Technologies", 
@@ -1002,18 +969,6 @@ window.companies = [
         "logo": "./logos/LogDog.png", 
         "homepage": "http://www.GetLogDog.com", 
         "description": "1 in 4 online accounts gets hacked. LogDog gives you free protection from hackers and identity theft."
-    }, 
-    {
-        "category": "Network Security", 
-        "funding": "14M", 
-        "name": "Luminate Security", 
-        "twitter": "https://twitter.com/luminatesec", 
-        "linkedin": "https://www.linkedin.com/company/luminatesecurity/", 
-        "subcategory": "SDP & SD-WAN", 
-        "crunchbase": "https://www.crunchbase.com/organization/luminate-security", 
-        "logo": "./logos/LuminateSecurity.png", 
-        "homepage": "https://luminate.io", 
-        "description": "Luminate enables IT teams to create Zero Trust Application Access architecture through connecting any user from any device to any corporate application while seamlessly reducing attack surface, increasing visibility into application usage and improving corporate compliance. They secure access to any corporate resource or application, hosted on any datacenter, whether on the cloud or on-premises.  They  leverage the Software-Defined Perimeter principles: resources are always cloaked from public discovery, access to specific participants is restricted via trust broker, users are authenticated and authorized prior to accessing any application. Luminate Secure Access Cloud is agentless, it is deployed in less than 5 minutes and, once in place, it provides both full visibility of users\u2019 actions when accessing corporate resources, as well as complete governance and risk mitigation of these resources."
     }, 
     {
         "category": "IoT", 
@@ -1730,17 +1685,6 @@ window.companies = [
         "logo": "./logos/Tufin.png", 
         "homepage": "http://www.tufin.com/", 
         "description": "Tufin is the leader in Network Security Policy Orchestration for enterprise cybersecurity. More than half of the top 50 companies in the Forbes Global 2000 turn to Tufin to simplify management of some of the largest, most complex networks in the world, consisting of thousands of firewall and network devices and emerging hybrid cloud infrastructures. Enterprises select the company\u2019s award-winning Tufin Orchestration Suite\u2122 to increase agility in the face of ever-changing business demands while maintaining a robust security posture. The Suite reduces the attack surface and meets the need for greater visibility into secure and reliable application connectivity. Its network security automation enables enterprises to implement changes in minutes with proactive risk analysis and continuous policy compliance. Tufin serves over 2,000 customers spanning all industries and geographies; its products and technologies are patent-protected in the U.S. and other countries."
-    }, 
-    {
-        "category": "Web Security", 
-        "funding": "2M", 
-        "name": "Unbotify", 
-        "twitter": "https://twitter.com/Unbotify", 
-        "linkedin": "https://www.linkedin.com/company/unbotify", 
-        "crunchbase": "https://www.crunchbase.com/organization/unbotify", 
-        "logo": "./logos/Unbotify.png", 
-        "homepage": "http://www.unbotify.com", 
-        "description": "Unbotify is engaged in the development of behavioral biometric analysis solutions which are focused on bot detection. Its services include ad-fraud mitigation, content protection, clean analytics, login page protection, layer 7 DDoS, and more."
     }, 
     {
         "category": "Data Protection", 
