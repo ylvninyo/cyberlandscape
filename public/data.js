@@ -153,7 +153,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "38M", 
+        "funding": "100M", 
         "name": "Aqua Security", 
         "twitter": "http://twitter.com/AquaSecTeam", 
         "linkedin": "https://www.linkedin.com/company/10034420", 
@@ -165,7 +165,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "47M", 
+        "funding": "112M", 
         "name": "Armis Security", 
         "twitter": "https://www.twitter.com/armissecurity", 
         "linkedin": "https://www.linkedin.com/company/armis-security", 
@@ -456,7 +456,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "29M", 
+        "funding": "47M", 
         "name": "CyberX", 
         "twitter": "http://twitter.com/CyberX_Labs", 
         "linkedin": "https://www.linkedin.com/company/4852386", 
@@ -523,7 +523,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
-        "funding": "3M", 
+        "funding": "11M", 
         "name": "Cymulate", 
         "twitter": "https://twitter.com/CymulateLtd", 
         "linkedin": "https://www.linkedin.com/company/cymulate-ltd", 
@@ -700,11 +700,11 @@ window.companies = [
     {
         "category": "Endpoint Security", 
         "name": "Ericom Software", 
-        "twitter": "https://www.twitter.com/ericomgal", 
+        "twitter": "https://twitter.com/Ericom_Software", 
         "linkedin": "https://www.linkedin.com/company/ericom-software", 
         "crunchbase": "https://www.crunchbase.com/organization/ericom-software", 
         "logo": "./logos/EricomSoftware.png", 
-        "homepage": "http://www.ericom.com, www.EricomShield.com", 
+        "homepage": "https://www.ericom.com", 
         "description": "Ericom Software is one of the leaders in Web Security, Cloud Enablement,  and secure, centrally managed access to applications, desktops and data."
     }, 
     {
@@ -720,7 +720,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "115M", 
+        "funding": "190M", 
         "name": "Exabeam", 
         "twitter": "http://twitter.com/exabeam", 
         "linkedin": "http://www.linkedin.com/company/exabeam-inc-", 
@@ -742,7 +742,7 @@ window.companies = [
     }, 
     {
         "category": "Mobile Security", 
-		"funding": "1.3M", 
+		"funding": "2.5M", 
         "name": "FirstPoint Mobile Guard", 
         "linkedin": "https://www.linkedin.com/company/firstpoint-mobile-gaurd/", 
         "crunchbase": "https://www.crunchbase.com/organization/firstpoint-mobile-guard", 
@@ -981,18 +981,6 @@ window.companies = [
         "logo": "./logos/CyberMDX.png", 
         "homepage": "https://cybermdx.com/", 
         "description": "CyberMDX provides security and visibility for Medical Devices."
-    }, 
-    {
-        "category": "Network Security", 
-        "funding": "10M", 
-        "name": "Meta Networks", 
-        "twitter": "https://twitter.com/metanaas", 
-        "linkedin": "https://www.linkedin.com/company/metanaas/", 
-        "subcategory": "SDP & SD-WAN", 
-        "crunchbase": "https://www.crunchbase.com/organization/meta-networks", 
-        "logo": "./logos/MetaNetworks.png", 
-        "homepage": "https://www.metanetworks.com", 
-        "description": "With applications, storage and workloads migrating to the cloud, and employees on the move, the conventional LAN/WAN paradigm is breaking down. Enterprise networks are increasingly fragmented, vulnerable, and expensive to operate."
     }, 
     {
         "category": "Network Security",
@@ -1289,6 +1277,15 @@ window.companies = [
         "logo": "./logos/Radware.png", 
         "homepage": "https://www.google.com/finance?q=NASDAQ:RDWR", 
         "description": "Radware (NASDAQ: RDWR), is a global leader of application delivery and application security solutions for virtual and cloud data centers. Its award-winning solutions portfolio delivers full resilience for business-critical applications, maximum IT efficiency, and complete business agility. Radwares solutions empower more than 10,000 enterprise and carrier customers worldwide to adapt to market challenges quickly, maintain business continuity and achieve maximum productivity while keeping costs down.For more information, please visit www.radware.com.Radware encourages you to join their community and follow them on: LinkedIn, Radware Blog, Twitter, YouTube and the Radware Connect app for iPhone."
+	{	
+	"category": "Web Security", 
+        "subcategory": "WAF",
+		"funding": "2.05M",
+        "name": "Sabres Security", 
+        "twitter": "http://twitter.com/radware", 
+        "logo": "./logos/sabres.png", 
+        "homepage": "https://www.sabressecurity.com/", 
+        "description": "Sabres is a web application security platform with a WAF and a RASP technologies"	
     }, 
     {
         "category": "Email Security", 
@@ -1402,6 +1399,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
+		"funding": "6.5M",
         "logo": "./logos/SayataLabs.png", 
         "crunchbase": "https://www.crunchbase.com/organization/sayata-labs", 
         "name": "Sayata Labs", 
@@ -1522,7 +1520,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-		"funding": "4M",
+		"funding": "7M",
         "subcategory": "Enterprise Perimeter", 
         "name": "Sepio Systems", 
         "twitter": "https://twitter.com/sepiosys", 
@@ -1533,14 +1531,14 @@ window.companies = [
         "description": "The Latin word \u201cSepio\u201d means Protect and Seal."
     }, 
     {
-        "category": "Data Protection", 
+        "category": "Vulnerability & Risk Mgmt", 
         "name": "Shieldox", 
         "twitter": "https://twitter.com/ShieldoxTeam", 
         "linkedin": "https://www.linkedin.com/company-beta/10297664/", 
         "crunchbase": "https://www.crunchbase.com/organization/shieldox", 
         "logo": "./logos/Shieldox.png", 
         "homepage": "http://shieldox.com", 
-        "description": "Shieldox is an autonomous policy decision point that protects the sensitive documents in motion. Shieldox allows users to collaborate safely when exchanging sensitive files, while retaining the ability to mitigate any potential exposure. \nWith its Backward Protection, Shieldox can protect all the previous versions of your documents."
+        "description": "Shieldox is the first Autonomous Insights solution for cloud security. Our unique AI understands the context of cloud collaboration to tell threats apart from safe sharing."
     }, 
     {
         "category": "Security Operations", 
@@ -1742,7 +1740,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "13M", 
+        "funding": "45M", 
         "name": "VDOO", 
         "twitter": "https://twitter.com/vdoosecurity", 
         "linkedin": "https://www.linkedin.com/company/18333531/", 
@@ -1856,5 +1854,34 @@ window.companies = [
         "logo": "./logos/Zimperium.png", 
         "homepage": "https://www.zimperium.com", 
         "description": "ZIMPERIUM is a mobile security startup that offers protection for mobile devices against the next generation of advanced mobile attacks. Its flagship solutions protect mobile devices from modern cyber security threats."
+    }
+	{
+        "category": "Blockchain Security", 
+        "funding": "6.5M", 
+        "name": "Curv", 
+        "linkedin": "https://www.linkedin.com/company/curv/", 
+        "crunchbase": "https://www.crunchbase.com/organization/zimperium", 
+        "logo": "./logos/Curv.png",
+        "homepage": "https://www.curv.co", 
+        "description": "Institutional Wallet Service powered by MPC cryptography."
+    }
+	{
+        "category": "Blockchain Security", 
+        "funding": "4M", 
+        "name": "KZen Networks", 
+        "linkedin": "https://www.linkedin.com/company/kzen-networks/", 
+        "crunchbase": "https://www.crunchbase.com/organization/kzen-networks",
+		"twitter": "https://twitter.com/kzencorp",
+        "logo": "./logos/Kzen.png",
+        "homepage": "https://www.kzencorp.com/", 
+        "description": "KZen Networks develops a non-custodial digital currency wallet that removes the need to secure and manage users' private keys."
+    }
+	{
+        "category": "Blockchain Security", 
+        "name": "Fireblocks", 
+        "crunchbase": "https://www.crunchbase.com/organization/fireblocks",
+		"logo": "./logos/Fireblocks.svg",
+        "homepage": "https://www.fireblocks.com/", 
+        "description": "The Digital Asset Security Platform"
     }
 ]
