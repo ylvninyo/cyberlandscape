@@ -1927,7 +1927,7 @@ window.companies = [
         "name": "KZen Networks", 
         "linkedin": "https://www.linkedin.com/company/kzen-networks/", 
         "crunchbase": "https://www.crunchbase.com/organization/kzen-networks",
-		"twitter": "https://twitter.com/kzencorp",
+	    "twitter": "https://twitter.com/kzencorp",
         "logo": "./logos/Kzen.png",
         "homepage": "https://www.kzencorp.com/", 
         "description": "KZen Networks develops a non-custodial digital currency wallet that removes the need to secure and manage users' private keys."
