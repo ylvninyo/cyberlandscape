@@ -1880,8 +1880,7 @@ window.companies = [
         "category": "Blockchain Security", 
         "name": "Fireblocks", 
         "crunchbase": "https://www.crunchbase.com/organization/fireblocks",
-		"logo": "./logos/Fireblocks.svg",
-        "homepage": "https://www.fireblocks.com/", 
+		"homepage": "https://www.fireblocks.com/", 
         "description": "The Digital Asset Security Platform"
     }
 ]
