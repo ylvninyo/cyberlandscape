@@ -1312,17 +1312,16 @@ window.companies = [
         "logo": "./logos/RADiFlow.png", 
         "homepage": "http://www.radiflow.com/", 
         "description": "Comprehensive yet simple security solutions to protect your critical assets"
-    },
-	{
-		"category": "Web Security",
-		"subcategory": "WAF",
-		"name": "Radware",
-		"twitter": "http://twitter.com/radware",
-		"crunchbase": "https://www.crunchbase.com/organization/radware",
-		"logo": "./logos/Radware.png",
-		"homepage": "https://www.google.com/finance?q=NASDAQ:RDWR",
-		"description": "Radware (NASDAQ: RDWR), is a global leader of application delivery and application security solutions for virtual and cloud data centers. Its award-winning solutions portfolio delivers full resilience for business-critical applications, maximum IT efficiency, and complete business agility. Radwares solutions empower more than 10,000 enterprise and carrier customers worldwide to adapt to market challenges quickly, maintain business continuity and achieve maximum productivity while keeping costs down.For more information, please visit www.radware.com.Radware encourages you to join their community and follow them on: LinkedIn, Radware Blog, Twitter, YouTube and the Radware Connect app for iPhone."
-	},
+    }, 
+    {
+        "category": "Web Security", 
+        "subcategory": "WAF", 
+        "name": "Radware", 
+        "twitter": "http://twitter.com/radware", 
+        "crunchbase": "https://www.crunchbase.com/organization/radware", 
+        "logo": "./logos/Radware.png", 
+        "homepage": "https://www.google.com/finance?q=NASDAQ:RDWR", 
+        "description": "Radware (NASDAQ: RDWR), is a global leader of application delivery and application security solutions for virtual and cloud data centers. Its award-winning solutions portfolio delivers full resilience for business-critical applications, maximum IT efficiency, and complete business agility. Radwares solutions empower more than 10,000 enterprise and carrier customers worldwide to adapt to market challenges quickly, maintain business continuity and achieve maximum productivity while keeping costs down.For more information, please visit www.radware.com.Radware encourages you to join their community and follow them on: LinkedIn, Radware Blog, Twitter, YouTube and the Radware Connect app for iPhone."
 	{	
 	"category": "Web Security", 
         "subcategory": "WAF",
@@ -1911,7 +1910,7 @@ window.companies = [
         "logo": "./logos/Zimperium.png", 
         "homepage": "https://www.zimperium.com", 
         "description": "ZIMPERIUM is a mobile security startup that offers protection for mobile devices against the next generation of advanced mobile attacks. Its flagship solutions protect mobile devices from modern cyber security threats."
-    },
+    }
 	{
         "category": "Blockchain Security", 
         "funding": "6.5M", 
@@ -1921,18 +1920,18 @@ window.companies = [
         "logo": "./logos/Curv.png",
         "homepage": "https://www.curv.co", 
         "description": "Institutional Wallet Service powered by MPC cryptography."
-    },
+    }
 	{
         "category": "Blockchain Security", 
         "funding": "4M", 
         "name": "KZen Networks", 
         "linkedin": "https://www.linkedin.com/company/kzen-networks/", 
         "crunchbase": "https://www.crunchbase.com/organization/kzen-networks",
-		"twitter": "https://twitter.com/kzencorp",
+	    "twitter": "https://twitter.com/kzencorp",
         "logo": "./logos/Kzen.png",
         "homepage": "https://www.kzencorp.com/", 
         "description": "KZen Networks develops a non-custodial digital currency wallet that removes the need to secure and manage users' private keys."
-    },
+    }
 	{
         "category": "Blockchain Security", 
         "name": "Fireblocks", 
