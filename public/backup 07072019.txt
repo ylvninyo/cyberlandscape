@@ -1,4 +1,4 @@
-window.companies = [
+﻿window.companies = [
     {
         "category": "Data Protection", 
 		"funding": "2.1M", 
@@ -59,17 +59,6 @@ window.companies = [
         "logo": "./logos/MediGate.png", 
         "homepage": "https://www.medigate.io/", 
         "description": "Medigate provides a dedicated platform for securing networked medical devices that are connected to electronic medical records, device servers, other enterprise systems and the internet. Fusing the knowledge and understanding of medical workflow and device identity and protocols with the reality of today\u2019s cybersecurity threats, Medigate delivers complete visibility into devices and risk, detects anomalies and actively blocks malicious activities. Medigate enables providers to ensure the delivery of critical treatment and the protection of patient personal and private information."
-    }, 
-	{
-        "category": "IoT", 
-        "funding": "2.5M", 
-        "name": "Sternum", 
-        "linkedin": "https://www.linkedin.com/company/sternumiot/", 
-        "subcategory": "Healthcare", 
-        "crunchbase": "https://www.crunchbase.com/organization/sternum", 
-        "logo": "./logos/Sternum.png", 
-        "homepage": "https://www.sternumiot.com/", 
-        "description": "Sternum provides reliable and effective endpoint security for any IoT device, using robust technology and seamless integration."
     }, 
     {
         "category": "IoT", 
