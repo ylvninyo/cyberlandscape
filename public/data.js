@@ -505,7 +505,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "5M", 
+        "funding": "16.7M", 
         "name": "Cylus", 
         "linkedin": "https://www.linkedin.com/company/18413393/", 
         "crunchbase": "https://www.crunchbase.com/organization/cylus", 
@@ -693,14 +693,14 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "29.3M", 
-        "name": "Dome9 Security", 
-        "twitter": "http://twitter.com/Dome9", 
-        "linkedin": "http://www.linkedin.com/company/1548703", 
-        "crunchbase": "https://www.crunchbase.com/organization/dome9-security", 
-        "logo": "./logos/Dome9Security.png", 
-        "homepage": "https://dome9.com", 
-        "description": "Dome9 is the leading cloud firewall management service.Their patent-pending security automation creates a strong, front-line defense that stops zero-day vulnerabilities and exploits, secures remote access, and centralizes policy management."
+        "funding": "6.5M", 
+        "name": "Orca Security", 
+        "twitter": "https://twitter.com/OrcaSec", 
+        "linkedin": "https://www.linkedin.com/company/orca-security/", 
+        "crunchbase": "https://www.crunchbase.com/organization/orca-security#section-overview", 
+        "logo": "./logos/Orca.png", 
+        "homepage": "https://orca.security/", 
+        "description": "The Orca Cloud Visibility Platform utilizes its unique SideScanning technology to deliver comprehensive full-stack visibility into your cloud infrastructure."
     }, 
     {
         "category": "Data Protection", 
@@ -772,7 +772,18 @@ window.companies = [
         "logo": "./logos/exabeam.png", 
         "homepage": "http://www.exabeam.com/", 
         "description": "Exabeam is a big data security analytics company that provides enterprises with advanced user behavior intelligence to unlock the potential of existing security information and event management (SIEM) and log management data repositories, enabling IT security teams to more quickly detect and respond to cyberattacks and insider threats in real time. The company\u2019s user behavior intelligence technology fundamentally changes the way cyberattacks are detected and simplifies security operations by focusing on attacker behavior rather than ever-changing malware and tools, shining a spotlight on suspicious network activity and reducing the noise of false positive security alerts. Through extraction and enrichment of log feeds, user session tracking, behavior analysis and event risk scoring, Exabeam gives IT security teams the ability to detect and track credential use in all parts of the attack chain and prioritize responses."
-    }, 
+    },
+    {
+        "category": "Security Operations", 
+        "funding": "5.4M", 
+        "name": "Hunters.AI", 
+        "twitter": "https://twitter.com/hunters_ai", 
+        "linkedin": "https://www.linkedin.com/company/hunters-ai/", 
+        "crunchbase": "https://www.crunchbase.com/organization/hunters-ai", 
+        "logo": "./logos/Hunters.png", 
+        "homepage": "https://hunters.ai/", 
+        "description": "Hunters is the industry’s first autonomous hunting solution. Hunters combines its unique Attack Intelligence, Hunting AI, and continuous automation with the enterprise’s existing security data to transform threat hunting from hunt and hope to hunting that works"
+    },	
     {
         "category": "IoT", 
         "subcategory": "SCADA", 
@@ -840,7 +851,8 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "subcategory": "Automotive", 
+        "subcategory": "Automotive",
+		"funding": "21M", 
         "name": "GuardKnox", 
         "linkedin": "https://www.linkedin.com/company/17883057", 
         "crunchbase": "https://www.crunchbase.com/organization/guardknox", 
@@ -1452,7 +1464,7 @@ window.companies = [
         "homepage": "https://www.securingsam.com/",
         "linkedin": "https://www.linkedin.com/company/sam-seamless-network/",
         "description": "SAM protects the connected home by securing threats right at the source. With a software-only solution, SAM uses the network gateway to protect all connected devices in the home. Securing communication between smart devices and the network, means ISPs can ensure their customers are using their connected home in the safest way.",
-        "subcategory": "Smart Home"
+        "subcategory": "Smart home"
     }, 
     {
         "category": "Email Security", 
