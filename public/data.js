@@ -363,17 +363,6 @@ window.companies = [
         "description": "Claroty's mission is to protect industrial control networks from cyber-attacks; ensuring safe and continuous operation of the world most critical infrastructures. Claroty\u2019s integrated cybersecurity suite was designed to address inherent shortcomings in industrial control network security and to protect the safety of people, industrial assets, and critical processes from cyber-attacks.\n"
     }, 
     {
-        "category": "Data Protection", 
-        "funding": "10.9M", 
-        "name": "Cognigo", 
-        "twitter": "https://twitter.com/cognigoAI", 
-        "linkedin": "https://www.linkedin.com/company/9316905/", 
-        "crunchbase": "https://www.crunchbase.com/organization/cognigo", 
-        "logo": "./logos/Cognigo.png", 
-        "homepage": "https://www.cognigo.com/", 
-        "description": "Cognigo helps to achieve data security and GDPR compliance in days, not months - through cognitive computing.  Cognigo's DataSense is a single point of control to manage and secure critical data assets and PIIs. Through advanced machine learning algorithms, DataSense is able to understand and classify data, enforce compliance and security policies and to orchestrate other data security platforms. We proudly help leading companies worldwide to successfully achieve better data security and compliance. "
-    }, 
-    {
         "category": "Mobile Security", 
         "name": "CommuniTake-Technologies", 
         "crunchbase": "https://www.crunchbase.com/organization/communitake", 
@@ -764,7 +753,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "190M", 
+        "funding": "193M", 
         "name": "Exabeam", 
         "twitter": "http://twitter.com/exabeam", 
         "linkedin": "http://www.linkedin.com/company/exabeam-inc-", 
@@ -1622,7 +1611,7 @@ window.companies = [
     }, 
     {
         "category": "Security Operations", 
-        "funding": "24M", 
+        "funding": "54M", 
         "name": "Siemplify", 
         "twitter": "https://twitter.com/siemplify", 
         "linkedin": "https://www.linkedin.com/company/siemplify", 
@@ -1968,7 +1957,8 @@ window.companies = [
         "description": "KZen Networks develops a non-custodial digital currency wallet that removes the need to secure and manage users' private keys."
     },
 	{
-        "category": "Blockchain Security", 
+        "category": "Blockchain Security",
+        "funding": "16M",		
         "name": "Fireblocks", 
         "crunchbase": "https://www.crunchbase.com/organization/fireblocks",
 		"homepage": "https://www.fireblocks.com/", 
