@@ -1961,7 +1961,8 @@ window.companies = [
         "funding": "16M",		
         "name": "Fireblocks", 
         "crunchbase": "https://www.crunchbase.com/organization/fireblocks",
-		"homepage": "https://www.fireblocks.com/", 
+		"homepage": "https://www.fireblocks.com/",
+		"logo": "./logos/Fireblocks.png",
         "description": "The Digital Asset Security Platform"
     }
 ]
