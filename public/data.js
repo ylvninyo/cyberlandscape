@@ -162,6 +162,17 @@ window.companies = [
         "homepage": "http://www.apolloshield.com/", 
         "description": "ApolloShield develops the world's first active, plug & play anti-drone system. ApolloShield detects unauthorized drones and sends them a \"go home\" command, disconnecting the original operator and forcing them to land safely. ApolloShield detects supported drones using multiple technologies including cameras and audio and radio sensors. ApolloShield can estimate the location of the detected drones and their operators, allowing security teams to assess the risk. ApolloShield also finds the unique identifiers of most drones, allowing law enforcement agencies to pursue irresponsible operators."
     }, 
+	{
+        "category": "IoT", 
+        "funding": "2M", 
+        "name": "InfiniDome", 
+        "linkedin": "https://www.linkedin.com/company/gps-dome-ltd/", 
+        "subcategory": "Drones", 
+        "crunchbase": "https://www.crunchbase.com/organization/gpsdome", 
+        "logo": "./logos/InfiniDome.jpg", 
+        "homepage": "https://www.gpsdome.com/", 
+        "description": "InfiniDome provides front-end cyber solutions protecting wireless communications from jamming and spoofing attacks"
+    },
     {
         "category": "Cloud Security", 
         "funding": "100M", 
