@@ -1869,7 +1869,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/white-source", 
         "logo": "./logos/WhiteSource.png", 
         "homepage": "http://www.whitesourcesoftware.com", 
-        "description": "WhiteSource becomes part of your software development lifecycle (SDLC) and automates the entire process of open source components selection, approval, and management, including finding and fixing vulnerable components. "
+        "description": "WhiteSource helps businesses all over the world to develop better software by harnessing the power of open source. WhiteSource secures and manages open source components in your products. WhiteSource fully automates the entire process of open source components selection, approval, tracking and management, including real-time alerts on vulnerable and problematic open source components, customized reports, enforcing policies automatically and more"
     }, 
     {
         "category": "Security Operations", 
