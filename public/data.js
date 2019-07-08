@@ -413,7 +413,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
-        "funding": "4M", 
+        "funding": "12M", 
         "name": "Cyber-Observer", 
         "linkedin": "https://www.linkedin.com/company/observer-technologies", 
         "crunchbase": "https://www.crunchbase.com/organization/cyber observer", 
@@ -657,17 +657,6 @@ window.companies = [
         "logo": "./logos/DeepInstinct.png", 
         "homepage": "http://www.deepinstinct.com", 
         "description": "Deep Instinct applies artificial intelligence\u2019s deep learning to cybersecurity. Leveraging deep learning\u2019s predictive capabilities, Deep Instinct\u2019s on-device solution protects against zero-day threats and APT attacks with unmatched accuracy. Deep Instinct safeguards the enterprise\u2019s endpoints and/or any mobile devices against any threat, on any infrastructure, whether or not connected to the network or to the Internet. By applying deep learning technology to cybersecurity, enterprises can now gain unmatched protection against unknown and evasive cyber-attacks from any source. Deep Instinct brings a completely new approach to cybersecurity enabling cyber-attacks to be identified and blocked in real-time before any harm can occur."
-    }, 
-    {
-        "category": "Security Operations", 
-        "funding": "69M", 
-        "name": "Demisto", 
-        "twitter": "https://twitter.com/demistoinc", 
-        "linkedin": "https://www.linkedin.com/company/demisto", 
-        "crunchbase": "https://www.crunchbase.com/organization/demisto", 
-        "logo": "./logos/Demisto.png", 
-        "homepage": "http://www.demisto.com", 
-        "description": "Demisto Enterprise is the first Security Operations Platform to combine intelligent automation and collaboration into a single ChatOps interface. Demisto\u2019s automation is provided by DBot who interacts with your team via ChatOps for playbook-based workflows, cross-correlation, and information sharing, helping security teams scale while working and learning the way humans are wired to \u2013 together."
     }, 
     {
         "category": "Data Protection", 
@@ -1053,6 +1042,7 @@ window.companies = [
     {
         "category": "Network Security",
         "name": "Perimeter 81", 
+		"funding": "5M",
         "twitter": "https://twitter.com/Perimeter_81", 
         "linkedin": "https://www.linkedin.com/company/perimeter-81/", 
         "subcategory": "SDP & SD-WAN", 
@@ -1620,6 +1610,16 @@ window.companies = [
         "homepage": "http://www.siemplify.co", 
         "description": "Siemplify provides a holistic Security Operations Platform that empowers security analysts to work smarter and respond faster. Siemplify uniquely combines security orchestration and automation with patented contextual investigation and case management to deliver intuitive, consistent and measurable security operations processes. "
     }, 
+	{
+        "category": "Security Operations", 
+        "name": "SNDBOX", 
+        "twitter": "https://twitter.com/sndboxcom", 
+        "linkedin": "https://www.linkedin.com/company/sndbox.com/", 
+        "crunchbase": "https://www.crunchbase.com/organization/sndbox", 
+        "logo": "./logos/SNDBOX.png", 
+        "homepage": "https://app.sndbox.com/login", 
+        "description": "Designed by researchers for researchers, the world’s first AI malware research platform, offering never-seen-before malware analysis visibility."
+    },
     {
         "category": "IoT", 
         "funding": "3.5M", 
@@ -1752,17 +1752,6 @@ window.companies = [
         "logo": "./logos/Tufin.png", 
         "homepage": "http://www.tufin.com/", 
         "description": "Tufin is the leader in Network Security Policy Orchestration for enterprise cybersecurity. More than half of the top 50 companies in the Forbes Global 2000 turn to Tufin to simplify management of some of the largest, most complex networks in the world, consisting of thousands of firewall and network devices and emerging hybrid cloud infrastructures. Enterprises select the company\u2019s award-winning Tufin Orchestration Suite\u2122 to increase agility in the face of ever-changing business demands while maintaining a robust security posture. The Suite reduces the attack surface and meets the need for greater visibility into secure and reliable application connectivity. Its network security automation enables enterprises to implement changes in minutes with proactive risk analysis and continuous policy compliance. Tufin serves over 2,000 customers spanning all industries and geographies; its products and technologies are patent-protected in the U.S. and other countries."
-    }, 
-    {
-        "category": "Web Security", 
-        "funding": "2M", 
-        "name": "Unbotify", 
-        "twitter": "https://twitter.com/Unbotify", 
-        "linkedin": "https://www.linkedin.com/company/unbotify", 
-        "crunchbase": "https://www.crunchbase.com/organization/unbotify", 
-        "logo": "./logos/Unbotify.png", 
-        "homepage": "http://www.unbotify.com", 
-        "description": "Unbotify is engaged in the development of behavioral biometric analysis solutions which are focused on bot detection. Its services include ad-fraud mitigation, content protection, clean analytics, login page protection, layer 7 DDoS, and more."
     }, 
     {
         "category": "Data Protection", 
@@ -1960,6 +1949,7 @@ window.companies = [
         "category": "Blockchain Security",
         "funding": "16M",		
         "name": "Fireblocks", 
+		"linkedin": "https://www.linkedin.com/company/fireblocks/",
         "crunchbase": "https://www.crunchbase.com/organization/fireblocks",
 		"homepage": "https://www.fireblocks.com/",
 		"logo": "./logos/Fireblocks.png",
