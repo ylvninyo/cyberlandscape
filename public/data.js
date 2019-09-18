@@ -239,7 +239,7 @@ window.companies = [
     }, 
     {
         "category": "Data Protection", 
-        "funding": "46.1M", 
+        "funding": "96.1M", 
         "name": "BigID", 
         "twitter": "https://twitter.com/bigidsecure", 
         "linkedin": "https://www.linkedin.com/company/bigid", 
