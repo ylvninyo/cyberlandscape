@@ -263,6 +263,7 @@ window.companies = [
         "category": "Email Security", 
         "funding": "3M", 
         "name": "BitDam", 
+        "twitter": "https://twitter.com/BitDamSecurity",
         "linkedin": "https://www.linkedin.com/company/bitdam/", 
         "crunchbase": "https://www.crunchbase.com/organization/bitdam", 
         "logo": "./logos/BitDam.png", 
