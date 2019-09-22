@@ -100,7 +100,7 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/portshift/", 
         "subcategory": "Cloud Native", 
         "crunchbase": "https://www.crunchbase.com/organization/portshift", 
-        "logo": "./logos/Portshift.png", 
+        "logo": "./logos/Portshift.jpg", 
         "homepage": "http://Portshift.io", 
         "description": "Identity-based application security, from code to runtime"
     }, 
