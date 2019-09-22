@@ -1955,6 +1955,7 @@ window.companies = [
     {
         "category": "Identity & Access Management",
         "name": "Ermetic",
+        "logo": "./logos/Ermetic.jpg",
         "linkedin": "https://www.linkedin.com/company/ermetic/",
         "homepage": "https://www.ermetic.com/"
     },
