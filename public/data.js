@@ -2029,7 +2029,7 @@ window.companies = [
         "category": "Data Protection",
         "name": "Cycode",
         "logo": "./logos/Cycode.png",
-        "funding": "4.5M",
+        "funding": "4.6M",
         "twitter": "https://twitter.com/CycodeHQ",
         "linkedin": "https://www.linkedin.com/company/cycode/",
         "homepage": "https://www.cycode.com/",
