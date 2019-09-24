@@ -2024,5 +2024,15 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/odo-security#section-overview",
         "homepage": "https://odo.io/",
         "description": "Odo Security offers a platform designed to securely connect any user from any device, anywhere in the world, to corporate resources both on-premises and in the cloud. Odo’s platform includes secure SSH, RDP, and web access with an agentless, cloud-based solution suited to the modern IT environment, all without the need for VPNs or other outdated and costly technologies."
+    },
+    {
+        "category": "Data Protection",
+        "name": "Cycode",
+        "logo": "./logos/Cycode.png",
+        "funding": "4.6M",
+        "twitter": "https://twitter.com/CycodeHQ",
+        "linkedin": "https://www.linkedin.com/company/cycode/",
+        "homepage": "https://www.cycode.com/",
+        "description": "Cycode, the industry’s first source code control, detection and response platform, utilizes its unique Source Path Intelligence engine to seamlessly deliver comprehensive visibility into all of an organization’s source code and automatically detect and respond to anomalies in access, movement and usage. With Cycode, organizations are “Secured to The Source”; their security teams can rapidly and dramatically reduce the risk of source code loss without impacting developer access or productivity."
     }
 ]
