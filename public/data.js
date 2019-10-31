@@ -303,19 +303,7 @@ window.companies = [
         "logo": "./logos/CHEQ.png", 
         "homepage": "https://www.cheq.ai/", 
         "description": "CHEQ is a cyber-security company and is an Autonomous Brand Safety, protecting the digital ad-spend for leading brands. CHEQ is an AI and cybersecurity company looking to replace ad-verification with a fully autonomous, brand-safety solution."
-    },     
-    {
-        "category": "Web Security", 
-		"funding": "1.6M", 
-        "subcategory": "Ad Fraud", 
-        "name": "ChameleonX", 
-        "twitter": "https://twitter.com/ChameleonXSecu1",
-        "linkedin": "https://www.linkedin.com/company/chameleonx", 
-        "crunchbase": "https://www.crunchbase.com/organization/chameleonx", 
-        "logo": "./logos/ChameleonX.png", 
-        "homepage": "https://chameleonx.com", 
-        "description": "ChameleonX is an adtech cyber security company building the industry\u2019s first Secured Ads Layer,  a patented technology that protects online and mobile ecosystems from Ad-Blocking, Ad-Injection, Bots, and Malvertising.  The Company next-generation monetization security solution easily deployed into any CDN solution or Application Load Balancer (ALB)."
-    }, 
+    },
     {
         "category": "Network Security", 
         "name": "Check Point", 
@@ -542,7 +530,7 @@ window.companies = [
     }, 
     {
         "category": "Cloud Security", 
-        "funding": "124.2M", 
+        "funding": "124.2M",
         "name": "Cyren", 
         "twitter": "https://www.twitter.com/cyreninc", 
         "linkedin": "http://www.linkedin.com/company/cyren", 
@@ -565,6 +553,7 @@ window.companies = [
     {
         "category": "IoT", 
         "subcategory": "Drones", 
+        "funding": "28M",
         "name": "D-Fend Solutions", 
         "linkedin": "https://www.linkedin.com/company-beta/17915504/", 
         "crunchbase": "https://www.crunchbase.com/organization/d-fend-solutions", 
@@ -1146,7 +1135,7 @@ window.companies = [
     }, 
     {
         "category": "Email Security", 
-        "funding": "5.9M", 
+        "funding": "8.1M", 
         "name": "ODI", 
         "twitter": "https://twitter.com/ODICDR", 
         "linkedin": "https://www.linkedin.com/company-beta/3252199", 
@@ -1781,7 +1770,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-        "funding": "11M", 
+        "funding": "41M", 
         "name": "Upstream Security", 
         "twitter": "https://twitter.com/UpstreamAuto",
         "linkedin": "https://www.linkedin.com/company-beta/17950408/", 
@@ -1882,7 +1871,7 @@ window.companies = [
     }, 
 	{
         "category": "IoT", 
-		"funding": "4.5M",
+		"funding": "10M",
         "subcategory": "Smart home", 
         "name": "Firedome", 
         "twitter": "https://twitter.com/firedome", 
@@ -1972,11 +1961,23 @@ window.companies = [
     {
         "category": "Identity & Access Management",
         "name": "Polyrize",
+        "funding": "4M",
         "logo": "./logos/Polyrize.jpg",
         "linkedin": "https://www.linkedin.com/company/polyrize",
         "crunchbase": "https://www.crunchbase.com/organization/polyrize",
         "homepage": "http://www.polyrize.com",
         "description": "Regain Control of the Public Cloud. Polyrize continuously authorizes identities and gives security teams centralized control over permissions and actions — across any IaaS and SaaS environments — to prevent unauthorized access from internal or external threats."
+    },
+    {
+        "category": "IoT",
+        "name": "ShieldIOT",
+        "funding": "3.6M",
+        "logo": "./logos/ShieldIoT.png",
+        "linkedin": "https://www.linkedin.com/company/shieldiot/",
+        "crunchbase": "https://www.crunchbase.com/organization/shieldiot",
+        "twitter": "https://twitter.com/ShieldIoT1",
+        "homepage": "https://shieldiot.io/",
+        "description": "ShieldIOT delivers innovative cybersecurity solutions that protect edge devices from security threats and operational risks."
     },
     {
         "category": "Vulnerability & Risk Mgmt",
