@@ -1721,7 +1721,16 @@ window.companies = [
         "logo": "./logos/Tufin.png", 
         "homepage": "http://www.tufin.com/", 
         "description": "Tufin is the leader in Network Security Policy Orchestration for enterprise cybersecurity. More than half of the top 50 companies in the Forbes Global 2000 turn to Tufin to simplify management of some of the largest, most complex networks in the world, consisting of thousands of firewall and network devices and emerging hybrid cloud infrastructures. Enterprises select the company\u2019s award-winning Tufin Orchestration Suite\u2122 to increase agility in the face of ever-changing business demands while maintaining a robust security posture. The Suite reduces the attack surface and meets the need for greater visibility into secure and reliable application connectivity. Its network security automation enables enterprises to implement changes in minutes with proactive risk analysis and continuous policy compliance. Tufin serves over 2,000 customers spanning all industries and geographies; its products and technologies are patent-protected in the U.S. and other countries."
-    }, 
+    },
+    {
+        "category": "Network Security",
+        "name": "Zero Networks",
+        "twitter": "https://twitter.com/zero_networks",
+        "linkedin": "https://www.linkedin.com/company/zero-networks",
+        "logo": "./logos/ZeroNetworks.png",
+        "homepage": "https://zeronetworks.com",
+        "description": "Zero Networks is a least privilege network solution that ensures network access is available only when needed – blocking all other connections.\n\nOur technology automatically customizes who can access what in your network by learning how your users and machines normally communicate.\n\nTo ensure unusual but legitimate connections are not aﬀected, Zero Networks provides a bypass mechanism through a two-factor (2FA) authentication wall on your users’ mobile phones."
+    },
     {
         "category": "Data Protection", 
         "funding": "15.1M", 
