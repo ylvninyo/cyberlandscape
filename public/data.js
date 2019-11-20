@@ -450,7 +450,8 @@ window.companies = [
         "description": "PineApp is a leading provider of perimeter network security solutions for businesses of all sizes; from SMBs and Enterprise-level organizations to Service Providers. PineApp offers comprehensive email security, email archiving and web filtering solutions that are available as hardware or software (software can be installed on local hardware or a virtual platform like VMware, Hyper-V, etc.)"
     }, 
     {
-        "category": "Vulnerability & Risk Mgmt", 
+        "category": "Vulnerability & Risk Mgmt",
+        "funding": "23M",
         "logo": "./logos/CyCognito.png", 
         "crunchbase": "https://www.crunchbase.com/organization/cycognito", 
         "name": "CyCognito", 
@@ -679,17 +680,6 @@ window.companies = [
         "name": "Enigmatos",
         "description": "Enigmatos offers a dynamic, multi layered, behavior based intrusion detection and prevention system to protect the vehicle and its ecosystem from HW & SW cyber security threats.",
         "subcategory": "Automotive"
-    }, 
-    {
-        "category": "Endpoint Security", 
-        "funding": "57.5M", 
-        "name": "enSilo", 
-        "twitter": "https://twitter.com/ensilosec", 
-        "linkedin": "https://www.linkedin.com/company/ensilo", 
-        "crunchbase": "https://www.crunchbase.com/organization/ensilo", 
-        "logo": "./logos/enSilo.png", 
-        "homepage": "https://www.ensilo.com/", 
-        "description": "enSilo comprehensively secures the endpoint pre- and post-infection. enSilo automates and orchestrates detection, prevention and real-time response against advanced malware and ransomware without burdening cybersecurity staff. enSilo's single lightweight agent includes next generation antivirus (NGAV), application communication control, automated endpoint detection and response (EDR) with real-time blocking, threat hunting, incident response and virtual patching capabilities. \nCoupled with a patented approach that has full system visibility, enSilo's endpoint security solution stops modern malware with a high degree of precision and intuitive user interface. Cybersecurity staff with enSilo can effectively manage malware threats without alert fatigue, excessive dwell time or breach anxiety. enSilo's cloud management platform is flexible and extensible to meet operational needs that stop malware impact."
     }, 
     {
         "category": "Endpoint Security", 
@@ -1048,7 +1038,7 @@ window.companies = [
     }, 
     {
         "category": "Web Security", 
-        "funding": "29M", 
+        "funding": "69M", 
         "name": "Namogoo", 
         "twitter": "https://twitter.com/Namogoo", 
         "linkedin": "https://www.linkedin.com/company/namogoo", 
@@ -1112,17 +1102,6 @@ window.companies = [
         "description": " "
     }, 
     {
-        "category": "Vulnerability & Risk Mgmt", 
-        "funding": "53M", 
-        "name": "ObserveIT", 
-        "twitter": "http://twitter.com/ObserveIT", 
-        "linkedin": "http://www.linkedin.com/company/observeit", 
-        "crunchbase": "https://www.crunchbase.com/organization/observeit", 
-        "logo": "./logos/ObserveIT.png", 
-        "homepage": "http://www.observeit.com", 
-        "description": "Your biggest asset is also your biggest risk. Whether it is trusted third parties or employees, insiders present a massive risk to organizations because they have been given access to critical applications, systems and data to do their jobs. With more than 1,600 global customers across all major verticals, ObserveIT is the only insider threat monitoring and prevention solution that empowers security teams to detect insider threats, streamline the investigation process, and prevent data exfiltration."
-    }, 
-    {
         "category": "Cloud Security", 
         "name": "Octarine", 
         "twitter": "https://twitter.com/OctarineSec", 
@@ -1169,7 +1148,7 @@ window.companies = [
     }, 
     {
         "category": "Vulnerability & Risk Mgmt", 
-        "funding": "4.5M", 
+        "funding": "14.5M", 
         "name": "Pcysys", 
         "twitter": "https://twitter.com/pcysys",
         "linkedin": "https://www.linkedin.com/company/18445647/", 
@@ -1556,7 +1535,7 @@ window.companies = [
     }, 
     {
         "category": "IoT", 
-		"funding": "7M",
+		"funding": "6.5M",
         "subcategory": "Enterprise Perimeter", 
         "name": "Sepio Systems", 
         "twitter": "https://twitter.com/sepiosys", 
@@ -2044,5 +2023,16 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/cycode/",
         "homepage": "https://www.cycode.com/",
         "description": "Cycode, the industry’s first source code control, detection and response platform, utilizes its unique Source Path Intelligence engine to seamlessly deliver comprehensive visibility into all of an organization’s source code and automatically detect and respond to anomalies in access, movement and usage. With Cycode, organizations are “Secured to The Source”; their security teams can rapidly and dramatically reduce the risk of source code loss without impacting developer access or productivity."
+    },
+    {
+        "category": "Cloud Security",
+        "name": "SafeHouse",
+        "logo": "./logos/safehouse.png",
+        "funding": "2.2M",
+        "crunchbase": "https://www.crunchbase.com/organization/safehouse-ffed#section-overview",
+        "twitter": "https://twitter.com/SafeHouseTech",
+        "linkedin": "https://www.linkedin.com/company/safehousetech/",
+        "homepage": "https://www.safehousetechnologies.com/",
+        "description": "Safehouse provides military-grade cyber security for enterprise and government. SafeHouse core-tech conducts analysis of the user’s traffic, with the ability to detect and prevent cyber threats in real time."
     }
 ]
