@@ -189,7 +189,7 @@ window.companies = [
         "name": "At Bay", 
         "twitter": "https://twitter.com/FearlessAtBay", 
         "linkedin": "https://www.linkedin.com/company/at-bay/", 
-        "subcategory": "Cyber Insurance ", 
+        "subcategory": "Cyber Insurance", 
         "crunchbase": "https://www.crunchbase.com/organization/at-bay", 
         "logo": "./logos/AtBay.png", 
         "homepage": "https://www.at-bay.com/", 
@@ -966,7 +966,7 @@ window.companies = [
         "logo": "./logos/Kovrr.png",
         "description": "Kovrr provides immediate visibility into internal and external cyber risks to support the underwriting processes of cyber insurance policies. Our solution helps insurance professionals prospect and select risks, grow their book according to risk appetite, and manage portfolio risks accumulations. We help our customers efficiently distribute cyber insurance policies and launch innovative insurance products.",
         "homepage": "https://www.kovrr.com", 
-        "subcategory": "Cyber Insurance "
+        "subcategory": "Cyber Insurance"
     }, 
     {
         "category": "IoT", 
