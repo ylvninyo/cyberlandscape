@@ -18,6 +18,14 @@ class CategoryComponent extends Component {
         let items = this.props.items
         let isTile = this.props.isTile
 
+        const sortItems = (items) => {
+            const newItems = [...items];
+
+            return newItems.sort((a, b) => {                
+                return b.position - a.position;
+            });
+        }
+
         return(
             <div className="background-dark-grey">
                 <div className="container center">
@@ -34,7 +42,7 @@ class CategoryComponent extends Component {
                         <div>
                             <Foldable category={items[0].category} subcategory={items[0].subcategory} length={items.length} folded={folded} onFold={this.toggleFold.bind(this)}/>
                             <div>
-                                { !folded && items.map((item) =>
+                                { !folded && sortItems(items).map((item) =>
                                     <Tile key={(item.category + item.subcategory + item.name)} item={item} /> )
                                 }
                             </div>
