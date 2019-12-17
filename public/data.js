@@ -2226,8 +2226,8 @@ window.companies = [
         "logo": "./logos/Satori_logo_horizontal_color.png",
         "funding": "5.25M",
         "crunchbase": "",
-        "twitter": "",
-        "linkedin": "",
+        "twitter": "https://twitter.com/SatoriCyber",
+        "linkedin": "https://www.linkedin.com/company/satoricyber",
         "homepage": "https://satoricyber.com/",
         "description": "Satori Cyber’s Secure Data Access Cloud helps organizations maximize their data-driven competitive advantage by removing barriers to broad data access and usage while ensuring security, privacy, and compliance."
     }
