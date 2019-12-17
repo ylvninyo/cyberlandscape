@@ -2218,5 +2218,17 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/safehousetech/",
         "homepage": "https://www.safehousetechnologies.com/",
         "description": "Safehouse provides military-grade cyber security for enterprise and government. SafeHouse core-tech conducts analysis of the user’s traffic, with the ability to detect and prevent cyber threats in real time."
+    },
+    {
+        "category": "Data Protection",
+        "position": 0,
+        "name": "Satori Cyber",
+        "logo": "./logos/Satori_logo_horizontal_color.png",
+        "funding": "5.25M",
+        "crunchbase": "",
+        "twitter": "",
+        "linkedin": "",
+        "homepage": "https://satoricyber.com/",
+        "description": "Satori Cyber’s Secure Data Access Cloud helps organizations maximize their data-driven competitive advantage by removing barriers to broad data access and usage while ensuring security, privacy, and compliance."
     }
 ]
