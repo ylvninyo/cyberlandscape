@@ -2172,7 +2172,7 @@ window.companies = [
         "description": "Nuweba rearchitected serverless from the kernel up to enable companies to use serverless for applications that require scalability, high performance, advanced application security and deep visibility in real-time. Our fast and secure FaaS platform is compatible with leading serverless platforms, so you can start using Nuweba with only one click and without any changes to your code or configuration. Unleash the full power of serverless with Nuweba."
     },
     {
-        "category": "IoT ",
+        "category": "IoT",
         "position": 0,
         "subcategory": "Automotive",
         "name": "Foretellix",
