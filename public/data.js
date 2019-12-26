@@ -324,7 +324,7 @@ window.companies = [
         "position": 0,
         "subcategory": "Ad Fraud", 
         "name": "CHEQ",
-        "funding": "5M",
+        "funding": "22M",
         "linkedin": "https://www.linkedin.com/company/comboguard/", 
         "crunchbase": "https://www.crunchbase.com/organization/cheq", 
         "logo": "./logos/CHEQ.png", 
@@ -448,7 +448,7 @@ window.companies = [
         "twitter": "http://twitter.com/cybereason", 
         "linkedin": "http://www.linkedin.com/company/cybereason", 
         "crunchbase": "https://www.crunchbase.com/organization/cybereason", 
-        "logo": "./logos/Cybereason.png", 
+        "logo": "./logos/Cybereason.webp", 
         "homepage": "http://www.cybereason.com", 
         "description": "Cybereason is the leader in endpoint protection, offering endpoint detection and response, next-generation antivirus, and managed monitoring services. Founded by elite intelligence professionals born and bred in offense-first hunting, Cybereason gives enterprises the upper hand over cyber adversaries."
     }, 
@@ -541,7 +541,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 0,
-        "funding": "11M", 
+        "funding": "26M", 
         "name": "Cymulate", 
         "twitter": "https://twitter.com/CymulateLtd", 
         "linkedin": "https://www.linkedin.com/company/cymulate-ltd", 
@@ -785,7 +785,7 @@ window.companies = [
         "twitter": "https://twitter.com/hunters_ai", 
         "linkedin": "https://www.linkedin.com/company/hunters-ai/", 
         "crunchbase": "https://www.crunchbase.com/organization/hunters-ai", 
-        "logo": "./logos/Hunters.png", 
+        "logo": "./logos/100X70_hunters.jpg", 
         "homepage": "https://hunters.ai/", 
         "description": "Hunters is the industry’s first autonomous hunting solution. Hunters combines its unique Attack Intelligence, Hunting AI, and continuous automation with the enterprise’s existing security data to transform threat hunting from hunt and hope to hunting that works"
     },	
@@ -922,19 +922,6 @@ window.companies = [
         "logo": "./logos/imVisionTechnologies.png", 
         "homepage": "http://www.imvisiontech.com", 
         "description": "imVision is a cyber security startup company that operates in NFV/SDN environments. The company quickly became a market leader for anomaly detection and isolation solutions. These were based on unique Correlative Behavioral Analysis (C-BA) algorithms that specialize in service awareness across the entire network."
-    }, 
-    {
-        "category": "IoT", 
-        "position": 0,
-        "funding": "36M", 
-        "name": "Indegy", 
-        "twitter": "https://twitter.com/indegycom", 
-        "linkedin": "https://www.linkedin.com/company/indegy", 
-        "subcategory": "SCADA", 
-        "crunchbase": "https://www.crunchbase.com/organization/indegy", 
-        "logo": "./logos/Indegy.png", 
-        "homepage": "http://www.indegy.com/", 
-        "description": "Indegy provides situational awareness and real-time security for industrial control networks to ensure operational continuity and reliability. The Indegy platform delivers comprehensive visibility and oversight into all OT activities, including changes to controller logic, configuration and state, across all vendor devices, by utilizing control network inspection of proprietary control communications, and patent-pending agentless controller verification technology that validate PLC firmware, code and configuration.  With a team made up of veteran cyber security and ICS experts, Indegy provides visibility, protection and operational continuity for your operational environment."
     }, 
     {
         "category": "Mobile Security", 
@@ -1084,7 +1071,7 @@ window.companies = [
         "category": "Network Security",
         "position": 0,
         "name": "Perimeter 81", 
-		"funding": "5M",
+		"funding": "15M",
         "twitter": "https://twitter.com/Perimeter_81", 
         "linkedin": "https://www.linkedin.com/company/perimeter-81/", 
         "subcategory": "SDP & SD-WAN", 
@@ -1228,7 +1215,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 0,
-        "funding": "5M", 
+        "funding": "20M", 
         "name": "Panorays", 
         "twitter": "https://twitter.com/panorays", 
         "linkedin": "https://www.linkedin.com/company/panorays/", 
@@ -2039,6 +2026,7 @@ window.companies = [
     {
         "category": "Cloud Security", 
         "position": 0,
+        "funding": "8M",
 		"name": "Rezilion", 
         "linkedin": "https://www.linkedin.com/company/rezilion/", 
         "logo": "./logos/Rezilion.png", 
@@ -2159,31 +2147,6 @@ window.companies = [
         "description": "CyberHat's security solutions are designed, executed and operated by elite Israeli cybersecurity experts. Hackers, defenders and investigators with state and corporate level experience. CyberHat provides professional cybersecurity solutions that enable practical and active defenses, allowing our clients to grow their business while keeping a secure working environment. Our experience comes from hands-on deep cybersecurity forensic and postmortem investigations, advanced hacking simulations and cyber assessments for companies of all sizes from the fortune 500 to small and medium-sized businesses. We protect financial services, retailers, telecoms, energy and infrastructure organizations around the world."
     },
     {
-        "category": "Cloud Security",
-        "position": 0,
-        "subcategory": "Cloud Native",
-        "name": "Nuweba",
-        "logo": "./logos/Nuweba.jpg",
-        "funding": "4.8M",
-        "twitter": "https://twitter.com/nuweba_labs",
-        "linkedin": "https://www.linkedin.com/company/nuweba/",
-        "crunchbase": "https://www.crunchbase.com/organization/nuweba",
-        "homepage": "https://www.nuweba.com/",
-        "description": "Nuweba rearchitected serverless from the kernel up to enable companies to use serverless for applications that require scalability, high performance, advanced application security and deep visibility in real-time. Our fast and secure FaaS platform is compatible with leading serverless platforms, so you can start using Nuweba with only one click and without any changes to your code or configuration. Unleash the full power of serverless with Nuweba."
-    },
-    {
-        "category": "IoT",
-        "position": 0,
-        "subcategory": "Automotive",
-        "name": "Foretellix",
-        "logo": "./logos/Foretellix.jpg",
-        "funding": "15.5M",
-        "linkedin": "https://www.linkedin.com/company/foretellix/",
-        "crunchbase": "https://www.crunchbase.com/organization/foretellix",
-        "homepage": "https://www.foretellix.com/",
-        "description": "Foretellix is developing a comprehensive verification framework for Intelligent Autonomous Systems (IAS), with an emphasis on Autonomous Vehicles (AVs).Foretellix is founded by a team of experienced verification experts and thought leaders from the VLSI and SOC world.The foundation of this system is SDL – a multi-execution-platform Scenario Description Language. Foretellix’s vision is to make SDL an open, non proprietary language."
-    },
-    {
         "category": "Network Security",
         "position": 0,
         "subcategory": "SDP & SD-WAN",
@@ -2230,5 +2193,154 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/satoricyber",
         "homepage": "https://satoricyber.com/",
         "description": "Satori Cyber’s Secure Data Access Cloud helps organizations maximize their data-driven competitive advantage by removing barriers to broad data access and usage while ensuring security, privacy, and compliance."
+    },
+    {
+        "category": "Security Operations",
+        "position": 0,
+        "name": "ZecOps",
+        "logo": "./logos/ZecOps.jpg",
+        "funding": "10.2M",
+        "crunchbase": "https://www.crunchbase.com/organization/zecops-inc#section-overview",
+        "twitter": "https://twitter.com/ZecOpsHQ",
+        "linkedin": "https://www.linkedin.com/company/zecops/",
+        "homepage": "https://www.zecops.com/",
+        "description": "ZecOps is a cybersecurity firm that automates threat analysis and digital forensics investigations, accelerating organization-wide disinfection. The company’s agentless platform learns from each attacker’s mistakes in order to fully disinfect the organization and eradicate that threat actor."
+    },
+    {
+        "category": "Threat Intelligence",
+        "position": 0,
+        "name": "ClearSky Cyber Security",
+        "logo": "./logos/clearsky_cybersecurity.png",
+        "crunchbase": "https://www.crunchbase.com/organization/clearsky-cyber-security",
+        "twitter": "https://twitter.com/ClearskySec",
+        "linkedin": "https://www.linkedin.com/company/clearsky-cyber-security",
+        "homepage": "https://www.clearskysec.com/",
+        "description": "ClearSky is a cyber solutions focused on threat intelligence services."
+    },
+    {
+        "category": "Vulnerability & Risk Mgmt",
+        "position": 0,
+        "name": "Rescana",
+        "logo": "./logos/rescana.webp",
+        "homepage": "https://www.rescana.com/",
+    },
+    {
+        "category": "Identity & Access Management",
+        "position": 0,
+        "name": "Authomize",
+        "logo": "./logos/Authomize.png",
+        "homepage": "https://authomize.com/",
+    },
+    {
+        "category": "Web Security",
+        "position": 0,
+        "name": "Cyabra",
+        "logo": "./logos/Cyabra.jpg",
+        "funding": "3.5M",
+        "crunchbase": "https://www.crunchbase.com/organization/cyabra#section-overview",
+        "twitter": "https://twitter.com/TheCyabra",
+        "linkedin": "https://www.linkedin.com/company/cyabra/",
+        "homepage": "https://www.cyabra.com/",
+        "description": "Cyabra protects brands and public identities against disinformation threats (i.e fake news)"
+    },
+    {
+        "category": "Security Operations",
+        "position": 0,
+        "name": "CyberGym",
+        "logo": "./logos/CyberGym.png",
+        "crunchbase": "https://www.crunchbase.com/organization/cybergym#section-overview",
+        "twitter": "http://twitter.com/CyberGymArena",
+        "linkedin": "http://www.linkedin.com/company/3526356",
+        "homepage": "http://www.cybergym.co.il/",
+        "description": "Cyber defense solutions for critical and sensitive production, governmental, infrastructure and utility organizations"
+    },
+    {
+        "category": "Endpoint Security",
+        "position": 0,
+        "name": "Kazuar",
+        "logo": "./logos/Kazuar.jpg",
+        "funding": "6.3M",
+        "linkedin": "https://www.linkedin.com/company/kazuar-advanced-technologies-ltd/",
+        "homepage": "https://www.kazuar-tech.com/",
+        "description": "KAZUAR Advanced Technologies develops solutions designed to provide intelligence agency-grade security and privacy. The company's security solutions help organizations of any size protect sensitive and valuable data. KAZUAR offers a complete, end- to - end hardware and software solution, including secure endpoints and cloud with an on - premises option.The company seeks to provide holistic, secure platforms for organizations that want to proactively defend against cyber threats."
+    },
+    {
+        "category": "Cloud Security",
+        "position": 0,
+        "name": "AKEYLESS",
+        "logo": "./logos/AKEYLESS.png",
+        "funding": "3M",
+        "crunchbase": "https://www.crunchbase.com/organization/akeyless",
+        "linkedin": "https://www.linkedin.com/company/akeyless/",
+        "homepage": "www.akeyless.io",
+        "description": "AKEYLESS is an Israeli company founded and managed by highly experienced & repeat entrepreneurs. AKEYLESS develops and provides patented technology for Cloud Security, that can be deployed by Enterprises and Cloud providers alike. AKEYLESS is backed by JVP VC."
+    },
+    {
+        "category": "Web Security",
+        "position": 0,
+        "name": "L7 Defense",
+        "logo": "./logos/L7-Defense.png",
+        "funding": "2.5M",
+        "crunchbase": "https://www.crunchbase.com/organization/l7-defense#section-overview",
+        "twitter": "https://twitter.com/L7Defense",
+        "linkedin": "https://www.linkedin.com/company/l7-defense",
+        "homepage": "https://www.l7defense.com/",
+        "description": "L7 Defense is a cybersecurity company that specializes in web application security and DDoS protection solutions. L7 Defense Ammune® system is a virtual platform for mitigating sophisticated DDoS attacks automatically and efficiently in real-time. In 2016, The Ammune platform was recognized among the most promising DDoS mitigation platforms by the CIO Review magazine. The company was also recognized as a Key innovator company by Markets and Markets and received the TIE50 top startup award. Most recently is was announced by Frost & Sullivan as \“2018 Global Anti-DDoS for Critical National Infrastructure New Product Innovation Award\" L7 Defense was founded in 2015 and is located in Be’er Sheva, Israel."
+    },
+    {
+        "category": "IoT",
+        "position": 0,
+        "name": "IXDen",
+        "logo": "./logos/IXDen.png",
+        "funding": "2M",
+        "crunchbase": "https://www.crunchbase.com/organization/ix-den#section-overview",
+        "linkedin": "https://www.linkedin.com/company/ixden/",
+        "homepage": "https://www.ixden.com/",
+        "description": "• Securing IoT devices ifor ICS and critical infrastructures by establishing unique dynamic ‘biometric-like’ Identity for any IoT device • Multi-factor Authentication for any IoT device driven by proprietary mathematical models, topological algorithms, statistical analysis, machine learning, and neural network AI technology • Compatible with- and easily integrable into- any IoT enterprise architecture • Mitigating weaknesses of connected IoT devices by utilizing their \“multi-sensor-ness\”"
+    },
+    {
+        "category": "Vulnerability & Risk Mgmt",
+        "position": 0,
+        "name": "Vicarius",
+        "logo": "./logos/Vicarius.png",
+        "funding": "5M",
+        "crunchbase": "https://www.crunchbase.com/organization/vicarius",
+        "twitter": "https://twitter.com/vicariusltd",
+        "linkedin": "https://www.linkedin.com/company/vicarius",
+        "homepage": "https://vicarius.io",
+        "description": "Vicarius protects clients against exploitation of yet-to-be-discovered software vulnerabilities.The Vicarius powered platform, called Topia, enables companies to predict, prioritize and protect against software vulnerabilities before they can be exploited by hackers.Vicarius begins by identifying weaknesses within clients' digital environment using a proprietary binary code analysis methodology. It then prioritizes these vulnerabilities, building a live threat map of the organization's infrastructure, using asset context analysis.Lastly, a shim layer is deployed to protect software from identified vulnerabilities by limiting access to its exploitable code in real - time.Topia is live and already protecting dozens of organizations worldwide.Vicarius' Topia clients enjoy a complete and automatic solution for the secure management of any software services in their network - shattering the common paradigm of software being treated as \"safe\" until a vulnerability is exposed. This new mind shift allows organizations to protect any software without involving the vendor or even their own IT teams. Vicarius was founded in 2016 by three entrepreneurs from the information- security industry and operates out of Jerusalem's Machane Yehuda Market."
+    },
+    {
+        "category": "Data Protection",
+        "position": 0,
+        "name": "GK8",
+        "logo": "./logos/GK8.png",
+        "funding": "4M",
+        "crunchbase": "https://www.crunchbase.com/organization/gk8",
+        "linkedin": "https://www.linkedin.com/company/gk8/",
+        "homepage": "https://www.gk8.io/",
+        "description": "GK8 is a cybersecurity company that offers a high-security custodian technology for managing and safeguarding digital assets. The technology allows financial institutions to execute the entire digital assets management process, including sending transactions to the blockchain, without the need for an Internet connection. The Company is led and backed by industry thought leaders."
+    },
+    {
+        "category": "Vulnerability & Risk Mgmt",
+        "position": 0,
+        "name": "Cyberwrite",
+        "logo": "./logos/Cyberwrite.png",
+        "funding": "2M",
+        "subcategory": "Cyber Insurance",
+        "crunchbase": "https://www.crunchbase.com/organization/cyberwrite",
+        "twitter": "https://twitter.com/cyberwrite_inc",
+        "linkedin": "https://www.linkedin.com/company/10556543/",
+        "homepage": "www.cyberwrite.com",
+        "description": "Founded by cyber risk experts and insurance actuaries - Cyberwrite delivers cyber insurance technologies and solutions for the huge SMB cyber insurance market. The company has clients in the USA and Europe. Cyberwrite is delivering cloud- based on - demand cyberprofiling technology which enables underwriters to make evidence - based decisions during the underwriting process.The company's subscription-based software is focused on cyberinsurance for small and midsize businesses (SMBs). Cyberwrite's platform creates a cyberrisk profile for a potential or existing insurance customers and benchmarks its cyberrisk, on demand, in near - real - time to over 50, 000 other peer companies.Furthermore, it estimates the potential financial damages from a breach, so that the underwriter and business owner knows how much insurance coverage to offer or ask for. Cyberwrite technology combines machine learning algorithms with proprietary cyberinsurance algorithms to estimate the likelihood and impact of various types of insurance coverages such data destruction, stolen records, ransom events and more.The Predictions are based on an automated and on - demand comparison of the cyberprofile of a prospective insurance customer to cyberprofiles data collected for thousands of other companies. Cyberwrite is a Gartner cool vendor for 2018 in the Insurance space."
+    },
+    {
+        "category": "Blockchain Security",
+        "position": 0,
+        "name": "Chain Reaction",
+        "logo": "./logos/chain-reaction.png",
+        "funding": "2M",
+        "subcategory": "Cyber Insurance",
+        "description": "Chain Reaction builds underlying blockchain infrastructure that enables scalability & trust."
     }
 ]
