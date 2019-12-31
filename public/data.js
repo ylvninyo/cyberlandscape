@@ -2340,7 +2340,6 @@ window.companies = [
         "name": "Chain Reaction",
         "logo": "./logos/chain-reaction.png",
         "funding": "2M",
-        "subcategory": "Cyber Insurance",
         "description": "Chain Reaction builds underlying blockchain infrastructure that enables scalability & trust."
     }
 ]
