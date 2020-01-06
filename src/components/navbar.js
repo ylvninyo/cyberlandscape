@@ -33,29 +33,23 @@ class Navbar extends Component {
                 <div id="about" className="modal outline-0 modal-with-x">
                     <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
                     <div className="modal-content center modal-content-with-x">
-                        <p className="black-text nav-modal-p pre-wrap">
-                            <b>What is CyberMap?</b>
-                            {`
+                        <div className="black-text nav-modal-p pre-wrap">
+                            <p><b>What is CyberMap?</b></p>
 
-CyberMap, by YL Ventures, is the first live map of Israel’ s cybersecurity startup landscape.It was designed by the firm for internal use and later published to share its potential with the wider public.
+                            <p>CyberMap, by YL Ventures, is the first live map of Israel’ s cybersecurity startup landscape.It was designed by the firm for internal use and later published to share its potential with the wider public.</p>
 
-Today, CyberMap enables anyone interested in Israel’ s startup cybersecurity industry, including entrepreneurs, investors, journalists, and CISOs, as well as other security practitioners, to explore its full ecosystem with ease and efficiency.
+                            <p>Today, CyberMap enables anyone interested in Israel’ s startup cybersecurity industry, including entrepreneurs, investors, journalists, and CISOs, as well as other security practitioners, to explore its full ecosystem with ease and efficiency.</p>
 
-CyberMap encompasses the full scope of Israel’ s cybersecurity industry.For ease of use, its search function offers filtering tools for 30 cyber categories and funding ranges to help you find the exact company you are looking for.
-
-`}
-                            <b>Tell us your thoughts!</b>
-                            {`
-
-We made this live map to help our industry grow.If you have any questions, comments, or ideas on how to improve this map, we would love to hear them!We invite you to get in touch with us at `} <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a><br /><br />
-
-                            <b>About YL Ventures</b>
-                            {`
+                            <p>CyberMap encompasses the full scope of Israel’ s cybersecurity industry.For ease of use, its search function offers filtering tools for 30 cyber categories and funding ranges to help you find the exact company you are looking for.</p>
                             
-YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead.Based in Silicon Valley and Tel Aviv, YL Ventures manages $260 million focused on deep - technology sectors and specializes in cybersecurity.YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S. - based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders.The firm 's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.  
+                            <p><b>Tell us your thoughts!</b></p>
+                            
+                            <p>We made this live map to help our industry grow. If you have any questions, comments, or ideas on how to improve this map, we would love to hear them! We invite you to get in touch with us at <a href="mailto:dana@ylventures.com">dana@ylventures.com</a></p>
+                            
+                            <p><b>About YL Ventures</b></p>
 
-`}
-                        </p>
+                            <p>YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead. Based in Silicon Valley and Tel Aviv, YL Ventures manages $260 million focused on deep-technology sectors and specializes in cybersecurity. YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S.-based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders. The firm's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.</p>
+                        </div>
                         <a href="https://www.ylventures.com" target="_blank" rel="noopener noreferrer" className="turquoise-text">
                             www.ylventures.com
                         </a>
