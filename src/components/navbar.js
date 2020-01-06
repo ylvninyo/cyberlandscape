@@ -47,7 +47,7 @@ CyberMap encompasses the full scope of Israel’ s cybersecurity industry.For ea
                             <b>Tell us your thoughts!</b>
                             {`
 
-We made this live map to help our industry grow.If you have any questions, comments, or ideas on how to improve this map, we would love to hear them!We invite you to get in touch with us at `} <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a><br /><br />
+We made this live map to help our industry grow.If you have any questions, comments, or ideas on how to improve this map, we would love to hear them!We invite you to get in touch with us at `} <a href="mailto:dana@ylventures.com">dana@ylventures.com</a><br /><br />
 
                             <b>About YL Ventures</b>
                             {`
