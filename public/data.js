@@ -855,7 +855,7 @@ window.companies = [
         "twitter": "http://twitter.com/guardicore", 
         "linkedin": "http://www.linkedin.com/company/guardicore", 
         "crunchbase": "https://www.crunchbase.com/organization/guardicore", 
-        "logo": "./logos/GuardiCore.png", 
+        "logo": "./logos/GuardiCore.jpg", 
         "homepage": "http://guardicore.com", 
         "description": "GuardiCore is an innovator in internal data center security focused on delivering more accurate and effective ways to stop advanced threats through real-time breach detection and response. Developed by the top cyber security experts in their field, GuardiCore is changing the way organizations are fighting cyber attacks in their data centers. For more information, visit www.guardicore.com."
     }, 
@@ -2366,7 +2366,7 @@ window.companies = [
         "category": "Vulnerability & Risk Mgmt",
         "position": 0,
         "name": "JetPatch",
-        "logo": "./logos/jetpatch-logo.svg",
+        "logo": "./logos/jetpatch-logo.png",
         "funding": "3M",
         "description": "JetPatch is a cloud-based, centralized patch management platform that lets enterprises follow an industry standard automated vulnerability patching lifecycle — across environments.",
         "homepage": "www.JetPatch.com",
