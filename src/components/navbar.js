@@ -33,21 +33,27 @@ class Navbar extends Component {
                 <div id="about" className="modal outline-0 modal-with-x">
                     <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
                     <div className="modal-content center modal-content-with-x">
-                        <h4 className="turquoise-text">What is CyberMap?</h4>
                         <p className="black-text nav-modal-p pre-wrap">
-{`
-CyberMap is the first live map of Israel’s cybersecurity startup landscape. YL Ventures’ in-house research team designed it for ease of use. We created 29 custom categories. These encompass the full scope of Israel’s cybersecurity industry. We further segmented the list by level of funding (ranging from $0-$200M). CyberMap helps entrepreneurs, investors, CISOs, analysts, journalists (and anyone else interested in Israel's startup cybersecurity industry) explore the full ecosystem. Get started by using the search and filter tools on the main page. 
+                            <b>What is CyberMap?</b>
+                            {`
+
+CyberMap, by YL Ventures, is the first live map of Israel’ s cybersecurity startup landscape.It was designed by the firm for internal use and later published to share its potential with the wider public.
+
+Today, CyberMap enables anyone interested in Israel’ s startup cybersecurity industry, including entrepreneurs, investors, journalists, and CISOs, as well as other security practitioners, to explore its full ecosystem with ease and efficiency.
+
+CyberMap encompasses the full scope of Israel’ s cybersecurity industry.For ease of use, its search function offers filtering tools for 30 cyber categories and funding ranges to help you find the exact company you are looking for.
 
 `}
-<b>Feedback, questions or comments?</b>
-{`
-We made this live map to help our industry grow. If you have any questions, comments or ideas on how to improve this map, we would love to hear them.
+                            <b>Tell us your thoughts!</b>
+                            {`
 
-Send them directly to Ofer Schreiber: `} <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a><br/><br/>
+We made this live map to help our industry grow.If you have any questions, comments, or ideas on how to improve this map, we would love to hear them!We invite you to get in touch with us at `} <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a><br /><br />
 
-<b>About YL Ventures</b>
-{`
-YL Ventures funds & supports brilliant Israeli tech entrepreneurs from seed to lead. Based in Silicon Valley and Tel Aviv, we manage $135 million across three funds focused on seed-stage, deep-technology B2B companies in the fields of cyber security, enterprise software and autonomous vehicle technologies. YL Ventures accelerates the evolution of portfolio companies via strategic advice and US-based operational execution.
+                            <b>About YL Ventures</b>
+                            {`
+                            
+YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead.Based in Silicon Valley and Tel Aviv, YL Ventures manages $260 million focused on deep - technology sectors and specializes in cybersecurity.YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S. - based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders.The firm 's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.  
+
 `}
                         </p>
                         <a href="https://www.ylventures.com" target="_blank" rel="noopener noreferrer" className="turquoise-text">
@@ -60,13 +66,13 @@ YL Ventures funds & supports brilliant Israeli tech entrepreneurs from seed to l
                     <div className="modal-content center">
                         <h4 className="turquoise-text">Add a company</h4>
                         <p className="black-text nav-modal-p pre-wrap">
-{`                        
+                            {`                        
 Want to appear on the map? Here are two ways to submit your company:
 
 `}
-<b><a href="https://github.com/ylventures/cybermap" target="_blank" rel="noopener noreferrer">Github:</a></b> open a pull request and edit public/data.js
+                            <b><a href="https://github.com/ylventures/cybermap" target="_blank" rel="noopener noreferrer">Github:</a></b> open a pull request and edit public/data.js
 <br/>
-<b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a>
+                            <b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a>
                         </p>
                     </div>
                 </div>
