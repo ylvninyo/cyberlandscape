@@ -2436,4 +2436,14 @@ window.companies = [
         "description": "Mobile Device Management Reimagined Provision a self-contained smartphone workspace encapsulated in an app, integrated with internal security systems, SIMless phone lines and apps.",
         "homepage": "http://www.cubedmobile.com/",
     },
+    {
+        "category": "SCADA",
+        "position": 0,
+        "name": "OTORIO",
+        "logo": "./logos/OTORIO.png",
+        "description": "OTORIO is an advanced managed security service provider for operational technology and industrial control systems (OT/ICS). The company is led by former IDF cybersecurity experts with decades of experience defending mission-critical infrastructures. OTORIO’s comprehensive offering addresses the different stages and challenges an industrial company faces when embarking on digital transformation. The company is known for developing the RAM², the industry’s first centralized, simplified, and automated industrial cyber risk management platform.",
+        "homepage": "https://www.otorio.com/",
+        "linkedin": "https://www.linkedin.com/company/otorio",
+        "crunchbase": "https://www.crunchbase.com/organization/otorio#section-overview",
+    },
 ]
