@@ -2437,7 +2437,8 @@ window.companies = [
         "homepage": "http://www.cubedmobile.com/",
     },
     {
-        "category": "SCADA",
+        "category": "IoT",
+        "subcategory": "SCADA",
         "position": 0,
         "name": "OTORIO",
         "logo": "./logos/OTORIO.png",
