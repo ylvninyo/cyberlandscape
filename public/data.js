@@ -545,7 +545,7 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/cymulate-ltd", 
         "subcategory": "Attack Simulation", 
         "crunchbase": "https://www.crunchbase.com/organization/cymulate", 
-        "logo": "./logos/Cymulate.png", 
+        "logo": "./logos/cymulate.png", 
         "homepage": "https://www.cymulate.com/", 
         "description": "Cymulate helps companies to stay one step ahead of cyber attackers with a unique breach and attack simulation platform that empowers organizations with complex security solutions to safeguard their business-critical assets. By mimicking the myriad of strategies hackers deploy, the system allows businesses to assess their true preparedness to handle cyber security threats effectively. An on-demand SaaS-based platform enables to run simulations 24/7 from anywhere, shortening the usual testing cycle, and speeding up time to remediation. Cymulate was established in 2016 by former IDF intelligence officers and leading cyber researchers with extensive experience in offensive cyber solutions. \n"
     }, 
@@ -1088,7 +1088,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/minereye", 
         "logo": "./logos/Minereye.jpg", 
         "homepage": "http://minereye.com/", 
-        "description": "Many enterprises are struggling to manage compliance and governance requirements. For many, the whole experience has evolved like the proverbial frog in a pan of increasingly hot water. "
+        "description": "MinerEye is a pioneer in interpretive data classification and has reimagined a completely new way to identify data by its essence. Employing advanced computer vision and machine learning technologies, MinerEye offers the most comprehensive vehicle to identify, classify and track organizations’ sensitive data, anywhere across the globe and throughout the unstructured scales of dark data."
     }, 
     {
         "category": "Endpoint Security", 
@@ -1981,7 +1981,7 @@ window.companies = [
         "twitter": "https://twitter.com/WhiteSourceSoft ", 
         "linkedin": "http://www.linkedin.com/company/white-source", 
         "crunchbase": "https://www.crunchbase.com/organization/white-source", 
-        "logo": "./logos/WhiteSource.png", 
+        "logo": "./logos/whitesource.jpg", 
         "homepage": "http://www.whitesourcesoftware.com", 
         "description": "WhiteSource is the leading solution for agile open source security and license compliance management. It integrates with your development environments and DevOps pipeline to detect open source libraries with security or compliance issues in real-time. WhiteSource doesn’t only alert on issues, it also provides actionable, validated remediation paths to enable quick resolution and automated policy enforcement to speed up time-to-fix. It also helps you focus on what matters by prioritizing remediation based on whether your code is actually using a vulnerable method or not, and guaranteeing zero false positives. We've got you covered with support for over 200 programming languages,  and continuous tracking of multiple open source vulnerabilities databases including the NVD, security advisories, peer-reviewed vulnerability knowledge bases, and open source projects issue trackers."
     }, 
@@ -2264,6 +2264,7 @@ window.companies = [
     },
     {
         "category": "Cloud Security",
+        "subcategory": "Cloud Native",
         "position": 0,
         "name": "AKEYLESS",
         "logo": "./logos/AKEYLESS.png",
@@ -2403,8 +2404,9 @@ window.companies = [
         "funding": "1.5M",
         "description": "Reflectiz brings a clear vision of helping organizations solve the escalating third-party security and privacy risks on their websites, by creating a seamless and fully automated solution, with no prior setup or integration requirements.",
         "crunchbase": "https://www.crunchbase.com/organization/reflectiz",
-        "homepage": "www.reflectiz.com",
+        "homepage": "https://www.reflectiz.com/",
         "linkedin": "https://www.linkedin.com/company/reflectiz/",
+        "twitter": "https://twitter.com/_Reflectiz_"
     },
     {
         "category": "Application Security",
@@ -2435,6 +2437,7 @@ window.companies = [
         "logo": "./logos/cubed-mobile-logo.png",
         "description": "Mobile Device Management Reimagined Provision a self-contained smartphone workspace encapsulated in an app, integrated with internal security systems, SIMless phone lines and apps.",
         "homepage": "http://www.cubedmobile.com/",
+        "twitter": "https://twitter.com/Cubed_Mobile"
     },
     {
         "category": "IoT",
@@ -2446,5 +2449,17 @@ window.companies = [
         "homepage": "https://www.otorio.com/",
         "linkedin": "https://www.linkedin.com/company/otorio",
         "crunchbase": "https://www.crunchbase.com/organization/otorio#section-overview",
+    },
+    {
+        "category": "Network Security",
+        "subcategory": "SDP & SD-WAN",
+        "position": 0,
+        "funding": "3.5M",
+        "name": "Cyber Armor",
+        "logo": "./logos/cyber-armor.svg",
+        "description": "Cyber Armor is a cybersecurity & big data company that offers zero-trust security for self-protecting cloud-native environments. The company enables DevOps teams to apply zero-trust security in any environment with no code changes required while reducing security configuration complexity. It closes the gap between development and security, giving development, DevOps, and DevSecOps the flexibility and ease to ensure high grade security and data protection no matter the environment cloud native, hybrid, or legacy. Cyber Armor delivers workload and data protection by creating a service-to-service, identity-based Zero-Trust control plane, ensuring only explicitly authorized workloads and applications run in the environment and access other authenticated workloads and data. The company's patent-pending technology extends orchestration and network control infrastructures such as Kubernetes and Istio to create a self-protecting mesh where every workload gets a code-DNA-based identity, which is maintained from CI/CD to run time and for the entire workload lifecycle. Cyber Armor was founded in 2017 and is headquartered in Jerusalem, Israel.",
+        "homepage": "https://www.cyberarmor.io/",
+        "linkedin": "https://www.linkedin.com/company/cyber-armor-soft",
+        "crunchbase": "https://www.crunchbase.com/organization/cyber-armor#section-overview",
     },
 ]
