@@ -1086,7 +1086,7 @@ window.companies = [
         "twitter": "https://twitter.com/MinereyeLTD", 
         "linkedin": "https://www.linkedin.com/company/5255831", 
         "crunchbase": "https://www.crunchbase.com/organization/minereye", 
-        "logo": "./logos/Minereye.jpg", 
+        "logo": "./logos/minereye-logo.png", 
         "homepage": "http://minereye.com/", 
         "description": "MinerEye is a pioneer in interpretive data classification and has reimagined a completely new way to identify data by its essence. Employing advanced computer vision and machine learning technologies, MinerEye offers the most comprehensive vehicle to identify, classify and track organizations’ sensitive data, anywhere across the globe and throughout the unstructured scales of dark data."
     }, 
