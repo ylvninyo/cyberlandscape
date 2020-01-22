@@ -259,7 +259,7 @@ window.companies = [
     {
         "category": "Data Protection", 
         "position": 0,
-        "funding": "96.1M", 
+        "funding": "146.1M",
         "name": "BigID", 
         "twitter": "https://twitter.com/bigidsecure", 
         "linkedin": "https://www.linkedin.com/company/bigid", 
@@ -1621,18 +1621,7 @@ window.companies = [
         "logo": "./logos/SecurityDAM.png", 
         "homepage": "http://www.securitydam.com/", 
         "description": "SecurityDAM helps Managed Security Service Providers (MSSPs) establish world-class Distributed Denial of Service (DDoS) protection services through our CyberDAM outsourced solutions. Using our multi-tenant management software, global network of scrubbing centers and SOC services, MSSPs can offer unmatched protection against any type of attack, including high-volume network floods."
-    }, 
-    {
-        "category": "Web Security", 
-        "position": 0,
-        "logo": "./logos/SegaSec.png", 
-        "homepage": "https://www.segasec.com", 
-        "name": "SegaSec", 
-        "twitter": "https://twitter.com/segasec_com",
-        "linkedin": "https://www.linkedin.com/company/segasec/",
-        "crunchbase": "https://www.crunchbase.com/organization/segasec-2",
-        "description": "Segasec is a cybersecurity company aiming to protect organizations from phishing, pharming, business email compromise and ransomware"
-    }, 
+    },
     {
         "category": "Network Security", 
         "position": 0,
@@ -2268,11 +2257,11 @@ window.companies = [
         "position": 0,
         "name": "AKEYLESS",
         "logo": "./logos/AKEYLESS.png",
-        "funding": "3M",
+        "funding": "4M",
         "crunchbase": "https://www.crunchbase.com/organization/akeyless",
         "linkedin": "https://www.linkedin.com/company/akeyless/",
-        "homepage": "www.akeyless.io",
-        "description": "AKEYLESS is an Israeli company founded and managed by highly experienced & repeat entrepreneurs. AKEYLESS develops and provides patented technology for Cloud Security, that can be deployed by Enterprises and Cloud providers alike. AKEYLESS is backed by JVP VC."
+        "homepage": "https://www.akeyless.io/",
+        "description": "AKEYLESS, an Israeli cloud security company, is a zero-knowledge, cloud-native, secrets management SaaS platform, enabling DevOps and Security teams to fully protect and manage any secret in any environment. Founded in 2018 and backed by JVP, AKEYLESS holds a vision of a trusted, fully secure cloud. Our mission is to provide the most innovative tools and platform to turn this vision into a reality."
     },
     {
         "category": "Web Security",
