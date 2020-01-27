@@ -2451,4 +2451,14 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/cyber-armor-soft",
         "crunchbase": "https://www.crunchbase.com/organization/cyber-armor#section-overview",
     },
+    {
+        "category": "Vulnerability & Risk Mgmt",
+        "position": 0,
+        "name": "InnoSec",
+        "logo": "./logos/innosec_logo.png",
+        "description": "InnoSec is a software manufacturer of cyber risk management technology.",
+        "homepage": "http://storm.innosec.com/",
+        "linkedin": "https://www.linkedin.com/company/innosec-ltd/",
+        "crunchbase": "https://www.crunchbase.com/organization/innosec",
+    },
 ]
