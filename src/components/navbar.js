@@ -37,22 +37,22 @@ class Navbar extends Component {
                             <b>What is CyberMap?</b>
                             {`
 
-CyberMap, by YL Ventures, is the first live map of Israel’ s cybersecurity startup landscape.It was designed by the firm for internal use and later published to share its potential with the wider public.
+CyberMap, by YL Ventures, is the first live map of Israel’s cybersecurity startup landscape. It was designed by the firm for internal use and later published to share its potential with the wider public.
 
-Today, CyberMap enables anyone interested in Israel’ s startup cybersecurity industry, including entrepreneurs, investors, journalists, and CISOs, as well as other security practitioners, to explore its full ecosystem with ease and efficiency.
+Today, CyberMap enables anyone interested in Israel’s startup cybersecurity industry, including entrepreneurs, investors, journalists, and CISOs, as well as other security practitioners, to explore its full ecosystem with ease and efficiency.
 
-CyberMap encompasses the full scope of Israel’ s cybersecurity industry.For ease of use, its search function offers filtering tools for 30 cyber categories and funding ranges to help you find the exact company you are looking for.
+CyberMap encompasses the full scope of Israel’s cybersecurity industry. For ease of use, its search function offers filtering tools for 30 cyber categories and funding ranges to help you find the exact company you are looking for.
 
 `}
                             <b>Tell us your thoughts!</b>
                             {`
 
-We made this live map to help our industry grow.If you have any questions, comments, or ideas on how to improve this map, we would love to hear them!We invite you to get in touch with us at `} <a href="mailto:dana@ylventures.com">dana@ylventures.com</a><br /><br />
+We made this live map to help our industry grow. If you have any questions, comments, or ideas on how to improve this map, we would love to hear them! We invite you to get in touch with us at `} <a href="mailto:dana@ylventures.com">dana@ylventures.com</a><br /><br />
 
                             <b>About YL Ventures</b>
                             {`
                             
-YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead.Based in Silicon Valley and Tel Aviv, YL Ventures manages $260 million focused on deep - technology sectors and specializes in cybersecurity.YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S. - based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders.The firm 's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.  
+YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead. Based in Silicon Valley and Tel Aviv, YL Ventures manages $260 million focused on deep - technology sectors and specializes in cybersecurity. YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S. - based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders. The firm 's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.  
 
 `}
                         </p>
