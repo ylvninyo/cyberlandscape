@@ -304,18 +304,6 @@ window.companies = [
         "logo": "./logos/CatoNetworks.png", 
         "homepage": "http://www.catonetworks.com", 
         "description": "Cato Networks provides organizations with a cloud-based and secure global SD-WAN. Cato delivers an integrated networking and security platform that securely connects all enterprise locations, people, and data. Cato Cloud cuts MPLS costs, improves performance between global locations and to cloud applications, eliminates branch appliances, provides secure Internet access everywhere, and seamlessly integrates mobile users and cloud datacenters into the WAN. Based in Tel Aviv, Israel, Cato Networks was founded in 2015 by cybersecurity luminary Shlomo Kramer, co-founder of Check Point Software Technologies and Imperva, and Gur Shatz, co-founder of Incapsula. Visit www.CatoNetworks.com and Twitter: @CatoNetworks."
-    }, 
-    {
-        "category": "Endpoint Security", 
-        "position": 0,
-        "funding": "4.5M", 
-        "name": "Ceedo Technologies", 
-        "twitter": "https://twitter.com/CeedoLtd", 
-        "linkedin": "http://www.linkedin.com/company/ceedo_72780", 
-        "crunchbase": "https://www.crunchbase.com/organization/ceedo-technologies", 
-        "logo": "./logos/CeedoTechnologies.png", 
-        "homepage": "http://www.ceedo.com", 
-        "description": "Ceedo Technologies is a virtualization software company headquartered in Israel. Its patent pending approach to virtualizing the Windows desktop environment enables users to carry their PC-based work environment on portable devices such as USB flash drives, pocket hard drives, network drives and even mobile phones. "
     },
     {
         "category": "Web Security", 
