@@ -2449,4 +2449,15 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/innosec-ltd/",
         "crunchbase": "https://www.crunchbase.com/organization/innosec",
     },
+    {
+        "category": "IoT",
+        "position": 0,
+        "name": "SigmaDots",
+        "logo": "./logos/essence-sigmadots.png",
+        "description": "Essence -SigmaDots' innovative software solution protects IoT ecosystems from cyberattacks by harnessing the power of distributed architecture and blockchain-based cybersecurity. Leveraging Essence Group's 25 years' experience and led by an experienced core team born of the Israel Defense Force’s elite ‘8200’ intelligence unit, Essence -SigmaDots developed the first embedded, multilayered IoT security platform with low-friction integration. The Essence - SigmaDots solution protects one of the largest security and smart - home systems in the world.SigmaDots ' unique device-embedded agent authenticates critical commands, safeguarding privacy and securing device communication with multiple device protection methods.  When downtime isn’t an option, Essence SigmaDots’ unique decentralized architecture eliminates the risks associated with a single point of failure. Headquartered in Herzliya we ensure service continuity in large - scale IoT deployments using mesh routing and provide system resilience during cyberattacks, including DDoS and communication layer congestion. To learn more about Essence - SigmaDots, visit www.sigmadots.com.",
+        "homepage": "https://sigmadots.com/",
+        "twitter": "https://twitter.com/sigmadots",
+        "linkedin": "https://www.linkedin.com/company/sigmadots/?originalSubdomain=il",
+        "crunchbase": "https://www.crunchbase.com/organization/sigmadots",
+    },
 ]
