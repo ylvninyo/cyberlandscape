@@ -2460,4 +2460,16 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/sigmadots/?originalSubdomain=il",
         "crunchbase": "https://www.crunchbase.com/organization/sigmadots",
     },
+    {
+        "category": "Vulnerability & Risk Mgmt",
+        "position": 0,
+        "funding": "2.8M",
+        "name": "CyGov",
+        "logo": "./logos/CyGov.png",
+        "description": "CyGov delivers a SaaS-based cyber risk platform that empowers organizations to understand their cyber risks and how best to manage them. Their solution simplifies the entire lifecycle of cyber risk management from assessment, analysis to remediation while providing an innovative visualization approach to overseeing security utilizing integrated threat intelligence.",
+        "homepage": "www.cygov.co",
+        "twitter": "https://twitter.com/cygov_",
+        "linkedin": "https://www.linkedin.com/company/cygov",
+        "crunchbase": "https://www.crunchbase.com/organization/cygov-intelligent-cyber-security",
+    },
 ]
