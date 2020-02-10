@@ -1787,9 +1787,9 @@ window.companies = [
         "twitter": "https://twitter.com/transmitsec", 
         "linkedin": "https://www.linkedin.com/company/transmit-security", 
         "crunchbase": "https://www.crunchbase.com/organization/transmit-security", 
-        "logo": "./logos/TransmitSecurity.png", 
+        "logo": "./logos/Transmit-Security.jpg", 
         "homepage": "http://www.transmitsecurity.com", 
-        "description": "Say No to Passwords. Passwords are the weakest link in securing access to your applications. Biometric techniques, new devices, and new device sensors provide exciting possibilities. However, they can be expensive to deploy and manage. Transmit Security makes it simple by connecting your applications to authenticators like face recognition, eye recognition, voice recognition, fingerprint, and OTP. You will be able to do trusted device binding, primary authentication, secondary authentication and respond to security risks immediately. Deploy any policy instantly. No change to your application required."
+        "description": "Transmit Security is a cross-channel orchestration platform provider that abstracts identity, authentication, authorization, and user-risk decisioning from applications, devices, security systems, infrastructure, and the cloud. An extensible plug-and-play approach reduces deployments to minutes for new and changes to existing business policies, authenticators, risk platforms, and channels. Transmit Security consolidates existing solutions into a single console that simplifies programming, reduces management, and is more agile to keep pace with new identity-related technologies. Advanced user, device and system profiling is combined with risk data to create a continuously updated user score for real-time authentication and access decisioning at every step, across every system."
     }, 
     {
         "category": "Network Security", 
@@ -2471,5 +2471,27 @@ window.companies = [
         "twitter": "https://twitter.com/cygov_",
         "linkedin": "https://www.linkedin.com/company/cygov",
         "crunchbase": "https://www.crunchbase.com/organization/cygov-intelligent-cyber-security",
+    },
+    {
+        "category": "Endpoint Security",
+        "position": 0,
+        "name": "Gytpol",
+        "logo": "./logos/gytpol_logo.png",
+        "description": "Gytpol Validator enables IT admins to implement Group Policy Objects (GPO) in a more reliable and efficient manner, thereby increasing security throughout the organization. Validator also monitors and alerts discrepancies between GPO definitions and actual policies in effect on servers, workstations and users. In addition, it advise on recommended actions in order to increase system performance and efficiency.",
+        "homepage": "www.gytpol.com",
+        "twitter": "https://twitter.com/gytpol",
+        "linkedin": "https://www.linkedin.com/company/gytpol/",
+        "crunchbase": "https://www.crunchbase.com/organization/gytpol#section-overview",
+    },
+    {
+        "category": "Endpoint Security",
+        "position": 0,
+        "name": "Cyber 2.0",
+        "logo": "./logos/cyber-2-0.png",
+        "description": "Cyber 2.0 is the only system in the world that blocks 100% of cyber-attacks within organizational networks, including new and unknown attacks. (viruses, ransomware, Trojan, information leakage, browser hijacking...) The system will protect the organization against the spread of the next unknown attack, after it bypasses all other defense systems. Cyber 2.0 is the only company that dared to put itself to the test of all hackers in Israel - and proved its ability. Other Cyber systems are based on biological models, that are vulnerable to attacks (virus and anti-virus).",
+        "homepage": "https://www.cyber20.com/",
+        "twitter": "https://www.twitter.com/Cyber2085365327",
+        "linkedin": "https://www.linkedin.com/company/cyber20/",
+        "crunchbase": "https://www.crunchbase.com/organization/cyber-2-0",
     },
 ]
