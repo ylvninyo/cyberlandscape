@@ -2287,7 +2287,7 @@ window.companies = [
         "description": "Vicarius protects clients against exploitation of yet-to-be-discovered software vulnerabilities.The Vicarius powered platform, called Topia, enables companies to predict, prioritize and protect against software vulnerabilities before they can be exploited by hackers.Vicarius begins by identifying weaknesses within clients' digital environment using a proprietary binary code analysis methodology. It then prioritizes these vulnerabilities, building a live threat map of the organization's infrastructure, using asset context analysis.Lastly, a shim layer is deployed to protect software from identified vulnerabilities by limiting access to its exploitable code in real - time.Topia is live and already protecting dozens of organizations worldwide.Vicarius' Topia clients enjoy a complete and automatic solution for the secure management of any software services in their network - shattering the common paradigm of software being treated as \"safe\" until a vulnerability is exposed. This new mind shift allows organizations to protect any software without involving the vendor or even their own IT teams. Vicarius was founded in 2016 by three entrepreneurs from the information- security industry and operates out of Jerusalem's Machane Yehuda Market."
     },
     {
-        "category": "Data Protection",
+        "category": "Blockchain Security",
         "position": 0,
         "name": "GK8",
         "logo": "./logos/GK8.png",
@@ -2493,5 +2493,16 @@ window.companies = [
         "twitter": "https://www.twitter.com/Cyber2085365327",
         "linkedin": "https://www.linkedin.com/company/cyber20/",
         "crunchbase": "https://www.crunchbase.com/organization/cyber-2-0",
+    },
+    {
+        "category": "Email Security",
+        "position": 0,
+        "name": "Cyberfish",
+        "logo": "./logos/cyberfish-logo.png",
+        "description": "Cyberfish is a zero-second phishing protection solution that combines Computer Vision and AI to stop phishing emails and websites in real-time - before they have been reported and added to the blacklists.The company offers employee protection solution with one-click onboarding, as well as powerful API.",
+        "homepage": "https://cyberfish.io",
+        "twitter": "https://twitter.com/cyberfishio",
+        "linkedin": "https://www.linkedin.com/company/cyberfish/",
+        "crunchbase": "https://www.crunchbase.com/organization/cyberfish",
     },
 ]
