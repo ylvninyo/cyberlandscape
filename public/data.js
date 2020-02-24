@@ -684,7 +684,7 @@ window.companies = [
     {
         "category": "Data Protection", 
         "position": 0,
-		"funding": "4M", 
+		"funding": "20M", 
         "logo": "./logos/DualityTechnologies.png", 
         "homepage": "http://duality.cloud", 
         "name": "Duality Technologies", 
@@ -1159,7 +1159,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/nyotron", 
         "logo": "./logos/NyotronInformationSecurity.png", 
         "homepage": "http://www.nyotron.com", 
-        "description": " "
+        "description": "Nyotron is a privately held cybersecurity company headquartered in Santa Clara, CA with an R&D office in Israel. By mapping legitimate operating system behavior, Nyotron’s PARANOID understands all normative ways that may lead to damage, such as file deletion, data exfiltration, encryption, sabotage and more. Focusing on finite “good” actions allows PARANOID to be completely agnostic to threats and attack vectors. PARANOID works seamlessly with antivirus and next-generation antivirus solutions to provide the last line of defense from modern state-level attacks."
     }, 
     {
         "category": "Cloud Security", 
@@ -1319,20 +1319,7 @@ window.companies = [
         "logo": "./logos/ProtegoLabs.png", 
         "homepage": "https://www.protego.io/", 
         "description": "Recognizing the inadequacy of traditional application security paradigms, Protego Labs designed the first comprehensive solution built with the unique constraints and opportunities of serverless in mind. Through continuous serverless security posture, dynamic serverless intelligence, and elastic defense, Protego helps organizations achieve control over the security of their applications."
-    }, 
-    {
-        "category": "Cloud Security", 
-        "position": 0,
-        "funding": "7.8M", 
-        "name": "PureSec", 
-        "twitter": "https://twitter.com/PureSecTeam", 
-        "linkedin": "https://www.linkedin.com/company/puresec-serverless-architectures-security/", 
-        "subcategory": "Cloud Native", 
-        "crunchbase": "https://www.crunchbase.com/organization/puresec", 
-        "logo": "./logos/PureSec.jpg", 
-        "homepage": "https://www.puresec.io/", 
-        "description": "As the global leader in serverless architectures security, PureSec enables its customers to build and maintain secure and reliable serverless applications in a trusted and safe computing environment. PureSec supports all serverless vendors, including AWS Lambda, Google Cloud Functions, Azure Functions and IBM Cloud Functions, allowing organizations to detect, prevent and respond to suspicious activity and attacks. The company\u2019s end-to-end serverless security solution is the industry\u2019s first and most comprehensive security protection for serverless architectures."
-    }, 
+    },
     {
         "category": "IoT", 
         "position": 0,
@@ -1733,7 +1720,7 @@ window.companies = [
     {
         "category": "Application Security", 
         "position": 0,
-        "funding": "32M", 
+        "funding": "252M", 
         "name": "Snyk", 
         "twitter": "https://www.twitter.com/snyksec", 
         "linkedin": "https://www.linkedin.com/company/snyk", 
@@ -1992,6 +1979,8 @@ window.companies = [
         "funding": "8M",
 		"name": "Rezilion", 
         "linkedin": "https://www.linkedin.com/company/rezilion/", 
+        "twitter": "https://twitter.com/firedome", 
+        "crunchbase": "https://www.crunchbase.com/organization/rezilion", 
         "logo": "./logos/Rezilion.png", 
         "homepage": "https://www.rezilion.com/", 
         "description": "Rezilion is making applications and clouds resilient to cyber-attacks Replacing server, network & application security tools with a single autonomous solution"
@@ -2130,6 +2119,7 @@ window.companies = [
         "funding": "4.6M",
         "twitter": "https://twitter.com/CycodeHQ",
         "linkedin": "https://www.linkedin.com/company/cycode/",
+        "crunchbase": "https://www.crunchbase.com/organization/cycode",
         "homepage": "https://www.cycode.com/",
         "description": "Cycode, the industry’s first source code control, detection and response platform, utilizes its unique Source Path Intelligence engine to seamlessly deliver comprehensive visibility into all of an organization’s source code and automatically detect and respond to anomalies in access, movement and usage. With Cycode, organizations are “Secured to The Source”; their security teams can rapidly and dramatically reduce the risk of source code loss without impacting developer access or productivity."
     },
@@ -2151,7 +2141,7 @@ window.companies = [
         "name": "Satori Cyber",
         "logo": "./logos/Satori_logo_horizontal_color.png",
         "funding": "5.25M",
-        "crunchbase": "",
+        "crunchbase": "https://www.crunchbase.com/organization/satori-cyber",
         "twitter": "https://twitter.com/SatoriCyber",
         "linkedin": "https://www.linkedin.com/company/satoricyber",
         "homepage": "https://satoricyber.com/",
@@ -2223,6 +2213,8 @@ window.companies = [
         "name": "Kazuar",
         "logo": "./logos/Kazuar.jpg",
         "funding": "6.3M",
+        "crunchbase": "https://www.crunchbase.com/organization/kazuar",
+        "twitter": "https://twitter.com/kazuarcyber",
         "linkedin": "https://www.linkedin.com/company/kazuar-advanced-technologies-ltd/",
         "homepage": "https://www.kazuar-tech.com/",
         "description": "KAZUAR Advanced Technologies develops solutions designed to provide intelligence agency-grade security and privacy. The company's security solutions help organizations of any size protect sensitive and valuable data. KAZUAR offers a complete, end- to - end hardware and software solution, including secure endpoints and cloud with an on - premises option.The company seeks to provide holistic, secure platforms for organizations that want to proactively defend against cyber threats."
@@ -2235,6 +2227,7 @@ window.companies = [
         "logo": "./logos/AKEYLESS.png",
         "funding": "4M",
         "crunchbase": "https://www.crunchbase.com/organization/akeyless",
+        "twitter": "https://twitter.com/akeylessio",
         "linkedin": "https://www.linkedin.com/company/akeyless/",
         "homepage": "https://www.akeyless.io/",
         "description": "AKEYLESS, an Israeli cloud security company, is a zero-knowledge, cloud-native, secrets management SaaS platform, enabling DevOps and Security teams to fully protect and manage any secret in any environment. Founded in 2018 and backed by JVP, AKEYLESS holds a vision of a trusted, fully secure cloud. Our mission is to provide the most innovative tools and platform to turn this vision into a reality."
