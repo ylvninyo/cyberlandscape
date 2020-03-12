@@ -67,7 +67,7 @@ YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to
                         <h4 className="turquoise-text">Add a company</h4>
                         <p className="black-text nav-modal-p pre-wrap">
                             {`                        
-Want to appear on the map ? Please send an email with your company’ s name, website and logo(png or svg) to`} <a href="mailto:dana@ylventures.com"> dana@ylventures.com </a>
+Want to appear on the map? Please send an email with your company’s name, website and logo(png or svg) to`} <a href="mailto:dana@ylventures.com"> dana@ylventures.com </a>
                             
                         </p>
                     </div>
