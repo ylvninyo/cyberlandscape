@@ -67,12 +67,8 @@ YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to
                         <h4 className="turquoise-text">Add a company</h4>
                         <p className="black-text nav-modal-p pre-wrap">
                             {`                        
-Want to appear on the map? Here are two ways to submit your company:
-
-`}
-                            <b><a href="https://github.com/ylventures/cybermap" target="_blank" rel="noopener noreferrer">Github:</a></b> open a pull request and edit public/data.js
-<br/>
-                            <b>Email:</b> send an email with the company’s name, URL and logo (in .png or .svg) to <a href="mailto:ofer@ylventures.com">ofer@ylventures.com</a>
+Want to appear on the map? Please send an email with your company’s name, website and logo(png or svg) to`} <a href="mailto:dana@ylventures.com"> dana@ylventures.com </a>
+                            
                         </p>
                     </div>
                 </div>
