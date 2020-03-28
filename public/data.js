@@ -763,18 +763,7 @@ window.companies = [
         "logo": "./logos/100X70_hunters.jpg", 
         "homepage": "https://hunters.ai/", 
         "description": "Hunters is the industry’s first autonomous hunting solution. Hunters combines its unique Attack Intelligence, Hunting AI, and continuous automation with the enterprise’s existing security data to transform threat hunting from hunt and hope to hunting that works"
-    },	
-    {
-        "category": "IoT", 
-        "position": 0,
-        "subcategory": "SCADA", 
-        "name": "Firmitas Cyber Solutions", 
-        "twitter": "https://twitter.com/firmitascs", 
-        "linkedin": "https://www.linkedin.com/company/firmitas-cyber-solutions-inc-/", 
-        "crunchbase": "https://www.crunchbase.com/organization/firmitas-cyber-solutions", 
-        "logo": "./logos/FirmitasCyberSolutions.png", 
-        "description": "Firmitas Cyber Solutions is a technology company providing patent-pending cyber-defense solutions. "
-    }, 
+    },
     {
         "category": "Mobile Security", 
         "position": 0,
@@ -973,7 +962,7 @@ window.companies = [
     {
         "category": "Threat Intelligence", 
         "position": 0,
-        "funding": "100M", 
+        "funding": "50M", 
         "name": "KELA Group", 
         "linkedin": "https://www.linkedin.com/company/kela-israeli-intelligence/", 
         "crunchbase": "https://www.crunchbase.com/organization/kela-group", 
@@ -1016,19 +1005,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/levl-technologies",
         "homepage": "https://www.levltech.com/",
         "description": "Levl Technologies is a current cyber-security solutions for sensor authentication in IoT (e.g., credential management) have their roots in the classical cyber-security and in many scenarios are not suitable for the unique requirements of many IoT sensors which will be cheap, memory limited and with low processing power."
-    }, 
-    {
-        "category": "Email Security", 
-        "position": 0,
-        "funding": "5.7M", 
-        "name": "LogDog", 
-        "twitter": "http://twitter.com/LogDogApp", 
-        "linkedin": "http://www.linkedin.com/company/logdog", 
-        "crunchbase": "https://www.crunchbase.com/organization/logdog", 
-        "logo": "./logos/LogDog.png", 
-        "homepage": "http://www.GetLogDog.com", 
-        "description": "1 in 4 online accounts gets hacked. LogDog gives you free protection from hackers and identity theft."
-    }, 
+    },
     {
         "category": "IoT", 
         "position": 0,
@@ -1046,7 +1023,7 @@ window.companies = [
         "category": "Network Security",
         "position": 0,
         "name": "Perimeter 81", 
-		"funding": "15M",
+		"funding": "19.5M",
         "twitter": "https://twitter.com/Perimeter_81", 
         "linkedin": "https://www.linkedin.com/company/perimeter-81/", 
         "subcategory": "SDP & SD-WAN", 
@@ -1140,18 +1117,6 @@ window.companies = [
         "description": "nsKnox recognizes what\u2019s at stake, as well as the unique challenges financial institutions face. Operating as isolated technology islands, these organizations are building their own internal digital security fences, which aren\u2019t robust enough to prevent coordinated attacks launched by the world\u2019s most powerful cyber-criminal organizations. "
     }, 
     {
-        "category": "Mobile Security", 
-        "position": 0,
-        "funding": "7M", 
-        "name": "Nubo Software", 
-        "twitter": "http://twitter.com/NuboSoftware", 
-        "linkedin": "http://www.linkedin.com/company/nubo-software", 
-        "crunchbase": "https://www.crunchbase.com/organization/nubo-software", 
-        "logo": "./logos/NuboSoftware.png", 
-        "homepage": "http://www.nubosoftware.com", 
-        "description": "The first company to develop Virtual Mobile Infrastructure (VMI) for enterprise mobility, Nubo Software has created one, secured remote virtual workspace that is tailor-made for today\u2019s mobile workforce. With Nubo, corporations own their data and applications, and employees own their devices. Founded in 2011 by Israel Lifshitz, founder of SysAid Technologies, Nubo\u2019s innovative approach to mobile security stores zero data on personal devices while providing users with a native app experience and the freedom to choose their own applications."
-    }, 
-    {
         "category": "Endpoint Security", 
         "position": 0,
         "funding": "43M", 
@@ -1178,7 +1143,7 @@ window.companies = [
     {
         "category": "Email Security", 
         "position": 0,
-        "funding": "8.1M", 
+        "funding": "10.2M", 
         "name": "Odix", 
         "twitter": "https://twitter.com/ODICDR", 
         "linkedin": "https://www.linkedin.com/company/odixcdr/", 
@@ -1283,19 +1248,7 @@ window.companies = [
         "logo": "./logos/PreemptSecurity.png", 
         "homepage": "http://www.preempt.com/", 
         "description": "Preempt protects organizations by eliminating security threats. Threats are not black or white and the Preempt Platform is the only solution that preempts threats with continuous threat prevention that automatically adapts based on identity, behavior and risk. This ensures that both security threats and risky employee activities are responded to with the right level of security at the right time. The platform easily scales to provide comprehensive identity based protection across organizations of any size."
-    }, 
-    {
-        "category": "Data Protection", 
-        "position": 0,
-        "funding": "5M",
-        "name": "Prifender", 
-        "linkedin": "https://www.linkedin.com/company/10572368", 
-        "crunchbase": "https://www.crunchbase.com/organization/prifender",
-        "twitter": "https://twitter.com/prifender",    
-        "logo": "./logos/Prifender.png", 
-        "homepage": "https://www.prifender.com", 
-        "description": "Prifender uses artificial intelligence technology to map personal information across all stores of identity in an enterprise, whether structured and unstructured, while associating identities with their respective obligations so organizations can better manage personal information and demonstrate accountability and compliance. \nPrifender\u2019s mission is to drive automation of the privacy office while providing demonstrable compliance with privacy regulations, notices and contractual obligations."
-    }, 
+    },
     {
         "category": "Web Security", 
         "position": 0,
@@ -1349,8 +1302,8 @@ window.companies = [
 		"description": "Radware (NASDAQ: RDWR), is a global leader of application delivery and application security solutions for virtual and cloud data centers. Its award-winning solutions portfolio delivers full resilience for business-critical applications, maximum IT efficiency, and complete business agility. Radwares solutions empower more than 10,000 enterprise and carrier customers worldwide to adapt to market challenges quickly, maintain business continuity and achieve maximum productivity while keeping costs down.For more information, please visit www.radware.com.Radware encourages you to join their community and follow them on: LinkedIn, Radware Blog, Twitter, YouTube and the Radware Connect app for iPhone."
 	},
 	{	
-    "category": "Web Security", 
-    "position": 0,
+        "category": "Web Security", 
+        "position": 0,
         "subcategory": "WAF",
 		"funding": "2.05M",
         "name": "Sabres Cyber Security", 
@@ -1780,18 +1733,6 @@ window.companies = [
         "logo": "./logos/TrapXSecurity.png", 
         "homepage": "http://trapx.com/", 
         "description": "TrapX Security is a leader in the delivery of deception-based cyber security defense. Our solutions rapidly detect, analyze and defend against new zero day and APT attacks in real-time. The TrapX Security customer base includes global 2000 commercial and government customers around the world in sectors including defense, healthcare, finance, energy, consumer products and other key industries. Download Your Free Trial Today."
-    }, 
-    {
-        "category": "Network Security", 
-        "position": 0,
-        "funding": "30M", 
-        "name": "Tufin", 
-        "twitter": "http://twitter.com/tufintech", 
-        "linkedin": "http://www.linkedin.com/company/tufin-technologies", 
-        "crunchbase": "https://www.crunchbase.com/organization/tufin", 
-        "logo": "./logos/Tufin.png", 
-        "homepage": "http://www.tufin.com/", 
-        "description": "Tufin is the leader in Network Security Policy Orchestration for enterprise cybersecurity. More than half of the top 50 companies in the Forbes Global 2000 turn to Tufin to simplify management of some of the largest, most complex networks in the world, consisting of thousands of firewall and network devices and emerging hybrid cloud infrastructures. Enterprises select the company\u2019s award-winning Tufin Orchestration Suite\u2122 to increase agility in the face of ever-changing business demands while maintaining a robust security posture. The Suite reduces the attack surface and meets the need for greater visibility into secure and reliable application connectivity. Its network security automation enables enterprises to implement changes in minutes with proactive risk analysis and continuous policy compliance. Tufin serves over 2,000 customers spanning all industries and geographies; its products and technologies are patent-protected in the U.S. and other countries."
     },
     {
         "category": "Network Security",
@@ -2195,7 +2136,7 @@ window.companies = [
         "position": 0,
         "name": "Cyabra",
         "logo": "./logos/Cyabra.jpg",
-        "funding": "3.5M",
+        "funding": "3M",
         "crunchbase": "https://www.crunchbase.com/organization/cyabra#section-overview",
         "twitter": "https://twitter.com/TheCyabra",
         "linkedin": "https://www.linkedin.com/company/cyabra/",
@@ -2366,7 +2307,7 @@ window.companies = [
         "position": 0,
         "name": "Reflectiz",
         "logo": "./logos/reflectiz-logo.png",
-        "funding": "1.5M",
+        "funding": "1M",
         "description": "Reflectiz brings a clear vision of helping organizations solve the escalating third-party security and privacy risks on their websites, by creating a seamless and fully automated solution, with no prior setup or integration requirements.",
         "crunchbase": "https://www.crunchbase.com/organization/reflectiz",
         "homepage": "https://www.reflectiz.com/",
@@ -2496,11 +2437,23 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/cyberfish",
     },
     {
-        "category": "Cloud Security",
+        "category": "Network Security",
         "position": 0,
         "funding": "21M",
         "name": "Beyond (Israel)",
         "logo": "./logos/Beyond.png",
         "crunchbase": "https://www.crunchbase.com/organization/beyond-israel#section-overview",
+    },
+    {
+        "category": "Cloud Security",
+        "position": 0,
+        "funding": "17M",
+        "name": "Axis Security",
+        "logo": "./logos/AxisSecurity.png",
+        "description": "Axis Security enables any organization to quickly deliver tightly managed global access to employees, partners and other stakeholders through a purpose - built zero - trust cloud security platform.Unlike legacy solutions that create excess access and unnecessary risk, Axis Security’ s unique Application Isolation Technology assures access to only the resources required.",
+        "homepage": "https://www.axissecurity.com/",
+        "twitter": "https://twitter.com/AxisSecurityHQ",
+        "linkedin": "https://www.linkedin.com/company/axis-security",
+        "crunchbase": "https://www.crunchbase.com/organization/axis-security",
     },
 ]
