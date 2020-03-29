@@ -1737,6 +1737,7 @@ window.companies = [
     {
         "category": "Network Security",
         "position": 0,
+        "funding": "4.7M", 
         "name": "Zero Networks",
         "twitter": "https://twitter.com/ZeroNetworks",
         "linkedin": "https://www.linkedin.com/company/zero-networks",
@@ -2437,7 +2438,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/cyberfish",
     },
     {
-        "category": "Network Security",
+        "category": "Cloud Security",
         "position": 0,
         "funding": "21M",
         "name": "Beyond (Israel)",
@@ -2445,7 +2446,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/beyond-israel#section-overview",
     },
     {
-        "category": "Cloud Security",
+        "category": "Network Security",
         "position": 0,
         "funding": "17M",
         "name": "Axis Security",
