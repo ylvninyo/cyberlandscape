@@ -14,7 +14,7 @@ class Navbar extends Component {
                 <ul id="sidenav" className="sidenav">
                     <li><a className="modal-trigger" href="#about">About</a></li>
                     <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
-                    <li><a target="_blank" href="http://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
+                    <li><a target="_blank" href="http://www.ylventures.com" rel="noopener">ylventures.com</a></li>
                 </ul>
                 <nav className="nav-gradient">
                     <div className="container">
