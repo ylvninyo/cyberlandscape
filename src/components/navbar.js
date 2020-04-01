@@ -24,7 +24,7 @@ class Navbar extends Component {
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
-                                <li><a target="_blank" href="https://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
+                                <li><a target="_blank" href="https://www.ylventures.com" rel="noopener">ylventures.com</a></li>
                             </ul>
                             <a href="#!" className="sidenav-trigger" data-target="sidenav"><i className="material-icons">menu</i></a>
                         </div>
@@ -56,7 +56,7 @@ YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to
 
 `}
                         </p>
-                        <a href="https://www.ylventures.com" target="_blank" rel="noopener noreferrer" className="turquoise-text">
+                        <a href="https://www.ylventures.com" target="_blank" rel="noopener" className="turquoise-text">
                             www.ylventures.com
                         </a>
                     </div>
