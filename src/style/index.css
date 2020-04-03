@@ -1,5 +1,5 @@
 .clear {
-    clear:both;
+    clear: both;
 }
 
 .pre-wrap {
@@ -154,7 +154,82 @@ hr {
 }
 
 @media only screen and (min-width: 993px) {
-    .container { 
-        width: 80%; 
+    .container {
+        width: 80%;
+    }
+}
+
+.careers-view {
+    position: relative;
+    float: left;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.careers-view .container-fluid {
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.careers-view h1, .careers-view h2, .careers-view h3, p {
+    color: whitesmoke;
+}
+
+.careers-view h1 {
+    font-size: 2.28rem;
+    font-weight: 100;
+}
+
+.careers-view h2 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.75rem;
+}
+
+.careers-view p {
+    font-size: 15px;
+}
+
+.airtable-embed {
+    background: transparent;
+    border: 1px solid #ccc;
+}
+
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -6px;
+    margin-left: 6px;
+}
+
+.lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 8px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-hourglass 1.2s infinite;
+}
+
+@keyframes lds-hourglass {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+        transform: rotate(1800deg);
     }
 }
