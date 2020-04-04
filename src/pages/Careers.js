@@ -26,7 +26,7 @@ class Careers extends Component {
                     </div>
                     <hr/>
                     <h2>Is your Cybersecurity company <strong>recruiting?</strong><br/>Submit who you’re looking for <a
-                        href={'https://airtable.com/shryWL3csxTNkq16M'}><strong>here</strong>.</a></h2>
+                        href={'https://airtable.com/shryWL3csxTNkq16M'} target="_blank"><strong>here</strong>.</a></h2>
                     <br/>
                     <p>List is constantly updating <span className="lds-hourglass"></span></p>
                     <div>
