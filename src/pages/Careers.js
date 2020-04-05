@@ -26,17 +26,18 @@ class Careers extends Component {
                     <hr/>
                     <h2>Is your Cybersecurity company <strong>recruiting?</strong><br/>Submit who you’re looking for <a
                         href={'https://airtable.com/shryWL3csxTNkq16M'} target="_blank"><strong>here</strong>.</a></h2>
-                    <br/>
                     <p>List is constantly updating <span className="lds-hourglass"></span></p>
                     <div className="row">
                         <div className="col s0 m2"></div>
                         <div className="col s12 m8">
                             <iframe className="airtable-embed" title="Airtable"
                                     src="https://airtable.com/embed/shr7Qe7WRSczzCDWm?backgroundColor=green&layout=card&viewControls=on"
-                                    frameBorder="0" onmousewheel="" width="100%" height="533"></iframe>
-
+                                    frameBorder="0" onmousewheel="" width="100%" height="500"></iframe>
                         </div>
                     </div>
+                    <p className="align-center">
+                        We invite you to get in touch with us at <a href="mailto:dana@ylventures.com">dana@ylventures.com</a>
+                    </p>
                 </div>
             </div>
         );
