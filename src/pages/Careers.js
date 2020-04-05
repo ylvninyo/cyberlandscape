@@ -3,8 +3,7 @@ import React, {Component} from 'react'
 class Careers extends Component {
     constructor(props) {
         super(props)
-        this.state = {
-        }
+        this.state = {}
     }
 
     render() {
@@ -29,10 +28,14 @@ class Careers extends Component {
                         href={'https://airtable.com/shryWL3csxTNkq16M'} target="_blank"><strong>here</strong>.</a></h2>
                     <br/>
                     <p>List is constantly updating <span className="lds-hourglass"></span></p>
-                    <div>
-                        <iframe className="airtable-embed" title="Airtable"
-                                src="https://airtable.com/embed/shrKwzSU2vFPIyRw2?backgroundColor=transparent&layout=card"
-                                frameBorder="0" onmousewheel="" width="100%" height="533"></iframe>
+                    <div className="row">
+                        <div className="col s0 m2"></div>
+                        <div className="col s12 m8">
+                            <iframe className="airtable-embed" title="Airtable"
+                                    src="https://airtable.com/embed/shr7Qe7WRSczzCDWm?backgroundColor=green&layout=card&viewControls=on"
+                                    frameBorder="0" onmousewheel="" width="100%" height="533"></iframe>
+
+                        </div>
                     </div>
                 </div>
             </div>
