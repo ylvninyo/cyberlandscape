@@ -12,15 +12,15 @@ class PageTop extends Component {
         return(
             <div className="background-dark-grey page-top white-text center">
                 <div className="container">
-                    <h4 className="no-margin opacity-08 font-lighter">
+                    <h1 className="no-margin opacity-08 font-lighter hero-title">
                         Welcome to CyberMap
-                    </h4>
+                    </h1>
                     <br />
                     <div className="row">
                         <div className="col s0 m1 l2"></div>
                         <div className="col s12 m10 l8 pre-wrap align-justify">
 {`
-CyberMap is the first open, interactive, comprehensive, live map of Israel’s cybersecurity startup landscape. Use the categories and search filters below to start exploring the industry.
+CyberMap by YL Ventures is the first open, interactive, comprehensive, live map of Israel’s cybersecurity startup landscape.
 `}
                         </div>
                         <div className="col s0 m1 l2"></div>
