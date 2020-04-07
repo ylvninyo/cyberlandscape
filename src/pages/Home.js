@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Category from '../components/category'
 import PageTop from '../components/pageTop'
+import MetaTags from "react-meta-tags";
 
 class Home extends Component {
     constructor(props) {
@@ -83,6 +84,17 @@ class Home extends Component {
 
         return (
             <div>
+                <MetaTags>
+                    <title>CyberMap by YL Ventures</title>
+                    <meta name="viewport"
+                          content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"/>
+                    <meta property="og:image"
+                          content="https://venturebeat.com/wp-content/uploads/2018/06/4708ae1e-979b-4490-964c-48c24cf325bd.jpg?fit=300%2C289&strip=all"/>
+                    <meta name="thumbnail"
+                          content="https://venturebeat.com/wp-content/uploads/2018/06/4708ae1e-979b-4490-964c-48c24cf325bd.jpg?fit=300%2C289&strip=all"/>
+                    <meta name="description"
+                          content="CyberMap by YL Ventures is the first open, interactive, comprehensive, live map of Israel’s Cybersecurity startup landscape"/>
+                </MetaTags>
                 <PageTop amount={this.state.data.length}
                          onSearch={this.handleSearch}
                          categoryFilter={!!this.state.categoryFilter.size}
