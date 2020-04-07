@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import MetaTags from 'react-meta-tags';
 
 class Careers extends Component {
     constructor(props) {
@@ -9,6 +10,12 @@ class Careers extends Component {
     render() {
         return (
             <div className="careers-view background-dark-grey">
+                <MetaTags>
+                    <title>Israeli Cybersecurity companies are hiring!</title>
+                    <meta name="description" content="The Cybersecurity industry remains robust and resilient even as COVID-19 pummels the market. In this difficult time, let’s band together and create a resource for highly qualified professionals in the community looking for their next role!" />
+                    <meta property="og:title" content="Israeli Cybersecurity companies are hiring!" />
+                    <meta property="og:image" content="./og-cybermap-careers.png" />
+                </MetaTags>
                 <div className="container-fluid">
                     <h1>Israeli Cybersecurity companies are <strong>hiring</strong>!</h1>
                     <div className="row">
