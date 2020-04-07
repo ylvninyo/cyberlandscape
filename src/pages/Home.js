@@ -94,8 +94,6 @@ class Home extends Component {
                           content="https://venturebeat.com/wp-content/uploads/2018/06/4708ae1e-979b-4490-964c-48c24cf325bd.jpg?fit=300%2C289&strip=all"/>
                     <meta name="description"
                           content="CyberMap by YL Ventures is the first open, interactive, comprehensive, live map of Israel’s Cybersecurity startup landscape"/>
-                    <meta property="og:image:width" content="300"/>
-                    <meta property="og:image:height" content="150"/>
                 </MetaTags>
                 <PageTop amount={this.state.data.length}
                          onSearch={this.handleSearch}
