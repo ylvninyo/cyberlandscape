@@ -26,7 +26,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 15,
-        "funding": "37M", 
+        "funding": "95M", 
         "name": "Axonius", 
         "twitter": "https://twitter.com/axoniusinc", 
         "linkedin": "https://www.linkedin.com/company/18226665/", 
@@ -271,7 +271,7 @@ window.companies = [
     {
         "category": "Fraud & Transactions", 
         "position": 0,
-        "funding": "41.6M", 
+        "funding": "186.6M", 
         "name": "BioCatch", 
         "twitter": "http://twitter.com/BioCatch", 
         "linkedin": "http://www.linkedin.com/company/biocatch", 
@@ -295,7 +295,7 @@ window.companies = [
     {
         "category": "Network Security", 
         "position": 0,
-        "funding": "125M", 
+        "funding": "202M", 
         "name": "Cato Networks", 
         "twitter": "https://twitter.com/catonetworks", 
         "linkedin": "https://www.linkedin.com/company/cato-networks", 
@@ -1009,7 +1009,7 @@ window.companies = [
     {
         "category": "IoT", 
         "position": 0,
-		"funding": "10M", 
+		"funding": "30M", 
         "subcategory": "Healthcare", 
         "name": "CyberMDX", 
         "twitter": "https://twitter.com/CyberMDX", 
@@ -1377,7 +1377,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 0,
-        "funding": "34M", 
+        "funding": "53M", 
         "name": "SafeBreach", 
         "twitter": "https://twitter.com/safebreach", 
         "linkedin": "https://www.linkedin.com/company/safebreach", 
@@ -2456,5 +2456,16 @@ window.companies = [
         "twitter": "https://twitter.com/AxisSecurityHQ",
         "linkedin": "https://www.linkedin.com/company/axis-security",
         "crunchbase": "https://www.crunchbase.com/organization/axis-security",
+    },
+    {
+        "category": "Network Security",
+        "position": 0,
+        "funding": "4.2M",
+        "name": "Cyolo",
+        "logo": "./logos/cyolo.png",
+        "description": "Cyolo provides ID access control to connect with cyberspace in a single SaaS solution.",
+        "homepage": "https://cyolo.io/",
+        "linkedin": "https://www.linkedin.com/company/cyolo",
+        "crunchbase": "https://www.crunchbase.com/organization/cyolo",
     },
 ]
