@@ -31,3 +31,8 @@
         margin-top: 10px;
     }
 }
+
+.hero-title {
+    font-size: 2.28rem;
+    line-height: 110%;
+}

@@ -1,5 +1,9 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import '../style/navbar.css'
+import {
+    Link
+} from "react-router-dom";
+
 const M = window.M
 
 class Navbar extends Component {
@@ -14,24 +18,29 @@ class Navbar extends Component {
                 <ul id="sidenav" className="sidenav">
                     <li><a className="modal-trigger" href="#about">About</a></li>
                     <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
-                    <li><a target="_blank" href="http://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
+                    <li><Link to="/careers">Careers</Link></li>
+                    <li><a target="_blank" href="https://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
                 </ul>
                 <nav className="nav-gradient">
                     <div className="container">
                         <div className="nav-wrapper fixed-navbar padding-top-bottom">
-                            <a href="/" className="brand-logo"><img src="/logo.png" alt="logo" /></a>
+                            <a href="/" className="brand-logo"><img src="/logo.png" alt="logo"/></a>
                             <ul className="right hide-on-med-and-down">
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
+                                <li><Link to="/careers">Careers</Link></li>
                                 <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
-                                <li><a target="_blank" href="https://www.ylventures.com" rel="noopener noreferrer">ylventures.com</a></li>
+                                <li><a target="_blank" href="https://www.ylventures.com"
+                                       rel="noopener noreferrer">ylventures.com</a></li>
                             </ul>
-                            <a href="#!" className="sidenav-trigger" data-target="sidenav"><i className="material-icons">menu</i></a>
+                            <a href="#!" className="sidenav-trigger" data-target="sidenav"><i
+                                className="material-icons">menu</i></a>
                         </div>
                     </div>
                 </nav>
                 <div id="about" className="modal outline-0 modal-with-x">
-                    <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
+                    <div className="modal-closing-btn modal-close cursor-pointer"><i
+                        className="material-icons modal-icon">close</i></div>
                     <div className="modal-content center modal-content-with-x">
                         <p className="black-text nav-modal-p pre-wrap">
                             <b>What is CyberMap?</b>
@@ -47,7 +56,8 @@ CyberMap encompasses the full scope of Israel’s cybersecurity industry. For ea
                             <b>Tell us your thoughts!</b>
                             {`
 
-We made this live map to help our industry grow. If you have any questions, comments, or ideas on how to improve this map, we would love to hear them! We invite you to get in touch with us at `} <a href="mailto:dana@ylventures.com">dana@ylventures.com</a><br /><br />
+We made this live map to help our industry grow. If you have any questions, comments, or ideas on how to improve this map, we would love to hear them! We invite you to get in touch with us at `}
+                            <a href="mailto:dana@ylventures.com">dana@ylventures.com</a><br/><br/>
 
                             <b>About YL Ventures</b>
                             {`
@@ -62,13 +72,15 @@ YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to
                     </div>
                 </div>
                 <div id="addcompany" className="modal outline-0">
-                    <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
+                    <div className="modal-closing-btn modal-close cursor-pointer"><i
+                        className="material-icons modal-icon">close</i></div>
                     <div className="modal-content center">
                         <h4 className="turquoise-text">Add a company</h4>
                         <p className="black-text nav-modal-p pre-wrap">
                             {`                        
-Want to appear on the map? Please send an email with your company’s name, website and logo (png or svg) to`} <a href="mailto:dana@ylventures.com"> dana@ylventures.com </a>
-                            
+Want to appear on the map? Please send an email with your company’s name, website and logo (png or svg) to`} <a
+                            href="mailto:dana@ylventures.com"> dana@ylventures.com </a>
+
                         </p>
                     </div>
                 </div>
