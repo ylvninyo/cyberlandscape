@@ -2378,7 +2378,7 @@ window.companies = [
         "name": "Gytpol",
         "logo": "./logos/gytpol_logo.png",
         "description": "Gytpol Validator enables IT admins to implement Group Policy Objects (GPO) in a more reliable and efficient manner, thereby increasing security throughout the organization. Validator also monitors and alerts discrepancies between GPO definitions and actual policies in effect on servers, workstations and users. In addition, it advise on recommended actions in order to increase system performance and efficiency.",
-        "homepage": "www.gytpol.com",
+        "homepage": "https://gytpol.com/",
         "twitter": "https://twitter.com/gytpol",
         "linkedin": "https://www.linkedin.com/company/gytpol/",
         "crunchbase": "https://www.crunchbase.com/organization/gytpol#section-overview",
