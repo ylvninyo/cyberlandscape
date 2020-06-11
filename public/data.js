@@ -2454,7 +2454,7 @@ window.companies = [
         "position": 0,
         "funding": "5M",
         "name": "HUB Security",
-        "logo": "./logos/HUB-security.png",
+        "logo": "./logos/HUB-Security.png",
         "description": "HUB Security offers hardware security solutions for regulation and privacy, fintech, cloud, and blockchain. HUB Security develops a military-grade identity and key management solutions that focus on fintech and cloud services. Its HSM and unique endpoints provide end-to-end security for enterprises.",
         "homepage": "https://hubsecurity.io/",
         "twitter": "https://twitter.com/hubsecurityio",
