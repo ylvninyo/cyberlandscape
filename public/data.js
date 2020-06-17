@@ -2396,6 +2396,7 @@ window.companies = [
     },
     {
         "category": "Email Security",
+        "subcategory": "Anti Fraud/Phishing",
         "position": 0,
         "name": "Cyberfish",
         "logo": "./logos/cyberfish-logo.png",
