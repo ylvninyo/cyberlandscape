@@ -2,7 +2,7 @@ window.companies = [
     {
         "category": "Data Protection", 
         "position": 0,
-		"funding": "3.5M", 
+		"funding": "14M", 
         "description": "1touch leverages the very best of technology in the fields of unique PII discovery and dynamic asset discovery", 
         "linkedin": "https://www.linkedin.com/company/18546264/", 
         "crunchbase": "https://www.crunchbase.com/organization/1touch-io", 
@@ -164,7 +164,7 @@ window.companies = [
 	{
         "category": "IoT", 
         "position": 0,
-        "funding": "1.1M", 
+        "funding": "2.7M", 
         "name": "InfiniDome", 
         "linkedin": "https://www.linkedin.com/company/gps-dome-ltd/", 
         "subcategory": "Drones", 
@@ -591,7 +591,7 @@ window.companies = [
     {
         "category": "Data Protection", 
         "position": 0,
-        "funding": "9.4M", 
+        "funding": "22.9M", 
         "name": "D-ID", 
         "linkedin": "https://www.linkedin.com/company/18161372/", 
         "crunchbase": "https://www.crunchbase.com/organization/d-id", 
@@ -1002,7 +1002,7 @@ window.companies = [
         "category": "Network Security",
         "position": 0,
         "name": "Perimeter 81", 
-		"funding": "19.5M",
+		"funding": "25M",
         "twitter": "https://twitter.com/Perimeter_81", 
         "linkedin": "https://www.linkedin.com/company/perimeter-81/", 
         "subcategory": "SDP & SD-WAN", 
@@ -1368,7 +1368,7 @@ window.companies = [
     {
         "category": "Web Security", 
         "position": 0,
-        "funding": "11M", 
+        "funding": "31M", 
         "name": "Salt Security", 
         "twitter": "https://twitter.com/saltsecurity", 
         "linkedin": "https://www.linkedin.com/company/saltsecurity/", 
