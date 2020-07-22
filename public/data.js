@@ -531,7 +531,7 @@ window.companies = [
     {
         "category": "Endpoint Security", 
         "position": 0,
-        "funding": "20M", 
+        "funding": "38M", 
         "name": "Cynet",
         "linkedin": "https://www.linkedin.com/company/cynet-security",
         "twitter": "https://twitter.com/cynet360",
@@ -733,7 +733,7 @@ window.companies = [
     {
         "category": "Security Operations", 
         "position": 9,
-        "funding": "5.4M", 
+        "funding": "20.4M", 
         "name": "Hunters.AI", 
         "twitter": "https://twitter.com/hunters_ai", 
         "linkedin": "https://www.linkedin.com/company/hunters-ai/", 
@@ -1857,7 +1857,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 0,
-		"funding": "32M",
+		"funding": "49M",
         "subcategory": "Attack Simulation", 
         "name": "XM Cyber", 
         "twitter": "https://twitter.com/XMCyber_", 
@@ -2097,7 +2097,12 @@ window.companies = [
         "position": 0,
         "name": "Authomize",
         "logo": "./logos/Authomize.png",
+        "crunchbase": "crunchbase.com/organization/authomzie",
+        "funding": "6M",
         "homepage": "https://authomize.com/",
+        "twitter": "https://twitter.com/authomize",
+        "linkedin": "https://www.linkedin.com/company/authomize/",
+        "description": "Authomize provides enterprises with an automated authorization governance and management solution. Using innovative AI-based technology, Authomize delivers unified deep visibility into all resources, entitlements, and users across your organization. The solution automatically performs continuous remediation and prescriptive suggestions for all access permissions. Authomize acts as a bridge between the IT Ops and Security teams, significantly reducing authorization related operational burden while increasing security posture and compliance."
     },
     {
         "category": "Web Security",
@@ -2212,7 +2217,7 @@ window.companies = [
         "position": 0,
         "name": "Valid Network",
         "logo": "./logos/valid-network-logo.png",
-        "funding": "2M",
+        "funding": "10M",
         "description": "Valid Network was built on the understanding that Blockchain (Distributed Ledger Technology) has the potential to change how we do business globally and have a huge impact on our day to day life. We founded Valid Network with the mission to become the enablers of faster adoption of blockchain technology for our customers. Your blockchain security platform is the world’s first and most comprehensive solution for securing, assuring and enabling decentralized applications.",
         "crunchbase": "https://www.crunchbase.com/organization/valid-network",
         "twitter": "https://twitter.com/NetworkValid",
