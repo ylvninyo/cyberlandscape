@@ -1147,7 +1147,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 0,
-        "funding": "14.5M", 
+        "funding": "39.5M", 
         "name": "Pcysys", 
         "twitter": "https://twitter.com/pcysys",
         "linkedin": "https://www.linkedin.com/company/18445647/", 
@@ -1634,7 +1634,7 @@ window.companies = [
     {
         "category": "Application Security", 
         "position": 0,
-        "funding": "252M", 
+        "funding": "452M", 
         "name": "Snyk", 
         "twitter": "https://www.twitter.com/snyksec", 
         "linkedin": "https://www.linkedin.com/company/snyk", 
