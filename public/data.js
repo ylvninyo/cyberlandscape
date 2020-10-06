@@ -38,7 +38,7 @@ window.companies = [
     {
         "category": "IoT", 
         "position": 9,
-        "funding": "20.4M", 
+        "funding": "50M", 
         "name": "Medigate", 
         "twitter": "https://twitter.com/MedigateLtd", 
         "linkedin": "https://www.linkedin.com/company/18340376/", 
@@ -970,7 +970,7 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/kovrr", 
         "crunchbase": "https://www.crunchbase.com/organization/kovrr",
         "logo": "./logos/Kovrr.jpg",
-        "description": "Kovrr provides immediate visibility into internal and external cyber risks to support the underwriting processes of cyber insurance policies. Our solution helps insurance professionals prospect and select risks, grow their book according to risk appetite, and manage portfolio risks accumulations. We help our customers efficiently distribute cyber insurance policies and launch innovative insurance products.",
+        "description": "Kovrr’s cyber risk modeling platform delivers global (re)insurers transparent, data driven insights into their affirmative and non-affirmative cyber risk exposures. The Kovrr platform is designed to help underwriters, exposure managers and catastrophe modelers understand, financially quantify and manage cyber risk by utilizing AI-powered risk models.",
         "homepage": "https://www.kovrr.com", 
         "subcategory": "Cyber Insurance"
     }, 
