@@ -43,6 +43,22 @@ class Navbar extends Component {
                         className="material-icons modal-icon">close</i></div>
                     <div className="modal-content center modal-content-with-x">
                         <p className="black-text nav-modal-p pre-wrap">
+                            <b>What is CyberMap?</b>
+                            {`
+
+CyberMap, by YL Ventures, is the first live map of Israel’s cybersecurity startup landscape. It was designed by the firm for internal use and later published to share its potential with the wider public.
+
+Today, CyberMap enables anyone interested in Israel’s startup cybersecurity industry, including entrepreneurs, investors, journalists, and CISOs, as well as other security practitioners, to explore its full ecosystem with ease and efficiency.
+
+CyberMap encompasses the full scope of Israel’s cybersecurity industry. For ease of use, its search function offers filtering tools for 30 cyber categories and funding ranges to help you find the exact company you are looking for.
+
+`}
+                            <b>Tell us your thoughts!</b>
+                            {`
+
+We made this live map to help our industry grow. If you have any questions, comments, or ideas on how to improve this map, we would love to hear them! We invite you to get in touch with us at `}
+                            <a href="mailto:dana@ylventures.com">dana@ylventures.com</a><br/><br/>
+
                             <b>About YL Ventures</b>
                             {`
                             
