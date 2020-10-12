@@ -62,7 +62,7 @@ We made this live map to help our industry grow. If you have any questions, comm
                             <b>About YL Ventures</b>
                             {`
                             
-YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead.Based in Silicon Valley and Tel Aviv, YL Ventures manages over $300 million and exclusively invests in cybersecurity.YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S. - based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders.The firm 's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.  
+YL Ventures funds and supports brilliant Israeli tech entrepreneurs from seed to lead. Based in Silicon Valley and Tel Aviv, YL Ventures manages over $300 million and exclusively invests in cybersecurity. YL Ventures accelerates the evolution of portfolio companies via strategic advice and U.S. - based operational execution, leveraging a powerful network of Chief Information Security Officers and global industry leaders. The firm's track record includes successful, high-profile portfolio company acquisitions by major corporations including Palo Alto Networks, Microsoft, CA, and Proofpoint.  
 
 `}
                         </p>
