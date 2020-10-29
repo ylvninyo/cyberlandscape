@@ -2514,4 +2514,16 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/bridgecrew/",
         "crunchbase": "https://www.crunchbase.com/organization/bridgecrew",
     },
+    {
+        "category": "Application Security",
+        "position": 0,
+        "funding": "6M",
+        "name": "Enso Security",
+        "logo": "./logos/Enso.png",
+        "description": "Enso is the first Application Security Posture Management (ASPM) solution, helping security teams everywhere eliminate their AppSec chaos with application discovery, classification and management. Founded by application security experts, Enso easily deploys into enterprise environments to create an actionable, unified inventory of all application assets, their owners, security posture and associated risk. With Enso security, any AppSec team can build a simplified, agile and scalable application security program. For more information, visit enso.security.",
+        "homepage": "https://enso.security/",
+        "twitter": "https://twitter.com/enso_security",
+        "linkedin": "https://www.linkedin.com/company/enso-security/",
+        "crunchbase": "https://www.crunchbase.com/organization/enso-security",
+    },
 ]
