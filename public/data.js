@@ -138,7 +138,7 @@ window.companies = [
     {
         "category": "IoT", 
         "position": 0,
-        "funding": "4.5M", 
+        "funding": "13M", 
         "name": "APERIO Systems", 
         "twitter": "https://twitter.com/aperiosoftware",
         "linkedin": "https://www.linkedin.com/company/aperio-systems/", 
@@ -297,7 +297,7 @@ window.companies = [
     {
         "category": "Network Security", 
         "position": 0,
-        "funding": "202M", 
+        "funding": "332M", 
         "name": "Cato Networks", 
         "twitter": "https://twitter.com/catonetworks", 
         "linkedin": "https://www.linkedin.com/company/cato-networks", 
@@ -305,7 +305,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/cato-networks", 
         "logo": "./logos/CatoNetworks.png", 
         "homepage": "http://www.catonetworks.com", 
-        "description": "Cato Networks provides organizations with a cloud-based and secure global SD-WAN. Cato delivers an integrated networking and security platform that securely connects all enterprise locations, people, and data. Cato Cloud cuts MPLS costs, improves performance between global locations and to cloud applications, eliminates branch appliances, provides secure Internet access everywhere, and seamlessly integrates mobile users and cloud datacenters into the WAN. Based in Tel Aviv, Israel, Cato Networks was founded in 2015 by cybersecurity luminary Shlomo Kramer, co-founder of Check Point Software Technologies and Imperva, and Gur Shatz, co-founder of Incapsula. Visit www.CatoNetworks.com and Twitter: @CatoNetworks."
+        "description": "Cato is the world’s first SASE platform, converging SD-WAN and network security into a global, cloud-native service. Cato optimizes and secures applications access for all users and locations. Using Cato, customers easily migrate from MPLS to SD-WAN, optimize global connectivity to on-premises and cloud applications, enable secure branch Internet access everywhere, and seamlessly integrate cloud datacenters and mobile users into the network with a zero trust architecture.  CatoNetworks.com @CatoNetworks."
     },
     {
         "category": "Web Security", 
@@ -1283,7 +1283,7 @@ window.companies = [
     {
         "category": "Email Security", 
         "position": 0,
-        "funding": "7.8M", 
+        "funding": "11.8M", 
         "subcategory": "CDR",
         "name": "ReSec Technologies", 
         "twitter": "https://twitter.com/resectech", 
@@ -1513,7 +1513,7 @@ window.companies = [
     {
         "category": "Endpoint Security", 
         "position": 0,
-        "funding": "429.5M", 
+        "funding": "696.5M", 
         "name": "SentinelOne", 
         "twitter": "https://twitter.com/SentinelOne", 
         "linkedin": "http://www.linkedin.com/company/2886771", 
@@ -1678,7 +1678,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/transmit-security", 
         "logo": "./logos/Transmit-Security.jpg", 
         "homepage": "http://www.transmitsecurity.com", 
-        "description": "Transmit Security is a cross-channel orchestration platform provider that abstracts identity, authentication, authorization, and user-risk decisioning from applications, devices, security systems, infrastructure, and the cloud. An extensible plug-and-play approach reduces deployments to minutes for new and changes to existing business policies, authenticators, risk platforms, and channels. Transmit Security consolidates existing solutions into a single console that simplifies programming, reduces management, and is more agile to keep pace with new identity-related technologies. Advanced user, device and system profiling is combined with risk data to create a continuously updated user score for real-time authentication and access decisioning at every step, across every system."
+        "description": "Transmit Security's new and disruptive product called BindID: an app-less, self-rebinding mobile authenticator that uses strong device-based biometrics for secure and convenient customer authentication. Using industry-standard technologies built into nearly every mobile device, BindID achieves true 2-factor biometric authentication without the need for anything to be installed on the mobile device. BindID eliminates passwords and the inconveniences of traditional credential-based logins. Shared-trust models at the account and network levels let users associate other biometric-enabled devices such as laptops and tablets to their account, and provide an up-to-date profile and device information across the entire BindID member network. BindID can be a complete solution or be used to add depth to risk decisioning. It can provide end-to-end authentication for your users where you let BindID make the call. It can also be used as an additional scoring element in your existing risk decisioning systems, including the Transmit Security Platform."
     }, 
     {
         "category": "Network Security", 
@@ -1708,7 +1708,7 @@ window.companies = [
     {
         "category": "Data Protection", 
         "position": 0,
-        "funding": "15.1M", 
+        "funding": "35.1M", 
         "name": "Unbound Tech", 
         "twitter": "https://twitter.com/UnboundTech_", 
         "linkedin": "http://www.linkedin.com/company/3238521", 
@@ -1907,13 +1907,14 @@ window.companies = [
 	{
         "category": "Blockchain Security", 
         "position": 0,
-        "funding": "6.5M", 
+        "funding": "29.5M", 
         "name": "Curv", 
+        "twitter": "https://twitter.com/curvmpc",
         "linkedin": "https://www.linkedin.com/company/curv/", 
         "crunchbase": "https://www.crunchbase.com/organization/curv-5d20", 
         "logo": "./logos/Curv.png",
         "homepage": "https://www.curv.co", 
-        "description": "Institutional Wallet Service powered by MPC cryptography."
+        "description": "A Cloud-based wallet that gives bulletproof protection, instant availability & total autonomy over all digital assets, powered by revolutionary cryptography"
     },
 	{
         "category": "Blockchain Security", 
@@ -1972,18 +1973,6 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/apiiro/",
         "homepage": "http://apiiro.com",
         "description": "Move fast and break bureaucracy (stealth-mode)"
-    },
-    {
-        "category": "Identity & Access Management",
-        "position": 0,
-        "name": "Polyrize",
-        "funding": "4M",
-        "logo": "./logos/Polyrize.jpg",
-        "twitter": "https://twitter.com/Polyrize_Sec",
-        "linkedin": "https://www.linkedin.com/company/polyrize",
-        "crunchbase": "https://www.crunchbase.com/organization/polyrize",
-        "homepage": "http://www.polyrize.com",
-        "description": "Regain Control of the Public Cloud. Polyrize continuously authorizes identities and gives security teams centralized control over permissions and actions — across any IaaS and SaaS environments — to prevent unauthorized access from internal or external threats."
     },
     {
         "category": "IoT",
@@ -2525,5 +2514,29 @@ window.companies = [
         "twitter": "https://twitter.com/enso_security",
         "linkedin": "https://www.linkedin.com/company/enso-security/",
         "crunchbase": "https://www.crunchbase.com/organization/enso-security",
+    },
+    {
+        "category": "Authorization",
+        "position": 0,
+        "funding": "6M",
+        "name": "build.security",
+        "logo": "./logos/buildLogo.png",
+        "description": "build.security is the first “true platform for authorization,” providing developers with a simple way to eliminate the kind of product vulnerabilities that have the potential to capsize entire organizations when exploited.",
+        "homepage": "https://build.security/",
+        "twitter": "https://twitter.com/SecurityBuild",
+        "linkedin": "https://www.linkedin.com/company/build-security/",
+        "crunchbase": "https://www.crunchbase.com/organization/build-security",
+    },
+    {
+        "category": "Data Protection",
+        "position": 0,
+        "funding": "12.5M",
+        "name": "Mine",
+        "logo": "./logos/mine-logo.png",
+        "description": "Mine provides a smart data assistant that enables people to discover and control their personal data online. With a simple and friendly app, and in less than 30 seconds, users can discover all the companies that hold sensitive data such as personal, financial, identity, health, and more. It helps discover, understand, and effectively manage whatthe internet knows about users, enabling people to reduce their unnecessary online exposure to minimize potential risks.",
+        "homepage": "https://saymine.com/",
+        "twitter": "https://twitter.com/mineapp_company",
+        "linkedin": "https://www.linkedin.com/company/saymine/",
+        "crunchbase": "https://www.crunchbase.com/organization/saymine-technologies-mine",
     },
 ]
