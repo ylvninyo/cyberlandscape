@@ -1356,7 +1356,7 @@ window.companies = [
         "category": "Application Security", 
         "position": 0,
         "funding": "61M", 
-        "name": "Salt", 
+        "name": "Salt Security", 
         "twitter": "https://twitter.com/saltsecurity", 
         "linkedin": "https://www.linkedin.com/company/saltsecurity/", 
         "crunchbase": "https://www.crunchbase.com/organization/secful", 
