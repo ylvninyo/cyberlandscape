@@ -2,13 +2,19 @@ import React, { Component } from 'react'
 import '../style/modal.css'
 
 class Modal extends Component {
-    render(){
+    render() {
+        const toSnakeCase = str => 
+            str && 
+            str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+            .map(x => x.toLowerCase())
+            .join('_');
         let item = this.props.item
+        let alt = `${toSnakeCase(item.name)}_cybermap_ylventures_modal`
         return(
             <div id={this.props.id} className="modal company-modal outline-0 modal-with-x" ref={el => (this.instance = el)}>
                 <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
                 <div className="modal-content center modal-content-with-x">
-                    <img src={item.logo} className="modal-logo" alt="logo"></img>
+                    <img src={item.logo} className="modal-logo" alt={alt}></img>
                     <br />
                     <hr />
                     <br/>
