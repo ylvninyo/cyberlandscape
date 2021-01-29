@@ -1664,7 +1664,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/transmit-security", 
         "logo": "./logos/Transmit-Security.png", 
         "homepage": "http://www.transmitsecurity.com", 
-        "description": "Transmit Security's new and disruptive product called BindID: an app-less, self-rebinding mobile authenticator that uses strong device-based biometrics for secure and convenient customer authentication. Using industry-standard technologies built into nearly every mobile device, BindID achieves true 2-factor biometric authentication without the need for anything to be installed on the mobile device. BindID eliminates passwords and the inconveniences of traditional credential-based logins. Shared-trust models at the account and network levels let users associate other biometric-enabled devices such as laptops and tablets to their account, and provide an up-to-date profile and device information across the entire BindID member network. BindID can be a complete solution or be used to add depth to risk decisioning. It can provide end-to-end authentication for your users where you let BindID make the call. It can also be used as an additional scoring element in your existing risk decisioning systems, including the Transmit Security Platform."
+        "description": "Transmit Security provides innovative authentication and risk management solutions to the largest enterprises in the world. Its mission is to enable organizations to deliver advanced identity use cases that improve the user experience, enhance security, and meet compliance mandates at a fraction of the time and cost of traditional identity solutions. From the industry’s first app-less biometric authenticator to its state-of-the-art low-code identity orchestration platform, Transmit Security is a recognized leader in identity and risk innovation, solving the most critical authentication and risk challenges across the entire organization from the data center to the cloud. Transmit app-less authenticator, BindID, it's a strong portable authenticator that uses device-based biometrics for secure, convenient and consistent customer authentication. With one-click to create new or sign into existing accounts, BindID eliminates passwords and the inconveniences of traditional credential-based logins."
     }, 
     {
         "category": "Network Security", 
@@ -1758,7 +1758,7 @@ window.companies = [
     {
         "category": "IoT", 
         "position": 0,
-        "funding": "55M", 
+        "funding": "70M", 
         "name": "VDOO", 
         "twitter": "https://twitter.com/vdoosecurity", 
         "linkedin": "https://www.linkedin.com/company/18333531/", 
@@ -2133,7 +2133,7 @@ window.companies = [
         "position": 0,
         "name": "L7 Defense",
         "logo": "./logos/L7-Defense.png",
-        "funding": "1.9M",
+        "funding": "6.6M",
         "crunchbase": "https://www.crunchbase.com/organization/l7-defense#section-overview",
         "twitter": "https://twitter.com/L7Defense",
         "linkedin": "https://www.linkedin.com/company/l7-defense",
@@ -2551,5 +2551,18 @@ window.companies = [
         "twitter": "https://twitter.com/NonameSecurity",
         "linkedin": "https://www.linkedin.com/company/nonamesecurity/",
         "crunchbase": "https://www.crunchbase.com/organization/noname-security",
+    },
+    {
+        "category": "Cloud Security",
+        "subcategory": "Cloud Native",
+        "position": 0,
+        "funding": "3.5M",
+        "name": "Apolicy",
+        "logo": "./logos/apolicy.png",
+        "description": "Apolicy’s platform offers management and automation of data security policies in a Cloud-Native environment, performing individual accurate risk analysis for all active workloads while defining policy-as-code based on research, market insight, and personalized customer service insight.",
+        "homepage": "https://apolicy.io/",
+        "twitter": "https://twitter.com/apolicyio",
+        "linkedin": "https://www.linkedin.com/company/apolicy/",
+        "crunchbase": "https://www.crunchbase.com/organization/apolicy",
     },
 ]
