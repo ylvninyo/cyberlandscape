@@ -17,13 +17,19 @@ class Tile extends Component {
         M.Modal.getInstance(modal).open()
     }
 
-    render(){
+    render() {
+        const toSnakeCase = str => 
+            str && 
+            str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+            .map(x => x.toLowerCase())
+            .join('_');
         let item = this.props.item
         let key = (item.category + item.subcategory + item.name).replace(/[^a-zA-Z0-9]/g,'')
+        let alt = `${toSnakeCase(item.name)}_cybermap_ylventures`
         return(
             <span ref={el => (this.instance = el)}>
                 <div className="background-white company-tile inline-block center cursor-pointer" onClick={this.open}>
-                    <img className="logo-tile" src={item.logo} alt="logo"></img>
+                    <img className="logo-tile" src={item.logo} alt={alt}></img>
                     <br />
                     <hr />
                     <div className="black-text">
