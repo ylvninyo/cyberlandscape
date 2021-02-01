@@ -9,7 +9,7 @@ class Modal extends Component {
             .map(x => x.toLowerCase())
             .join('_');
         let item = this.props.item
-        let alt = `${toSnakeCase(item.name)}_cybermap_ylventures_modal`
+        let alt = `${toSnakeCase(item.name)}_cybermap_ylventures`
         return(
             <div id={this.props.id} className="modal company-modal outline-0 modal-with-x" ref={el => (this.instance = el)}>
                 <div className="modal-closing-btn modal-close cursor-pointer"><i className="material-icons modal-icon">close</i></div>
