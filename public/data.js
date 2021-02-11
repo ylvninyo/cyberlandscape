@@ -2605,7 +2605,7 @@ window.companies = [
         "position": 0,
         "funding": "2.2M",
         "name": "Cydome",
-        "logo": "./logos/AdaptiveShield.png",
+        "logo": "./logos/Cydome.png",
         "description": "Cydome Security is a disruptive cyber solution seamlessly safeguarding the maritime IoT ecosystem, including guidance, sensor, control, command, communication systems, and linkage to coastal infrastructures. Our end-to-end solution is a multilayer system from the kernel level using data and network isolation; rapid, reliable and automatic threat detection and protection.",
         "homepage": "https://cydome.io/",
         "twitter": "https://twitter.com/cydome",
