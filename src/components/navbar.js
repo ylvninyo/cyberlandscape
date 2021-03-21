@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import '../style/navbar.css'
 import {
-    Link
+    Link, NavLink
 } from "react-router-dom";
 
 const M = window.M
@@ -29,7 +29,8 @@ class Navbar extends Component {
                                 <li><a className="modal-trigger" href="#about">About</a></li>
                                 <li><a className="modal-trigger" href="#addcompany">Add a company</a></li>
                                 {/* <li><Link to="/careers">Careers</Link></li> */}
-                                <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li>
+                                {/* <li><a className="no-hover cursor-default opacity-04">Analytics (soon)</a></li> */}
+                                <li><NavLink to="/analytics">Analytics</NavLink></li>
                                 <li><a target="_blank" href="https://www.ylventures.com"
                                        rel="noopener noreferrer">ylventures.com</a></li>
                             </ul>
