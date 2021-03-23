@@ -1,8 +1,6 @@
 import React, {Component} from 'react'
 import '../style/navbar.css'
-import {
-    Link, NavLink
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const M = window.M
 

@@ -1,0 +1,38 @@
+/* styles for spesific analytic page */
+
+.section {
+    padding: 50px 0;
+}
+
+.section .section-title {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.cybermap-list_btn {
+    background-color: transparent;
+    outline: none;
+    padding: 4px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    min-width: 70px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.cybermap-list_btn.active,
+.cybermap-list_btn:focus {
+    background-color: #2ab7a9;
+    border-color: #2ab7a9;
+}
+
+
+.cybermanp-bubble_chart_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
