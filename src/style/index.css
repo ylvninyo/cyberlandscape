@@ -34,6 +34,10 @@
     width: 100%;
 }
 
+.fullheight {
+    height: 100%;
+}
+
 .cursor-default {
     cursor: default;
 }

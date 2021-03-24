@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, Tooltip, Legend, CartesianGrid, CartesianAxis} from 'recharts';
 
 
-const TotalFundingCategory  = ({value}) => { 
+const AverageChart  = ({value}) => { 
 
     const data = [
         {
@@ -88,7 +88,7 @@ const CustomizedLabel = ({x,y,fill,value}) => {
                         
                 <Bar 
                     dataKey="value" 
-                    fill="#ee6e73"
+                    fill="#6baed6"
                     label={<CustomizedLabel />}
                     radius={10}
                     />
@@ -99,11 +99,4 @@ const CustomizedLabel = ({x,y,fill,value}) => {
     )
 }
 
-export default TotalFundingCategory
-
-
-{/* <ResponsiveContainer width="100%" height="100%">
-<BarChart width={150} height={40} data={data} layout="vertical" margin={{ top: 0, right: 50, left: 0, bottom: 0 }}>
-  <Bar dataKey="uv" fill="#8884d8" />
-</BarChart>
-</ResponsiveContainer> */}
+export default AverageChart;

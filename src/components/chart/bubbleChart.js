@@ -1,48 +1,61 @@
 import React, { Component } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import BubbleChart from '@weknow/react-bubble-chart-d3';
 
+class BubbleChartWrapper extends React.Component {
+  render () {
+    // bubbleClick = (label) =>{
+    //     console.log("Custom bubble click func")
+    //   }
+    //   legendClick = (label) =>{
+    //     console.log("Customer legend click func")
+    //   }
 
-const BubbleChart  = ({value}) => { 
+    return (
+      <BubbleChart
+        graph= {{
+          zoom: 1.1,
+          offsetX: -0.05,
+          offsetY: -0.01,
+        }}
+        width={1000}
+        height={800}
+        padding={0} // optional value, number that set the padding between bubbles
+        showLegend={false} // optional value, pass false to disable the legend.
+        valueFont={{
+              family: 'Arial',
+              size: 12,
+              color: '#fff',
+              weight: 'bold',
+            }}
+        labelFont={{
+              family: 'Arial',
+              size: 16,
+              color: '#fff',
+              weight: 'bold',
+            }}
 
-    const data = [
-        { name: 'Group A', value: value },
-      ];
-      
-      const RADIAN = Math.PI / 180;
-      const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
-        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-        const x = cx + radius * Math.cos(-midAngle * RADIAN);
-        const y = cy + radius * Math.sin(-midAngle * RADIAN);
-      
-        return (
-          <text x={x} y={y} fill="white" dominantBaseline="central">
-            <tspan dy="1em">{`${(percent * 100).toFixed(0)}%`}</tspan>
-            <tspan dy="1em">Category name</tspan>
-          </text>
-        );
-      };
-
-
-      const pi = 3.141;
-      const radius = Math.sqrt(2*value/pi*100);
-      
-
-    return(
-        <PieChart stroke="none" width={400} height={400}>
-            <Pie
-                data={data}
-                cx={200}
-                cy={200}
-                labelLine={false}
-                label={renderCustomizedLabel}
-                outerRadius={radius}
-                fill="#8884d8"
-                dataKey="value"
-            >
-                <Cell stroke="none" fill="#8884d8" />
-            </Pie>
-        </PieChart>
-    )
+        // bubbleClickFunc={this.bubbleClick}
+        // legendClickFun={this.legendClick}
+        data={[
+          { label: 'CRM', value: 1 },
+          { label: 'API', value: 1 },
+          { label: 'Data', value: 1 },
+          { label: 'Commerce', value: 1 },
+          { label: 'AI', value: 3 },
+          { label: 'Management', value: 5 },
+          { label: 'Testing', value: 6 },
+          { label: 'Mobile', value: 9 },
+          { label: 'Conversion', value: 9 },
+          { label: 'Misc', value: 21 },
+          { label: 'Databases', value: 22 },
+          { label: 'DevOps', value: 22 },
+          { label: 'Javascript', value: 23 },
+          { label: 'Languages / Frameworks', value: 25 },
+          { label: 'Front End', value: 26 },
+          { label: 'Content', value: 26 },
+        ]}
+      />)
+  }
 }
-
-export default BubbleChart
+ 
+export default BubbleChartWrapper
