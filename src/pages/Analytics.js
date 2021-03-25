@@ -16,22 +16,230 @@ class Analytics extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            companies: [
-                {
-                    "category": "Application Security",
-                    "name": "Apiiro",
-                    "total_funding": 35,
-                    "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                    "description": "Move fast and break bureaucracy (stealth-mode)",
-                    "crunchbase": "/",
-                    "homepage": "apiiro.com",
-                    "twitter": "https://twitter.com/apiiroSecurity",
-                    "linkedin": "https://www.linkedin.com/company/apiiro/",
-                    "subcategory": "",
-                    "logo": ""
-                },
-            ]
+            data: {
+                "status": true,
+                "companies": [
+                    {
+                        "category": "Application Security",
+                        "name": "Apiiro",
+                        "total_funding": 35,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Cloud Security",
+                        "name": "Apiiro",
+                        "total_funding": 29.5,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Data Protection",
+                        "name": "Apiiro",
+                        "total_funding": 5,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Email Security",
+                        "name": "Apiiro",
+                        "total_funding": 8,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Endpoint Security",
+                        "name": "Apiiro",
+                        "total_funding": 2,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Fraud & Transactions",
+                        "name": "Apiiro",
+                        "total_funding": 15,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Identity & Access Management",
+                        "name": "Apiiro",
+                        "total_funding": 27,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "IoT",
+                        "name": "Apiiro",
+                        "total_funding": 22,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Mobile Security",
+                        "name": "Apiiro",
+                        "total_funding": 39,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Network Security",
+                        "name": "Apiiro",
+                        "total_funding": 28,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Security Operations",
+                        "name": "Apiiro",
+                        "total_funding": 31,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Threat Intelligence",
+                        "name": "Apiiro",
+                        "total_funding": 44,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Vulnerability & Risk Mgmt",
+                        "name": "Apiiro",
+                        "total_funding": 36,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                ],
+                "exits": [
+                    {
+                        "company_name": "TowerSec",
+                        "category": "IOT Automotive",
+                        "founded": "2012-01-01T00:00:00.000Z",
+                        "exit_date": "2016-01-06T00:00:00.000Z",
+                        "lifespan_years": 4,
+                        "exit_strategy": "M&A",
+                        "acquisition_amount_m": 75,
+                        "total_funding_until_exited_m": 2.5,
+                        "acquirer_name": "Harman International Industries"
+                    },
+                ]
+            },
+
+            bubbleChartData: {},
+            filteredBubbleChartData: {},
+            totalCompany: 0,
+
         }
+    }
+
+
+    componentDidMount() {
+        let bubbleChartData = this.state.data?.companies.map(company => ({ label: company.category, value: company.total_funding }));
+        //* set all bubble data by category
+        this.setState({
+                bubbleChartData, 
+                filteredBubbleChartData: bubbleChartData, 
+                totalCompany:bubbleChartData.length
+            }); 
+    }
+
+    // function for filter bubble chart 
+    filterCategoryByFunding =  (e, fData) => {        
+        if (fData.all === 'all') {
+            this.setState({
+                filteredBubbleChartData: this.state.bubbleChartData, 
+                totalCompany:this.state.bubbleChartData.length
+            });
+            return;
+            
+        } 
+
+        let result = this.state.bubbleChartData.filter((data) => {
+            return data.value > fData.start && data.value < fData.end
+        });
+        this.setState({
+            filteredBubbleChartData: result,
+            totalCompany:result.length
+        });
     }
 
     render() {
@@ -73,26 +281,15 @@ class Analytics extends Component {
                                     />
                                 </span>
                                 <div className="right left-align top-menu">
-                                    <span>
-                                        <button className="cybermap-list_btn">All</button>
-                                    </span>
+                                    <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn">All</button>
 
-                                    <span>
-                                        <button className="cybermap-list_btn">$0-10M</button>
-                                    </span>
+                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_btn">$0-10M</button>
 
-                                    <span>
-                                        <button className="cybermap-list_btn">$10-30M</button>
-                                    </span>
+                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_btn">$10-30M</button>
 
-                                    <span>
-                                        <button className="cybermap-list_btn">$30-50M</button>
-                                    </span>
+                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_btn">$30-50M</button>
 
-                                    <span>
-                                        <button className="cybermap-list_btn">+$50M</button>
-                                    </span>
-
+                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
                                 </div>
                                 <div className="clear"></div>
                                 <br/>
@@ -102,10 +299,26 @@ class Analytics extends Component {
 
                     <hr/>
 
-                   <div className="cybermanp-bubble_chart_wrapper">
-                        <BubbleChartWrapper />
+                   <div className="cybermap-bubble_chart_wrapper">
+                       <div className="cybermap-bubble_desc left">
+                           <p>
+                            Total companies
+                            <span>{this.state.totalCompany}</span>
+                           </p>
+
+                           <p>
+                            Total capital raised <br/>
+                            by active companies
+                            <span>$9B</span>
+                           </p>
+                       </div>
+                        <div className="cybermap-bubble_chart right">
+                            {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper data={this.state.filteredBubbleChartData} />: <p>No Data</p>}
+                        </div>
                    </div>
                 </div>
+
+
 
                 <section className="section section-2">
                     <div className="container-fluid fullheight">
