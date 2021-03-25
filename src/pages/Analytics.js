@@ -251,6 +251,51 @@ class Analytics extends Component {
                         "total_funding_until_exited_m": 2.5,
                         "acquirer_name": "Harman International Industries"
                     },
+                    {
+                        acquirer_name: "SuperCom",
+                        acquisition_amount_m: "-",
+                        category: "Endpoint Security",
+                        company_name: "Safend",
+                        exit_date: "2016-03-03T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2003-01-01T00:00:00.000Z",
+                        lifespan_years: 13,
+                        total_funding_until_exited_m: 16.4,
+                    },
+                    {
+                        acquirer_name: "Cyberark",
+                        acquisition_amount_m: "-",
+                        category: "Network Security",
+                        company_name: "Agata Solutions",
+                        exit_date: "2016-03-11T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2008-01-01T00:00:00.000Z",
+                        lifespan_years: 8,
+                        total_funding_until_exited_m: "-"
+                    },
+                    {
+                        acquirer_name: "SuperCom",
+                        acquisition_amount_m: "-",
+                        category: "Endpoint Security",
+                        company_name: "Safend",
+                        exit_date: "2016-03-03T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2003-01-01T00:00:00.000Z",
+                        lifespan_years: 13,
+                        total_funding_until_exited_m: 16.4,
+                    },
+                    {
+                        acquirer_name: "Cyberark",
+                        acquisition_amount_m: "-",
+                        category: "Network Security",
+                        company_name: "Agata Solutions",
+                        exit_date: "2016-03-11T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2008-01-01T00:00:00.000Z",
+                        lifespan_years: 8,
+                        total_funding_until_exited_m: "-"
+                    },
+
                 ]
             },
 
@@ -268,6 +313,25 @@ class Analytics extends Component {
 
 
     componentDidMount() {
+
+        let requestOptions = {
+            method: 'GET',
+            redirect: 'follow'
+          };
+
+        fetch("https://script.google.com/macros/s/AKfycbzlqEQo5DlLqgI3GMk-Nn7XCtAhNaCYDuPBYZCHhRLjQ2vfMa945gpf09N50GNwwKa4kQ/exec", requestOptions)
+            .then(response => response.text())
+            .then(result => {
+                let data = JSON.parse(result);
+                console.log(data);
+                this.setState({data});
+            })
+            .catch(error => console.log('error', error));
+
+        console.log(this.state.data);
+
+
+
         // -------bubble chart codes section ----- //
         let bubbleChartData = this.state.data?.companies.map(company => ({ label: company.category, value: company.total_funding }));
 
