@@ -24,11 +24,13 @@
     display: block;
 }
 
-.cybermap-bubble_chart_wrapper .cybermap-bubble_chart, 
 .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
-    width: 50%;
+    width: 30%;
 }
 
+.cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
+    width: 70%;
+}
 
 .section {
     padding: 50px 0;

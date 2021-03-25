@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BubbleChart from '@weknow/react-bubble-chart-d3';
 
-const BubbleChartWrapper = ({data}) => {
+const BubbleChartWrapper = ({chartData}) => {
     return (
       <BubbleChart
         graph= {{
@@ -11,8 +11,7 @@ const BubbleChartWrapper = ({data}) => {
         }}
         width={1099}
         height={500}
-        padding={100}
-        padding={0} // optional value, number that set the padding between bubbles
+        padding={5} // optional value, number that set the padding between bubbles
         showLegend={false} // optional value, pass false to disable the legend.
         valueFont={{
               family: 'Arial',
@@ -29,7 +28,7 @@ const BubbleChartWrapper = ({data}) => {
 
         // bubbleClickFunc={this.bubbleClick}
         // legendClickFun={this.legendClick}
-        data={data}
+        data={chartData}
       />)
 }
  

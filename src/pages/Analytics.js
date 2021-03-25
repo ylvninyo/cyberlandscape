@@ -1,13 +1,11 @@
 import React, {Component} from 'react'
-import MetaTags from 'react-meta-tags';
-import ReactTooltip from 'react-tooltip';
 import AverageChart from '../components/chart/averageChart';
 import AverageChartLifeSpan from '../components/chart/averageChartLifeSpan';
 import BubbleChartWrapper from '../components/chart/bubbleChart';
-import BubbleChart from '../components/chart/bubbleChart';
 import PerYearChart from '../components/chart/perYearChart';
 import TotalFundingAmount from '../components/chart/totalFundingAmount';
 import TotalFundingCategory from '../components/chart/totalFundingCategory';
+import MetaTagsWrapper from '../components/metaTags';
 import Tooltip from '../components/tooltip';
 import '../style/analytics.css'
 
@@ -23,6 +21,32 @@ class Analytics extends Component {
                         "category": "Application Security",
                         "name": "Apiiro",
                         "total_funding": 35,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Application Security",
+                        "name": "Apiiro",
+                        "total_funding": 35,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Cloud Security",
+                        "name": "Apiiro",
+                        "total_funding": 29.5,
                         "last_fundraising_date": "2020-10-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
@@ -62,6 +86,19 @@ class Analytics extends Component {
                         "category": "Email Security",
                         "name": "Apiiro",
                         "total_funding": 8,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Endpoint Security",
+                        "name": "Apiiro",
+                        "total_funding": 2,
                         "last_fundraising_date": "2020-10-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
@@ -127,6 +164,19 @@ class Analytics extends Component {
                         "category": "Mobile Security",
                         "name": "Apiiro",
                         "total_funding": 39,
+                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "description": "Move fast and break bureaucracy (stealth-mode)",
+                        "crunchbase": "/",
+                        "homepage": "apiiro.com",
+                        "twitter": "https://twitter.com/apiiroSecurity",
+                        "linkedin": "https://www.linkedin.com/company/apiiro/",
+                        "subcategory": "",
+                        "logo": ""
+                    },
+                    {
+                        "category": "Identity & Access Management",
+                        "name": "Apiiro",
+                        "total_funding": 27,
                         "last_fundraising_date": "2020-10-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
@@ -204,26 +254,75 @@ class Analytics extends Component {
                 ]
             },
 
+            // for bubblechart data
             bubbleChartData: {},
             filteredBubbleChartData: {},
             totalCompany: 0,
+
+            // for funding by category
+            fundingByCategory: []
 
         }
     }
 
 
     componentDidMount() {
+        // -------bubble chart codes section ----- //
         let bubbleChartData = this.state.data?.companies.map(company => ({ label: company.category, value: company.total_funding }));
-        //* set all bubble data by category
+
+
+        // -------funding by category chart codes section ----- //
+        let group =  this.state.data?.companies.reduce((r, a) => {
+            r[a.category] = [...r[a.category] || [], a];
+            return r;
+           }, {});
+
+           let fundingByCategory = [];
+
+            Object.keys(group).forEach((category) => {
+                let count = 0;
+                let obj = {};
+
+                group[category].forEach(i => {
+                    count +=i.total_funding;
+                });
+                
+                obj.name = category;
+                obj.value = count;
+
+                fundingByCategory.push(obj);
+
+            });
+
+            
+
+        //* set state section
         this.setState({
                 bubbleChartData, 
                 filteredBubbleChartData: bubbleChartData, 
-                totalCompany:bubbleChartData.length
+                totalCompany:bubbleChartData.length,
+                fundingByCategory,
             }); 
+
     }
 
+
+    // set active class to filter buttons
+    setActiveClass = (element) => {
+        Array.from(document.getElementsByClassName("cybermap-list_btn")).forEach((el) => {
+            el.classList.remove('active');
+        });
+        element.target.classList.add('active');
+    }
+
+
+
     // function for filter bubble chart 
-    filterCategoryByFunding =  (e, fData) => {        
+    filterCategoryByFunding = (e, fData) => {    
+
+        this.setActiveClass(e);
+
+            
         if (fData.all === 'all') {
             this.setState({
                 filteredBubbleChartData: this.state.bubbleChartData, 
@@ -245,17 +344,7 @@ class Analytics extends Component {
     render() {
         return (
             <div className="careers-view background-dark-grey">
-                <MetaTags>
-                    <title>Israeli Cybersecurity companies are hiring!</title>
-                    <meta name="robots" content="noindex"/>
-                    <meta name="description"
-                          content="The Cybersecurity industry remains robust and resilient even as COVID-19 pummels the market. In this difficult time, let’s band together and create a resource for highly qualified professionals in the community looking for their next role!"/>
-                    <meta property="og:title" content="Israeli Cybersecurity companies are hiring!"/>
-                    <meta property="og:image"
-                          content="https://www.ylventures.com/wp-content/uploads/2020/04/og-cybermap-careers.png"/>
-                    <meta property="og:image:width" content="1200"/>
-                    <meta property="og:image:height" content="630"/>
-                </MetaTags>
+                <MetaTagsWrapper />
                 <div className="container-fluid">
                     <h1>CyberMap Analytics</h1>
                     <div className="row">
@@ -281,7 +370,7 @@ class Analytics extends Component {
                                     />
                                 </span>
                                 <div className="right left-align top-menu">
-                                    <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn">All</button>
+                                    <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn active">All</button>
 
                                     <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_btn">$0-10M</button>
 
@@ -313,7 +402,7 @@ class Analytics extends Component {
                            </p>
                        </div>
                         <div className="cybermap-bubble_chart right">
-                            {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper data={this.state.filteredBubbleChartData} />: <p>No Data</p>}
+                            {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
                         </div>
                    </div>
                 </div>
@@ -378,7 +467,7 @@ class Analytics extends Component {
                             </span>
 
                             <div className="common-chart_wrapper section-2_chart3">
-                                <TotalFundingCategory />
+                                {this.state.fundingByCategory.length ? <TotalFundingCategory data={this.state.fundingByCategory} /> : <p>No Data</p>}
                             </div>
                         </div>
 

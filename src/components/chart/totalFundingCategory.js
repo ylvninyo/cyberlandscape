@@ -1,76 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, Tooltip, Legend, CartesianGrid, CartesianAxis} from 'recharts';
 
 
-const TotalFundingCategory  = ({value}) => { 
+const TotalFundingCategory  = ({data}) => { 
 
-    const data = [
-        {
-            "name":"Endpoint Security",
-            "value":132
-        },
-        {
-            "name":"Identity & Access Mgmt",
-            "value":89
-        },
-        {
-            "name":"Fraud & Transactions",
-            "value":87
-        },
-        {
-            "name":"Threat Intelligence",
-            "value":74
-        },
-        {
-            "name":"Application Security",
-            "value":73
-        },
-        {
-            "name":"Web Security",
-            "value":57
-        },
-        {
-            "name":"Threat Intelligence",
-            "value":50
-        },
-        {
-            "name":"Application Security",
-            "value":42
-        },
-        {
-            "name":"Web Security",
-            "value":30
-        },
-        {
-            "name":"Application Security",
-            "value":73
-        },
-        {
-            "name":"Web Security",
-            "value":57
-        },
-        {
-            "name":"Threat Intelligence",
-            "value":50
-        },
-        {
-            "name":"Application Security",
-            "value":42
-        },
-        {
-            "name":"Web Security",
-            "value":30
-        }
-    ]
-const CustomizedLabel = ({x,y,fill,value}) => {
-    return <text 
-            x={x} 
-            y={y} 
+    const CustomizedLabel = ({x,y,fill,value}) => {
+        return <text 
+                x={x} 
+                y={y} 
 
-            fontSize={12} 
-            fill={'#fff'}
-            textAnchor="top" dominantBaseline="start">${value}M</text>
-}
+                fontSize={12} 
+                fill={'#fff'}
+                textAnchor="top" dominantBaseline="start">${value}M</text>
+    }
 
 
     return(

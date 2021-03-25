@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, Tooltip, Legend, CartesianGrid, CartesianAxis} from 'recharts';
+import React from 'react';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, CartesianGrid} from 'recharts';
 
 
 const AverageChart  = ({value}) => { 
