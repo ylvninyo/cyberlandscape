@@ -28,72 +28,72 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Application Security",
                         "name": "Apiiro",
                         "total_funding": 35,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "last_fundraising_date": "2020-11-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Cloud Security",
                         "name": "Apiiro",
                         "total_funding": 29.5,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "last_fundraising_date": "2020-12-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Cloud Security",
                         "name": "Apiiro",
                         "total_funding": 29.5,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "last_fundraising_date": "2020-09-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Data Protection",
                         "name": "Apiiro",
                         "total_funding": 5,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "last_fundraising_date": "2020-03-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Email Security",
                         "name": "Apiiro",
                         "total_funding": 8,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "last_fundraising_date": "2020-12-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Endpoint Security",
@@ -106,7 +106,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Endpoint Security",
@@ -119,7 +119,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Fraud & Transactions",
@@ -132,7 +132,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Identity & Access Management",
@@ -145,7 +145,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "IoT",
@@ -158,7 +158,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Mobile Security",
@@ -171,7 +171,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Identity & Access Management",
@@ -184,7 +184,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Network Security",
@@ -197,7 +197,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Security Operations",
@@ -210,7 +210,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Threat Intelligence",
@@ -223,7 +223,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                     {
                         "category": "Vulnerability & Risk Mgmt",
@@ -236,7 +236,7 @@ class Analytics extends Component {
                         "twitter": "https://twitter.com/apiiroSecurity",
                         "linkedin": "https://www.linkedin.com/company/apiiro/",
                         "subcategory": "",
-                        "logo": ""
+                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
                     },
                 ],
                 "exits": [
@@ -260,7 +260,8 @@ class Analytics extends Component {
             totalCompany: 0,
 
             // for funding by category
-            fundingByCategory: []
+            fundingByCategory: [],
+            recentFundingRounds: []
 
         }
     }
@@ -291,10 +292,16 @@ class Analytics extends Component {
                 obj.value = count;
 
                 fundingByCategory.push(obj);
-
             });
 
-            
+        // recent funding rounds logos
+        let sortedDateLogos = this.state.data?.companies.sort((a,b) => {
+            return new Date(b.last_fundraising_date) - new Date(a.last_fundraising_date);
+          });
+
+        let recentFundingRounds = sortedDateLogos.slice(0, 6);
+
+
 
         //* set state section
         this.setState({
@@ -302,6 +309,7 @@ class Analytics extends Component {
                 filteredBubbleChartData: bubbleChartData, 
                 totalCompany:bubbleChartData.length,
                 fundingByCategory,
+                recentFundingRounds
             }); 
 
     }
@@ -438,18 +446,17 @@ class Analytics extends Component {
                                 </span>
                                 <div className="logo-wrappers">
                                     <div className="row">
-                                        <div  className="col s4">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                        <div  className="col s4">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                        <div  className="col s4">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                        <div  className="col s4">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
+                                        {this.state.recentFundingRounds.length ? 
+
+                                        this.state.recentFundingRounds.map((item,i) => {
+                                            return (
+                                                <div  className="col s4" key={i}>
+                                                    <img src={item.logo} />
+                                                </div>
+                                            )
+                                        })
+                                         : <p>No recent images</p>
+                                        }
                                     </div>
                                 </div>
                             </div>
