@@ -2,12 +2,13 @@ import React, {Component} from 'react'
 import AverageChart from '../components/chart/averageChart';
 import AverageChartLifeSpan from '../components/chart/averageChartLifeSpan';
 import BubbleChartWrapper from '../components/chart/bubbleChart';
-import PerYearChart from '../components/chart/perYearChart';
-import TotalFundingAmount from '../components/chart/totalFundingAmount';
-import TotalFundingCategory from '../components/chart/totalFundingCategory';
+import PerYearSection from '../components/chart/perYear/perYearSection';
+import TotalFundingAmount from '../components/chart/funding/totalFundingAmount';
+import TotalFundingCategory from '../components/chart/funding/totalFundingCategory';
 import MetaTagsWrapper from '../components/metaTags';
 import Tooltip from '../components/tooltip';
 import '../style/analytics.css'
+import FundingSection from '../components/chart/funding/fundingSection';
 
 
 class Analytics extends Component {
@@ -47,7 +48,7 @@ class Analytics extends Component {
                         "category": "Cloud Security",
                         "name": "Apiiro",
                         "total_funding": 29.5,
-                        "last_fundraising_date": "2020-12-13T00:00:00.000Z",
+                        "last_fundraising_date": "2021-12-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
@@ -73,7 +74,7 @@ class Analytics extends Component {
                         "category": "Data Protection",
                         "name": "Apiiro",
                         "total_funding": 5,
-                        "last_fundraising_date": "2020-03-13T00:00:00.000Z",
+                        "last_fundraising_date": "2021-03-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
@@ -86,7 +87,7 @@ class Analytics extends Component {
                         "category": "Email Security",
                         "name": "Apiiro",
                         "total_funding": 8,
-                        "last_fundraising_date": "2020-12-13T00:00:00.000Z",
+                        "last_fundraising_date": "2019-12-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
@@ -112,7 +113,7 @@ class Analytics extends Component {
                         "category": "Endpoint Security",
                         "name": "Apiiro",
                         "total_funding": 2,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
+                        "last_fundraising_date": "2019-10-13T00:00:00.000Z",
                         "description": "Move fast and break bureaucracy (stealth-mode)",
                         "crunchbase": "/",
                         "homepage": "apiiro.com",
@@ -296,8 +297,47 @@ class Analytics extends Component {
                         total_funding_until_exited_m: "-"
                     },
 
+                    {
+                        acquirer_name: "Cyberark",
+                        acquisition_amount_m: "-",
+                        category: "Network Security",
+                        company_name: "Agata Solutions",
+                        exit_date: "2021-03-11T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2008-01-01T00:00:00.000Z",
+                        lifespan_years: 8,
+                        total_funding_until_exited_m: "-"
+                    },
+
+                    {
+                        acquirer_name: "Cyberark",
+                        acquisition_amount_m: "-",
+                        category: "Network Security",
+                        company_name: "Agata Solutions",
+                        exit_date: "2021-03-11T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2008-01-01T00:00:00.000Z",
+                        lifespan_years: 8,
+                        total_funding_until_exited_m: "-"
+                    },
+
+                    {
+                        acquirer_name: "Cyberark",
+                        acquisition_amount_m: "-",
+                        category: "Network Security",
+                        company_name: "Agata Solutions",
+                        exit_date: "2021-03-11T00:00:00.000Z",
+                        exit_strategy: "M&A",
+                        founded: "2008-01-01T00:00:00.000Z",
+                        lifespan_years: 8,
+                        total_funding_until_exited_m: "-"
+                    },
+
                 ]
             },
+
+            companies:[],
+            exits: [],
 
             // for bubblechart data
             bubbleChartData: {},
@@ -306,8 +346,7 @@ class Analytics extends Component {
 
             // for funding by category
             fundingByCategory: [],
-            recentFundingRounds: []
-
+            recentFundingRounds: [],
         }
     }
 
@@ -324,58 +363,47 @@ class Analytics extends Component {
             .then(result => {
                 let data = JSON.parse(result);
                 console.log(data);
-                this.setState({data});
+
+                const exits = data.exits.map((e) => {
+                     e.exit_date =  new Date(e.exit_date).getFullYear();
+                     return e;
+                });
+
+                this.setState({companies:data.companies,exits});
+
+                // ----------bubble chart ---------- //
+                let bubbleChartCategory =  data?.companies.reduce((r, a) => {
+                    r[a.category] = [...r[a.category] || [], a];
+                    return r;
+                   }, {});
+        
+                   let bubbleChartData = [];
+        
+                    Object.keys(bubbleChartCategory).forEach((category) => {
+                        let obj = {};
+        
+                        obj.label = category;
+                        obj.value = bubbleChartCategory[category].length;
+        
+                        bubbleChartData.push(obj);
+                    });
+
+
+                //* set state section
+                this.setState({
+                        bubbleChartData, 
+                        filteredBubbleChartData: bubbleChartData, 
+                        totalCompany:bubbleChartData.length
+                    }); 
+        
             })
             .catch(error => console.log('error', error));
-
-        console.log(this.state.data);
 
 
 
         // -------bubble chart codes section ----- //
-        let bubbleChartData = this.state.data?.companies.map(company => ({ label: company.category, value: company.total_funding }));
 
-
-        // -------funding by category chart codes section ----- //
-        let group =  this.state.data?.companies.reduce((r, a) => {
-            r[a.category] = [...r[a.category] || [], a];
-            return r;
-           }, {});
-
-           let fundingByCategory = [];
-
-            Object.keys(group).forEach((category) => {
-                let count = 0;
-                let obj = {};
-
-                group[category].forEach(i => {
-                    count +=i.total_funding;
-                });
-                
-                obj.name = category;
-                obj.value = count;
-
-                fundingByCategory.push(obj);
-            });
-
-        // recent funding rounds logos
-        let sortedDateLogos = this.state.data?.companies.sort((a,b) => {
-            return new Date(b.last_fundraising_date) - new Date(a.last_fundraising_date);
-          });
-
-        let recentFundingRounds = sortedDateLogos.slice(0, 6);
-
-
-
-        //* set state section
-        this.setState({
-                bubbleChartData, 
-                filteredBubbleChartData: bubbleChartData, 
-                totalCompany:bubbleChartData.length,
-                fundingByCategory,
-                recentFundingRounds
-            }); 
-
+        
     }
 
 
@@ -481,132 +509,10 @@ class Analytics extends Component {
 
 
 
-                <section className="section section-2">
-                    <div className="container-fluid fullheight">
-                        <div className="row fullheight">
-                        <div className="col s6 fullheight">
-                            <div>
-                                <span className="left left-align section-title">
-                                Companies by Total Funding Amount
-                                    <Tooltip
-                                        text="Number of companies by total amount of funding raised since inception"
-                                        icon="help_outline" 
-                                        randomID = 'chart_id_2'
-                                    />
-                                </span>
-                                <div className="section-2_chart2" style={{'height':'400px'}}>
-                                    <TotalFundingAmount />
-                                </div>
-                            </div>
-
-                            <div style={{'marginTop': '150px'}}>
-                                <span className="left left-align section-title">
-                                    Recent Funding Rounds
-                                    <Tooltip
-                                        text="Recent funding rounds by chronological order"
-                                        icon="help_outline" 
-                                        randomID = 'chart_id_4'
-                                    />
-                                </span>
-                                <div className="logo-wrappers">
-                                    <div className="row">
-                                        {this.state.recentFundingRounds.length ? 
-
-                                        this.state.recentFundingRounds.map((item,i) => {
-                                            return (
-                                                <div  className="col s4" key={i}>
-                                                    <img src={item.logo} />
-                                                </div>
-                                            )
-                                        })
-                                         : <p>No recent images</p>
-                                        }
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <FundingSection companies={this.state.companies} />
 
 
-                        <div  className="col s6" style={{'height':'800px'}}>
-                            <span className="left left-align section-title">
-                              Total Funding by Category
-                                <Tooltip
-                                    text="The total funding amount companies raised in each category since inception"
-                                    icon="help_outline" 
-                                    randomID = 'chart_id_3'
-                                />
-                            </span>
-
-                            <div className="common-chart_wrapper section-2_chart3">
-                                {this.state.fundingByCategory.length ? <TotalFundingCategory data={this.state.fundingByCategory} /> : <p>No Data</p>}
-                            </div>
-                        </div>
-
-                    </div>
-                    </div>
-                </section>
-
-
-
-                <section className="section section-3">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col s12">
-                                <span className="left left-align section-title">
-                                    Exited Companies per Year
-                                    <Tooltip
-                                        text="Total number of companies exited per year"
-                                        icon="help_outline" 
-                                        randomID = 'chart_id_2'
-                                    />
-                                </span>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col s8">
-
-                                <div style={{'height': '500px'}}>
-                                    <PerYearChart />
-                                </div>
-                            </div>
-
-                            <div className="col s4">
-                                <div className="cybermap_box">
-                                    <div className="cybermap_box_flex">
-                                        <span>
-                                            Number of this <br/>
-                                            year's exits
-                                        </span>
-                                        <span>
-                                            00
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div className="cybermap_box">
-                                    <span>
-                                        Latest Exits
-                                    </span>
-                                    <div className="row">
-                                        <div  className="col s6">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                        <div  className="col s6">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                        <div  className="col s6">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                        <div  className="col s6">
-                                            <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <PerYearSection exits={this.state.exits} />
 
                 <section className="section section-4">
                     <div className="container-fluid">

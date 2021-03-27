@@ -1,0 +1,55 @@
+import React, { Component } from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import PerYearLogos from './perYearLogos';
+
+class PerYearChart extends Component  {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      show: false,
+      cx: 0,
+      cy: 0,
+      logos:[]
+    }
+}
+
+  clickedDot = ({cx,cy,payload}) => {
+    this.setState({show:true, cx,cy,logos:payload});
+  }
+
+  close = () => {
+    this.setState({show:false});
+  }
+
+   render () {
+    return (
+      <>
+        <ResponsiveContainer>
+          <LineChart
+            width={500}
+            height={400}
+            data={this.props.data}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeOpacity={.2} strokeDasharray="3 3" />
+            <XAxis dataKey="year" />
+            <YAxis />
+            <Tooltip />
+            <Line type="monotone" dataKey="company" stroke="#8884d8" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} dot />
+          </LineChart>
+        </ResponsiveContainer>
+
+        {this.state.show && <PerYearLogos cx={this.state.cx} cy={this.state.cy} logos={this.state.logos} close={this.close} /> } 
+
+      </>
+    );
+   }
+}
+ 
+export default PerYearChart;

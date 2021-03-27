@@ -37,6 +37,10 @@
     min-height: 500px;
 }
 
+.section-3 {
+    position: relative;
+}
+
 .section .section-title {
     color: #fff;
     border-bottom: 1px solid #fff;
@@ -73,7 +77,7 @@
 }
 
 .common-chart_wrapper {
-    height: 800px;
+    height:800px;
 }
 
 .cybermap_box {
@@ -104,4 +108,34 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.recharts-tooltip-wrapper  {
+    display: none;
+}
+
+
+.tooltip-modal_custom {
+    width: 400px;
+    min-height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 25px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 297497497;
+}
+
+.tooltip-modal_custom img {
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tooltip-modal_custom .close {
+    float: right;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
 }

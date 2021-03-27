@@ -4,6 +4,14 @@ import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, Tooltip, Legend
 
 const TotalFundingCategory  = ({data}) => { 
 
+    const formatTick = (tick) => {
+        if (tick >= 1000000) {
+            return `$${tick}M`;
+        } else {
+            return `$${tick}`;
+        }
+    }
+
     const CustomizedLabel = ({x,y,fill,value}) => {
         return <text 
                 x={x} 
@@ -11,7 +19,7 @@ const TotalFundingCategory  = ({data}) => {
 
                 fontSize={12} 
                 fill={'#fff'}
-                textAnchor="top" dominantBaseline="start">${value}M</text>
+                textAnchor="top" dominantBaseline="start">{value}</text>
     }
 
 
@@ -25,8 +33,8 @@ const TotalFundingCategory  = ({data}) => {
                     margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
                 >
                     <CartesianGrid horizontal strokeOpacity={.2} strokeDasharray="3 3" />
-                    <XAxis type="number" tickFormatter={(tick) => `$${tick}M`}   stroke="#fff" fontSize={12} />
-                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={12} dataKey="name"/>
+                    <XAxis type="number" tickFormatter={(tick) => formatTick(tick)}   stroke="#fff" fontSize={12} />
+                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={9} dataKey="name"/>
                         
                 <Bar 
                     dataKey="value" 
