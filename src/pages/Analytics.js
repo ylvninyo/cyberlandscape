@@ -398,11 +398,6 @@ class Analytics extends Component {
         
             })
             .catch(error => console.log('error', error));
-
-
-
-        // -------bubble chart codes section ----- //
-
         
     }
 
