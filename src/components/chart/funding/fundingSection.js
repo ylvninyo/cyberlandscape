@@ -5,7 +5,6 @@ import TotalFundingCategory from './totalFundingCategory';
 
 
 const FundingSection  = ({companies}) => { 
-
         
     // -------funding by category chart codes section ----- //
     let group =  companies.reduce((r, a) => {
@@ -37,7 +36,7 @@ const FundingSection  = ({companies}) => {
     // recent funding rounds logos
     let sortedDateLogos = companies.sort((a,b) => {
         return new Date(b.last_fundraising_date) - new Date(a.last_fundraising_date);
-        });
+    });
 
     let recentFundingRounds = sortedDateLogos.slice(0, 6);
 

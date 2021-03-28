@@ -1,14 +1,12 @@
-import React, { Component, useEffect } from 'react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, Tooltip, Legend, CartesianGrid, CartesianAxis} from 'recharts';
+import React from 'react';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Cell, CartesianGrid} from 'recharts';
 
 
-const TotalFundingCategory  = ({data}) => { 
-    
+const AverageChart  = ({data}) => { 
+
     data.sort((a,b) => {
         return b.value - a.value;
     })
-
-    // console.log(sortedData);
 
     const formatTick = (tick) => {
         if (tick >= 1000000) {
@@ -18,15 +16,16 @@ const TotalFundingCategory  = ({data}) => {
         }
     }
 
-    const CustomizedLabel = ({x,y,fill,value}) => {
-        return <text 
-                x={x} 
-                y={y} 
 
-                fontSize={12} 
-                fill={'#fff'}
-                textAnchor="top" dominantBaseline="start">{value}</text>
-    }
+const CustomizedLabel = ({x,y,fill,value}) => {
+    return <text 
+            x={x} 
+            y={y} 
+
+            fontSize={12} 
+            fill={'#fff'}
+            textAnchor="start" >{value}</text>
+}
 
 
     return(
@@ -40,11 +39,11 @@ const TotalFundingCategory  = ({data}) => {
                 >
                     <CartesianGrid horizontal strokeOpacity={.2} strokeDasharray="3 3" />
                     <XAxis type="number" tickFormatter={(tick) => formatTick(tick)}   stroke="#fff" fontSize={12} />
-                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={9} dataKey="name"/>
+                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={12} dataKey="name"/>
                         
                 <Bar 
                     dataKey="value" 
-                    fill="#ee6e73"
+                    fill="#6baed6"
                     label={<CustomizedLabel />}
                     radius={10}
                     />
@@ -55,4 +54,4 @@ const TotalFundingCategory  = ({data}) => {
     )
 }
 
-export default TotalFundingCategory;
+export default AverageChart;

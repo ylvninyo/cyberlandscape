@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import AverageChart from '../components/chart/averageChart';
-import AverageChartLifeSpan from '../components/chart/averageChartLifeSpan';
+import AverageChart from '../components/chart/average/averageChart';
+import AverageChartLifeSpan from '../components/chart/average/averageChartLifeSpan';
 import BubbleChartWrapper from '../components/chart/bubbleChart';
 import PerYearSection from '../components/chart/perYear/perYearSection';
 import TotalFundingAmount from '../components/chart/funding/totalFundingAmount';
@@ -9,6 +9,7 @@ import MetaTagsWrapper from '../components/metaTags';
 import Tooltip from '../components/tooltip';
 import '../style/analytics.css'
 import FundingSection from '../components/chart/funding/fundingSection';
+import AverageSection from '../components/chart/average/averageSection';
 
 
 class Analytics extends Component {
@@ -506,45 +507,9 @@ class Analytics extends Component {
 
                 <FundingSection companies={this.state.companies} />
 
-
                 <PerYearSection exits={this.state.exits} />
 
-                <section className="section section-4">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col s6">
-                                <span className="left left-align section-title">
-                                    Average Exits Value by Category
-                                    <Tooltip
-                                        text="Average deal size in each category"
-                                        icon="help_outline"
-                                        randomID = 'company-category' 
-                                    />
-                                </span>
-
-                                <div style={{'height': '600px'}}>
-                                    <AverageChart />
-                                </div>
-                            </div>
-
-                            <div className="col s6">
-                                <span className="left left-align section-title">
-                                    Average Lifespan Until Exit by Category
-                                    <Tooltip
-                                        text="Average amount of time (by years) until companies are acquired in each category"
-                                        icon="help_outline"
-                                        randomID = 'company-category' 
-                                    />
-                                </span>
-
-                                <div style={{'height': '600px'}}>
-                                    <AverageChartLifeSpan />
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
+                <AverageSection exits={this.state.exits} />
             </div>
         );
     }
