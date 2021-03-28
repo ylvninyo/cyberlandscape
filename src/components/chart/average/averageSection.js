@@ -52,7 +52,7 @@ const AverageSection  = ({exits}) => {
                     </span>
 
                     <div style={{'height': '600px'}}>
-                        <AverageChart data={averages} />
+                        {averages.length ? <AverageChart data={averages} /> : <p>Fetching data...</p>}
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@ const AverageSection  = ({exits}) => {
                     </span>
 
                     <div style={{'height': '600px'}}>
-                        <AverageChartLifeSpan data={averagesLifeSpan} />
+                        {averagesLifeSpan.length ? <AverageChartLifeSpan data={averagesLifeSpan} /> : <p>Fetching data...</p>}
                     </div>
                 </div>
 

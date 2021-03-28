@@ -1,10 +1,6 @@
 import React, {Component} from 'react'
-import AverageChart from '../components/chart/average/averageChart';
-import AverageChartLifeSpan from '../components/chart/average/averageChartLifeSpan';
-import BubbleChartWrapper from '../components/chart/bubbleChart';
+import BubbleChartWrapper from '../components/chart/bubble/bubbleChart';
 import PerYearSection from '../components/chart/perYear/perYearSection';
-import TotalFundingAmount from '../components/chart/funding/totalFundingAmount';
-import TotalFundingCategory from '../components/chart/funding/totalFundingCategory';
 import MetaTagsWrapper from '../components/metaTags';
 import Tooltip from '../components/tooltip';
 import '../style/analytics.css'
@@ -16,326 +12,6 @@ class Analytics extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            data: {
-                "status": true,
-                "companies": [
-                    {
-                        "category": "Application Security",
-                        "name": "Apiiro",
-                        "total_funding": 35,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Application Security",
-                        "name": "Apiiro",
-                        "total_funding": 35,
-                        "last_fundraising_date": "2020-11-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Cloud Security",
-                        "name": "Apiiro",
-                        "total_funding": 29.5,
-                        "last_fundraising_date": "2021-12-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Cloud Security",
-                        "name": "Apiiro",
-                        "total_funding": 29.5,
-                        "last_fundraising_date": "2020-09-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Data Protection",
-                        "name": "Apiiro",
-                        "total_funding": 5,
-                        "last_fundraising_date": "2021-03-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Email Security",
-                        "name": "Apiiro",
-                        "total_funding": 8,
-                        "last_fundraising_date": "2019-12-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Endpoint Security",
-                        "name": "Apiiro",
-                        "total_funding": 2,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Endpoint Security",
-                        "name": "Apiiro",
-                        "total_funding": 2,
-                        "last_fundraising_date": "2019-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Fraud & Transactions",
-                        "name": "Apiiro",
-                        "total_funding": 15,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Identity & Access Management",
-                        "name": "Apiiro",
-                        "total_funding": 27,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "IoT",
-                        "name": "Apiiro",
-                        "total_funding": 22,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Mobile Security",
-                        "name": "Apiiro",
-                        "total_funding": 39,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Identity & Access Management",
-                        "name": "Apiiro",
-                        "total_funding": 27,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Network Security",
-                        "name": "Apiiro",
-                        "total_funding": 28,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Security Operations",
-                        "name": "Apiiro",
-                        "total_funding": 31,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Threat Intelligence",
-                        "name": "Apiiro",
-                        "total_funding": 44,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                    {
-                        "category": "Vulnerability & Risk Mgmt",
-                        "name": "Apiiro",
-                        "total_funding": 36,
-                        "last_fundraising_date": "2020-10-13T00:00:00.000Z",
-                        "description": "Move fast and break bureaucracy (stealth-mode)",
-                        "crunchbase": "/",
-                        "homepage": "apiiro.com",
-                        "twitter": "https://twitter.com/apiiroSecurity",
-                        "linkedin": "https://www.linkedin.com/company/apiiro/",
-                        "subcategory": "",
-                        "logo": "https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg"
-                    },
-                ],
-                "exits": [
-                    {
-                        "company_name": "TowerSec",
-                        "category": "IOT Automotive",
-                        "founded": "2012-01-01T00:00:00.000Z",
-                        "exit_date": "2016-01-06T00:00:00.000Z",
-                        "lifespan_years": 4,
-                        "exit_strategy": "M&A",
-                        "acquisition_amount_m": 75,
-                        "total_funding_until_exited_m": 2.5,
-                        "acquirer_name": "Harman International Industries"
-                    },
-                    {
-                        acquirer_name: "SuperCom",
-                        acquisition_amount_m: "-",
-                        category: "Endpoint Security",
-                        company_name: "Safend",
-                        exit_date: "2016-03-03T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2003-01-01T00:00:00.000Z",
-                        lifespan_years: 13,
-                        total_funding_until_exited_m: 16.4,
-                    },
-                    {
-                        acquirer_name: "Cyberark",
-                        acquisition_amount_m: "-",
-                        category: "Network Security",
-                        company_name: "Agata Solutions",
-                        exit_date: "2016-03-11T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2008-01-01T00:00:00.000Z",
-                        lifespan_years: 8,
-                        total_funding_until_exited_m: "-"
-                    },
-                    {
-                        acquirer_name: "SuperCom",
-                        acquisition_amount_m: "-",
-                        category: "Endpoint Security",
-                        company_name: "Safend",
-                        exit_date: "2016-03-03T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2003-01-01T00:00:00.000Z",
-                        lifespan_years: 13,
-                        total_funding_until_exited_m: 16.4,
-                    },
-                    {
-                        acquirer_name: "Cyberark",
-                        acquisition_amount_m: "-",
-                        category: "Network Security",
-                        company_name: "Agata Solutions",
-                        exit_date: "2016-03-11T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2008-01-01T00:00:00.000Z",
-                        lifespan_years: 8,
-                        total_funding_until_exited_m: "-"
-                    },
-
-                    {
-                        acquirer_name: "Cyberark",
-                        acquisition_amount_m: "-",
-                        category: "Network Security",
-                        company_name: "Agata Solutions",
-                        exit_date: "2021-03-11T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2008-01-01T00:00:00.000Z",
-                        lifespan_years: 8,
-                        total_funding_until_exited_m: "-"
-                    },
-
-                    {
-                        acquirer_name: "Cyberark",
-                        acquisition_amount_m: "-",
-                        category: "Network Security",
-                        company_name: "Agata Solutions",
-                        exit_date: "2021-03-11T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2008-01-01T00:00:00.000Z",
-                        lifespan_years: 8,
-                        total_funding_until_exited_m: "-"
-                    },
-
-                    {
-                        acquirer_name: "Cyberark",
-                        acquisition_amount_m: "-",
-                        category: "Network Security",
-                        company_name: "Agata Solutions",
-                        exit_date: "2021-03-11T00:00:00.000Z",
-                        exit_strategy: "M&A",
-                        founded: "2008-01-01T00:00:00.000Z",
-                        lifespan_years: 8,
-                        total_funding_until_exited_m: "-"
-                    },
-
-                ]
-            },
 
             companies:[],
             exits: [],
@@ -344,10 +20,7 @@ class Analytics extends Component {
             bubbleChartData: {},
             filteredBubbleChartData: {},
             totalCompany: 0,
-
-            // for funding by category
-            fundingByCategory: [],
-            recentFundingRounds: [],
+            totalCapital: 0
         }
     }
 
@@ -372,8 +45,14 @@ class Analytics extends Component {
 
                 this.setState({companies:data.companies,exits});
 
+                let totalCapital = 0;
+
+                data.companies.forEach(el => {
+                    totalCapital += el.total_funding !== 'N/A' ? el.total_funding : 0;
+                })
+
                 // ----------bubble chart ---------- //
-                let bubbleChartCategory =  data?.companies.reduce((r, a) => {
+                let bubbleChartCategory = data?.companies.reduce((r, a) => {
                     r[a.category] = [...r[a.category] || [], a];
                     return r;
                    }, {});
@@ -394,7 +73,8 @@ class Analytics extends Component {
                 this.setState({
                         bubbleChartData, 
                         filteredBubbleChartData: bubbleChartData, 
-                        totalCompany:bubbleChartData.length
+                        totalCompany:bubbleChartData.length,
+                        totalCapital
                     }); 
         
             })
@@ -494,7 +174,7 @@ class Analytics extends Component {
                            <p>
                             Total capital raised <br/>
                             by active companies
-                            <span>$9B</span>
+                            <span>${Math.ceil(this.state.totalCapital)}</span>
                            </p>
                        </div>
                         <div className="cybermap-bubble_chart right">

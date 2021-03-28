@@ -7,11 +7,16 @@ class PerYearChart extends Component  {
   constructor(props) {
     super(props)
     this.state = {
+      data:[],
       show: false,
       cx: 0,
       cy: 0,
       logos:[]
     }
+}
+
+componentDidMount() {
+  this.setState({data:this.props.data});
 }
 
   clickedDot = ({cx,cy,payload}) => {

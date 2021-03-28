@@ -23,7 +23,7 @@ const PerYearSection = ({exits}) => {
         obj.year = year;
         obj.company = exitDates[year].length;
 
-        if(year == n) exitThisYear = exitDates[year].length;
+        if(year === n) exitThisYear = exitDates[year].length;
 
         exitPerYears.push(obj);
     });
@@ -49,7 +49,7 @@ const PerYearSection = ({exits}) => {
                     <div className="col s8">
 
                         <div style={{'height': '500px'}}>
-                            {exitPerYears ? <PerYearChart data={exitPerYears} /> : 'No Data' } 
+                            {exitPerYears.length ? <PerYearChart data={exitPerYears} /> : <p>Fetching data...</p> } 
                         </div>
                     </div>
 
@@ -72,16 +72,16 @@ const PerYearSection = ({exits}) => {
                             </span>
                             <div className="row">
                                 <div  className="col s6">
-                                    <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
+                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
                                 </div>
                                 <div  className="col s6">
-                                    <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
+                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
                                 </div>
                                 <div  className="col s6">
-                                    <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
+                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
                                 </div>
                                 <div  className="col s6">
-                                    <img src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
+                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
                                 </div>
                             </div>
 

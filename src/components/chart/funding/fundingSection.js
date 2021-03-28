@@ -33,7 +33,31 @@ const FundingSection  = ({companies}) => {
             fundingByCategory.push(obj);
         });
 
-    // recent funding rounds logos
+        let amounts = [];
+
+        let st0_10 = 0;
+        let st10_30 = 0;
+        let st30_50 = 0;
+        let st50 = 0;
+
+        companies.forEach((el) => {
+
+            if(el.total_funding > 0 && el.total_funding < 10000) {
+                st0_10 +=1;
+            }
+            else if(el.total_funding > 10000 && el.total_funding < 30000) {
+                st10_30 +=1;
+            }
+            else if(el.total_funding > 30000 && el.total_funding < 50000) {
+                st30_50 +=1;
+            }
+            else if(el.total_funding > 50000) {
+                st50 +=1;
+            }
+        });
+
+        amounts = [st0_10,st10_30,st30_50,st50];
+
     let sortedDateLogos = companies.sort((a,b) => {
         return new Date(b.last_fundraising_date) - new Date(a.last_fundraising_date);
     });
@@ -55,7 +79,7 @@ const FundingSection  = ({companies}) => {
                             />
                         </span>
                         <div className="section-2_chart2" style={{'height':'400px'}}>
-                            <TotalFundingAmount />
+                         {fundingByCategory.length ? <TotalFundingAmount {...{amounts}} /> : <p>Fetching data...</p>}   
                         </div>
                     </div>
 
@@ -75,7 +99,7 @@ const FundingSection  = ({companies}) => {
                                 recentFundingRounds.map((item,i) => {
                                     return (
                                         <div  className="col s4" key={i}>
-                                            <img src={item.logo} />
+                                            <img alt={'cybermap analytics'} src={item.logo} />
                                         </div>
                                     )
                                 })
