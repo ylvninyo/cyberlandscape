@@ -21,6 +21,22 @@ componentDidMount() {
 
   clickedDot = ({cx,cy,payload}) => {
     this.setState({show:true, cx,cy,logos:payload});
+
+    const y = payload.year;
+    let logos = [];
+
+    const selectedYearCompanies = this.props.exitDates.[`${y}`]
+
+    // selectedYearCompanies.map((c) => {
+      const l = this.props.companies.filter((fD) => {
+        // console.log(c.company_name)
+        // console.log(fD.name);
+        return fD.name === 'BigID';
+        // console.log(fD)
+      })
+    // })
+
+    console.log(l);
   }
 
   close = () => {

@@ -68,7 +68,7 @@ const FundingSection  = ({companies}) => {
         <section className="section section-2">
             <div className="container-fluid fullheight">
                 <div className="row fullheight">
-                <div className="col s6 fullheight">
+                <div className="col s12 m6 fullheight">
                     <div>
                         <span className="left left-align section-title">
                         Companies by Total Funding Amount
@@ -111,7 +111,7 @@ const FundingSection  = ({companies}) => {
                 </div>
 
 
-                <div  className="col s6" style={{'height':'800px'}}>
+                <div  className="col s12 m6" style={{'height':'800px'}}>
                     <span className="left left-align section-title">
                     Total Funding by Category
                         <Tooltip

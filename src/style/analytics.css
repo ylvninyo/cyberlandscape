@@ -25,12 +25,14 @@
 }
 
 .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
-    width: 50%;
+    width: 20%;
 }
 
 .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
-    width: 50%;
+    width: 80%;
 }
+
+
 
 .section {
     padding: 50px 0;
@@ -124,6 +126,8 @@
     border-radius: 10px;
     position: absolute;
     z-index: 297497497;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
 }
 
 .tooltip-modal_custom img {
@@ -138,4 +142,19 @@
     border: none;
     cursor: pointer;
     margin-bottom: 10px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
+        width: 100%;
+    }
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
+        width: 100%;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
 }

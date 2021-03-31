@@ -165,21 +165,23 @@ class Analytics extends Component {
                     <hr/>
 
                    <div className="cybermap-bubble_chart_wrapper">
-                       <div className="cybermap-bubble_desc left">
-                           <p>
-                            Total companies
-                            <span>{this.state.totalCompany}</span>
-                           </p>
+                        {/* <div className="row"> */}
+                            <div className="cybermap-bubble_desc left">
+                                <p>
+                                        Total companies
+                                        <span>{this.state.totalCompany}</span>
+                                </p>
 
-                           <p>
-                            Total capital raised <br/>
-                            by active companies
-                            <span>${Math.ceil(this.state.totalCapital)}</span>
-                           </p>
-                       </div>
-                        <div className="cybermap-bubble_chart right">
-                            {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
-                        </div>
+                                <p>
+                                        Total capital raised <br/>
+                                        by active companies
+                                        <span>${Math.ceil(this.state.totalCapital)}</span>
+                                </p>
+                            </div>
+                            <div className="cybermap-bubble_chart right">
+                                {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
+                            </div>
+                        {/* </div> */}
                    </div>
                 </div>
 
@@ -187,7 +189,7 @@ class Analytics extends Component {
 
                 <FundingSection companies={this.state.companies} />
 
-                <PerYearSection exits={this.state.exits} />
+                <PerYearSection exits={this.state.exits} companies={this.state.companies} />
 
                 <AverageSection exits={this.state.exits} />
             </div>

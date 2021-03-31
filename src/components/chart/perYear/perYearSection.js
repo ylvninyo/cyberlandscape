@@ -2,7 +2,7 @@ import React from 'react';
 import Tooltip from '../../tooltip';
 import PerYearChart from './perYearChart';
 
-const PerYearSection = ({exits}) => {
+const PerYearSection = ({exits,companies}) => {
     
         
     // per year chart 
@@ -14,6 +14,8 @@ const PerYearSection = ({exits}) => {
     let exitPerYears = [];
     let exitThisYear = 0;
 
+    console.log((exitDates))
+
     Object.keys(exitDates).forEach((year) => {
         let obj = {};
         const d = new Date();
@@ -23,12 +25,12 @@ const PerYearSection = ({exits}) => {
         obj.year = year;
         obj.company = exitDates[year].length;
 
-        if(year === n) exitThisYear = exitDates[year].length;
+        if(Number(year) === n) exitThisYear = exitDates[year].length;
 
         exitPerYears.push(obj);
     });
 
-   
+   console.log(exitPerYears);
 
     return (
         <section className="section section-3">
@@ -46,14 +48,14 @@ const PerYearSection = ({exits}) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col s8">
+                    <div className="col s12 m8">
 
                         <div style={{'height': '500px'}}>
-                            {exitPerYears.length ? <PerYearChart data={exitPerYears} /> : <p>Fetching data...</p> } 
+                            {exitPerYears.length ? <PerYearChart data={exitPerYears} {...{exitDates,companies}} /> : <p>Fetching data...</p> } 
                         </div>
                     </div>
 
-                    <div className="col s4">
+                    <div className="col s12 m4">
                         <div className="cybermap_box">
                             <div className="cybermap_box_flex">
                                 <span>

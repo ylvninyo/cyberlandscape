@@ -41,7 +41,7 @@ const AverageSection  = ({exits}) => {
         <section className="section section-4">
         <div className="container-fluid">
             <div className="row">
-                <div className="col s6">
+                <div className="col s12 m6">
                     <span className="left left-align section-title">
                         Average Exits Value by Category
                         <Tooltip
@@ -51,12 +51,12 @@ const AverageSection  = ({exits}) => {
                         />
                     </span>
 
-                    <div style={{'height': '600px'}}>
+                    <div style={{'height': '600px', 'marginBottom': '100px'}}>
                         {averages.length ? <AverageChart data={averages} /> : <p>Fetching data...</p>}
                     </div>
                 </div>
 
-                <div className="col s6">
+                <div className="col s12 m6">
                     <span className="left left-align section-title">
                         Average Lifespan Until Exit by Category
                         <Tooltip
@@ -66,7 +66,7 @@ const AverageSection  = ({exits}) => {
                         />
                     </span>
 
-                    <div style={{'height': '600px'}}>
+                    <div style={{'height': '600px', 'marginBottom': '100px'}}>
                         {averagesLifeSpan.length ? <AverageChartLifeSpan data={averagesLifeSpan} /> : <p>Fetching data...</p>}
                     </div>
                 </div>
