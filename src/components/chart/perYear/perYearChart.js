@@ -27,16 +27,23 @@ componentDidMount() {
 
     const selectedYearCompanies = this.props.exitDates.[`${y}`]
 
-    // selectedYearCompanies.map((c) => {
-      const l = this.props.companies.filter((fD) => {
-        // console.log(c.company_name)
-        // console.log(fD.name);
-        return fD.name === 'BigID';
-        // console.log(fD)
-      })
-    // })
+    console.log(selectedYearCompanies)
 
-    console.log(l);
+    // selectedYearCompanies.map((c) => {
+      // console.log(c.company_name)
+      const l = this.props.companies.filter((fD) => {
+        // console.log(fD.name);
+        //  if(fD.name === 'Argus Cyber Security') {
+        //    logos.push(c.logo)
+        //  }
+
+        return fD.name === 'TowerSec';
+      })
+
+      
+    // console.log(logos);
+    console.log(l)
+    // })
   }
 
   close = () => {

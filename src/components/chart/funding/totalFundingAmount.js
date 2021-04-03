@@ -31,49 +31,41 @@ class TotalFundingAmount extends Component {
  
 
   componentDidMount() {
-    let newData = this.state.data.map((el,i) => {
-      el.value = this.props.amounts[i];
-      return el;
-  });
+  //   let newData = this.state.data.map((el,i) => {
+  //     el.value = this.props.amounts[i];
+  //     return el;
+  // });
   
-  this.setState({data: newData});
+  // this.setState({data: newData});
   }
-
   render() {
 
-    const CustomizedLabel = ({x,y,value}) => {
-      return <text 
-              x={x+10} 
-              y={y-5} 
-              fontSize={10} 
-              fill={'#fff'}
-              textAnchor="start" dominantBaseline="start">{Math.ceil(value)}</text>
-      }
-
     return(
-      <ResponsiveContainer width="100%" height="100%">
-              <BarChart 
-                  barSize={40}
-                  fill="#1b1f22"
-                  data={this.state.data}
-                  height={40} barCategoryGap={.5}
-                  margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
-              >
-                  <CartesianGrid horizontal verticalFill={'#1b1f22'} strokeOpacity={.2} strokeDasharray="3 3" />
-                  <XAxis type="category"   stroke="#fff" fontSize={12} dataKey="name" />
-                  {/* <YAxis type="number" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={10} /> */}
-                      
-              <Bar 
-                  width={50}
-                  height={89}
-                  dataKey="value" 
-                  fill="#3182bd"
-                  label={<CustomizedLabel />}
-                  radius={50}
-                  />
-                  
-          </BarChart>
-      </ResponsiveContainer>
+     <div className="amount-chart_wrapper">
+       <div className="amount-chart_item" data-attr="$0-10M">
+         <div className="amount-chart_circle" style={{'height': '100px', 'width': '100px'}}>
+            <span>62</span>
+         </div>
+        </div>
+
+        <div className="amount-chart_item" data-attr="$10-30M">
+         <div className="amount-chart_circle" style={{'height': '80px', 'width': '80px'}}>
+            <span>51</span>
+         </div>
+        </div>
+
+        <div className="amount-chart_item" data-attr="$30M-50M">
+         <div className="amount-chart_circle" style={{'height': '70px', 'width': '70px'}}>
+            <span>21</span>
+         </div>
+         </div>
+
+         <div className="amount-chart_item" data-attr="$50M">
+         <div className="amount-chart_circle" style={{'height': '120px', 'width': '120px'}}>
+            <span>43</span>
+         </div>
+       </div>
+     </div>
 
   )
   }

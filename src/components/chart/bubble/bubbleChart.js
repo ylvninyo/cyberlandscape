@@ -2,7 +2,6 @@ import React from 'react';
 import BubbleChart from '@weknow/react-bubble-chart-d3';
 
 const BubbleChartWrapper = ({chartData}) => {
-  console.log(window.width)
     return (
       <BubbleChart
         graph= {{

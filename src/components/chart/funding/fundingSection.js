@@ -78,7 +78,7 @@ const FundingSection  = ({companies}) => {
                                 randomID = 'chart_id_2'
                             />
                         </span>
-                        <div className="section-2_chart2" style={{'height':'400px'}}>
+                        <div className="section-2_chart2 clearbox">
                          {fundingByCategory.length ? <TotalFundingAmount {...{amounts}} /> : <p>Fetching data...</p>}   
                         </div>
                     </div>
