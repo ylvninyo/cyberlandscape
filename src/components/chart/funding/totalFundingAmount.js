@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, CartesianGrid} from 'recharts';
 
 
 class TotalFundingAmount extends Component { 
@@ -11,19 +10,19 @@ class TotalFundingAmount extends Component {
       data:[
         {
           name: '$0-10M',
-          value: 0,
+          value: 62,
         },
         {
           name: '$10-30M',
-          value: 0,
+          value: 20,
         },
         {
           name: '$30M-50M',
-          value: 0,
+          value: 53,
         },
         {
           name: '$50M',
-          value: 0,
+          value: 19,
         }
       ]
     }
@@ -31,40 +30,28 @@ class TotalFundingAmount extends Component {
  
 
   componentDidMount() {
-  //   let newData = this.state.data.map((el,i) => {
-  //     el.value = this.props.amounts[i];
-  //     return el;
-  // });
+    let newData = this.state.data.map((el,i) => {
+      el.value = this.props.amounts[i];
+      return el;
+  });
   
-  // this.setState({data: newData});
+  this.setState({data: newData});
   }
   render() {
 
+    const charts = this.state.data.map((ch) => {
+      return (
+        <div className="amount-chart_item" data-attr={`${ch.name}`}>
+         <div className="amount-chart_circle" style={{'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`}}>
+            <span>{ch.value}</span>
+         </div>
+        </div>
+      )
+    })
+
     return(
      <div className="amount-chart_wrapper">
-       <div className="amount-chart_item" data-attr="$0-10M">
-         <div className="amount-chart_circle" style={{'height': '100px', 'width': '100px'}}>
-            <span>62</span>
-         </div>
-        </div>
-
-        <div className="amount-chart_item" data-attr="$10-30M">
-         <div className="amount-chart_circle" style={{'height': '80px', 'width': '80px'}}>
-            <span>51</span>
-         </div>
-        </div>
-
-        <div className="amount-chart_item" data-attr="$30M-50M">
-         <div className="amount-chart_circle" style={{'height': '70px', 'width': '70px'}}>
-            <span>21</span>
-         </div>
-         </div>
-
-         <div className="amount-chart_item" data-attr="$50M">
-         <div className="amount-chart_circle" style={{'height': '120px', 'width': '120px'}}>
-            <span>43</span>
-         </div>
-       </div>
+          {charts}
      </div>
 
   )

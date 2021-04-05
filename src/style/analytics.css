@@ -206,5 +206,8 @@
 .amount-chart_wrapper .amount-chart_circle {
     border-radius: 50%;
     background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
