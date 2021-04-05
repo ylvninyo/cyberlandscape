@@ -14,7 +14,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 9,
-        "funding": "14M", 
+        "funding": "35M", 
         "name": "Vulcan Cyber", 
         "twitter": "https://twitter.com/VulcanCyber", 
         "linkedin": "https://www.linkedin.com/company/vulcancyber/", 
@@ -26,7 +26,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt", 
         "position": 15,
-        "funding": "95M", 
+        "funding": "465M", 
         "name": "Axonius", 
         "twitter": "https://twitter.com/axoniusinc", 
         "linkedin": "https://www.linkedin.com/company/18226665/", 
@@ -162,7 +162,7 @@ window.companies = [
     {
         "category": "Cloud Security", 
         "position": 0,
-        "funding": "130M", 
+        "funding": "265M", 
         "name": "Aqua Security", 
         "twitter": "http://twitter.com/AquaSecTeam", 
         "linkedin": "https://www.linkedin.com/company/10034420", 
@@ -267,18 +267,6 @@ window.companies = [
         "logo": "./logos/BioCatch.png", 
         "homepage": "http://biocatch.com", 
         "description": "Based in Boston, Massachusetts, BioCatch offers a range of behavioral authentication and threat detection solutions for web and mobile applications. Available as a cloud-based solution, BioCatch collects and analyzes more than 500 cognitive parameters to generate unique user profiles. Organizations use the platform to continuously authenticate users during their online sessions, protecting against cyber threats and fraudulent activity, such as account takeover and RAT-in-the-Browser (RitB), remote access, and automated account manipulation. BioCatch was founded in 2011."
-    }, 
-    {
-        "category": "Email Security", 
-        "position": 0,
-        "funding": "3M", 
-        "name": "BitDam", 
-        "twitter": "https://twitter.com/BitDamSecurity",
-        "linkedin": "https://www.linkedin.com/company/bitdam/", 
-        "crunchbase": "https://www.crunchbase.com/organization/bitdam", 
-        "logo": "./logos/BitDam.png", 
-        "homepage": "http://www.bitdam.com/", 
-        "description": "BitDam cyber security blocks advanced content-borne attacks across all enterprise communication channels, empowering organizations to collaborate safely. \nFounded by elite intelligence professionals, BitDam proactively stops malware from running, pre-delivery, preventing hardware and logical exploits, ransomware, phishing, N-Day and Zero-Day attacks contained in any type of attachment or URL. \nBitDam ensures the highest attack detection rates and delivers the fastest protection from today\u2019s email borne attacks making enterprise communications safe to click. "
     }, 
     {
         "category": "Network Security", 
@@ -517,7 +505,7 @@ window.companies = [
     {
         "category": "Endpoint Security", 
         "position": 0,
-        "funding": "38M", 
+        "funding": "78M", 
         "name": "Cynet",
         "linkedin": "https://www.linkedin.com/company/cynet-security",
         "twitter": "https://twitter.com/cynet360",
@@ -636,7 +624,7 @@ window.companies = [
     {
         "category": "Cloud Security", 
         "position": 9,
-        "funding": "82M", 
+        "funding": "292M", 
         "name": "Orca Security", 
         "twitter": "https://twitter.com/OrcaSec", 
         "linkedin": "https://www.linkedin.com/company/orca-security/", 
@@ -1159,7 +1147,7 @@ window.companies = [
     {
         "category": "Web Security", 
         "position": 0,
-        "funding": "91.5M", 
+        "funding": "148.5M", 
         "name": "PerimeterX", 
         "twitter": "http://twitter.com/perimeterx", 
         "linkedin": "http://www.linkedin.com/company/perimeterx", 
@@ -1202,19 +1190,6 @@ window.companies = [
         "logo": "./logos/PreemptSecurity.png", 
         "homepage": "http://www.preempt.com/", 
         "description": "Preempt protects organizations by eliminating security threats. Threats are not black or white and the Preempt Platform is the only solution that preempts threats with continuous threat prevention that automatically adapts based on identity, behavior and risk. This ensures that both security threats and risky employee activities are responded to with the right level of security at the right time. The platform easily scales to provide comprehensive identity based protection across organizations of any size."
-    },
-    {
-        "category": "Web Security", 
-        "position": 0,
-        "funding": "4M", 
-        "name": "Protected Media", 
-        "twitter": "https://twitter.com/protected_media", 
-        "linkedin": "https://www.linkedin.com/company/protected-media/", 
-        "subcategory": "Ad Fraud", 
-        "crunchbase": "https://www.crunchbase.com/organization/protected-media", 
-        "logo": "./logos/ProtectedMedia.png", 
-        "homepage": "https://www.protected.media/", 
-        "description": "With Protected Media, you can stop paying for fake traffic and invest your time and energy in real audiences. You can stop making critical campaign decisions based on fraudulent data, and start relying on real, verified numbers. "
     },
     {
         "category": "IoT", 
@@ -1607,7 +1582,7 @@ window.companies = [
     {
         "category": "Application Security", 
         "position": 0,
-        "funding": "452M", 
+        "funding": "752M", 
         "name": "Snyk", 
         "twitter": "https://www.twitter.com/snyksec", 
         "linkedin": "https://www.linkedin.com/company/snyk", 
@@ -1877,18 +1852,6 @@ window.companies = [
         "logo": "./logos/Zimperium.png", 
         "homepage": "https://www.zimperium.com", 
         "description": "ZIMPERIUM is a mobile security startup that offers protection for mobile devices against the next generation of advanced mobile attacks. Its flagship solutions protect mobile devices from modern cyber security threats."
-    },
-	{
-        "category": "Blockchain Security", 
-        "position": 0,
-        "funding": "29.5M", 
-        "name": "Curv", 
-        "twitter": "https://twitter.com/curvmpc",
-        "linkedin": "https://www.linkedin.com/company/curv/", 
-        "crunchbase": "https://www.crunchbase.com/organization/curv-5d20", 
-        "logo": "./logos/Curv.png",
-        "homepage": "https://www.curv.co", 
-        "description": "A Cloud-based wallet that gives bulletproof protection, instant availability & total autonomy over all digital assets, powered by revolutionary cryptography"
     },
 	{
         "category": "Blockchain Security", 
@@ -2319,12 +2282,12 @@ window.companies = [
         "category": "Vulnerability & Risk Mgmt",
         "position": 0,
         "funding": "2.8M",
-        "name": "CyGov",
-        "logo": "./logos/CyGov.png",
-        "description": "CyGov delivers a SaaS-based cyber risk platform that empowers organizations to understand their cyber risks and how best to manage them. Their solution simplifies the entire lifecycle of cyber risk management from assessment, analysis to remediation while providing an innovative visualization approach to overseeing security utilizing integrated threat intelligence.",
-        "homepage": "https://www.cygov.co/",
-        "twitter": "https://twitter.com/cygov_",
-        "linkedin": "https://www.linkedin.com/company/cygov",
+        "name": "Centraleyes",
+        "logo": "./logos/Centraleyes.png",
+        "description": "Centraleyes (formerly CyGov) is a cutting-edge cyber risk management platform that gives mid-sized and large global organizations unparalleled understanding of their digital and cyber risk and compliance. The cloud-based platform streamlines information feeds into one, clear, actionable interface, allowing companies to identify the gaps - and close them. Centraleyes provides an exceptional ability to see, understand and react to cyber risk in a field where incumbent technology is stagnant, flat and often cumbersome and ineffective. Organizations that deploy Centraleyes save time, save resources, and sustain cyber resilience in a world of ever-evolving risks. It is truly cyber risk management reimagined.",
+        "homepage": "https://www.centraleyes.com/",
+        "twitter": "https://twitter.com/Centraleyes_",
+        "linkedin": "https://www.linkedin.com/company/cygov/",
         "crunchbase": "https://www.crunchbase.com/organization/cygov-intelligent-cyber-security",
     },
     {
@@ -2505,7 +2468,7 @@ window.companies = [
     {
         "category": "Cloud Security",
         "position": 0,
-        "funding": "100M",
+        "funding": "230M",
         "name": "Wiz, Inc.",
         "logo": "./logos/wiz-logo-black.svg",
         "description": "Wiz, Inc. operates as a cloud security company. Wiz builds an up-to-date representation of your cloud setup across network, identity, compute, application, vulnerabilities, and secrets.",
@@ -2630,5 +2593,29 @@ window.companies = [
         "twitter": "https://twitter.com/getspectral",
         "linkedin": "https://www.linkedin.com/company/spectralops-io/",
         "crunchbase": "https://www.crunchbase.com/organization/spectral-4f70",
+    },
+    {
+        "category": "Identity & Access Management",
+        "position": 0,
+        "funding": "52M",
+        "name": "Identiq",
+        "logo": "./logos/Identiq.png",
+        "description": "The anonymous verification network. Validate new users, and vouch for ones you already know, all without sharing any user data whatsoever.",
+        "homepage": "https://www.identiq.com/",
+        "twitter": "https://twitter.com/identiqprotocol",
+        "linkedin": "https://www.linkedin.com/company/identiqprotocol/",
+        "crunchbase": "https://www.crunchbase.com/organization/identiq",
+    },
+    {
+        "category": "Application Security",
+        "position": 0,
+        "funding": "4M",
+        "name": "Argon Security",
+        "logo": "./logos/Argon.png",
+        "description": "Argon is the first unified security solution protecting the integrity of the DevOps pipeline. Argon enables DevOps and security teams to create tamper-proof software delivery pipelines from commit to release. Argon’s first-to-market security solution delivers visibility, security, and integrity to your CI/CD pipeline, ensuring trust in your software releases.",
+        "homepage": "https://argon.io/",
+        "twitter": "https://twitter.com/argon_security",
+        "linkedin": "https://www.linkedin.com/company/argon/",
+        "crunchbase": "https://www.crunchbase.com/organization/argon-security/",
     },
 ]
