@@ -2525,7 +2525,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/cardinalops-ltd",
     },
     {
-        "category": "Vulnerability and Risk Management",
+        "category": "Vulnerability & Risk Mgmt",
         "position": 0,
         "funding": "5M",
         "name": "Anecdotes",
