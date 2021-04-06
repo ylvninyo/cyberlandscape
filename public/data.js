@@ -2383,7 +2383,7 @@ window.companies = [
         "crunchbase": "https://www.crunchbase.com/organization/mitiga",
     },
     {
-        "category": "Vulnerability & Risk Mgmt  Attack Simulation",
+        "category": "Vulnerability & Risk Mgmt",
         "position": 0,
         "funding": "8.3M",
         "name": "Cyberpion",
