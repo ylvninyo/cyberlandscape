@@ -4,6 +4,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 991px) {
+    .cybermap-bubble_chart_wrapper {
+        display: block;
+    }
+}
+
 .cybermap-bubble_chart_wrapper svg {
     overflow: visible!important;
 }
@@ -148,6 +154,11 @@
     margin-bottom: 10px;
 }
 
+.tooltip-modal_custom .scroll-wrapper {
+    height: 350px;
+    overflow-y: auto;
+}
+
 
 
 @media screen and (max-width: 991px) {
@@ -205,9 +216,13 @@
 
 .amount-chart_wrapper .amount-chart_circle {
     border-radius: 50%;
-    background-color: #ddd;
+    background-color: rgba(158,154,200,.9);
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
+    z-index: 97327;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
 }

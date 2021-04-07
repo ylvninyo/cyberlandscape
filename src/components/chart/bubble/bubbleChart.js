@@ -10,8 +10,8 @@ const BubbleChartWrapper = ({chartData}) => {
           offsetY: -0.01,
         }}
         
-        width={window.innerWidth > 991 ? 1099 : 768}
-        height={window.innerWidth > 991 ? 500 : 300}
+        width={window.innerWidth > 991 ? 1099 : 650}
+        height={window.innerWidth > 991 ? 500 : 450}
         padding={20} // optional value, number that set the padding between bubbles
         showLegend={false} // optional value, pass false to disable the legend.
         valueFont={{

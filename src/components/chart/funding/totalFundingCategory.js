@@ -23,7 +23,7 @@ const TotalFundingCategory = ({data}) => {
                 y={y-5} 
                 fontSize={10} 
                 fill={'#fff'}
-                textAnchor="start" dominantBaseline="end">{Math.ceil(value) >0 ? Math.ceil(value) : 'N/A'}</text>
+                textAnchor="start" dominantBaseline="end">{Math.ceil(value) > 0 ? Math.ceil(value) : 'N/A'}</text>
         }
 
 

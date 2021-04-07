@@ -39,9 +39,9 @@ class TotalFundingAmount extends Component {
   }
   render() {
 
-    const charts = this.state.data.map((ch) => {
+    const charts = this.state.data.map((ch, index) => {
       return (
-        <div className="amount-chart_item" data-attr={`${ch.name}`}>
+        <div className="amount-chart_item" data-attr={`${ch.name}`} key={index}>
          <div className="amount-chart_circle" style={{'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`}}>
             <span>{ch.value}</span>
          </div>

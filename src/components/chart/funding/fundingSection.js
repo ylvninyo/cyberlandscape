@@ -42,16 +42,16 @@ const FundingSection  = ({companies}) => {
 
         companies.forEach((el) => {
 
-            if(el.total_funding > 0 && el.total_funding < 10000) {
+            if(el.total_funding > 0 && el.total_funding < 10) {
                 st0_10 +=1;
             }
-            else if(el.total_funding > 10000 && el.total_funding < 30000) {
+            else if(el.total_funding > 10 && el.total_funding < 30) {
                 st10_30 +=1;
             }
-            else if(el.total_funding > 30000 && el.total_funding < 50000) {
+            else if(el.total_funding > 30 && el.total_funding < 50) {
                 st30_50 +=1;
             }
-            else if(el.total_funding > 50000) {
+            else if(el.total_funding > 50) {
                 st50 +=1;
             }
         });

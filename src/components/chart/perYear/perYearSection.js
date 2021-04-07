@@ -13,8 +13,7 @@ const PerYearSection = ({exits,companies}) => {
 
     let exitPerYears = [];
     let exitThisYear = 0;
-
-    console.log((exitDates))
+    let exitThisYearImages = [];
 
     Object.keys(exitDates).forEach((year) => {
         let obj = {};
@@ -25,12 +24,13 @@ const PerYearSection = ({exits,companies}) => {
         obj.year = year;
         obj.company = exitDates[year].length;
 
-        if(Number(year) === n) exitThisYear = exitDates[year].length;
+        if(Number(year) === n) {
+            exitThisYear = exitDates[year].length;
+            exitThisYearImages.push(exitDates.logo);
+        }
 
         exitPerYears.push(obj);
     });
-
-   console.log(exitPerYears);
 
     return (
         <section className="section section-3">
@@ -73,18 +73,13 @@ const PerYearSection = ({exits,companies}) => {
                                 Latest Exits
                             </span>
                             <div className="row">
-                                <div  className="col s6">
-                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                </div>
-                                <div  className="col s6">
-                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                </div>
-                                <div  className="col s6">
-                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                </div>
-                                <div  className="col s6">
-                                    <img alt={'cybermap analytics'} src="https://www.yorkgraphicdesigners.co.uk/wp-content/uploads/2020/04/coronavirus_logo-2.jpg" />
-                                </div>
+                                {exitThisYearImages?.map((img, index)=>{
+                                    return (
+                                        <div  className="col s6" key={index}>
+                                            <img alt={'cybermap analytics'} src={img} />
+                                        </div>
+                                    )
+                                })}
                             </div>
 
                         </div>

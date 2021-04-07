@@ -6,6 +6,7 @@ import Tooltip from '../components/tooltip';
 import '../style/analytics.css'
 import FundingSection from '../components/chart/funding/fundingSection';
 import AverageSection from '../components/chart/average/averageSection';
+// import Dropdown from '../components/dropdown';
 
 
 class Analytics extends Component {
@@ -32,7 +33,7 @@ class Analytics extends Component {
             redirect: 'follow'
           };
 
-        fetch("https://script.google.com/macros/s/AKfycbzlqEQo5DlLqgI3GMk-Nn7XCtAhNaCYDuPBYZCHhRLjQ2vfMa945gpf09N50GNwwKa4kQ/exec", requestOptions)
+        fetch("https://script.google.com/macros/s/AKfycbzb8LxPHh2JRpmBiZfjKXy0AV1nbZrdpgOsNvVlioTkl81TXLUCx6CZBjoLxA1471ko/exec", requestOptions)
             .then(response => response.text())
             .then(result => {
                 let data = JSON.parse(result);
@@ -117,7 +118,18 @@ class Analytics extends Component {
         });
     }
 
+    // onFundingFilter = () => {
+    //     console.log('yes')
+    // }
+
     render() {
+        // const dropdowns = [
+        //     'All',
+        //     '$0-10M',
+        //     '$10-30M',
+        //     '$30-50M',
+        //     '$50'
+        // ]
         return (
             <div className="careers-view background-dark-grey">
                 <MetaTagsWrapper />
@@ -156,6 +168,8 @@ class Analytics extends Component {
 
                                     <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
                                 </div>
+
+                                {/* <Dropdown title="Filter by funding" colored={'#ddd'} options={dropdowns} onChange={this.onFundingFilter}  /> */}
                                 <div className="clear"></div>
                                 <br/>
                             </div>
@@ -175,7 +189,7 @@ class Analytics extends Component {
                                 <p>
                                         Total capital raised <br/>
                                         by active companies
-                                        <span>${Math.ceil(this.state.totalCapital)}</span>
+                                        <span>${Math.ceil(this.state.totalCapital)}B</span>
                                 </p>
                             </div>
                             <div className="cybermap-bubble_chart right">
