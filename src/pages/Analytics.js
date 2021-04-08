@@ -49,7 +49,7 @@ class Analytics extends Component {
                 let totalCapital = 0;
 
                 data.companies.forEach(el => {
-                    totalCapital += el.total_funding !== 'N/A' ? el.total_funding : 0;
+                    totalCapital += (el.total_funding !== 'N/A') ? el.total_funding : 0;
                 })
 
                 // ----------bubble chart ---------- //
@@ -74,7 +74,7 @@ class Analytics extends Component {
                 this.setState({
                         bubbleChartData, 
                         filteredBubbleChartData: bubbleChartData, 
-                        totalCompany:bubbleChartData.length,
+                        totalCompany:data?.companies.length,
                         totalCapital
                     }); 
         
@@ -119,6 +119,7 @@ class Analytics extends Component {
     }
 
     render() {
+        const capitalRaised = Math.ceil(this.state.totalCapital);
         return (
             <div className="careers-view background-dark-grey">
                 <MetaTagsWrapper />
@@ -178,7 +179,7 @@ class Analytics extends Component {
                                 <p>
                                         Total capital raised <br/>
                                         by active companies
-                                        <span>${Math.ceil(this.state.totalCapital)}B</span>
+                                        <span>${capitalRaised.toLocaleString(navigator.language, { minimumFractionDigits: 0 })}B</span>
                                 </p>
                             </div>
                             <div className="cybermap-bubble_chart right">
