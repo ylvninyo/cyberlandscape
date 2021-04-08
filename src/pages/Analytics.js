@@ -26,6 +26,41 @@ class Analytics extends Component {
     }
 
 
+    generateBubble = (data) => {
+        
+        let totalCapital = 0;
+
+        data.companies.forEach(el => {
+            totalCapital += (el.total_funding !== 'N/A') ? el.total_funding : 0;
+        })
+
+        // ----------bubble chart ---------- //
+        let bubbleChartCategory = data?.companies.reduce((r, a) => {
+            r[a.category] = [...r[a.category] || [], a];
+            return r;
+           }, {});
+
+           let bubbleChartData = [];
+
+            Object.keys(bubbleChartCategory).forEach((category) => {
+                let obj = {};
+
+                obj.label = category;
+                obj.value = bubbleChartCategory[category].length;
+
+                bubbleChartData.push(obj);
+            });
+
+        //* set state section
+        this.setState({
+                bubbleChartData, 
+                filteredBubbleChartData: bubbleChartData, 
+                totalCompany:data?.companies.length,
+                totalCapital
+            }); 
+    }
+
+
     componentDidMount() {
 
         let requestOptions = {
@@ -46,37 +81,7 @@ class Analytics extends Component {
 
                 this.setState({companies:data.companies,exits});
 
-                let totalCapital = 0;
-
-                data.companies.forEach(el => {
-                    totalCapital += (el.total_funding !== 'N/A') ? el.total_funding : 0;
-                })
-
-                // ----------bubble chart ---------- //
-                let bubbleChartCategory = data?.companies.reduce((r, a) => {
-                    r[a.category] = [...r[a.category] || [], a];
-                    return r;
-                   }, {});
-        
-                   let bubbleChartData = [];
-        
-                    Object.keys(bubbleChartCategory).forEach((category) => {
-                        let obj = {};
-        
-                        obj.label = category;
-                        obj.value = bubbleChartCategory[category].length;
-        
-                        bubbleChartData.push(obj);
-                    });
-
-
-                //* set state section
-                this.setState({
-                        bubbleChartData, 
-                        filteredBubbleChartData: bubbleChartData, 
-                        totalCompany:data?.companies.length,
-                        totalCapital
-                    }); 
+                this.generateBubble(data);
         
             })
             .catch(error => console.log('error', error));
@@ -98,28 +103,68 @@ class Analytics extends Component {
     filterCategoryByFunding = (e, fData) => {    
 
         this.setActiveClass(e);
-
+        let totalCapital = 0;
             
         if (fData.all === 'all') {
-            this.setState({
-                filteredBubbleChartData: this.state.bubbleChartData, 
-                totalCompany:this.state.bubbleChartData.length
-            });
+            this.state.companies.map(v => {
+                if (v.total_funding !== 'N/A') totalCapital +=v.total_funding;
+            })
+
+            this.generateBubble({'companies': this.state.companies});
             return;
             
         } 
 
-        let result = this.state.bubbleChartData.filter((data) => {
-            return data.value > fData.start && data.value < fData.end
-        });
+// -----------------------
+        else if (fData.start === 0 && fData.end === 10) {
+            var resultForCount = this.state.companies.filter((data) => {
+                return (data.total_funding >= 0 && data.total_funding <= 10)  || data.total_funding === 'N/A';
+            });
+        }
+// ----------------------
+        else if (fData.start === 10 && fData.end === 30) {
+            var resultForCount = this.state.companies.filter((data) => {
+                return data.total_funding > 10 && data.total_funding <= 30
+            });
+        }
+// ----------------------
+        else if (fData.start === 30 && fData.end === 50) {
+            var resultForCount = this.state.companies.filter((data) => {
+                return data.total_funding > 30 && data.total_funding <= 50
+            });
+
+            
+            var result = this.state.bubbleChartData.filter((data) => {
+                    return data.value > 30 && data.value <= 50
+            });
+        }
+// ----------------------
+        else {  
+            var resultForCount = this.state.companies.filter((data) => {
+                return data.total_funding > 50;
+            });
+
+
+            var result = this.state.bubbleChartData.filter((data) => {
+                    return data.value > 50;
+            });
+        }
+
+        this.generateBubble({'companies': resultForCount});
+
+        resultForCount.map(v => {
+            if (v.total_funding !== 'N/A') totalCapital +=v.total_funding;
+        })
+
+
         this.setState({
-            filteredBubbleChartData: result,
-            totalCompany:result.length
+            totalCompany:resultForCount.length,
+            totalCapital
         });
     }
 
     render() {
-        const capitalRaised = Math.ceil(this.state.totalCapital);
+        const capitalRaised = Math.ceil(this.state.totalCapital,5);
         return (
             <div className="careers-view background-dark-grey">
                 <MetaTagsWrapper />
