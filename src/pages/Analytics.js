@@ -118,18 +118,7 @@ class Analytics extends Component {
         });
     }
 
-    // onFundingFilter = () => {
-    //     console.log('yes')
-    // }
-
     render() {
-        // const dropdowns = [
-        //     'All',
-        //     '$0-10M',
-        //     '$10-30M',
-        //     '$30-50M',
-        //     '$50'
-        // ]
         return (
             <div className="careers-view background-dark-grey">
                 <MetaTagsWrapper />

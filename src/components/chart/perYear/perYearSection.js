@@ -26,11 +26,12 @@ const PerYearSection = ({exits,companies}) => {
 
         if(Number(year) === n) {
             exitThisYear = exitDates[year].length;
-            exitThisYearImages.push(exitDates.logo);
+            exitThisYearImages = exitDates[year];
         }
 
         exitPerYears.push(obj);
     });
+
 
     return (
         <section className="section section-3">
@@ -76,7 +77,7 @@ const PerYearSection = ({exits,companies}) => {
                                 {exitThisYearImages?.map((img, index)=>{
                                     return (
                                         <div  className="col s6" key={index}>
-                                            <img alt={'cybermap analytics'} src={img} />
+                                            <img alt={'cybermap analytics'} src={img.logo} />
                                         </div>
                                     )
                                 })}
