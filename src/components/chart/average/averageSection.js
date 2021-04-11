@@ -23,7 +23,7 @@ const AverageSection  = ({exits}) => {
             let obj2 = {};
 
             group[category].forEach(i => {
-                count +=i.acquisition_amount_m !== '-' ? i.acquisition_amount_m : 0;
+                count +=i.total_funding_until_exited_m !== '-' ? i.total_funding_until_exited_m : 0;
                 count2 +=i.lifespan_years !== '' ? i.lifespan_years : 0;
             });
             

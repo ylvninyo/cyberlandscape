@@ -20,7 +20,7 @@ class Tooltip extends Component {
                     {this.props.icon}
                 </i>
                 </span>
-                <ReactTooltip id={this.props.randomID} />
+                <ReactTooltip type={'light'} id={this.props.randomID} />
             </>
         )
     }

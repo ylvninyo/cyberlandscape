@@ -97,10 +97,11 @@
     border:1px solid rgba(255,255,255,.4);
     border-radius: 5px;
     margin-bottom: 30px;
+    background-color: #fff;
 }
 
 .cybermap_box span {
-    color: #fff;
+    color: #000;
     display: block;
     text-align: left;
 }
@@ -226,3 +227,13 @@
     font-weight: 500;
     color: #000;
 }
+
+
+.section-2_chart3 {
+    height: 1000px;
+}
+
+/* .__react_component_tooltip {
+    background-color: rgba(255,255,255,.7);
+    color:#000!important;
+} */

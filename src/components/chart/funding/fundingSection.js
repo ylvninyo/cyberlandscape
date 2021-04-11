@@ -4,7 +4,7 @@ import TotalFundingAmount from './totalFundingAmount';
 import TotalFundingCategory from './totalFundingCategory';
 
 
-const FundingSection  = ({companies}) => { 
+const FundingSection  = ({companies,exits}) => { 
         
     // -------funding by category chart codes section ----- //
     let group =  companies.reduce((r, a) => {
@@ -61,8 +61,8 @@ const FundingSection  = ({companies}) => {
 
         amounts = [st0_10,st10_30,st30_50,st50];
 
-    let sortedDateLogos = companies.sort((a,b) => {
-        return new Date(b.last_fundraising_date) - new Date(a.last_fundraising_date);
+    let sortedDateLogos = exits.sort((a,b) => {
+        return new Date(b.exit_date) - new Date(a.exit_date);
     });
 
     let recentFundingRounds = sortedDateLogos.slice(0, 6);
@@ -114,7 +114,7 @@ const FundingSection  = ({companies}) => {
                 </div>
 
 
-                <div  className="col s12 m6" style={{'height':'800px'}}>
+                <div  className="col s12 m6" style={{'height':'1000px'}}>
                     <span className="left left-align section-title">
                     Total Funding by Category
                         <Tooltip

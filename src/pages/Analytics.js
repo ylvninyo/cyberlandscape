@@ -46,7 +46,7 @@ class Analytics extends Component {
                 let obj = {};
 
                 obj.label = category;
-                obj.value = bubbleChartCategory[category].length;
+                obj.value = Math.trunc(bubbleChartCategory[category].length*100/this.state.companies.length);
 
                 bubbleChartData.push(obj);
             });
@@ -58,6 +58,15 @@ class Analytics extends Component {
                 totalCompany:data?.companies.length,
                 totalCapital
             }); 
+
+            // console.log(document.getElementsByClassName('value-text')).append('nese');
+            // document.getElementsByClassName('value-text').textContent = 'nese'
+
+            const textValue = document.getElementsByClassName("value-text");
+
+            Array.from(textValue).forEach(v => {
+                v.textContent += "%";
+            });
     }
 
 
@@ -224,7 +233,7 @@ class Analytics extends Component {
                                 <p>
                                         Total capital raised <br/>
                                         by active companies
-                                        <span>${capitalRaised.toLocaleString(navigator.language, { minimumFractionDigits: 0 })}B</span>
+                                        <span>${Number.parseFloat(capitalRaised*0.001).toFixed(2)}B</span>
                                 </p>
                             </div>
                             <div className="cybermap-bubble_chart right">
@@ -236,7 +245,7 @@ class Analytics extends Component {
 
 
 
-                <FundingSection companies={this.state.companies} />
+                <FundingSection exits={this.state.exits} companies={this.state.companies} />
 
                 <PerYearSection exits={this.state.exits} companies={this.state.companies} />
 
