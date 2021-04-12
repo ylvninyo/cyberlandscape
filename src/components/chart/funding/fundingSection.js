@@ -96,15 +96,11 @@ const FundingSection  = ({companies,exits}) => {
                             />
                         </span>
                         <div className="logo-wrappers cybermap_box">
-                            <div className="row">
+                            <div className="row box-img_wrapper">
                                 {recentFundingRounds.length ? 
 
-                                recentFundingRounds.map((item,i) => {
-                                    return (
-                                        <div  className="col s4" key={i}>
-                                            <img alt={'cybermap analytics'} src={item.logo} />
-                                        </div>
-                                    )
+                                recentFundingRounds.map((item,index) => {
+                                    return <img key={index} style={{'width': '30%'}} alt={'cybermap analytics'} src={item.logo} />
                                 })
                                 : <p>Fetching images...</p>
                                 }
