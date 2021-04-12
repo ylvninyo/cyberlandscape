@@ -73,13 +73,9 @@ const PerYearSection = ({exits,companies}) => {
                             <span>
                                 Latest Exits
                             </span>
-                            <div className="row">
+                            <div className="row box-img_wrapper">
                                 {exitThisYearImages?.map((img, index)=>{
-                                    return (
-                                        <div  className="col s6" key={index}>
-                                            <img alt={'cybermap analytics'} src={img.logo} />
-                                        </div>
-                                    )
+                                    return <img alt={'cybermap analytics'} key={index} src={img.logo} />
                                 })}
                             </div>
 

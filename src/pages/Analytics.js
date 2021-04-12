@@ -6,6 +6,7 @@ import Tooltip from '../components/tooltip';
 import '../style/analytics.css'
 import FundingSection from '../components/chart/funding/fundingSection';
 import AverageSection from '../components/chart/average/averageSection';
+import Spinner from '../components/spinner';
 // import Dropdown from '../components/dropdown';
 
 
@@ -16,6 +17,7 @@ class Analytics extends Component {
 
             companies:[],
             exits: [],
+            loading: false,
 
             // for bubblechart data
             bubbleChartData: {},
@@ -72,6 +74,8 @@ class Analytics extends Component {
 
     componentDidMount() {
 
+        this.setState({loading: true})
+
         let requestOptions = {
             method: 'GET',
             redirect: 'follow'
@@ -91,6 +95,8 @@ class Analytics extends Component {
                 this.setState({companies:data.companies,exits});
 
                 this.generateBubble(data);
+
+                this.setState({loading: false})
         
             })
             .catch(error => console.log('error', error));
@@ -250,6 +256,8 @@ class Analytics extends Component {
                 <PerYearSection exits={this.state.exits} companies={this.state.companies} />
 
                 <AverageSection exits={this.state.exits} />
+
+                {this.state.loading && <Spinner />}
             </div>
         );
     }
