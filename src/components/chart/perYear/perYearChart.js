@@ -47,12 +47,12 @@ componentDidMount() {
             width={500}
             height={400}
             data={this.props.data}
-            margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
+            // margin={{
+            //   top: 5,
+            //   right: 30,
+            //   left: 20,
+            //   bottom: 5,
+            // }}
           >
             <CartesianGrid strokeOpacity={.2} strokeDasharray="3 3" />
             <XAxis dataKey="year" />

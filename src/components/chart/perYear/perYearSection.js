@@ -51,7 +51,7 @@ const PerYearSection = ({exits,companies}) => {
                 <div className="row">
                     <div className="col s12 m8">
 
-                        <div style={{'height': '500px'}}>
+                        <div className="section-chart_peryear">
                             {exitPerYears.length ? <PerYearChart data={exitPerYears} {...{exitDates,companies}} /> : <p>Fetching data...</p> } 
                         </div>
                     </div>
