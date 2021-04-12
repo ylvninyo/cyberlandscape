@@ -3,10 +3,13 @@ import BubbleChartWrapper from '../components/chart/bubble/bubbleChart';
 import PerYearSection from '../components/chart/perYear/perYearSection';
 import MetaTagsWrapper from '../components/metaTags';
 import Tooltip from '../components/tooltip';
+import {Collapse} from 'react-collapse';
+
 import '../style/analytics.css'
 import FundingSection from '../components/chart/funding/fundingSection';
 import AverageSection from '../components/chart/average/averageSection';
 import Spinner from '../components/spinner';
+import BubbleChartMobile from '../components/chart/bubble/bubbleChartMobile';
 // import Dropdown from '../components/dropdown';
 
 
@@ -14,6 +17,7 @@ class Analytics extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            isOpened: false,
 
             companies:[],
             exits: [],
@@ -61,13 +65,9 @@ class Analytics extends Component {
                 totalCapital
             }); 
 
-            // console.log(document.getElementsByClassName('value-text')).append('nese');
-            // document.getElementsByClassName('value-text').textContent = 'nese'
-
             const textValue = document.getElementsByClassName("value-text");
-
             Array.from(textValue).forEach(v => {
-                v.textContent += "%";
+                v.textContent = "%";
             });
     }
 
@@ -178,6 +178,10 @@ class Analytics extends Component {
         });
     }
 
+    showCollapse = () => {
+        this.setState({isOpened:!this.state.isOpened})
+    }
+
     render() {
         const capitalRaised = Math.ceil(this.state.totalCapital,5);
         return (
@@ -198,8 +202,8 @@ class Analytics extends Component {
 
                     <div className="background-dark-grey page-top white-text center">
                         <div className="container">
-                            <div className="font-14">
-                                <span className="left left-align main-company-counter hide-on-med-and-down">
+                            <div className="font-14 bubble-chart_title">
+                                <span className="left left-align main-company-counter">
                                     Companies by Category  
                                     <Tooltip
                                         text="Percentage of activecompanies in each category"
@@ -207,7 +211,7 @@ class Analytics extends Component {
                                         randomID = 'company-category' 
                                     />
                                 </span>
-                                <div className="right left-align top-menu">
+                                <div className="right left-align top-menu hide-on-med-and-down">
                                     <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn active">All</button>
 
                                     <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_btn">$0-10M</button>
@@ -219,7 +223,23 @@ class Analytics extends Component {
                                     <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
                                 </div>
 
-                                {/* <Dropdown title="Filter by funding" colored={'#ddd'} options={dropdowns} onChange={this.onFundingFilter}  /> */}
+                                    <div className="hide-on-large-only">
+                                        <button className="filterCollapse" onClick={this.showCollapse}>
+                                            Filter by funding <i className="material-icons valign-middle no-margin">arrow_drop_down</i>
+                                        </button>
+                                        <Collapse isOpened={this.state.isOpened}>
+                                            <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_collapse active">All</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_collapse">$0-10M</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_collapse">$10-30M</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_collapse">$30-50M</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_collapse">+$50M</button>
+                                        </Collapse>
+                                    </div>
+
                                 <div className="clear"></div>
                                 <br/>
                             </div>
@@ -230,7 +250,7 @@ class Analytics extends Component {
 
                    <div className="cybermap-bubble_chart_wrapper">
                         {/* <div className="row"> */}
-                            <div className="cybermap-bubble_desc left">
+                            <div className="cybermap-bubble_desc">
                                 <p>
                                         Total companies
                                         <span>{this.state.totalCompany}</span>
@@ -242,8 +262,11 @@ class Analytics extends Component {
                                         <span>${Number.parseFloat(capitalRaised*0.001).toFixed(2)}B</span>
                                 </p>
                             </div>
-                            <div className="cybermap-bubble_chart right">
+                            <div className="cybermap-bubble_chart right hide-on-med-and-down">
                                 {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
+                            </div>
+                            <div className="hide-on-large-only">
+                            {this.state.filteredBubbleChartData.length ?  <BubbleChartMobile chartData={this.state.filteredBubbleChartData} /> : <p>No Data</p>}
                             </div>
                         {/* </div> */}
                    </div>

@@ -34,6 +34,7 @@
     width: 20%;
 }
 
+
 .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
     width: 80%;
 }
@@ -168,20 +169,6 @@
     overflow-y: auto;
 }
 
-
-
-@media screen and (max-width: 991px) {
-    .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
-        width: 100%;
-    }
-    .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
-        width: 100%;
-    }
-
-    .section-title {
-        margin-bottom: 30px;
-    }
-}
 
 
 .amount-chart_wrapper {
@@ -345,3 +332,100 @@
     }
   }
   
+
+
+
+  @media screen and (max-width: 991px) {
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
+        width: 100%;
+        float: none;
+    }
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
+        width: 100%;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
+      padding-top: 20px;
+    }
+
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_desc p {
+      font-size: 14px;
+    }
+
+    .cybermap-bubble_chart_wrapper .cybermap-bubble_desc span {
+      font-size: 20px;
+    }
+    
+    .tooltip-modal_custom {
+      top: 0 !important;
+      left: 0!important;
+    }
+    .bubble-chart_title {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+}
+
+
+.bubbleChartColumn {
+  
+}
+
+.bubbleChartColumn .bubbleChartColumn_item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.bubbleChartColumn .bubbleChartColumn_item  .item_circle {
+  width: 60px;
+  height: 60px;
+  background-color: #2ab7a9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.bubbleChartColumn .bubbleChartColumn_item span{
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.filterCollapse {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  text-align: left;
+  display: block;
+}
+.cybermap-list_collapse {
+  display: block;
+  width: 200px;
+  background-color: transparent;
+  color: #fff;
+  border:1px solid #fff;
+  margin-bottom: 3px;
+  padding: 10px 20px;
+}
+
+.ReactCollapse--collapse {
+  display: flex;
+}
+
+.ReactCollapse--content {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+}

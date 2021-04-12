@@ -37,12 +37,20 @@ class TotalFundingAmount extends Component {
   
   this.setState({data: newData});
   }
+
+  getSize = (ch) => {
+    if(window.innerWidth > 991) {
+      return {'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`}
+    }
+
+    return {'height': `${ch.value != 0 ? ch.value : '20'}px`, 'width': `${ch.value != 0 ? ch.value : '20'}px`}
+  }
   render() {
 
     const charts = this.state.data.map((ch, index) => {
       return (
         <div className="amount-chart_item" data-attr={`${ch.name}`} key={index}>
-         <div className="amount-chart_circle" style={{'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`}}>
+         <div className="amount-chart_circle" style={this.getSize(ch)}>
             <span>{ch.value}</span>
          </div>
         </div>
