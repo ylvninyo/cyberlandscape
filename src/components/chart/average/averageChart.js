@@ -36,7 +36,7 @@ class AverageChart extends Component {
         return <text 
                 x={x+20} 
                 y={y} 
-                fontSize={10} 
+                fontSize={14} 
                 fill={'#fff'}
                 textAnchor="start" dominantBaseline="end">{Math.ceil(value) >0 ? Math.ceil(value) : 'N/A'}</text>
         }
@@ -50,8 +50,8 @@ class AverageChart extends Component {
                     margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
                 >
                     <CartesianGrid vertical verticalFill={'#1f2428'} strokeOpacity={.2} strokeDasharray="3 3" />
-                    <XAxis type="number" tickFormatter={(tick) => this.formatTick(tick)}   stroke="#fff" fontSize={12} />
-                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={10} dataKey="name"/>
+                    <XAxis type="number" tickFormatter={(tick) => this.formatTick(tick)}   stroke="#fff" fontSize={14} />
+                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
                         
                 <Bar 
                     dataKey="value" 

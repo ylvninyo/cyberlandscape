@@ -86,8 +86,8 @@ const FundingSection  = ({companies,exits}) => {
                         </div>
                     </div>
 
-                    <div style={{'marginTop': '150px'}}>
-                        <span className="left left-align section-title">
+                    <div style={{'marginTop': '100px'}}>
+                        <span className="left-align section-title">
                             Recent Funding Rounds
                             <Tooltip
                                 text="Recent funding rounds by chronological order"
@@ -95,7 +95,7 @@ const FundingSection  = ({companies,exits}) => {
                                 randomID = 'chart_id_4'
                             />
                         </span>
-                        <div className="logo-wrappers">
+                        <div className="logo-wrappers cybermap_box">
                             <div className="row">
                                 {recentFundingRounds.length ? 
 

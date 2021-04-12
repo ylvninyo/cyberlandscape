@@ -30,7 +30,7 @@ componentDidMount() {
                     x={x+20} 
                     y={y} 
     
-                    fontSize={12} 
+                    fontSize={14} 
                     fill={'#fff'}
                     textAnchor="top" dominantBaseline="start">{Math.ceil(value) >0 ? Math.ceil(value) : 'N/A'}</text>
         }
@@ -44,8 +44,8 @@ componentDidMount() {
                         margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
                     >
                         <CartesianGrid horizontal verticalFill={'#22272c'} strokeOpacity={.2} strokeDasharray="3 3" />
-                        <XAxis type="number" tickFormatter={(tick) => `${tick}Y`}   stroke="#fff" fontSize={11} />
-                        <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={10} dataKey="name"/>
+                        <XAxis type="number" tickFormatter={(tick) => `${tick}Y`}   stroke="#fff" fontSize={14} />
+                        <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
                             
                     <Bar 
                         dataKey="value" 
