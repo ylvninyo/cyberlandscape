@@ -65,10 +65,6 @@ class Analytics extends Component {
                 totalCapital
             }); 
 
-            const textValue = document.getElementsByClassName("value-text");
-            Array.from(textValue).forEach(v => {
-                v.textContent = "%";
-            });
     }
 
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import BubbleChart from '@weknow/react-bubble-chart-d3';
 
 const BubbleChartMobile = ({chartData}) => {
 
