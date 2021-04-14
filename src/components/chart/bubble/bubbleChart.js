@@ -11,9 +11,25 @@ class BubbleChartWrapper extends Component {
 
 componentDidMount() {
   this.setState({chartData: this.props.chartData});
+  console.log('changed')
 }
 
+static getDerivedStateFromProps(props, nextProps) {
+  if (nextProps.chartData !== props.chartData) {
+    return {
+      chartData: props.chartData
+    }
+  }
+  return null
+}
+
+// componentWillReceiveProps() {
+//   console.log('received')
+//   this.setState({chartData: this.props.chartData});
+// }
+
 componentDidUpdate() {
+  // console
     const textValue = document.getElementsByClassName("value-text");
     Array.from(textValue).forEach(v => {
         v.textContent += "%";
