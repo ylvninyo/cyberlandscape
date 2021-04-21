@@ -52,7 +52,7 @@ class Analytics extends Component {
                 let obj = {};
 
                 obj.label = category;
-                obj.value = Math.trunc(bubbleChartCategory[category].length*100/this.state.companies.length);
+                obj.value = (bubbleChartCategory[category].length*100/this.state.companies.length).toFixed(1);
 
                 bubbleChartData.push(obj);
             });

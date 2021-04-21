@@ -11,7 +11,15 @@ class BubbleChartWrapper extends Component {
 
 componentDidMount() {
   this.setState({chartData: this.props.chartData});
-  console.log('changed')
+  // console.log(this.props.chartData)
+
+  // let sum = 0;
+
+  // this.props.chartData.forEach(el => {
+  //   sum += el.value
+  // })
+
+  // console.log(sum)
 }
 
 static getDerivedStateFromProps(props, nextProps) {
