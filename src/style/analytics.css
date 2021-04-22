@@ -190,6 +190,7 @@
 .tooltip-modal_custom .scroll-wrapper {
     height: 350px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
