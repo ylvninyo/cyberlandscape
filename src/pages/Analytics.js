@@ -34,7 +34,6 @@ class Analytics extends Component {
 
     generateBubble = (data) => {
         
-        console.log(data);
         let totalCapital = 0;
 
         data.companies.forEach(el => {
@@ -57,8 +56,7 @@ class Analytics extends Component {
 
                 bubbleChartData.push(obj);
             });
-
-            console.log(bubbleChartData)
+            
         //* set state section
         this.setState({
                 bubbleChartData, 

@@ -64,7 +64,15 @@ componentDidMount() {
           </LineChart>
         </ResponsiveContainer>
 
-        {this.state.show && <PerYearLogos cx={this.state.cx} cy={this.state.cy} year={this.state.year} logos={this.state.logos} close={this.close} /> } 
+        {this.state.show && 
+        <PerYearLogos
+          cx={this.state.cx} 
+          cy={this.state.cy} 
+          year={this.state.year} 
+          logos={this.state.logos} 
+          data = {this.props.exitDates}
+          close={this.close} 
+        /> } 
 
       </>
     );
