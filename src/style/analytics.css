@@ -32,6 +32,12 @@
 
 .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
     width: 20%;
+    position: relative;
+}
+.mobile-filter_btn {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
 }
 
 

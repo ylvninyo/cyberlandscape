@@ -226,23 +226,6 @@ class Analytics extends Component {
                                     <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
                                 </div>
 
-                                    <div className="hide-on-large-only">
-                                        <button className="filterCollapse" onClick={this.showCollapse}>
-                                            Filter by funding <i className="material-icons valign-middle no-margin">arrow_drop_down</i>
-                                        </button>
-                                        <Collapse isOpened={this.state.isOpened}>
-                                            <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_collapse active">All</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_collapse">$0-10M</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_collapse">$10-30M</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_collapse">$30-50M</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_collapse">+$50M</button>
-                                        </Collapse>
-                                    </div>
-
                                 <div className="clear"></div>
                                 <br/>
                             </div>
@@ -264,6 +247,23 @@ class Analytics extends Component {
                                         by active companies
                                         <span>${Number.parseFloat(capitalRaised*0.001).toFixed(2)}B</span>
                                 </p>
+
+                                <div className="mobile-filter_btn hide-on-large-only">
+                                        <button className="filterCollapse" onClick={this.showCollapse}>
+                                            Filter by funding <i className="material-icons valign-middle no-margin">arrow_drop_down</i>
+                                        </button>
+                                        <Collapse isOpened={this.state.isOpened}>
+                                            <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_collapse active">All</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_collapse">$0-10M</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_collapse">$10-30M</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_collapse">$30-50M</button>
+
+                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_collapse">+$50M</button>
+                                        </Collapse>
+                                    </div>
                             </div>
                             {this.state.showLessBubble && <div className="cybermap-bubble_chart right">
                                 {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
