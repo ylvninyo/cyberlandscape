@@ -391,6 +391,7 @@
     }
     .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
         width: 100%;
+        float: none!important;
     }
 
     .section-title {
@@ -490,4 +491,21 @@
   display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.show-less_bubble {
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: none;
+  color: #fff;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-less-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

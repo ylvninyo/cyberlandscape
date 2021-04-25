@@ -10,23 +10,39 @@ class BubbleChartWrapper extends Component {
     }
 
 componentDidMount() {
-  this.setState({chartData: this.props.chartData});
-  // console.log(this.props.chartData)
+  // this.setState({chartData: this.props.chartData});
 
-  // let sum = 0;
+  if (window.innerWidth < 991) {
+    const smallPercents = this.props.chartData.filter( v => {
+      return v.value > 8;
+      // console.log(v)
+    })
 
-  // this.props.chartData.forEach(el => {
-  //   sum += el.value
-  // })
+    console.log(smallPercents)
 
-  // console.log(sum)
+    this.setState({chartData: smallPercents});
+  }
 }
 
 static getDerivedStateFromProps(props, nextProps) {
   if (nextProps.chartData !== props.chartData) {
-    return {
-      chartData: props.chartData
+    let gSmall;
+    if (window.innerWidth < 991) {
+      const smallPercents = props.chartData.filter(v => {
+        return v.value > 8;
+        // console.log(v)
+      })
+      gSmall = smallPercents;
+
+      return {
+        chartData: gSmall
+      }
+    } else {
+      return {
+        chartData: props.chartData
+      }
     }
+
   }
   return null
 }

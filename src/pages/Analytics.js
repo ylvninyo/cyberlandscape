@@ -27,8 +27,15 @@ class Analytics extends Component {
             bubbleChartData: {},
             filteredBubbleChartData: {},
             totalCompany: 0,
-            totalCapital: 0
+            totalCapital: 0,
+
+            showLessBubble: true
         }
+    }
+
+    showLessBubble = () =>  {
+        this.setState({showLessBubble: !this.state.showLessBubble})
+        console.log('called')
     }
 
 
@@ -258,8 +265,13 @@ class Analytics extends Component {
                                         <span>${Number.parseFloat(capitalRaised*0.001).toFixed(2)}B</span>
                                 </p>
                             </div>
-                            <div className="cybermap-bubble_chart right hide-on-med-and-down">
+                            {this.state.showLessBubble && <div className="cybermap-bubble_chart right">
                                 {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
+                            </div>}
+                            <div className="show-less-centered hide-on-large-only">
+                                <button className="show-less_bubble" onClick={this.showLessBubble}>
+                                    Show Less <i className="material-icons">{this.state.showLessBubble ? 'expand_less' : 'expand_more'}</i>
+                                </button>
                             </div>
                             <div className="hide-on-large-only">
                             {this.state.filteredBubbleChartData.length ?  <BubbleChartMobile chartData={this.state.filteredBubbleChartData} /> : <p>No Data</p>}
