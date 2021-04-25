@@ -3,7 +3,7 @@ import React from 'react';
 const BubbleChartMobile = ({chartData}) => {
 
     let newData = chartData.sort((a,b) => {
-        return a.value - b.value;
+        return b.value - a.value;
     })
 
     const items = newData?.map(({label,value}, index) => {
