@@ -2,7 +2,11 @@ import React from 'react';
 
 const BubbleChartMobile = ({chartData}) => {
 
-    const items = chartData?.map(({label,value}, index) => {
+    let newData = chartData.sort((a,b) => {
+        return a.value - b.value;
+    })
+
+    const items = newData?.map(({label,value}, index) => {
         if (value < 8) {
             return (
                 <div className="bubbleChartColumn_item" key={index}>
