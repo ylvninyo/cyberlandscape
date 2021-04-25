@@ -270,7 +270,8 @@ class Analytics extends Component {
                             </div>}
                             <div className="show-less-centered hide-on-large-only">
                                 <button className="show-less_bubble" onClick={this.showLessBubble}>
-                                    Show Less <i className="material-icons">{this.state.showLessBubble ? 'expand_less' : 'expand_more'}</i>
+                                    Show {this.state.showLessBubble ? 'Less' : 'More' }
+                                     <i className="material-icons">{this.state.showLessBubble ? 'expand_less' : 'expand_more'}</i>
                                 </button>
                             </div>
                             <div className="hide-on-large-only">
