@@ -2585,7 +2585,7 @@ window.companies = [
         "position": 0,
         "funding": "13.4M",
         "name": "DoControl",
-        "logo": "./logos/DoControl.png",
+        "logo": "./logos/DoControl.svg",
         "description": "DoControl is an automated platform that provides data access monitoring, orchestration, and remediation across SaaS applications.",
         "homepage": "https://www.docontrol.io/",
         "twitter": "https://twitter.com/do_control",
