@@ -687,7 +687,7 @@ window.companies = [
         "twitter": "https://twitter.com/hunters_ai", 
         "linkedin": "https://www.linkedin.com/company/hunters-ai/", 
         "crunchbase": "https://www.crunchbase.com/organization/hunters-ai", 
-        "logo": "https://www.ylventures.com/wp-content/uploads/2021/05/hunters_logo_400x200_2.pngg", 
+        "logo": "https://www.ylventures.com/wp-content/uploads/2021/05/hunters_logo_400x200_2.png", 
         "homepage": "https://hunters.ai/", 
         "description": "Hunters’ autonomous threat hunting solution detects cyberattacks that bypass existing controls in every IT environment. Hunters.AI extends threat detection and response across every attack surface – a capability increasingly known as ‘XDR.’ It ingests rich security telemetry and intelligence from a wide array of data sources and IT environmentslike cloud and network, and enriches threat signals with unique tactics, techniques and procedure-based (TTP) attack intelligence. It then applies ML and cloud-based analytics to correlate threat patterns, and provide high fidelity attack stories for cybersecurity team response."
     },
