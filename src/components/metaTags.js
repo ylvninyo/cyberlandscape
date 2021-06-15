@@ -6,6 +6,7 @@ const MetaTagsWrapper = () => {
         <MetaTags>
             <title>Israeli Cybersecurity companies are hiring!</title>
             <meta name="robots" content="noindex"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="description"
                     content="The Cybersecurity industry remains robust and resilient even as COVID-19 pummels the market. In this difficult time, let’s band together and create a resource for highly qualified professionals in the community looking for their next role!"/>
             <meta property="og:title" content="Israeli Cybersecurity companies are hiring!"/>

@@ -10,10 +10,50 @@ class BubbleChartWrapper extends Component {
     }
 
 componentDidMount() {
-  this.setState({chartData: this.props.chartData});
+  // this.setState({chartData: this.props.chartData});
+
+  if (window.innerWidth < 991) {
+    const smallPercents = this.props.chartData.filter( v => {
+      return v.value > 8;
+      // console.log(v)
+    })
+
+    console.log(smallPercents)
+
+    this.setState({chartData: smallPercents});
+  }
 }
 
+static getDerivedStateFromProps(props, nextProps) {
+  if (nextProps.chartData !== props.chartData) {
+    let gSmall;
+    if (window.innerWidth < 991) {
+      const smallPercents = props.chartData.filter(v => {
+        return v.value > 8;
+        // console.log(v)
+      })
+      gSmall = smallPercents;
+
+      return {
+        chartData: gSmall
+      }
+    } else {
+      return {
+        chartData: props.chartData
+      }
+    }
+
+  }
+  return null
+}
+
+// componentWillReceiveProps() {
+//   console.log('received')
+//   this.setState({chartData: this.props.chartData});
+// }
+
 componentDidUpdate() {
+  // console
     const textValue = document.getElementsByClassName("value-text");
     Array.from(textValue).forEach(v => {
         v.textContent += "%";

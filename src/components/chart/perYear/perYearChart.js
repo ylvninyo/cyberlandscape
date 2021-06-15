@@ -9,6 +9,7 @@ class PerYearChart extends Component  {
     this.state = {
       data:[],
       show: false,
+      year: null,
       cx: 0,
       cy: 0,
       logos:[]
@@ -23,6 +24,7 @@ componentDidMount() {
     this.setState({show:true, cx,cy,logos:payload});
 
     const y = payload.year;
+    this.setState({year:payload.year})
     let logos = [];
 
     const selectedYearCompanies = this.props.exitDates.[`${y}`]
@@ -62,7 +64,15 @@ componentDidMount() {
           </LineChart>
         </ResponsiveContainer>
 
-        {this.state.show && <PerYearLogos cx={this.state.cx} cy={this.state.cy} logos={this.state.logos} close={this.close} /> } 
+        {this.state.show && 
+        <PerYearLogos
+          cx={this.state.cx} 
+          cy={this.state.cy} 
+          year={this.state.year} 
+          logos={this.state.logos} 
+          data = {this.props.exitDates}
+          close={this.close} 
+        /> } 
 
       </>
     );

@@ -38,7 +38,7 @@ componentDidMount() {
             <ResponsiveContainer width="100%" height="100%">
                     <BarChart 
                         barSize={15}
-                        fill="#22272c"
+                        fill="#15181b"
                         data={this.state.data}
                         layout="vertical" height={10} barCategoryGap={.5}
                         margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
