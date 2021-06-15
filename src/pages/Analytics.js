@@ -197,48 +197,46 @@ class Analytics extends Component {
 
 
                     <div className="background-dark-grey page-top white-text center">
-                        <div className="container">
-                            <div className="font-14 bubble-chart_title">
-                                <span className="left left-align main-company-counter">
-                                    Companies by Category  
-                                    <Tooltip
-                                        text="Percentage of activecompanies in each category"
-                                        icon="help_outline"
-                                        randomID = 'company-category' 
-                                    />
-                                </span>
-                                <div className="right left-align top-menu hide-on-med-and-down">
-                                    <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn active">All</button>
+                        <div className="font-14 bubble-chart_title">
+                            <span className="left left-align main-company-counter">
+                                Companies by Category  
+                                <Tooltip
+                                    text="Percentage of activecompanies in each category"
+                                    icon="help_outline"
+                                    randomID = 'company-category' 
+                                />
+                            </span>
+                            <div className="right left-align top-menu hide-on-med-and-down">
+                                <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn active">All</button>
 
-                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_btn">$0-10M</button>
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_btn">$0-10M</button>
 
-                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_btn">$10-30M</button>
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_btn">$10-30M</button>
 
-                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_btn">$30-50M</button>
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_btn">$30-50M</button>
 
-                                    <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
+                            </div>
+
+                                <div className="hide-on-large-only">
+                                    <button className="filterCollapse" onClick={this.showCollapse}>
+                                        Filter by funding <i className="material-icons valign-middle no-margin">arrow_drop_down</i>
+                                    </button>
+                                    <Collapse isOpened={this.state.isOpened}>
+                                        <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_collapse active">All</button>
+
+                                        <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_collapse">$0-10M</button>
+
+                                        <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_collapse">$10-30M</button>
+
+                                        <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_collapse">$30-50M</button>
+
+                                        <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_collapse">+$50M</button>
+                                    </Collapse>
                                 </div>
 
-                                    <div className="hide-on-large-only">
-                                        <button className="filterCollapse" onClick={this.showCollapse}>
-                                            Filter by funding <i className="material-icons valign-middle no-margin">arrow_drop_down</i>
-                                        </button>
-                                        <Collapse isOpened={this.state.isOpened}>
-                                            <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_collapse active">All</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_collapse">$0-10M</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_collapse">$10-30M</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_collapse">$30-50M</button>
-
-                                            <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_collapse">+$50M</button>
-                                        </Collapse>
-                                    </div>
-
-                                <div className="clear"></div>
-                                <br/>
-                            </div>
+                            <div className="clear"></div>
+                            <br/>
                         </div>
                     </div>
 

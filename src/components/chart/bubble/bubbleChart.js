@@ -44,7 +44,7 @@ render() {
             color: '#fff',
             weight: 'normal',
           }}
-
+       color={'rgb(230, 85, 13)'}
       // bubbleClickFunc={this.bubbleClick}
       // legendClickFun={this.legendClick}
       data={this.state.chartData}

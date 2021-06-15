@@ -1,5 +1,9 @@
 /* bubbles chart section */
 
+.background-dark-grey {
+  background: #15181b;
+}
+
 .cybermap-bubble_chart_wrapper {
     display: flex;
 }
@@ -79,8 +83,9 @@
 
 .cybermap-list_btn.active,
 .cybermap-list_btn:focus {
-    background-color: #2ab7a9;
-    border-color: #2ab7a9;
+    background-color: #fff;
+    border-color: #fff;
+    color: #15181b;
 }
 
 

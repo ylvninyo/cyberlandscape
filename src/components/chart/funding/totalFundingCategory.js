@@ -47,7 +47,7 @@ render() {
         <ResponsiveContainer width="100%" height="100%">
                 <BarChart 
                     barSize={15}
-                    fill="#1f2328"
+                    fill="#15181b"
                     data={this.state.data}
                     layout="vertical" height={8} barCategoryGap={.4}
                     margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
