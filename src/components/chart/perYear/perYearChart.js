@@ -56,11 +56,20 @@ componentDidMount() {
             //   bottom: 5,
             // }}
           >
+            <defs>
+                <linearGradient id="gradient4" x1="0%" y1="85%" x2="85%" y2="100%">
+                    {/* <stop stopColor="#009dbc" /> */}
+                    <stop offset="0" stopColor={'#15181b'} />
+                    <stop offset="100" stopColor={'#7e179c'} />
+                    {/* <stop offset="0.823677" stopColor={'#009dbc'} />
+                    <stop offset="1" stopColor="white" stopOpacity="0.01" /> */}
+                </linearGradient>
+            </defs>
             <CartesianGrid strokeOpacity={.2} strokeDasharray="3 3" />
             <XAxis dataKey="year" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="company" stroke="#8884d8" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} dot />
+            <Line type="monotone" dataKey="company" fill="url(#gradient4)" stroke="#8884d8" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} dot />
           </LineChart>
         </ResponsiveContainer>
 

@@ -52,13 +52,22 @@ render() {
                     layout="vertical" height={8} barCategoryGap={.4}
                     margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
                 >
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="85%" x2="85%" y2="100%">
+                        {/* <stop stopColor="#009dbc" /> */}
+                        <stop offset="0" stopColor={'#15181b'} />
+                        <stop offset="100" stopColor={'#7e179c'} />
+                        {/* <stop offset="0.823677" stopColor={'#009dbc'} />
+                        <stop offset="1" stopColor="white" stopOpacity="0.01" /> */}
+                    </linearGradient>
+                </defs>
                     <CartesianGrid horizontal verticalFill={'#1f2328'} strokeOpacity={.2} strokeDasharray="3 3" />
                     <XAxis type="number" tickFormatter={(tick) => this.formatTick(tick)}   stroke="#fff" fontSize={14} />
                     <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={13} dataKey="name"/>
                         
                 <Bar 
                     dataKey="value" 
-                    fill="#ee6e73"
+                    fill='url(#gradient)'
                     label={<CustomizedLabel />}
                     radius={10}
                     />
