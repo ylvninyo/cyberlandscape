@@ -495,10 +495,10 @@ button:focus {
 .cybermap-list_collapse {
   display: block;
   width: 200px;
-  background-color: transparent;
+  background-color: #15181b;
   color: #fff;
   border:1px solid #fff;
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
   padding: 10px 20px;
 }
 

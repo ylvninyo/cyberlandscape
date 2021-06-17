@@ -88,7 +88,7 @@ class TotalFundingAmount extends Component {
 
     return(
      <div className="amount-chart_wrapper">
-          {charts}
+        {charts}
      </div>
 
   )

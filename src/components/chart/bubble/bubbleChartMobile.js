@@ -11,7 +11,7 @@ const BubbleChartMobile = ({chartData}) => {
             return (
                 <div className="bubbleChartColumn_item" key={index}>
                     <div>
-                        <div className="item_circle" style={{'backgroundColor': `rgba(${Math.random() * (90 - 60) + 60},${Math.random() * (18 - 10) + 10},120)`}}>
+                        <div className="item_circle" style={{'backgroundColor': `rgba(${Math.random() * (0 - 150) + 150},${Math.random() * (18 - 100) + 100},${Math.random() * (50 - 200) + 200})`}}>
                             {value}%
                         </div>
                     </div>
