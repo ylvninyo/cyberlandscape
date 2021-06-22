@@ -2,7 +2,7 @@ window.companies = [
     {
         "category": "Data Protection",
         "position": 0,
-		"funding": "14M",
+        "funding": "14M",
         "description": "1touch leverages the very best of technology in the fields of unique PII discovery and dynamic asset discovery",
         "linkedin": "https://www.linkedin.com/company/18546264/",
         "crunchbase": "https://www.crunchbase.com/organization/1touch-io",
@@ -48,7 +48,7 @@ window.companies = [
         "homepage": "https://www.medigate.io/",
         "description": "Medigate provides a dedicated platform for securing networked medical devices that are connected to electronic medical records, device servers, other enterprise systems and the internet. Fusing the knowledge and understanding of medical workflow and device identity and protocols with the reality of today\u2019s cybersecurity threats, Medigate delivers complete visibility into devices and risk, detects anomalies and actively blocks malicious activities. Medigate enables providers to ensure the delivery of critical treatment and the protection of patient personal and private information."
     },
-	{
+    {
         "category": "IoT",
         "position": 0,
         "funding": "6.5M",
@@ -72,7 +72,7 @@ window.companies = [
         "homepage": "https://karambasecurity.com/",
         "name": "Karamba Security"
     },
-	{
+    {
         "category": "IoT",
         "position": 0,
         "funding": "6.5M",
@@ -134,7 +134,7 @@ window.companies = [
         "homepage": "http://www.apolloshield.com/",
         "description": "ApolloShield develops the world's first active, plug & play anti-drone system. ApolloShield detects unauthorized drones and sends them a \"go home\" command, disconnecting the original operator and forcing them to land safely. ApolloShield detects supported drones using multiple technologies including cameras and audio and radio sensors. ApolloShield can estimate the location of the detected drones and their operators, allowing security teams to assess the risk. ApolloShield also finds the unique identifiers of most drones, allowing law enforcement agencies to pursue irresponsible operators."
     },
-	{
+    {
         "category": "IoT",
         "position": 0,
         "funding": "2.7M",
@@ -142,7 +142,7 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/gps-dome-ltd/",
         "subcategory": "Drones",
         "crunchbase": "https://www.crunchbase.com/organization/gpsdome",
-        "logo": "./logos/InfiniDome.jpg",
+        "logo": "./logos/InfiniDome.png",
         "homepage": "https://www.infinidome.com/",
         "description": "InfiniDome provides front-end cyber solutions protecting wireless communications from jamming and spoofing attacks"
     },
@@ -219,17 +219,6 @@ window.companies = [
         "logo": "./logos/beame.io.png",
         "homepage": "https://www.beame.io",
         "description": "Beame.io is an identity technology company at the cutting edge of decentralized credential storage. We invented a way to turn any browser-enabled device on a private network into a public HTTPS server. This creates an on-demand secure network with a limited-use SSL certificate. Beame.io offers a new type of elastic and flexible model of deploying SSL certificates to devices without public IPs. They make routable hostnames for devices without routable IP addresses."
-    },
-    {
-        "category": "Vulnerability & Risk Mgmt",
-        "position": 0,
-        "name": "Beyond Security",
-        "twitter": "https://twitter.com/beyondsecurity",
-        "linkedin": "https://www.linkedin.com/company/beyond-security",
-        "crunchbase": "https://www.crunchbase.com/organization/beyond-security",
-        "logo": "https://www.ylventures.com/wp-content/uploads/2021/05/hs-beyond-security-logo.png",
-        "homepage": "http://www.beyondsecurity.com/",
-        "description": "Beyond Security's testing solutions accurately assess and manage security weaknesses in networks, applications, industrial systems and networked software. We help businesses and governments simplify the management of their network and application security thus reducing their vulnerability to attack and data loss. Our product lines, AVDS (network vulnerability management) and beSTORM (software security testing), will help you secure your network and applications, comply with your security policy requirements and exceed industry and government standards."
     },
     {
         "category": "Data Protection",
@@ -309,7 +298,7 @@ window.companies = [
     {
         "category": "IoT",
         "position": 0,
-        "funding": "100M",
+        "funding": "240M",
         "name": "Claroty",
         "twitter": "https://twitter.com/Claroty",
         "linkedin": "https://www.linkedin.com/company/12898104",
@@ -440,7 +429,7 @@ window.companies = [
         "homepage": "http://www.cylus.com",
         "description": "Cylus was founded to help mainline and urban railway companies avoid safety incidents and service disruptions caused by cyber-attacks. ‍ Cylus offers solutions that are specifically designed to address the unique requirements and needs of the railway industry, enabling to detect cyber threats in signaling and control networks, trackside and onboard, facilitating an effective response before harm happens. ‍ Led by veterans from the elite technological unit of the Israel Defense Forces’ Intelligence Corps, together with top executives from the railway industry, Cylus’ team combines deep expertise in cybersecurity and rail."
     },
-	{
+    {
         "category": "IoT",
         "position": 0,
         "name": "Cervello",
@@ -479,7 +468,7 @@ window.companies = [
     {
         "category": "IoT",
         "position": 0,
-		"funding": "7M",
+        "funding": "7M",
         "subcategory": "Healthcare",
         "name": "Cynerio",
         "twitter": "https://twitter.com/cynerio",
@@ -611,7 +600,7 @@ window.companies = [
     {
         "category": "Data Protection",
         "position": 0,
-		"funding": "20M",
+        "funding": "20M",
         "logo": "./logos/DualityTechnologies.png",
         "homepage": "http://duality.cloud",
         "name": "Duality Technologies",
@@ -670,7 +659,7 @@ window.companies = [
     {
         "category": "Security Operations",
         "position": 0,
-        "funding": "190M",
+        "funding": "390M",
         "name": "Exabeam",
         "twitter": "http://twitter.com/exabeam",
         "linkedin": "https://www.linkedin.com/company/exabeam/",
@@ -694,7 +683,7 @@ window.companies = [
     {
         "category": "Mobile Security",
         "position": 0,
-		"funding": "2.5M",
+        "funding": "2.5M",
         "name": "FirstPoint Mobile Guard",
         "twitter": "https://twitter.com/FirstPointMG",
         "linkedin": "https://www.linkedin.com/company/firstpoint-mobile-guard/",
@@ -702,18 +691,6 @@ window.companies = [
         "logo": "./logos/FirstPointMobileGuard.png",
         "homepage": "https://www.firstpoint-mg.com/",
         "description": "Comprehensive. Agnostic. Seamless. Cyber security for any cellular device - mobile phones & IoT."
-    },
-    {
-        "category": "Network Security",
-        "position": 0,
-        "funding": "125.4M",
-        "name": "ForeScout",
-        "twitter": "http://twitter.com/ForeScout",
-        "linkedin": "https://www.linkedin.com/company/forescout-technologies/",
-        "crunchbase": "https://www.crunchbase.com/organization/forescout",
-        "logo": "./logos/ForeScout.png",
-        "homepage": "https://www.forescout.com/",
-        "description": "ForeScout is transforming security through visibility.  We help make the invisible visible by providing Global 2000 enterprises and government agencies with agentless visibility and control of traditional and IoT devices the instant they connect to the network. Our technology integrates with disparate security tools to help organizations accelerate incident response, break down silos, automate workflows and optimize existing investments. "
     },
     {
         "category": "Fraud & Transactions",
@@ -755,7 +732,7 @@ window.companies = [
         "category": "IoT",
         "position": 0,
         "subcategory": "Automotive",
-		"funding": "24M",
+        "funding": "24M",
         "name": "GuardKnox",
         "twitter": "https://twitter.com/GuardKnox",
         "linkedin": "https://www.linkedin.com/company/17883057",
@@ -915,7 +892,7 @@ window.companies = [
     {
         "category": "IoT",
         "position": 0,
-		"funding": "30M",
+        "funding": "30M",
         "subcategory": "Healthcare",
         "name": "CyberMDX",
         "twitter": "https://twitter.com/CyberMDX",
@@ -929,7 +906,7 @@ window.companies = [
         "category": "Network Security",
         "position": 0,
         "name": "Perimeter 81",
-		"funding": "65M",
+        "funding": "65M",
         "twitter": "https://twitter.com/Perimeter_81",
         "linkedin": "https://www.linkedin.com/company/perimeter-81/",
         "subcategory": "SDP & SD-WAN",
@@ -1013,7 +990,7 @@ window.companies = [
     {
         "category": "Fraud & Transactions",
         "position": 0,
-		"funding": "15M",
+        "funding": "15M",
         "name": "nsKnox",
         "twitter": "https://twitter.com/nsKnoxTech",
         "linkedin": "https://www.linkedin.com/company/nsknox-technologies-ltd./",
@@ -1134,7 +1111,7 @@ window.companies = [
     {
         "category": "IoT",
         "position": 0,
-		"funding": "28M",
+        "funding": "28M",
         "subcategory": "SCADA",
         "name": "RADiFlow",
         "twitter": "https://www.twitter.com/radiflowsec",
@@ -1144,24 +1121,24 @@ window.companies = [
         "homepage": "http://www.radiflow.com/",
         "description": "Comprehensive yet simple security solutions to protect your critical assets. Radiflow is a leading provider of cyber security solutions for critical infrastructure networks (i.e. SCADA), such as power utilities, oil & gas, water and others. SCADA networks often extend across multiple remote sites, allowing automation devices to be controlled from the control center. Radiflow’s security tool-set validates the behavior of both M2M applications and H2M (Human to Machine) sessions in distributed operational networks. Radiflow’s security solutions are available both as in-line gateways for remote sites and as a non-intrusive IDS (Intrusion Detection System) that can be deployed per site or centrally. Radiflow solutions are sold as either integrated into wider end-to-end solution of global automation vendors or as a standalone security solution by local channel partners."
     },
-	{
-        "category": "Web Security",
-        "position": 0,
-		"subcategory": "WAF",
-		"name": "Radware",
-		"twitter": "http://twitter.com/radware",
-        "linkedin": "https://www.linkedin.com/company/radware/",
-		"crunchbase": "https://www.crunchbase.com/organization/radware",
-		"logo": "./logos/Radware.png",
-        "homepage": "http://www.radware.com/",
-        "public": true,
-		"description": "Radware (NASDAQ: RDWR), is a global leader of application delivery and application security solutions for virtual and cloud data centers. Its award-winning solutions portfolio delivers full resilience for business-critical applications, maximum IT efficiency, and complete business agility. Radwares solutions empower more than 10,000 enterprise and carrier customers worldwide to adapt to market challenges quickly, maintain business continuity and achieve maximum productivity while keeping costs down.For more information, please visit www.radware.com.Radware encourages you to join their community and follow them on: LinkedIn, Radware Blog, Twitter, YouTube and the Radware Connect app for iPhone."
-	},
-	{
+    {
         "category": "Web Security",
         "position": 0,
         "subcategory": "WAF",
-		"funding": "2.05M",
+        "name": "Radware",
+        "twitter": "http://twitter.com/radware",
+        "linkedin": "https://www.linkedin.com/company/radware/",
+        "crunchbase": "https://www.crunchbase.com/organization/radware",
+        "logo": "./logos/Radware.png",
+        "homepage": "http://www.radware.com/",
+        "public": true,
+        "description": "Radware (NASDAQ: RDWR), is a global leader of application delivery and application security solutions for virtual and cloud data centers. Its award-winning solutions portfolio delivers full resilience for business-critical applications, maximum IT efficiency, and complete business agility. Radwares solutions empower more than 10,000 enterprise and carrier customers worldwide to adapt to market challenges quickly, maintain business continuity and achieve maximum productivity while keeping costs down.For more information, please visit www.radware.com.Radware encourages you to join their community and follow them on: LinkedIn, Radware Blog, Twitter, YouTube and the Radware Connect app for iPhone."
+    },
+    {
+        "category": "Web Security",
+        "position": 0,
+        "subcategory": "WAF",
+        "funding": "2.05M",
         "name": "Sabres Cyber Security",
         "linkedin": "https://www.linkedin.com/company/sabres-security",
         "crunchbase": "https://www.crunchbase.com/organization/sabres-security",
@@ -1257,7 +1234,7 @@ window.companies = [
     {
         "category": "Application Security",
         "position": 0,
-        "funding": "61M",
+        "funding": "131M",
         "name": "Salt Security",
         "twitter": "https://twitter.com/saltsecurity",
         "linkedin": "https://www.linkedin.com/company/saltsecurity/",
@@ -1269,7 +1246,7 @@ window.companies = [
     {
         "category": "IoT",
         "position": 0,
-		"funding": "15.5M",
+        "funding": "35.5M",
         "logo": "./logos/SAMSeamlessNetworks.png",
         "crunchbase": "https://www.crunchbase.com/organization/sam-seamless-network",
         "name": "SAM Seamless Networks",
@@ -1294,7 +1271,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt",
         "position": 0,
-		"funding": "6.5M",
+        "funding": "6.5M",
         "logo": "./logos/SayataLabs.png",
         "twitter": "https://twitter.com/Sayatalabs",
         "linkedin": "https://www.linkedin.com/company/sayata-labs/",
@@ -1395,7 +1372,7 @@ window.companies = [
         "twitter": "https://www.twitter.com/semperistech",
         "linkedin": "https://www.linkedin.com/company/3219131",
         "crunchbase": "https://www.crunchbase.com/organization/semperis",
-        "logo": "./logos/Semperis.jpg",
+        "logo": "./logos/Semperis.png",
         "homepage": "http://www.semperis.com/",
         "description": "Semperis is an enterprise identity protection company that enables organizations to quickly recover from accidental or malicious changes and disasters that compromise Active Directory, on-premises and on cloud. The Semperis Directory Services Protection Platform\u2122 provides enterprises with the capabilities to automatically restore an entire Active Directory forest, quickly recover thousands of objects or a single crucial attribute, and instantly revert to a previous Active Directory state. Semperis customers include Fortune 500 companies and enterprises spanning financial, healthcare, government and other industries worldwide."
     },
@@ -1414,7 +1391,7 @@ window.companies = [
     {
         "category": "IoT",
         "position": 0,
-		"funding": "14.8M",
+        "funding": "14.8M",
         "subcategory": "Enterprise Perimeter",
         "name": "Sepio Systems",
         "twitter": "https://twitter.com/sepiosys",
@@ -1447,7 +1424,7 @@ window.companies = [
         "homepage": "http://www.siemplify.co",
         "description": "Siemplify provides a holistic Security Operations Platform that empowers security analysts to work smarter and respond faster. Siemplify uniquely combines security orchestration and automation with patented contextual investigation and case management to deliver intuitive, consistent and measurable security operations processes. "
     },
-	{
+    {
         "category": "Security Operations",
         "position": 0,
         "name": "SNDBOX",
@@ -1455,7 +1432,6 @@ window.companies = [
         "linkedin": "https://www.linkedin.com/company/sndbox.com/",
         "crunchbase": "https://www.crunchbase.com/organization/sndbox",
         "logo": "./logos/SNDBOX.png",
-        "homepage": "https://app.sndbox.com/login",
         "description": "Designed by researchers for researchers, the world’s first AI malware research platform, offering never-seen-before malware analysis visibility."
     },
     {
@@ -1534,7 +1510,7 @@ window.companies = [
     {
         "category": "Web Security",
         "position": 0,
-		"funding": "20.5M",
+        "funding": "20.5M",
         "name": "SourceDefense",
         "twitter": "https://www.twitter.com/sourcedefence",
         "linkedin": "https://www.linkedin.com/company/source-defense",
@@ -1559,7 +1535,7 @@ window.companies = [
     {
         "category": "Identity & Access Management",
         "position": 0,
-        "funding": "40M",
+        "funding": "583M",
         "name": "Transmit Security",
         "twitter": "https://twitter.com/transmitsec",
         "linkedin": "https://www.linkedin.com/company/transmit-security",
@@ -1746,7 +1722,7 @@ window.companies = [
     {
         "category": "Vulnerability & Risk Mgmt",
         "position": 0,
-		"funding": "49M",
+        "funding": "49M",
         "subcategory": "Attack Simulation",
         "name": "XM Cyber",
         "twitter": "https://twitter.com/XMCyber_",
@@ -1756,10 +1732,10 @@ window.companies = [
         "homepage": "https://xmcyber.com",
         "description": "XM Cyber provides the first fully automated APT Simulation Platform to continuously expose all attack vectors, above and below the surface, from breach point to any organizational critical asset. This continuous loop of automated red teaming is completed by ongoing and prioritized actionable remediation of organizations\u2019 security gaps. In effect, HaXM by XM Cyber operates as an automated purple team that fluidly combines red team and blue team processes to ensure that organizations are always one step ahead of the hacker.\nXM Cyber was founded by top executives from the Israeli cyber intelligence community and employs an elite team of cyber offense and defense veterans with decades of real-world experience. The company has offices in the US, Israel and in Australia."
     },
-	{
+    {
         "category": "IoT",
         "position": 0,
-		"funding": "10M",
+        "funding": "10M",
         "subcategory": "Smart home",
         "name": "Firedome",
         "twitter": "https://twitter.com/FiredomeIoT",
@@ -1773,7 +1749,7 @@ window.companies = [
         "category": "Cloud Security",
         "position": 0,
         "funding": "8M",
-		"name": "Rezilion",
+        "name": "Rezilion",
         "linkedin": "https://www.linkedin.com/company/rezilion/",
         "twitter": "https://twitter.com/rezilion_",
         "crunchbase": "https://www.crunchbase.com/organization/rezilion",
@@ -1793,28 +1769,28 @@ window.companies = [
         "homepage": "https://www.zimperium.com",
         "description": "ZIMPERIUM is a mobile security startup that offers protection for mobile devices against the next generation of advanced mobile attacks. Its flagship solutions protect mobile devices from modern cyber security threats."
     },
-	{
+    {
         "category": "Blockchain Security",
         "position": 0,
         "funding": "4M",
         "name": "KZen Networks",
         "linkedin": "https://www.linkedin.com/company/kzen-networks/",
         "crunchbase": "https://www.crunchbase.com/organization/kzen-networks",
-		"twitter": "https://twitter.com/kzencorp",
+        "twitter": "https://twitter.com/kzencorp",
         "logo": "./logos/Kzen.png",
         "homepage": "https://www.kzencorp.com/",
         "description": "KZen Networks develops a non-custodial digital currency wallet that removes the need to secure and manage users' private keys."
     },
-	{
+    {
         "category": "Blockchain Security",
         "position": 0,
         "funding": "46M",
         "name": "Fireblocks",
-		"linkedin": "https://www.linkedin.com/company/fireblocks/",
+        "linkedin": "https://www.linkedin.com/company/fireblocks/",
         "crunchbase": "https://www.crunchbase.com/organization/fireblocks",
         "twitter": "https://twitter.com/FireblocksHQ",
-		"homepage": "https://www.fireblocks.com/",
-		"logo": "./logos/Fireblocks.png",
+        "homepage": "https://www.fireblocks.com/",
+        "logo": "./logos/Fireblocks.png",
         "description": "The Digital Asset Security Platform"
     },
     {
@@ -1892,7 +1868,7 @@ window.companies = [
         "category": "Cloud Security",
         "position": 0,
         "name": "SafeHouse",
-        "logo": "./logos/safehouse.png",
+        "logo": "./logos/SafeHouse.png",
         "funding": "2.2M",
         "crunchbase": "https://www.crunchbase.com/organization/safehouse-ffed#section-overview",
         "twitter": "https://twitter.com/SafeHouseTech",
@@ -2101,18 +2077,6 @@ window.companies = [
         "twitter": "https://twitter.com/JetpatchCloud",
     },
     {
-        "category": "Endpoint Security",
-        "position": 0,
-        "name": "Promisec",
-        "logo": "./logos/Promisec.png",
-        "funding": "2.4M",
-        "description": "Promisec is a software security company that finds and fixes endpoint security problems. Promisec's Integrity (cloud) and Endpoint Manager (on-premise) solutions enable IT, security, audit, and compliance personnel to find and fix the policy violations and disabled agents that leave organizations vulnerable to attacks. Using agentless technology, both Promisec Integrity and Promisec Endpoint Manager are fast to deploy and operate, easy to manage and use, and have no impact on endpoint or network performance. Headquartered in the US, Promisec serves clients globally.",
-        "crunchbase": "https://www.crunchbase.com/organization/promisec#section-overview",
-        "homepage": "https://www.promisec.com/",
-        "linkedin": "http://www.linkedin.com/company/50247",
-        "twitter": "http://twitter.com/Promisec_IT",
-    },
-    {
         "category": "Security Operations",
         "position": 0,
         "name": "Cyberbit",
@@ -2221,7 +2185,7 @@ window.companies = [
         "category": "Endpoint Security",
         "position": 0,
         "name": "Gytpol",
-        "logo": "./logos/GYTPOL_logo.jpg",
+        "logo": "./logos/Gytpol.png",
         "description": "Gytpol Validator enables IT admins to implement Group Policy Objects (GPO) in a more reliable and efficient manner, thereby increasing security throughout the organization. Validator also monitors and alerts discrepancies between GPO definitions and actual policies in effect on servers, workstations and users. In addition, it advise on recommended actions in order to increase system performance and efficiency.",
         "homepage": "https://gytpol.com/",
         "twitter": "https://twitter.com/gytpol",
@@ -2244,7 +2208,7 @@ window.companies = [
         "position": 0,
         "funding": "49M",
         "name": "Axis Security",
-        "logo": "https://www.ylventures.com/wp-content/uploads/2021/05/axissecurity_logo.svg",
+        "logo": "./logos/AxisSecurity.png",
         "description": "Axis Security enables any organization to quickly deliver tightly managed global access to employees, partners and other stakeholders through a purpose - built zero - trust cloud security platform.Unlike legacy solutions that create excess access and unnecessary risk, Axis Security’ s unique Application Isolation Technology assures access to only the resources required.",
         "homepage": "https://www.axissecurity.com/",
         "twitter": "https://twitter.com/AxisSecurityHQ",
@@ -2267,7 +2231,7 @@ window.companies = [
         "category": "Vulnerability & Risk Mgmt",
         "position": 0,
         "name": "Orchestra Group",
-        "logo": "./logos/Orchestra-Group.png",
+        "logo": "./logos/OrchestraGroup.png",
         "description": "Orchestra Group is a cybersecurity synchronization company. Orchestra Group develops a platform on which different cybersecurity solutions can be operated, ranging from traditional products from veteran companies through to the most innovative solutions from startups.",
         "homepage": "https://www.orchestra.group/",
         "linkedin": "https://www.linkedin.com/company/theorchestragroup/",
@@ -2276,7 +2240,7 @@ window.companies = [
     {
         "category": "Blockchain Security",
         "position": 0,
-        "funding": "5M",
+        "funding": "55M",
         "name": "HUB Security",
         "logo": "https://www.ylventures.com/wp-content/uploads/2021/05/hub-security_2d783f97-2d72-11eb-aef0-4d1552ce1a59.png",
         "description": "HUB Security offers hardware security solutions for regulation and privacy, fintech, cloud, and blockchain. HUB Security develops a military-grade identity and key management solutions that focus on fintech and cloud services. Its HSM and unique endpoints provide end-to-end security for enterprises.",
@@ -2371,7 +2335,7 @@ window.companies = [
     {
         "category": "Cloud Security",
         "position": 0,
-        "funding": "230M",
+        "funding": "350M",
         "name": "Wiz, Inc.",
         "logo": "./logos/wiz-logo-black.svg",
         "description": "Wiz, Inc. operates as a cloud security company. Wiz builds an up-to-date representation of your cloud setup across network, identity, compute, application, vulnerabilities, and secrets.",
@@ -2396,7 +2360,7 @@ window.companies = [
         "position": 0,
         "funding": "25M",
         "name": "Noname Security",
-        "logo": "https://www.ylventures.com/wp-content/uploads/2021/05/rcTNBVSizn2utup9iavXFYfC3R41608117840911_200x200.png",
+        "logo": "./logos/Noname-logo.png",
         "description": "Noname Security is a holistic security platform that allows enterprises to see and to secure managed and unmanaged APIs.",
         "homepage": "https://nonamesecurity.com/",
         "twitter": "https://twitter.com/NonameSecurity",
@@ -2568,5 +2532,29 @@ window.companies = [
         "twitter": "https://twitter.com/GripSecurity",
         "linkedin": "https://www.linkedin.com/company/grip-security/about/",
         "crunchbase": "https://www.crunchbase.com/organization/grip-security",
+    },
+    {
+        "category": "Blockchain Securityy",
+        "position": 0,
+        "funding": "7.2M",
+        "name": "Certora",
+        "logo": "./logos/Certora.png",
+        "description": "Certora provides unique technology for guaranteeing code correctness and security",
+        "homepage": "https://www.certora.com/",
+        "twitter": "https://twitter.com/certorainc",
+        "linkedin": "https://www.linkedin.com/company/certora/about/",
+        "crunchbase": "https://www.crunchbase.com/organization/certora",
+    },
+    {
+        "category": "Fraud & Transactions",
+        "position": 0,
+        "funding": "7.35M",
+        "name": "NSure.ai Payment Assurance",
+        "logo": "./logos/NSureAi.png",
+        "description": "NSure.ai uses an advanced AI technology to provide insurance-backed protection against digital gift-card fraud.",
+        "homepage": "https://www.nsureai.com/",
+        "twitter": "https://twitter.com/nsure_ai",
+        "linkedin": "https://www.linkedin.com/company/nsureai/",
+        "crunchbase": "https://www.crunchbase.com/organization/nsure-ai-payment-assurance",
     },
 ]
