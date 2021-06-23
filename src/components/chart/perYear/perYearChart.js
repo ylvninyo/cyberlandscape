@@ -44,32 +44,27 @@ componentDidMount() {
    render () {
     return (
       <>
-        <ResponsiveContainer>
+        <ResponsiveContainer width='100%'>
           <LineChart
-            width={500}
-            height={400}
             data={this.props.data}
-            // margin={{
-            //   top: 5,
-            //   right: 30,
-            //   left: 20,
-            //   bottom: 5,
-            // }}
+            margin={{
+              top: 5,
+              right: 30,
+              left: -30,
+              bottom: 5,
+            }}
           >
             <defs>
-                <linearGradient id="gradient4" x1="0%" y1="85%" x2="85%" y2="100%">
-                    {/* <stop stopColor="#009dbc" /> */}
-                    <stop offset="0" stopColor={'#15181b'} />
-                    <stop offset="100" stopColor={'#7e179c'} />
-                    {/* <stop offset="0.823677" stopColor={'#009dbc'} />
-                    <stop offset="1" stopColor="white" stopOpacity="0.01" /> */}
-                </linearGradient>
+              <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#129a74" stopOpacity={0.8}/>
+                <stop offset="95%" stopColor="#129a74" stopOpacity={0}/>
+              </linearGradient>
             </defs>
             <CartesianGrid strokeOpacity={.2} strokeDasharray="3 3" />
             <XAxis dataKey="year" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="company" fill="url(#gradient4)" stroke="#8884d8" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} dot />
+            <Line type="monotone" dataKey="company" fill="url(#gradient4)" stroke="#3E999A" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} dot />
           </LineChart>
         </ResponsiveContainer>
 

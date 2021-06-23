@@ -86,7 +86,7 @@ const FundingSection  = ({companies,exits}) => {
                         </div>
                     </div>
 
-                    <div style={{'marginTop': '100px'}}>
+                    <div style={{'marginTop': '100px'}} className="hide-on-med-and-down">
                         <span className="left-align section-title">
                             Recent Funding Rounds
                             <Tooltip
@@ -122,6 +122,30 @@ const FundingSection  = ({companies,exits}) => {
 
                     <div className="common-chart_wrapper section-2_chart3">
                         {fundingByCategory.length ? <TotalFundingCategory data={fundingByCategory} /> : <p>Fetching data...</p>}
+                    </div>
+                </div>
+
+                <div className="col s12 hide-on-large-only">
+                    <div style={{'marginTop': '100px'}}>
+                        <span className="left-align section-title">
+                            Recent Funding Rounds
+                            <Tooltip
+                                text="Recent funding rounds by chronological order"
+                                icon="help_outline" 
+                                randomID = 'chart_id_4'
+                            />
+                        </span>
+                        <div className="logo-wrappers cybermap_box">
+                            <div className="row box-img_wrapper">
+                                {recentFundingRounds.length ? 
+
+                                recentFundingRounds.map((item,index) => {
+                                    return <img key={index} style={{'width': '30%'}} alt={'cybermap analytics'} src={item.logo} />
+                                })
+                                : <p>Fetching images...</p>
+                                }
+                            </div>
+                        </div>
                     </div>
                 </div>
 
