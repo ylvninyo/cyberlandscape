@@ -50,7 +50,7 @@ componentDidMount() {
                                 <stop offset="100" stopColor={'#fdae6b'} />
                             </linearGradient>
                         </defs>
-                        <CartesianGrid horizontal verticalFill={'#22272c'} strokeOpacity={.2} strokeDasharray="3 3" />
+                        <CartesianGrid horizontal verticalFill={'#22272c'} strokeDasharray="3 3" />
                         <XAxis type="number" tickFormatter={(tick) => `${tick}Y`}   stroke="#fff" fontSize={14} />
                         <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
                             

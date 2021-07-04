@@ -56,7 +56,7 @@ class AverageChart extends Component {
                             <stop offset="100" stopColor={'#a1d99b'} />
                         </linearGradient>
                     </defs>
-                    <CartesianGrid vertical verticalFill={'#1f2428'} strokeOpacity={.2} strokeDasharray="3 3" />
+                    <CartesianGrid vertical verticalFill={'#1f2428'} strokeDasharray="3 3" />
                     <XAxis type="number" tickFormatter={(tick) => this.formatTick(tick)}   stroke="#fff" fontSize={14} />
                     <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
                         

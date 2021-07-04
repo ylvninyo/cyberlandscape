@@ -208,15 +208,23 @@ class Analytics extends Component {
                             <span className="left left-align main-company-counter">
                                 Companies by Category  
                                 <Tooltip
-                                    text="Percentage of activecompanies in each category"
+                                    text="Percentage of active companies in each category"
                                     icon="help_outline"
                                     randomID = 'company-category' 
                                 />
                             </span>
                             <div className="right left-align top-menu hide-on-med-and-down">
-                                <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn active">All</button>
 
                                 <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 0, end: 10})}  className="cybermap-list_btn">$0-10M</button>
+
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 10, end: 30})} className="cybermap-list_btn">$10-30M</button>
+
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 30, end: 50})} className="cybermap-list_btn">$30-50M</button>
+
+                                <button onClick={(e) => this.filterCategoryByFunding(e,{all:'', start: 50, end: null})} className="cybermap-list_btn">+$50M</button>
+
+                                <button onClick={(e) => this.filterCategoryByFunding(e, {all:'all', start: null, end: null})} className="cybermap-list_btn active">All</button>
+
 
                                 <div className="clear"></div>
     

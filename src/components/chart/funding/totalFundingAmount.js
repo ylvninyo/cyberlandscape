@@ -39,11 +39,40 @@ class TotalFundingAmount extends Component {
   }
 
   getSize = (ch,index) => {
-    if(window.innerWidth > 991) {
-      return {'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'backgroundColor': `rgb(0, ${Math.random() * (200 - 100) + 100}, 188)`}
+
+    if (index == 0) {
+      if(window.innerWidth > 991) {
+        return {'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'backgroundColor': `#63B77B`}
+      }
+  
+      return {'height': `${ch.value != 0 ? ch.value : '20'}px`, 'width': `${ch.value != 0 ? ch.value : '20'}px`, 'backgroundColor': `#63B77B`}
     }
 
-    return {'height': `${ch.value != 0 ? ch.value : '20'}px`, 'width': `${ch.value != 0 ? ch.value : '20'}px`, 'backgroundColor': `rgb(0, ${Math.random() * (200 - 100) + 100}, 188)`}
+    else if (index == 1) {
+      if(window.innerWidth > 991) {
+        return {'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'backgroundColor': `#03B9BA`}
+      }
+  
+      return {'height': `${ch.value != 0 ? ch.value : '20'}px`, 'width': `${ch.value != 0 ? ch.value : '20'}px`, 'backgroundColor': `#03B9BA`}
+    }
+
+    else if (index == 2) {
+      if(window.innerWidth > 991) {
+        return {'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'backgroundColor': `#05585a`}
+      }
+  
+      return {'height': `${ch.value != 0 ? ch.value : '20'}px`, 'width': `${ch.value != 0 ? ch.value : '20'}px`, 'backgroundColor': `#05585a`}
+    }
+
+
+    else {
+      if(window.innerWidth > 991) {
+        return {'height': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'width': `${ch.value != 0 ? ch.value*2 : '20'}px`, 'backgroundColor': `#63B77D`}
+      }
+  
+      return {'height': `${ch.value != 0 ? ch.value : '20'}px`, 'width': `${ch.value != 0 ? ch.value : '20'}px`, 'backgroundColor': `#63B77D`}
+    }
+  
   }
   render() {
 
@@ -59,7 +88,7 @@ class TotalFundingAmount extends Component {
 
     return(
      <div className="amount-chart_wrapper">
-          {charts}
+        {charts}
      </div>
 
   )
