@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid} from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Cell} from 'recharts';
 
 
 class TotalFundingCategory extends Component { 
@@ -8,17 +8,25 @@ class TotalFundingCategory extends Component {
         super(props);
 
         this.state = {
-            data:[]
+            data:[],
+            colors: []
         }
     }
 
     componentDidMount() {
-    
+        const newColors = [];
         const newData = this.props.data.sort((a,b) => {
+            newColors.push(`rgb(${Math.floor(Math.random() * (158 - 20 + 1)) + 20}, 202, 225);`)
+            // console.log('hj')
             return b.value - a.value;
         })
 
         this.setState({data:newData});
+        this.setState({colors:newColors});
+
+        // console.log(newColors)
+
+        // console.log(this.state.colors)
     
     }
 
@@ -33,6 +41,7 @@ class TotalFundingCategory extends Component {
 
 
 render() {
+    // console.log(this.state.colors[0])
     const CustomizedLabel = ({x,y,value}) => {
 
         return <text 
@@ -70,7 +79,14 @@ render() {
                     fill='url(#gradient)'
                     label={<CustomizedLabel />}
                     radius={10}
-                    />
+                >
+
+                {/* {
+                    this.state.data.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={this.state.colors[0]} />
+                    ))
+                } */}
+                </Bar>
                     
             </BarChart>
         </ResponsiveContainer>

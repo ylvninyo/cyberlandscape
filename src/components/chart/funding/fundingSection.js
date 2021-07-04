@@ -96,7 +96,7 @@ const FundingSection  = ({companies,exits}) => {
                             />
                         </span>
                         <div className="logo-wrappers cybermap_box">
-                            <div className="row box-img_wrapper">
+                            <div className="row box-img_wrapper2">
                                 {recentFundingRounds.length ? 
 
                                 recentFundingRounds.map((item,index) => {
@@ -136,7 +136,7 @@ const FundingSection  = ({companies,exits}) => {
                             />
                         </span>
                         <div className="logo-wrappers cybermap_box">
-                            <div className="row box-img_wrapper">
+                            <div className="row box-img_wrapper2">
                                 {recentFundingRounds.length ? 
 
                                 recentFundingRounds.map((item,index) => {

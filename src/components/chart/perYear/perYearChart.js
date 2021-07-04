@@ -64,7 +64,7 @@ componentDidMount() {
             <XAxis dataKey="year" />
             <YAxis />
             <Tooltip />
-            <Line type="monotone" dataKey="company" fill="url(#gradient4)" stroke="#3E999A" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} dot />
+            <Line dot strokeWidth={3} isAnimationActive={false} type="monotone" dataKey="company" fill="url(#gradient4)" stroke="#3E999A" activeDot={{ onClick: (event, payload) => this.clickedDot(payload) }} />
           </LineChart>
         </ResponsiveContainer>
 

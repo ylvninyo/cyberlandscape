@@ -27,6 +27,7 @@ const PerYearSection = ({exits,companies}) => {
         if(Number(year) === n) {
             exitThisYear = exitDates[year].length;
             exitThisYearImages = exitDates[year];
+            exitThisYearImages.splice(1,6)
         }
 
         exitPerYears.push(obj);
@@ -49,15 +50,15 @@ const PerYearSection = ({exits,companies}) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col s12 m8">
+                    <div className="col s12 m9">
 
                         <div className="section-chart_peryear">
                             {exitPerYears.length ? <PerYearChart data={exitPerYears} {...{exitDates,companies}} /> : <p>Fetching data...</p> } 
                         </div>
                     </div>
 
-                    <div className="col s12 m4">
-                        <div className="cybermap_box">
+                    <div className="col s12 m3">
+                        <div className="cybermap_box blackBox">
                             <div className="cybermap_box_flex">
                                 <span>
                                     Number of this <br/>
@@ -69,14 +70,18 @@ const PerYearSection = ({exits,companies}) => {
                             </div>
                         </div>
 
-                        <div className="cybermap_box">
+                        <div className="title_out">
                             <span>
-                                Latest Exits
+                                Recent Exits
                             </span>
+                        </div>
+                        <div className="cybermap_box">
                             <div className="row box-img_wrapper">
                                 {exitThisYearImages?.map((img, index)=>{
                                     return <img alt={'cybermap analytics'} key={index} src={img.logo} />
-                                })}
+                                })
+                                
+                                }
                             </div>
 
                         </div>

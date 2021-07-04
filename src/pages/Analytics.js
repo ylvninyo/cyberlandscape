@@ -292,6 +292,14 @@ class Analytics extends Component {
                 <AverageSection exits={this.state.exits} />
 
                 {this.state.loading && <Spinner />}
+
+                <div className="an-footer">
+                    <div className="container-fluid">
+                    <p><i class="material-icons">info_outline</i>
+                    Data included refers to accessible public information.
+                    Undisclosed were not included in this analys</p>
+                    </div>
+                </div>
             </div>
         );
     }
