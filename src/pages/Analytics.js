@@ -267,7 +267,7 @@ class Analytics extends Component {
                                         </Collapse>
                                     </div>
                             </div>
-                            {this.state.showLessBubble && <div className="cybermap-bubble_chart right">
+                            {this.state.showLessBubble && <div className="cybermap-bubble_chart right" style={{ position: 'relative' }}>
                                 {this.state.filteredBubbleChartData.length ? <BubbleChartWrapper chartData={this.state.filteredBubbleChartData} />: <p>No Data</p>}
                             </div>}
                             <div className="show-less-centered hide-on-large-only">
