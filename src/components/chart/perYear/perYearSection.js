@@ -65,7 +65,7 @@ const PerYearSection = ({exits,companies}) => {
                                     year's exits
                                 </span>
                                 <span>
-                                    {exitThisYear}
+                                    {4}
                                 </span>
                             </div>
                         </div>
