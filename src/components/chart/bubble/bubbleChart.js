@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BubbleChart from '@weknow/react-bubble-chart-d3';
+import BubbleChart from '../../../libraries/react-bubble-chart-d3';
 
 class BubbleChartWrapper extends Component {
     constructor(props){
@@ -61,34 +61,54 @@ componentDidUpdate() {
 }
 render() {
   return (
-    <BubbleChart
-      graph= {{
-        zoom: .55,
-        offsetX: 0,
-        offsetY: -0.01,
-      }}
-      
-      width={window.innerWidth > 991 ? 1099 : 650}
-      height={window.innerWidth > 991 ? 500 : 450}
-      padding={20} // optional value, number that set the padding between bubbles
-      showLegend={false} // optional value, pass false to disable the legend.
-      valueFont={{
-            family: 'Arial',
-            size: 15,
-            color: '#fff',
-            weight: 'normal',
-          }}
-      labelFont={{
-            family: 'Arial',
-            size: 12,
-            color: '#fff',
-            weight: 'normal',
-          }}
-       color={'rgb(230, 85, 13)'}
-      // bubbleClickFunc={this.bubbleClick}
-      // legendClickFun={this.legendClick}
-      data={this.state.chartData}
-    />)
+    <React.Fragment>
+      <div 
+        id="bubble_chart_tooltip"
+        className="tooltip"
+        style={{
+          opacity: 0, 
+          backgroundColor: 'white', 
+          border: 'solid', 
+          border: '1px solid transparent', 
+          borderRadius: '3px', 
+          padding: '8px 21px',
+          position: 'absolute',
+          color: '#222',
+          fontWeight: 600,
+          fontSize: '13px',
+          transition: 'opacity 0.3s ease-out'
+        }}
+      ></div>
+      <BubbleChart
+        graph= {{
+          zoom: .55,
+          offsetX: 0,
+          offsetY: -0.01,
+        }}
+        
+        width={window.innerWidth > 991 ? 1099 : 650}
+        height={window.innerWidth > 991 ? 500 : 450}
+        padding={20} // optional value, number that set the padding between bubbles
+        showLegend={false} // optional value, pass false to disable the legend.
+        valueFont={{
+              family: 'Arial',
+              size: 15,
+              color: '#fff',
+              weight: 'normal',
+            }}
+        labelFont={{
+              family: 'Arial',
+              size: 12,
+              color: '#fff',
+              weight: 'normal',
+            }}
+        color={'rgb(230, 85, 13)'}
+        // bubbleClickFunc={this.bubbleClick}
+        // legendClickFun={this.legendClick}
+        data={this.state.chartData}
+      />
+    </React.Fragment>
+  )
 }
 }
  
