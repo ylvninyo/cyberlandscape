@@ -36,24 +36,27 @@ componentDidMount() {
         }
         return(
             <ResponsiveContainer width="100%" height="100%">
-                    <BarChart 
-                        barSize={15}
-                        fill="#15181b"
-                        data={this.state.data}
-                        layout="vertical" height={10} barCategoryGap={.5}
-                        margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
-                    >
-                        <defs>
-                            <linearGradient id="gradient3" x1="0%" y1="85%" x2="85%" y2="100%">
-                                {/* <stop stopColor="#009dbc" /> */}
-                                <stop offset="0" stopColor={'#15181b'} />
-                                <stop offset="100" stopColor={'#fdae6b'} />
-                            </linearGradient>
-                        </defs>
-                        <CartesianGrid horizontal verticalFill={'#22272c'} strokeDasharray="3 3" />
-                        <XAxis type="number" tickFormatter={(tick) => `${tick}Y`}   stroke="#fff" fontSize={14} />
-                        <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
-                            
+                <BarChart 
+                    barSize={15}
+                    fill="#15181b"
+                    data={this.state.data}
+                    layout="vertical" 
+                    height={10} 
+                    barCategoryGap={.5}
+                    margin={{ top: 0, right: 50, left: 0, bottom: 0 }}
+                >
+                    <defs>
+                        <linearGradient id="gradient3" x1="0%" y1="85%" x2="85%" y2="100%">
+                            {/* <stop stopColor="#009dbc" /> */}
+                            <stop offset="0" stopColor={'#15181b'} />
+                            <stop offset="100" stopColor={'#fdae6b'} />
+                        </linearGradient>
+                    </defs>
+                    
+                    <CartesianGrid horizontal={false} verticalPoints={['100', '200', '300', '400', '500']} verticalFill={'#22272c'} strokeDasharray="3 3" />
+                    <XAxis tickCount={12} type="number" tickFormatter={(tick) => `${tick}Y`} stroke="#fff" fontSize={14} minTickGap={0} />
+                    <YAxis type="category" width={100} axisLine={false} stroke="#fff" fontSize={14} dataKey="name"/>
+                        
                     <Bar 
                         dataKey="value" 
                         fill="url(#gradient3)"
