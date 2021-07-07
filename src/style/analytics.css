@@ -117,6 +117,7 @@ button:focus {
     min-width: 70px;
     margin: 4px;
     cursor: pointer;
+    opacity: 0.4;
 }
 
 .box-img_wrapper2 {
@@ -133,11 +134,14 @@ button:focus {
   background-color: transparent;
 }
 
-.cybermap-list_btn.active,
 .cybermap-list_btn:hover {
+  opacity: 1;
+}
+
+.cybermap-list_btn.active {
     background-color: #fff;
-    border-color: #fff;
     color: #15181b;
+    opacity: 1;
 }
 
 

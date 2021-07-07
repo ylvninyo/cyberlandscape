@@ -111,10 +111,12 @@ export default class BubbleChart extends Component {
       .on('mouseover', function(d) {
         tooltip.style("visibility", "visible");
         tooltip.style("opacity", 1);
+        d3.select(this).style('opacity', '0.8');
       })
       .on('mouseout', function(d) {
         tooltip.style("visibility", "hidden");
         tooltip.style("opacity", 0);
+        d3.select(this).style('opacity', '1');
       })
       .on('mousemove', function(d) {
         tooltip
