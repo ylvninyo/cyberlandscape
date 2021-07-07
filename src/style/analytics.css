@@ -72,9 +72,6 @@ button:focus {
     width: 20%;
     position: relative;
 }
-.mobile-filter_btn {
-  position: absolute;
-}
 
 
 .cybermap-bubble_chart_wrapper .cybermap-bubble_chart {
@@ -500,6 +497,7 @@ button:focus {
 
     .cybermap-bubble_chart_wrapper .cybermap-bubble_desc {
       padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     /* .cybermap-bubble_chart_wrapper .cybermap-bubble_desc p {
