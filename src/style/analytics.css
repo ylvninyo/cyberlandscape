@@ -629,3 +629,21 @@ button:focus {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 991px) {
+  .mobile-padding-top {
+    padding-top: 50px!important;
+  }
+
+  .mobile-padding-bottom {
+    padding-bottom: 50px!important;
+  }
+}
+
+.mobile-padding-top {
+  padding-top: 0;
+}
+
+.mobile-padding-bottom {
+  padding-bottom: 0;
+}

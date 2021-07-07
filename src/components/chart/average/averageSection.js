@@ -41,7 +41,7 @@ const AverageSection  = ({exits}) => {
         <section className="section section-4">
         <div className="container-fluid">
             <div className="row">
-                <div className="col s12 m6">
+                <div className="col s12 m6 mobile-padding-bottom">
                     <span className="left left-align section-title">
                         Average Exits Value by Category
                         <Tooltip
@@ -56,7 +56,7 @@ const AverageSection  = ({exits}) => {
                     </div>
                 </div>
 
-                <div className="col s12 m6">
+                <div className="col s12 m6 mobile-padding-top">
                     <span className="left left-align section-title">
                         Average Lifespan Until Exit by Category
                         <Tooltip

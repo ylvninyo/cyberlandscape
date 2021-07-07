@@ -71,7 +71,7 @@ const FundingSection  = ({companies,exits}) => {
         <section className="section section-2">
             <div className="container-fluid fullheight">
                 <div className="row fullheight">
-                <div className="col s12 m6 fullheight">
+                <div className="col s12 m6 fullheight mobile-padding-bottom">
                     <div>
                         <span className="left left-align section-title">
                         Companies by Total Funding Amount
@@ -110,7 +110,7 @@ const FundingSection  = ({companies,exits}) => {
                 </div>
 
 
-                <div  className="col s12 m6" style={{'height':'1000px'}}>
+                <div  className="col s12 m6 mobile-padding-top mobile-padding-bottom">
                     <span className="left left-align section-title">
                     Total Funding by Category
                         <Tooltip
