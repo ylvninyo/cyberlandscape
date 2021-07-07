@@ -14,6 +14,7 @@ const PerYearSection = ({exits,companies}) => {
     let exitPerYears = [];
     let exitThisYear = 0;
     let exitThisYearImages = [];
+    let exitRecentImages = [];
 
     Object.keys(exitDates).forEach((year) => {
         let obj = {};
@@ -27,12 +28,12 @@ const PerYearSection = ({exits,companies}) => {
         if(Number(year) === n) {
             exitThisYear = exitDates[year].length;
             exitThisYearImages = exitDates[year];
-            exitThisYearImages.splice(1,6)
+            exitRecentImages = [...exitDates[year]];
+            exitRecentImages.splice(1,6)
         }
 
         exitPerYears.push(obj);
     });
-
 
     return (
         <section className="section section-3">
@@ -65,7 +66,7 @@ const PerYearSection = ({exits,companies}) => {
                                     year's exits
                                 </span>
                                 <span>
-                                    {4}
+                                    { exitThisYear ? exitThisYear : 0 }
                                 </span>
                             </div>
                         </div>
@@ -77,7 +78,7 @@ const PerYearSection = ({exits,companies}) => {
                         </div>
                         <div className="cybermap_box">
                             <div className="row box-img_wrapper">
-                                {exitThisYearImages?.map((img, index)=>{
+                                {exitRecentImages?.map((img, index)=>{
                                     return <img alt={'cybermap analytics'} key={index} src={img.logo} />
                                 })
                                 
