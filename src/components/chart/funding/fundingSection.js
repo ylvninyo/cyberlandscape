@@ -100,7 +100,7 @@ const FundingSection  = ({companies,exits}) => {
                                 {recentFundingRounds.length ? 
 
                                 recentFundingRounds.map((item,index) => {
-                                    return <img key={index} style={{'width': '30%'}} alt={'cybermap analytics'} src={item.logo} />
+                                    return <img key={index} alt={'cybermap analytics'} src={item.logo} />
                                 })
                                 : <p>Fetching images...</p>
                                 }

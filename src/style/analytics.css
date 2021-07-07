@@ -121,14 +121,12 @@ button:focus {
 }
 
 .box-img_wrapper2 {
-  /* flex-wrap: wrap; */
-  /* column-count: 3; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0;
 }
-
-.box-img_wrapper2 img {
-  display: inline!important;
-}
- 
 
 .cybermap-list_btn:focus {
   background-color: transparent;
@@ -198,13 +196,10 @@ button:focus {
 }
 
 .cybermap_box img {
-    width: 44%;
-    display: block;
-    height: 60px;
+    width: 26%;
+    height: auto;
     margin-top: 20px;
     object-fit: contain;
-    /* margin-right: 10px; */
-    /* margin-left: 5px; */
 }
 
 .cybermap_box span:last-child {
