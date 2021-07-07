@@ -53,9 +53,9 @@ componentDidMount() {
                         </linearGradient>
                     </defs>
                     
-                    <CartesianGrid horizontal={false} verticalPoints={['100', '200', '300', '400', '500']} verticalFill={'#22272c'} strokeDasharray="3 3" />
+                    <CartesianGrid horizontal={false} verticalPoints={['120', '200', '300', '400', '500']} verticalFill={'#22272c'} strokeDasharray="3 3" />
                     <XAxis tickCount={12} type="number" tickFormatter={(tick) => `${tick}Y`} stroke="#fff" fontSize={14} minTickGap={0} />
-                    <YAxis type="category" width={100} axisLine={false} stroke="#fff" fontSize={14} dataKey="name"/>
+                    <YAxis dx={-10} type="category" width={120} axisLine={false} stroke="#fff" fontSize={14} dataKey="name"/>
                         
                     <Bar 
                         dataKey="value" 

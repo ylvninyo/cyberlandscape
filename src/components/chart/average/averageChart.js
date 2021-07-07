@@ -58,7 +58,7 @@ class AverageChart extends Component {
                     </defs>
                     <CartesianGrid vertical verticalFill={'#1f2428'} strokeDasharray="3 3" />
                     <XAxis type="number" tickFormatter={(tick) => this.formatTick(tick)}   stroke="#fff" fontSize={14} />
-                    <YAxis type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
+                    <YAxis dx={-10} type="category" width={100} axisLine={{ stroke: 'transparent' }} stroke="#fff" padding={{ left: 20 }} fontSize={14} dataKey="name"/>
                         
                 <Bar 
                     dataKey="value" 
