@@ -26,14 +26,13 @@ componentDidMount() {
     render() {
         const ChartBarColors = ['#86c8c9', '#4e254e', '#7d3e7d', '#b0b654', '#ff7700', '#90b66b', '#60cdd3', '#ffa455', '#026167', '#67999a'];
 
-        const CustomizedLabel = ({x,y,fill,value}) => {
+        const CustomizedLabel = ({x, y, width, height, value}) => {
             return <text 
-                    x={x+20} 
-                    y={y} 
-    
+                    x={x + width + 15}
+                    y={y + height - 2}
                     fontSize={14} 
                     fill={'#fff'}
-                    textAnchor="top" dominantBaseline="start">{Math.ceil(value) >0 ? Math.ceil(value) : 'N/A'}</text>
+                    textAnchor="start" dominantBaseline="end">{Math.ceil(value) >0 ? Math.ceil(value) : 'N/A'}</text>
         }
         return(
             <ResponsiveContainer width="100%" height="100%">

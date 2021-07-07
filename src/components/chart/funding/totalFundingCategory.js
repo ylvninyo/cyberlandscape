@@ -43,12 +43,12 @@ class TotalFundingCategory extends Component {
 render() {
     const ChartBarColors = ['#86c8c9', '#4e254e', '#7d3e7d', '#b0b654', '#ff7700', '#90b66b', '#60cdd3', '#ffa455', '#026167', '#67999a'];
 
-    const CustomizedLabel = ({x,y,value}) => {
+    const CustomizedLabel = ({x, y, width, height, value}) => {
 
         return (
                 <text 
-                    x={x+20} 
-                    y={y-5} 
+                    x={x + width + 15}
+                    y={y + height - 2}
                     fontSize={12} 
                     fill={'#fff'}
                     textAnchor="start" dominantBaseline="end">
