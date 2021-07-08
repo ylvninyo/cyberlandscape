@@ -295,7 +295,7 @@ class Analytics extends Component {
 
                 <div className="an-footer">
                     <div className="container-fluid">
-                    <p><i class="material-icons">info_outline</i>
+                    <p><i className="material-icons">info_outline</i>
                     Data included refers to accessible public information.
                     Undisclosed were not included in this analys</p>
                     </div>

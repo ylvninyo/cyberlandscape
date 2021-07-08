@@ -79,7 +79,7 @@ const PerYearSection = ({exits,companies}) => {
                         <div className="cybermap_box">
                             <div className="row box-img_wrapper">
                                 {exitRecentImages?.map((img, index)=>{
-                                    return <img alt={'cybermap analytics'} class="logo-image" key={index} src={img.logo} />
+                                    return <img alt={'cybermap analytics'} className="logo-image" key={index} src={img.logo} />
                                 })
                                 
                                 }
