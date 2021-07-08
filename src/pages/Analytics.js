@@ -10,8 +10,8 @@ import FundingSection from '../components/chart/funding/fundingSection';
 import AverageSection from '../components/chart/average/averageSection';
 import Spinner from '../components/spinner';
 import BubbleChartMobile from '../components/chart/bubble/bubbleChartMobile';
-// import Dropdown from '../components/dropdown';
 
+import { categoryColor } from '../utils';
 
 class Analytics extends Component {
     constructor(props) {
@@ -60,6 +60,7 @@ class Analytics extends Component {
 
                 obj.label = category;
                 obj.value = bubbleChartCategory[category].length*100/data.companies.length > 1 ? (bubbleChartCategory[category].length*100/data.companies.length).toFixed(1) : (bubbleChartCategory[category].length*100/data.companies.length).toFixed(0);
+                obj.color = categoryColor(category);
 
                 bubbleChartData.push(obj);
             });
