@@ -79,7 +79,7 @@ class PerYearLogos  extends Component{
     const images = this.state.logos?.map((l,index) => {
         return (
             <div className="col s4" key={index}>
-                <img alt="cybermap analytics" src={`${l}`} />
+                <img class="logo-image" alt="cybermap analytics" src={`${l}`} />
             </div>
         )
     })
