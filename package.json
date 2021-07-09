@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@weknow/react-bubble-chart-d3": "^1.0.12",
+    "change-case": "^4.1.2",
     "react": "^16.4.0",
+    "react-bubble-chart": "^0.4.0",
+    "react-collapse": "^5.1.0",
     "react-dom": "^16.13.1",
     "react-meta-tags": "^0.7.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.3",
+    "react-tooltip": "^4.2.15",
+    "recharts": "^2.0.8",
     "redux": "^4.0.5"
   },
   "scripts": {

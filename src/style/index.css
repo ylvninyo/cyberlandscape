@@ -22,6 +22,22 @@
     text-align: left;
 }
 
+.center-align {
+    text-align: center;
+}
+
+.bordered-text {
+    border-bottom: 1px solid #fff;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.fullheight {
+    height: 100%;
+}
+
 .cursor-default {
     cursor: default;
 }

@@ -1,12 +1,15 @@
 import React, {Component} from 'react'
-import Navbar from './components/navbar'
-import Home from './pages/Home'
-import Careers from './pages/Careers'
 import {
     BrowserRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
+import Navbar from './components/navbar'
+import Home from './pages/Home'
+import Careers from './pages/Careers'
+import Analytics from './pages/Analytics';
+
+
 
 class App extends Component {
     constructor(props) {
@@ -25,6 +28,9 @@ class App extends Component {
                         </Route>
                         <Route path="/careers">
                             <Careers/>
+                        </Route>
+                        <Route path="/analytics">
+                            <Analytics/>
                         </Route>
                     </Switch>
                 </Router>
