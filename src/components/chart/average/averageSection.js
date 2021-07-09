@@ -28,10 +28,10 @@ const AverageSection  = ({exits}) => {
             });
             
             obj.name = category;
-            obj.value = count/group[category].length;
+            obj.value = group[category].length ? count/group[category].length : 0;
 
             obj2.name = category;
-            obj2.value = count2/group[category].length;
+            obj2.value = group[category].length ? count2/group[category].length : 0;
 
             averages.push(obj);
             averagesLifeSpan.push(obj2);
